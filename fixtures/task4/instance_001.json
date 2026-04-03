@@ -1,0 +1,224 @@
+{
+  "task_id": "task4",
+  "instance_id": "instance_001",
+  "budget": 18,
+  "task_description": "Screen these abstracts for a systematic review on ML methods for automated clinical diagnosis. Produce a ranked top-5 shortlist of the most relevant and methodologically rigorous papers.\n\nINCLUDE only papers that present or evaluate an ML method applied directly to automated clinical diagnosis (disease detection, imaging diagnosis, or differential diagnosis from patient data). Prognosis, treatment selection, drug discovery, and methodology papers without a diagnostic application should be EXCLUDE.\n\nFor each INCLUDE paper: assign rank 1 (best) to 5 (fifth-best) and write one justification sentence (max 200 chars).\n\nQuality rubric: 1=no method; 2=vague method; 3=clear method with metrics; 4=full method with baselines and ablations.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "CNN for Automated Pneumonia Detection in Chest Radiographs",
+      "abstract": "We train a ResNet-50 convolutional neural network on 112,000 chest X-rays labelled for pneumonia. The model achieves AUC 0.95 on a prospective test set and matches the sensitivity of three radiologists in a reader study. Ablation analysis confirms the value of data augmentation and class-balanced sampling.",
+      "topic_hint": "deep learning, radiology, pneumonia detection",
+      "methodology_hint": "ResNet-50, AUC 0.95, radiologist reader study, ablation study",
+      "claimed_contribution": "ResNet-50 pneumonia detector matching radiologist sensitivity with a full ablation study."
+    },
+    {
+      "id": "p002",
+      "title": "Gradient Boosting for 30-Day ICU Mortality Prediction",
+      "abstract": "Machine learning for clinical diagnosis has expanded dramatically. We apply gradient boosting to predict 30-day mortality risk for ICU patients using admission vitals and lab results, achieving AUC 0.83. The system is intended to assist with palliative care consultations, not to provide a diagnosis.",
+      "topic_hint": "machine learning, ICU, mortality prediction, prognosis",
+      "methodology_hint": "gradient boosting, ICU vitals, AUC 0.83, prognosis not diagnosis",
+      "claimed_contribution": "Gradient boosting model predicting 30-day ICU mortality for palliative care prioritisation."
+    },
+    {
+      "id": "p003",
+      "title": "BERT Fine-Tuning for ICD Diagnosis Code Assignment from Clinical Notes",
+      "abstract": "We fine-tune a BERT model on 240,000 discharge summaries to assign ICD-10 diagnosis codes from free-text clinical notes. The system achieves micro-F1 of 0.82 on the MIMIC-III benchmark, outperforming CNN and LSTM baselines. Model weights and a replication package are publicly released.",
+      "topic_hint": "NLP, clinical notes, ICD coding, diagnosis",
+      "methodology_hint": "BERT fine-tuning, MIMIC-III, micro-F1 0.82, CNN and LSTM baselines, public code",
+      "claimed_contribution": "BERT ICD-10 coder with micro-F1 0.82 on MIMIC-III, outperforming all prior baselines."
+    },
+    {
+      "id": "p004",
+      "title": "Deep Reinforcement Learning for Antibiotic Selection in ICU Sepsis",
+      "abstract": "We apply deep reinforcement learning to recommend antibiotic regimens for sepsis patients. Using a retrospective cohort of 18,000 ICU episodes, the RL policy reduces 28-day mortality by 11% relative to standard of care in off-policy evaluation. This is a treatment selection task, not diagnostic.",
+      "topic_hint": "reinforcement learning, sepsis, treatment selection",
+      "methodology_hint": "deep RL, off-policy evaluation, 18000 episodes, mortality reduction",
+      "claimed_contribution": "RL antibiotic policy reducing 28-day sepsis mortality by 11% in retrospective cohort."
+    },
+    {
+      "id": "p005",
+      "title": "EfficientNet for Skin Lesion Classification Across Seven Dermoscopy Classes",
+      "abstract": "We train an EfficientNet-B4 on 25,000 dermoscopy images across 7 lesion classes including melanoma. The model achieves balanced accuracy of 0.87, matching board-certified dermatologists on a held-out test set, with full ablation, confidence calibration, and inter-rater reliability analysis.",
+      "topic_hint": "deep learning, dermatology, lesion classification, melanoma diagnosis",
+      "methodology_hint": "EfficientNet-B4, balanced accuracy 0.87, dermatologist comparison, ablation, calibration",
+      "claimed_contribution": "EfficientNet skin lesion classifier matching dermatologist accuracy with full ablation and calibration."
+    },
+    {
+      "id": "p006",
+      "title": "Graph Neural Networks for Drug-Target Interaction Prediction",
+      "abstract": "Predicting drug-target binding affinity is central to drug discovery. We develop a graph neural network trained on ChEMBL to predict interaction scores for novel pairs. The model achieves Pearson r=0.87 on a held-out benchmark and outperforms random forest and SVM baselines.",
+      "topic_hint": "drug discovery, GNN, binding affinity prediction",
+      "methodology_hint": "GNN, ChEMBL, Pearson correlation, drug-target affinity, RF and SVM baselines",
+      "claimed_contribution": "GNN for drug-target binding prediction with Pearson r=0.87 on held-out benchmark."
+    },
+    {
+      "id": "p007",
+      "title": "Transformer-Based Arrhythmia Diagnosis from 12-Lead ECG Signals",
+      "abstract": "We apply a transformer architecture to 12-lead ECG signals for automated arrhythmia diagnosis across 20 classes. Trained on 500,000 ECGs from three hospital systems, the model achieves macro-F1 of 0.88. We compare against CNN and LSTM baselines and perform per-class ablation of attention heads.",
+      "topic_hint": "deep learning, ECG, arrhythmia, cardiac diagnosis",
+      "methodology_hint": "transformer, ECG, macro-F1 0.88, multi-site training, CNN/LSTM comparison, ablation",
+      "claimed_contribution": "Transformer ECG classifier with macro-F1 0.88 across 20 arrhythmia classes with full ablation."
+    },
+    {
+      "id": "p008",
+      "title": "Bayesian Optimisation for Hyperparameter Tuning in Medical Imaging CNNs",
+      "abstract": "We present a Bayesian optimisation framework for automated hyperparameter selection in medical imaging neural networks. Applied to three public imaging datasets, the framework reduces tuning wall-clock time by 60% while matching test AUC versus grid search. No new diagnostic model is proposed.",
+      "topic_hint": "AutoML, hyperparameter optimisation, medical imaging",
+      "methodology_hint": "Bayesian optimisation, AUC, grid search comparison, wall-clock, no diagnostic model",
+      "claimed_contribution": "Bayesian optimisation reduces medical imaging model tuning time by 60% vs grid search."
+    },
+    {
+      "id": "p009",
+      "title": "Systematic Review of ML in Clinical Diagnosis and Prognosis",
+      "abstract": "We review 180 published papers on machine learning in clinical medicine, covering diagnosis and prognosis. Diagnostic ML papers report higher AUCs on average but use less rigorous experimental designs. We identify methodological gaps and recommend reporting standards.",
+      "topic_hint": "systematic review, clinical ML, reporting standards",
+      "methodology_hint": "systematic review, meta-analysis, AUC comparison, methodology audit",
+      "claimed_contribution": "Systematic review of 180 clinical ML papers with reporting standard recommendations."
+    },
+    {
+      "id": "p010",
+      "title": "GAN Augmentation for Rare Disease Diagnostic Imaging",
+      "abstract": "Training data scarcity limits diagnostic ML for rare diseases. We use generative adversarial networks to synthesise pathology images for three rare genetic conditions. A diagnostic CNN trained with GAN augmentation improves macro-F1 from 0.51 to 0.71 on real patient test data.",
+      "topic_hint": "GAN, data augmentation, rare disease, diagnostic imaging",
+      "methodology_hint": "GAN synthesis, CNN, macro-F1 improvement from 0.51 to 0.71",
+      "claimed_contribution": "GAN augmentation improves rare-disease diagnostic CNN macro-F1 from 0.51 to 0.71."
+    },
+    {
+      "id": "p011",
+      "title": "Federated Learning for Multi-Site Hospital Readmission Prediction",
+      "abstract": "We propose a federated learning framework for training readmission prediction models across 8 hospital sites without sharing patient data. The federated model matches the centralised baseline AUC of 0.79 while preserving privacy. Readmission prediction is a prognosis task.",
+      "topic_hint": "federated learning, privacy, readmission prediction, multi-site",
+      "methodology_hint": "federated learning, differential privacy, AUC 0.79, 8 sites, prognosis task",
+      "claimed_contribution": "Federated readmission predictor matching centralised AUC with differential privacy."
+    },
+    {
+      "id": "p012",
+      "title": "Graph Neural Networks for Rare Metabolic Disease Diagnosis from EHR",
+      "abstract": "We represent each patient's EHR as a heterogeneous graph over diagnoses, labs, and medications, and train a GNN to flag rare lysosomal storage disorders. Trained on 2.1 million records, the model achieves precision 0.79 and recall 0.81. GNN results are compared to rule-based and logistic regression baselines.",
+      "topic_hint": "GNN, EHR, rare disease, metabolic disorder, clinical diagnosis",
+      "methodology_hint": "heterogeneous GNN, EHR graph, precision 0.79, recall 0.81, rule-based and LR comparison",
+      "claimed_contribution": "GNN rare-disease detector from EHR with precision 0.79 and recall 0.81, baseline comparison."
+    },
+    {
+      "id": "p013",
+      "title": "AlphaFold Extension for Intrinsically Disordered Protein Regions",
+      "abstract": "We extend AlphaFold2 to predict structures of intrinsically disordered protein regions using conditional generation. Our approach achieves TM-score improvements of 0.12 over the baseline on a benchmark of 500 disordered regions. No clinical diagnostic application is presented.",
+      "topic_hint": "protein structure, AlphaFold, structural biology",
+      "methodology_hint": "AlphaFold extension, conditional generation, TM-score, structural biology only",
+      "claimed_contribution": "AlphaFold extension for disordered protein regions improving TM-score by 0.12."
+    },
+    {
+      "id": "p014",
+      "title": "Continual Learning for Adapting Clinical NLP to New Hospital Sites",
+      "abstract": "Clinical NLP models degrade at new institutions due to vocabulary shift. We propose a continual learning approach that adapts a diagnosis extraction model to new sites using 500 labelled notes, without catastrophic forgetting. F1 on the source domain is preserved within 2% after adaptation.",
+      "topic_hint": "continual learning, clinical NLP, domain adaptation",
+      "methodology_hint": "continual learning, catastrophic forgetting prevention, F1 preservation, few-shot",
+      "claimed_contribution": "Continual learning adapter for clinical NLP preserving source-domain F1 within 2%."
+    },
+    {
+      "id": "p015",
+      "title": "Random Forest for Diabetic Retinopathy Grading from Fundus Features",
+      "abstract": "We extract hand-crafted features from fundus photographs and train a random forest to grade diabetic retinopathy at five severity levels. On 8,000 test images, the model achieves quadratic weighted kappa of 0.83. We compare against a deep learning baseline and analyse feature importance.",
+      "topic_hint": "random forest, diabetic retinopathy, fundus grading, diagnosis",
+      "methodology_hint": "random forest, hand-crafted fundus features, quadratic kappa 0.83, DL comparison",
+      "claimed_contribution": "Random forest retinopathy grader with kappa 0.83 and deep learning comparison."
+    },
+    {
+      "id": "p016",
+      "title": "Optimal Transport for Staining Domain Adaptation in Histopathology",
+      "abstract": "Histopathology models degrade across staining protocols. We apply optimal transport to align feature distributions across staining domains for tumour detection. AUC improves from 0.72 to 0.88 after adaptation on three public histopathology benchmarks.",
+      "topic_hint": "optimal transport, domain adaptation, histopathology, tumour detection",
+      "methodology_hint": "optimal transport, AUC 0.72 to 0.88, three benchmarks, staining adaptation",
+      "claimed_contribution": "Optimal transport domain adaptation improves histopathology tumour AUC from 0.72 to 0.88."
+    },
+    {
+      "id": "p017",
+      "title": "Regulatory and Ethical Frameworks for Clinical ML Deployment",
+      "abstract": "This position paper discusses regulatory pathways and ethical obligations for deploying ML diagnostic systems. We review FDA guidance, CE marking requirements, and post-market surveillance standards. No new ML model or empirical evaluation is presented.",
+      "topic_hint": "regulatory, ethics, clinical ML, FDA",
+      "methodology_hint": "regulatory review, ethics analysis, no empirical ML evaluation",
+      "claimed_contribution": "Review of regulatory and ethical frameworks for clinical ML deployment."
+    },
+    {
+      "id": "p018",
+      "title": "Neural Survival Models for Cancer Recurrence Prognosis",
+      "abstract": "We apply a neural network survival model to predict cancer recurrence after surgical resection in colorectal cancer. Using pathology reports and molecular markers, the model achieves concordance index 0.78, outperforming Cox regression. Recurrence prediction is a prognostic task.",
+      "topic_hint": "survival analysis, neural networks, cancer prognosis, recurrence",
+      "methodology_hint": "neural survival model, concordance index 0.78, Cox regression comparison, prognosis",
+      "claimed_contribution": "Neural survival model for colorectal cancer recurrence with concordance index 0.78."
+    },
+    {
+      "id": "p019",
+      "title": "Survey of Attention Mechanisms in Medical Image Segmentation",
+      "abstract": "We survey 95 papers on attention mechanisms in medical image segmentation across CT, MRI, and histopathology. We provide a taxonomy, benchmark comparison table, and identify open challenges. No new model is proposed and no diagnostic task is evaluated.",
+      "topic_hint": "survey, attention, medical image segmentation",
+      "methodology_hint": "survey, taxonomy, benchmark table, no new model, no diagnostic evaluation",
+      "claimed_contribution": "Survey of attention mechanisms in medical image segmentation covering 95 papers."
+    },
+    {
+      "id": "p020",
+      "title": "Contrastive Self-Supervised Pre-training for ECG Representation Learning",
+      "abstract": "We present a contrastive self-supervised pre-training strategy for ECG encoders using 2 million unlabelled ECGs. The pre-trained encoder, fine-tuned on small labelled sets, outperforms supervised baselines on arrhythmia classification and ST-elevation detection by 4-7% AUC using only 1% of labels.",
+      "topic_hint": "self-supervised learning, ECG, contrastive pre-training, arrhythmia",
+      "methodology_hint": "contrastive pre-training, label-efficient fine-tuning, AUC improvement, ECG diagnosis",
+      "claimed_contribution": "Contrastive ECG pre-training for label-efficient arrhythmia and ST-elevation detection."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "INCLUDE",
+      "p002": "EXCLUDE",
+      "p003": "INCLUDE",
+      "p004": "EXCLUDE",
+      "p005": "INCLUDE",
+      "p006": "EXCLUDE",
+      "p007": "INCLUDE",
+      "p008": "EXCLUDE",
+      "p009": "EXCLUDE",
+      "p010": "EXCLUDE",
+      "p011": "EXCLUDE",
+      "p012": "INCLUDE",
+      "p013": "EXCLUDE",
+      "p014": "EXCLUDE",
+      "p015": "EXCLUDE",
+      "p016": "EXCLUDE",
+      "p017": "EXCLUDE",
+      "p018": "EXCLUDE",
+      "p019": "EXCLUDE",
+      "p020": "EXCLUDE"
+    },
+    "ranked_order": ["p007", "p003", "p001", "p005", "p012"],
+    "relevance_quality_scores": {
+      "p001": 0.88,
+      "p002": 0.10,
+      "p003": 0.92,
+      "p004": 0.08,
+      "p005": 0.85,
+      "p006": 0.05,
+      "p007": 0.95,
+      "p008": 0.12,
+      "p009": 0.15,
+      "p010": 0.30,
+      "p011": 0.18,
+      "p012": 0.82,
+      "p013": 0.03,
+      "p014": 0.20,
+      "p015": 0.40,
+      "p016": 0.25,
+      "p017": 0.02,
+      "p018": 0.07,
+      "p019": 0.10,
+      "p020": 0.35
+    },
+    "vocabulary_list": [
+      "pneumonia", "chest", "radiograph", "cnn", "resnet", "bert",
+      "discharge", "icd", "diagnosis", "clinical", "arrhythmia", "ecg",
+      "transformer", "macro", "trained", "model", "accuracy", "ablation",
+      "detection", "classification", "neural", "network", "dataset",
+      "evaluation", "skin", "lesion", "dermoscopy", "ehr", "graph",
+      "metabolic", "lysosomal", "precision", "recall", "efficiencynet",
+      "automated", "baseline", "comparison", "training"
+    ]
+  }
+}

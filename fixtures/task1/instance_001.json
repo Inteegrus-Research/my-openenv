@@ -1,0 +1,56 @@
+{
+  "task_id": "task1",
+  "instance_id": "instance_001",
+  "task_description": "Screen the following papers for relevance to: machine learning applications in biomedical research. Assign RELEVANT if the paper directly applies machine learning methods to a biomedical problem. Assign NOT_RELEVANT otherwise.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "Deep Learning for Protein Structure Prediction",
+      "abstract": "We present a transformer-based architecture for predicting protein tertiary structure from amino acid sequences. Trained on the Protein Data Bank, our model achieves state-of-the-art RMSD on CASP14 targets and generalises to novel fold families.",
+      "topic_hint": "deep learning, protein structure, bioinformatics",
+      "methodology_hint": "transformer neural network, supervised learning, RMSD evaluation",
+      "claimed_contribution": "A transformer model for protein structure prediction that outperforms prior methods on CASP14 benchmarks."
+    },
+    {
+      "id": "p002",
+      "title": "Optimal Transport and Multi-Marginal Welfare Economics",
+      "abstract": "We study multi-marginal optimal transport and derive new theoretical bounds on allocation efficiency in competitive welfare economics settings. Our proofs extend classical Kantorovich duality using functional-analytic techniques.",
+      "topic_hint": "mathematics, economics, optimal transport",
+      "methodology_hint": "mathematical analysis, Kantorovich duality, theoretical proofs",
+      "claimed_contribution": "Extended Kantorovich duality for multi-marginal optimal transport with welfare economics interpretations."
+    },
+    {
+      "id": "p003",
+      "title": "Convolutional Neural Networks for Drug Candidate Screening",
+      "abstract": "We apply convolutional neural networks to virtual screening of small-molecule drug candidates against a panel of oncology targets. Our model achieves a 3.2x improvement in hit rate over molecular docking baselines on a held-out test set of 50,000 compounds.",
+      "topic_hint": "machine learning, drug discovery, computational chemistry",
+      "methodology_hint": "convolutional neural networks, virtual screening, hit rate evaluation",
+      "claimed_contribution": "CNN-based virtual screening achieving 3.2x hit rate improvement over docking baselines across oncology targets."
+    },
+    {
+      "id": "p004",
+      "title": "Graph Neural Networks for 30-Day Hospital Readmission Prediction",
+      "abstract": "Patient clinical histories are represented as heterogeneous graphs over diagnoses, medications, and procedures. A graph neural network trained on multi-hospital EHR data outperforms logistic regression and gradient boosting on 30-day readmission prediction, with AUROC 0.81 on a held-out cohort.",
+      "topic_hint": "machine learning, electronic health records, clinical prediction",
+      "methodology_hint": "graph neural networks, EHR modelling, AUROC evaluation",
+      "claimed_contribution": "GNN readmission predictor trained on EHR graphs, validated across multiple hospital sites."
+    },
+    {
+      "id": "p005",
+      "title": "Nested Sampling for Gravitational Wave Parameter Estimation",
+      "abstract": "We develop a nested sampling framework for Bayesian parameter estimation of gravitational wave signals detected by LIGO-Virgo. The approach improves posterior coverage compared to MCMC for high-mass binary mergers and reduces wall-clock time by 40 percent.",
+      "topic_hint": "astrophysics, gravitational waves, Bayesian inference",
+      "methodology_hint": "nested sampling, Bayesian inference, MCMC comparison",
+      "claimed_contribution": "Faster and more accurate posterior estimation for gravitational wave parameters using nested sampling."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "RELEVANT",
+      "p002": "NOT_RELEVANT",
+      "p003": "RELEVANT",
+      "p004": "RELEVANT",
+      "p005": "NOT_RELEVANT"
+    }
+  }
+}

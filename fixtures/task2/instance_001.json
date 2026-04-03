@@ -1,0 +1,113 @@
+{
+  "task_id": "task2",
+  "instance_id": "instance_001",
+  "task_description": "Screen each abstract for relevance to machine learning in biomedical research, and rate methodological quality using the 4-point rubric below.\n\nRelevance: RELEVANT if the paper directly applies ML to a biomedical problem. NOT_RELEVANT otherwise.\n\nQuality rubric:\n  1 = No methodology described.\n  2 = Methodology mentioned but vague; no evaluation metrics or baselines.\n  3 = Methodology described with evaluation metrics and dataset details.\n  4 = Methodology described with evaluation metrics, baselines, and reproducible details (ablations, code, or statistical tests).",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "Deep Learning for Protein Structure Prediction from Sequence",
+      "abstract": "We present a transformer-based model for predicting protein tertiary structure from amino acid sequences. Trained on PDB structures, our model achieves state-of-the-art RMSD on CASP14. We compare against AlphaFold baselines and provide ablations over architectural choices. Code is publicly available.",
+      "topic_hint": "deep learning, protein folding, bioinformatics",
+      "methodology_hint": "transformer, PDB training, CASP14 RMSD, AlphaFold comparison, ablation, public code",
+      "claimed_contribution": "Transformer protein structure model with CASP14 state-of-the-art, full ablations, and public code."
+    },
+    {
+      "id": "p002",
+      "title": "Machine Learning for Early Sepsis Detection: A Review",
+      "abstract": "Machine learning holds promise for early sepsis detection in ICU patients. In this review, we summarise existing ML approaches to sepsis prediction and argue that future work should focus on external validation. We do not present new experiments or data.",
+      "topic_hint": "machine learning, sepsis, clinical prediction",
+      "methodology_hint": "literature review only, no new experiments",
+      "claimed_contribution": "Review of ML sepsis detection approaches with recommendations for future research."
+    },
+    {
+      "id": "p003",
+      "title": "Convolutional Networks for Drug-Target Binding Affinity Prediction",
+      "abstract": "We apply a 1D CNN to predict drug-target binding affinity from protein sequence and compound SMILES strings. Evaluated on the Davis and KIBA benchmarks, our model achieves MSE 0.24 and concordance index 0.89, outperforming graph-based and sequence-based baselines.",
+      "topic_hint": "CNN, drug-target interaction, binding affinity",
+      "methodology_hint": "1D CNN, Davis and KIBA benchmarks, MSE, concordance index, multiple baselines",
+      "claimed_contribution": "1D CNN for drug-target affinity achieving CI 0.89, outperforming graph and sequence baselines."
+    },
+    {
+      "id": "p004",
+      "title": "Random Forest Prediction of ICU Mortality",
+      "abstract": "We trained a random forest on MIMIC-III vital signs and lab values to predict 30-day ICU mortality. Our model achieves AUROC 0.83 on a held-out test cohort. We mention SOFA score as a comparison but do not report its performance in the same cohort.",
+      "topic_hint": "machine learning, ICU mortality, MIMIC-III",
+      "methodology_hint": "random forest, MIMIC-III, AUROC, SOFA mentioned but not formally compared",
+      "claimed_contribution": "Random forest ICU mortality predictor with AUROC 0.83 on MIMIC-III held-out cohort."
+    },
+    {
+      "id": "p005",
+      "title": "Transformer for Genomic Variant Pathogenicity Classification",
+      "abstract": "We adapt a BERT-style transformer pretrained on human genome sequences to classify variant pathogenicity. Fine-tuned on ClinVar and benchmarked against CADD, SIFT, and PolyPhen-2, our model achieves AUC 0.92. We conduct ablations over pretraining data size and context window. Statistical tests confirm significance.",
+      "topic_hint": "transformer, genomics, variant classification",
+      "methodology_hint": "BERT pretraining, ClinVar, CADD/SIFT/PolyPhen comparison, ablations, statistical testing",
+      "claimed_contribution": "Genome-pretrained BERT for variant pathogenicity with AUC 0.92 and full evaluation suite."
+    },
+    {
+      "id": "p006",
+      "title": "Bayesian Optimisation for Hyperparameter Tuning in Neural Networks",
+      "abstract": "We propose a Gaussian process-based Bayesian optimisation framework for tuning neural network hyperparameters. We demonstrate efficiency improvements over random search and grid search on image classification tasks, reducing the number of evaluations required by 60%.",
+      "topic_hint": "Bayesian optimisation, hyperparameter tuning, neural networks",
+      "methodology_hint": "Gaussian process, BO, random search comparison, image classification",
+      "claimed_contribution": "GP-based Bayesian optimisation for hyperparameter search, 60% fewer evaluations than random search."
+    },
+    {
+      "id": "p007",
+      "title": "Quantum Circuit Simulation on Tensor Network Hardware",
+      "abstract": "We implement tensor network-based contraction algorithms for simulating shallow quantum circuits on classical hardware. Our simulator achieves 2x speedup over prior MPS-based simulators on circuits with up to 100 qubits and depth 20.",
+      "topic_hint": "quantum computing, tensor networks, circuit simulation",
+      "methodology_hint": "tensor contraction, MPS simulation, circuit depth scaling",
+      "claimed_contribution": "Tensor network quantum circuit simulator achieving 2x speedup over MPS baselines."
+    },
+    {
+      "id": "p008",
+      "title": "Supply Chain Optimisation with Integer Programming",
+      "abstract": "We formulate multi-echelon supply chain optimisation as a mixed-integer program and develop a branch-and-price algorithm with valid inequalities. Tested on instances from the OR-Library, our method achieves solutions within 1% of optimal for instances with up to 500 nodes.",
+      "topic_hint": "operations research, supply chain, integer programming",
+      "methodology_hint": "mixed-integer programming, branch-and-price, OR-Library",
+      "claimed_contribution": "Branch-and-price algorithm for supply chain optimisation within 1% of optimal on OR-Library."
+    },
+    {
+      "id": "p009",
+      "title": "Lattice QCD Calculation of Hadronic Vacuum Polarisation",
+      "abstract": "We compute the leading-order hadronic vacuum polarisation contribution to the muon anomalous magnetic moment using lattice QCD with physical quark masses. Our result achieves sub-percent precision and is consistent with a recent dispersive data-driven determination.",
+      "topic_hint": "particle physics, lattice QCD, muon anomalous moment",
+      "methodology_hint": "lattice QCD, physical quark masses, sub-percent precision",
+      "claimed_contribution": "Sub-percent precision lattice QCD calculation of hadronic vacuum polarisation for muon g-2."
+    },
+    {
+      "id": "p010",
+      "title": "Multi-Agent Reinforcement Learning for Traffic Signal Control",
+      "abstract": "We train a multi-agent RL system where each signalised intersection is an independent agent coordinating via communication. Evaluated in the SUMO traffic simulator on a 10-intersection grid, our system reduces mean vehicle delay by 28% versus fixed-phase plans.",
+      "topic_hint": "multi-agent RL, traffic optimisation, signal control",
+      "methodology_hint": "MARL, SUMO simulator, communication, fixed-phase comparison",
+      "claimed_contribution": "MARL traffic signal controller reducing mean vehicle delay 28% in 10-intersection SUMO grid."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "RELEVANT",
+      "p002": "RELEVANT",
+      "p003": "RELEVANT",
+      "p004": "RELEVANT",
+      "p005": "RELEVANT",
+      "p006": "NOT_RELEVANT",
+      "p007": "NOT_RELEVANT",
+      "p008": "NOT_RELEVANT",
+      "p009": "NOT_RELEVANT",
+      "p010": "NOT_RELEVANT"
+    },
+    "quality_scores": {
+      "p001": 4,
+      "p002": 1,
+      "p003": 4,
+      "p004": 2,
+      "p005": 4,
+      "p006": 3,
+      "p007": 3,
+      "p008": 3,
+      "p009": 3,
+      "p010": 3
+    }
+  }
+}

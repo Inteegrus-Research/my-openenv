@@ -1,0 +1,147 @@
+{
+  "task_id": "task3",
+  "instance_id": "instance_001",
+  "budget": 15,
+  "task_description": "Screen each abstract for a systematic review on ML methods for automated clinical decision support. INCLUDE a paper only if it presents or evaluates an ML system that directly assists clinicians in patient care decisions: diagnosis support, patient triage, treatment selection, or medication recommendations. EXCLUDE papers about hospital operations, administrative ML, veterinary medicine, or general prognosis without a clinical decision application. Use DEFER for papers you want to revisit.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "LSTM Network for Real-Time Sepsis Prediction and Alerting in the ICU",
+      "abstract": "We develop an LSTM-based early warning system trained on MIMIC-IV ICU data that predicts sepsis onset 6 hours in advance. Deployed prospectively in two hospital ICUs, the system triggered alerts with sensitivity 0.82 and specificity 0.91, enabling earlier antibiotic initiation.",
+      "topic_hint": "LSTM, sepsis prediction, ICU early warning",
+      "methodology_hint": "LSTM, MIMIC-IV, prospective deployment, sensitivity/specificity",
+      "claimed_contribution": "Prospectively validated LSTM sepsis alert system with sensitivity 0.82 deployed in two ICUs."
+    },
+    {
+      "id": "p002",
+      "title": "Random Forest for Differential Diagnosis Support in Emergency Medicine",
+      "abstract": "We train a random forest to suggest the top-3 differential diagnoses for patients presenting to the emergency department, using vital signs, triage notes, and lab values. Our system achieves top-3 accuracy of 87% on a held-out cohort and was evaluated in a physician usability study.",
+      "topic_hint": "random forest, differential diagnosis, emergency medicine",
+      "methodology_hint": "random forest, triage features, top-3 accuracy, physician usability",
+      "claimed_contribution": "Random forest differential diagnosis tool with 87% top-3 accuracy validated in physician usability study."
+    },
+    {
+      "id": "p003",
+      "title": "Reinforcement Learning for Personalised Insulin Dosing in Type 1 Diabetes",
+      "abstract": "We apply an offline reinforcement learning algorithm to historical continuous glucose monitor data to learn personalised basal insulin dosing policies. Simulated evaluation on the UVA/Padova metabolic simulator shows 22% reduction in hypoglycaemic events versus standard rule-based dosing.",
+      "topic_hint": "reinforcement learning, insulin dosing, diabetes management",
+      "methodology_hint": "offline RL, CGM data, UVA/Padova simulator, hypoglycaemia reduction",
+      "claimed_contribution": "Offline RL insulin dosing policy reducing simulated hypoglycaemia 22% versus rule-based dosing."
+    },
+    {
+      "id": "p004",
+      "title": "Deep Learning Triage Score for Rapid Assessment of ED Chest Pain",
+      "abstract": "We train a neural network to assign a risk score to chest pain patients arriving at the emergency department, using ECG waveforms and initial troponin measurements. The score stratifies patients into low, medium, and high risk for MACE, achieving AUC 0.93 and outperforming HEART score.",
+      "topic_hint": "deep learning, triage, chest pain, MACE risk",
+      "methodology_hint": "neural network, ECG, troponin, HEART score comparison, AUC",
+      "claimed_contribution": "Deep learning chest pain triage score with AUC 0.93, outperforming the HEART score."
+    },
+    {
+      "id": "p005",
+      "title": "Transformer-Based Clinical Decision Support for Antibiotic Stewardship",
+      "abstract": "We fine-tune a clinical language model on antibiotic prescribing records to recommend appropriate antibiotic choices given a patient's culture results and allergy history. Evaluated on 10,000 prescriptions by infectious disease specialists, our system achieves 91% concordance with expert recommendations.",
+      "topic_hint": "transformer, antibiotic stewardship, prescribing recommendations",
+      "methodology_hint": "clinical LM, prescribing records, expert concordance evaluation",
+      "claimed_contribution": "Fine-tuned clinical transformer for antibiotic recommendations with 91% expert concordance."
+    },
+    {
+      "id": "p006",
+      "title": "Graph Neural Network for Predicting Post-Surgical Complication Risk",
+      "abstract": "We model patient comorbidity relationships as a graph and train a GNN to predict major post-surgical complications (bleeding, infection, readmission) from preoperative data. Our system achieves AUROC 0.86 and integrates into a surgical pre-assessment workflow to flag high-risk patients for optimisation.",
+      "topic_hint": "GNN, surgical risk prediction, preoperative assessment",
+      "methodology_hint": "GNN, comorbidity graph, AUROC, preoperative workflow integration",
+      "claimed_contribution": "GNN surgical complication predictor with AUROC 0.86 integrated into pre-assessment workflow."
+    },
+    {
+      "id": "p007",
+      "title": "NLP-Based Alert System for Drug Allergy Contraindication in EHR Orders",
+      "abstract": "We train an NLP classifier on free-text allergy entries in the EHR to detect drug-allergy contraindications at the point of prescribing. Evaluated on 200,000 medication orders, the system reduces missed contraindications by 34% compared to structured-field-only rule engines.",
+      "topic_hint": "NLP, allergy detection, medication safety",
+      "methodology_hint": "NLP classifier, EHR free text, prescribing alert, rule engine comparison",
+      "claimed_contribution": "NLP allergy alert system reducing missed contraindications 34% versus structured rule engines."
+    },
+    {
+      "id": "p008",
+      "title": "Convolutional Network for Automated Wound Assessment from Smartphone Images",
+      "abstract": "We train a CNN to measure wound area and classify tissue type (granulation, slough, necrosis) from nurse-captured smartphone photographs. Compared to manual wound tracing, our model achieves <5% area error and enables remote wound management decisions by clinicians.",
+      "topic_hint": "CNN, wound assessment, clinical photography",
+      "methodology_hint": "CNN, wound area measurement, tissue classification, clinician decision support",
+      "claimed_contribution": "CNN wound assessment system with <5% area error enabling remote clinical wound management."
+    },
+    {
+      "id": "p009",
+      "title": "Machine Learning for Hospital Bed Occupancy Forecasting and Allocation",
+      "abstract": "Machine learning has transformed clinical decision support in many domains. In this work, we apply gradient boosting to predict daily ward bed occupancy up to 7 days ahead and optimise bed allocation across wards. Our system reduces elective cancellations by 18% in a retrospective hospital study.",
+      "topic_hint": "machine learning, hospital operations, bed management",
+      "methodology_hint": "gradient boosting, bed occupancy forecasting, ward allocation, retrospective study",
+      "claimed_contribution": "Gradient boosting bed occupancy predictor reducing elective cancellations 18% in hospital operations."
+    },
+    {
+      "id": "p010",
+      "title": "ML-Assisted Clinical Decision Support: Lessons from Rule-Based Systems",
+      "abstract": "Clinical decision support is widely regarded as a key application of machine learning. In this paper, we evaluate five existing rule-based clinical decision support systems and propose a framework for assessing their effectiveness. We do not present any new ML model or experimental results.",
+      "topic_hint": "clinical decision support, evaluation framework, rule-based systems",
+      "methodology_hint": "review of rule-based systems, evaluation framework, no ML model",
+      "claimed_contribution": "Evaluation framework for rule-based clinical decision support systems."
+    },
+    {
+      "id": "p011",
+      "title": "Deep Learning for Insurance Claims Processing in Healthcare",
+      "abstract": "Machine learning clinical decision support applications generate large volumes of billing data. We apply deep learning to automate ICD-10 code assignment from clinical notes for insurance claims processing, reducing manual coding effort by 60% with 94% coding accuracy.",
+      "topic_hint": "deep learning, ICD coding, insurance claims",
+      "methodology_hint": "deep learning, ICD-10 coding, billing automation, accuracy",
+      "claimed_contribution": "Deep learning ICD-10 auto-coder reducing manual coding effort 60% in claims processing."
+    },
+    {
+      "id": "p012",
+      "title": "Neural Networks for Clinical Decision Support in Veterinary Oncology",
+      "abstract": "We develop a neural network trained on veterinary EHR data to recommend chemotherapy protocols for canine lymphoma. The system achieves 88% concordance with veterinary oncologist recommendations on a held-out case series of 300 dogs.",
+      "topic_hint": "neural network, veterinary oncology, treatment recommendation",
+      "methodology_hint": "neural network, veterinary EHR, chemotherapy protocol, oncologist concordance",
+      "claimed_contribution": "Neural network recommending canine lymphoma chemotherapy with 88% veterinary oncologist concordance."
+    },
+    {
+      "id": "p013",
+      "title": "Quantum Computing Approaches to Drug Molecule Simulation",
+      "abstract": "We implement variational quantum eigensolvers for simulating electronic structure of small drug molecules on near-term quantum hardware. Our hybrid quantum-classical approach achieves chemical accuracy for molecules up to 12 heavy atoms, with potential applications to rational drug design.",
+      "topic_hint": "quantum computing, drug simulation, quantum chemistry",
+      "methodology_hint": "VQE, quantum hardware, chemical accuracy, 12 heavy atoms",
+      "claimed_contribution": "VQE drug molecule simulation achieving chemical accuracy for 12-heavy-atom systems."
+    },
+    {
+      "id": "p014",
+      "title": "Topology of Protein Interaction Networks in Cancer Metabolism",
+      "abstract": "We analyse the topological properties of protein-protein interaction networks specific to cancer metabolic pathways using graph-theoretic measures. We identify hub proteins and bottleneck nodes that may represent therapeutic targets, based on network centrality measures.",
+      "topic_hint": "network biology, protein interactions, cancer metabolism",
+      "methodology_hint": "graph theory, centrality measures, network topology analysis",
+      "claimed_contribution": "Graph-theoretic analysis identifying hub proteins as potential targets in cancer metabolic PPI networks."
+    },
+    {
+      "id": "p015",
+      "title": "Stochastic Differential Equations for Options Pricing Under Jump Diffusion",
+      "abstract": "We derive closed-form approximations for European options pricing under the Merton jump-diffusion model using asymptotic expansion methods. Our approximations achieve sub-basis-point accuracy for liquid contracts and are validated against Monte Carlo benchmarks.",
+      "topic_hint": "financial mathematics, options pricing, jump diffusion",
+      "methodology_hint": "asymptotic expansion, Merton model, Monte Carlo validation, basis-point accuracy",
+      "claimed_contribution": "Sub-basis-point options pricing approximations under jump diffusion via asymptotic expansions."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "INCLUDE",
+      "p002": "INCLUDE",
+      "p003": "INCLUDE",
+      "p004": "INCLUDE",
+      "p005": "INCLUDE",
+      "p006": "INCLUDE",
+      "p007": "INCLUDE",
+      "p008": "INCLUDE",
+      "p009": "EXCLUDE",
+      "p010": "EXCLUDE",
+      "p011": "EXCLUDE",
+      "p012": "EXCLUDE",
+      "p013": "EXCLUDE",
+      "p014": "EXCLUDE",
+      "p015": "EXCLUDE"
+    }
+  }
+}
