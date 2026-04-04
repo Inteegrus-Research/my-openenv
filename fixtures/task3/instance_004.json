@@ -1,0 +1,147 @@
+{
+  "task_id": "task3",
+  "instance_id": "instance_004",
+  "budget": 15,
+  "task_description": "Screen each abstract for a systematic review on ML methods for automated cancer diagnosis and tumour detection. INCLUDE a paper only if it presents or evaluates an ML system that directly performs automated cancer diagnosis, tumour detection, or malignancy classification from patient data (imaging, pathology, omics, or clinical data). Papers about cancer prognosis, treatment selection, drug discovery, radiation planning, or general oncology informatics should be EXCLUDE.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "Deep Learning for Automated Malignancy Grading in Prostate Histopathology",
+      "abstract": "We train a MIL-based convolutional network on 10,616 whole-slide prostate biopsies to predict Gleason grading group, achieving quadratic weighted kappa of 0.90 versus 0.87 for a panel of pathologists. The model passes the American Board of Pathology proficiency test and improves grading agreement in a multi-site prospective reader study. Code and model weights are publicly available.",
+      "topic_hint": "MIL, prostate pathology, Gleason grading, whole-slide image, cancer diagnosis",
+      "methodology_hint": "MIL-CNN, 10616 WSIs, kappa 0.90, pathologist comparison, prospective reader study, public code",
+      "claimed_contribution": "MIL-CNN prostate Gleason grader matching pathologist panel with kappa 0.90 in prospective study."
+    },
+    {
+      "id": "p002",
+      "title": "Reinforcement Learning for Personalised Radiotherapy Dose Fractionation",
+      "abstract": "Machine learning for cancer clinical decision support has significant clinical potential. We apply reinforcement learning to optimise dose fractionation schedules for stereotactic body radiotherapy, minimising tumour control probability loss while constraining organ-at-risk dose. Retrospective validation on 180 lung cancer cases shows 12% improvement in therapeutic ratio. This is a treatment planning system.",
+      "topic_hint": "reinforcement learning, radiotherapy, dose fractionation, treatment planning",
+      "methodology_hint": "RL, dose fractionation, 180 lung cancer cases, therapeutic ratio, treatment planning not diagnosis",
+      "claimed_contribution": "RL dose fractionation optimiser improving therapeutic ratio 12% for lung SBRT treatment planning."
+    },
+    {
+      "id": "p003",
+      "title": "Vision Transformer for Melanoma Detection in Dermoscopy Images",
+      "abstract": "We fine-tune a ViT-B/16 on 33,000 dermoscopy images for melanoma versus benign lesion binary classification. The model achieves AUC 0.97 on the ISIC 2020 test set, outperforming EfficientNet and ResNet-50 baselines. We report sensitivity at 90% specificity and provide a comprehensive failure-case analysis across skin tone subgroups.",
+      "topic_hint": "ViT, melanoma, dermoscopy, ISIC 2020, skin cancer detection",
+      "methodology_hint": "ViT-B/16, 33k dermoscopy, ISIC 2020, AUC 0.97, EfficientNet/ResNet baselines, subgroup analysis",
+      "claimed_contribution": "ViT melanoma detector with AUC 0.97 on ISIC 2020 and failure analysis across skin tone subgroups."
+    },
+    {
+      "id": "p004",
+      "title": "Survival Analysis with Deep Learning for Glioblastoma Prognosis from MRI",
+      "abstract": "Machine learning clinical decision support for neuro-oncology is an active field. We train a deep survival model on multi-parametric MRI features from 420 glioblastoma patients to predict overall survival, achieving C-index 0.72 versus 0.61 for MGMT methylation status alone. This is a prognostic tool; no diagnostic classification is performed.",
+      "topic_hint": "survival analysis, deep learning, glioblastoma, MRI, prognosis",
+      "methodology_hint": "deep survival model, multi-parametric MRI, C-index 0.72, prognosis not diagnosis",
+      "claimed_contribution": "Deep survival model for glioblastoma OS prediction from MRI with C-index 0.72."
+    },
+    {
+      "id": "p005",
+      "title": "3D CNN for Pulmonary Nodule Malignancy Classification in CT Scans",
+      "abstract": "We train a 3D convolutional neural network on 1,400 pulmonary nodules from the LIDC-IDRI dataset to classify malignancy risk at five levels. The model achieves AUC 0.93, outperforming 2D slice-level CNN and radiomic feature baselines. Class activation maps confirm the network attends to spiculation and lobulation consistent with radiological criteria.",
+      "topic_hint": "3D CNN, pulmonary nodule, LIDC-IDRI, malignancy classification, lung CT",
+      "methodology_hint": "3D CNN, LIDC-IDRI, AUC 0.93, 2D CNN and radiomic baselines, class activation maps",
+      "claimed_contribution": "3D CNN for pulmonary nodule malignancy with AUC 0.93, outperforming 2D and radiomic baselines."
+    },
+    {
+      "id": "p006",
+      "title": "Bayesian Network for Cancer Drug Response Prediction from Gene Expression",
+      "abstract": "Cancer drug response prediction is a key challenge in oncology ML. We build a Bayesian network trained on CCLE and GDSC drug sensitivity data to predict IC50 values for 265 compounds across 900 cell lines from RNA-seq features. The model achieves Pearson r=0.73 and informs drug selection for precision oncology trials. This predicts treatment response, not cancer presence.",
+      "topic_hint": "Bayesian network, drug response, CCLE, GDSC, IC50, treatment selection",
+      "methodology_hint": "Bayesian network, CCLE+GDSC, Pearson 0.73, 265 drugs, 900 cell lines, treatment not diagnosis",
+      "claimed_contribution": "Bayesian network predicting IC50 drug response from gene expression with Pearson 0.73."
+    },
+    {
+      "id": "p007",
+      "title": "Graph Neural Network for Colorectal Cancer Histopathology Tile Classification",
+      "abstract": "We represent H&E histopathology tiles as tissue graphs and train a graph neural network to classify colorectal cancer tissue into nine classes (tumour, stroma, lymphocytes, mucosa, and others). Trained on 100,000 tiles from the CRC-VAL-HE-7K benchmark, the model achieves macro-F1 of 0.93, outperforming CNN and attention-pooling baselines. We provide a detailed per-class confusion matrix and a computational pathology deployment guide.",
+      "topic_hint": "GNN, colorectal cancer, H&E histopathology, tissue classification, CRC benchmark",
+      "methodology_hint": "tissue GNN, CRC-VAL-HE-7K, macro-F1 0.93, CNN and attention-pool baselines, deployment guide",
+      "claimed_contribution": "Tissue graph GNN for 9-class colorectal pathology classification with macro-F1 0.93."
+    },
+    {
+      "id": "p008",
+      "title": "Machine Learning for Cancer Incidence Prediction in Population Registries",
+      "abstract": "Machine learning has broad applications in oncology informatics. We apply XGBoost to national cancer registry data and demographic variables to forecast age-standardised incidence rates for 15 cancer types over a 10-year horizon. Mean absolute percentage error is 4.2%. This is an epidemiological forecasting model, not a diagnostic tool.",
+      "topic_hint": "XGBoost, cancer incidence, population registry, epidemiology, forecasting",
+      "methodology_hint": "XGBoost, cancer registry, MAPE 4.2%, 15 cancer types, epidemiological forecasting not diagnosis",
+      "claimed_contribution": "XGBoost for 10-year cancer incidence forecasting across 15 cancer types with MAPE 4.2%."
+    },
+    {
+      "id": "p009",
+      "title": "Convolutional Neural Network for Breast Cancer Detection in Digital Mammography",
+      "abstract": "We develop a CNN trained on 70,000 mammography screening exams from three screening programmes to detect breast cancer. The model achieves AUC 0.93 and reduces radiologist false-positive rate by 37% in a reader study without changing sensitivity. Subgroup analysis confirms consistent performance across age groups, breast density categories, and scanner vendors.",
+      "topic_hint": "CNN, mammography, breast cancer detection, screening, reader study",
+      "methodology_hint": "CNN, 70k mammograms, AUC 0.93, 37% FP reduction, reader study, subgroup analysis across density/vendor",
+      "claimed_contribution": "CNN mammography reader assistant reducing false positives 37% while maintaining sensitivity in reader study."
+    },
+    {
+      "id": "p010",
+      "title": "Optimal Transport for Aligning Multi-Site Proteomics Data in Batch Correction",
+      "abstract": "We apply optimal transport to align protein abundance distributions across 12 multi-centre proteomics studies, removing technical batch effects while preserving biological signal. Downstream cancer biomarker analysis recovers 94% of previously validated markers with no increase in false discovery rate. No diagnostic model is developed.",
+      "topic_hint": "optimal transport, batch correction, proteomics, multi-site, biomarker analysis",
+      "methodology_hint": "optimal transport, 12 proteomics sites, batch correction, biomarker recovery, no diagnostic model",
+      "claimed_contribution": "Optimal transport batch correction for multi-site proteomics recovering 94% of validated cancer biomarkers."
+    },
+    {
+      "id": "p011",
+      "title": "Attention-Based CNN for Thyroid Nodule Malignancy Classification from Ultrasound",
+      "abstract": "We train an attention-gated CNN on 8,200 thyroid ultrasound images to classify nodule malignancy as benign or malignant. The model achieves AUC 0.91, sensitivity 0.88, and specificity 0.87 on a prospective test cohort of 1,500 patients, outperforming four radiologist reviewers and TIRADS score. Attention maps localise suspicious calcification and vascular patterns.",
+      "topic_hint": "attention CNN, thyroid ultrasound, malignancy classification, TIRADS, nodule detection",
+      "methodology_hint": "attention CNN, 8200 ultrasound images, AUC 0.91, TIRADS and radiologist comparison, prospective cohort",
+      "claimed_contribution": "Attention CNN for thyroid malignancy with AUC 0.91 outperforming radiologists and TIRADS in prospective cohort."
+    },
+    {
+      "id": "p012",
+      "title": "Natural Language Processing for Automated Tumour Board Documentation",
+      "abstract": "Machine learning for cancer clinical decision support includes administrative applications. We develop an NLP pipeline to automatically extract structured data fields from multidisciplinary tumour board meeting transcriptions, including diagnosis, stage, and recommended treatment. Extraction accuracy is 0.91 F1. This is a documentation automation tool, not a diagnostic model.",
+      "topic_hint": "NLP, tumour board, documentation, information extraction, clinical admin",
+      "methodology_hint": "NLP extraction, tumour board transcripts, F1 0.91, documentation automation, not diagnosis",
+      "claimed_contribution": "NLP pipeline for automated tumour board documentation extraction with F1 0.91."
+    },
+    {
+      "id": "p013",
+      "title": "Multi-Modal Fusion of CT and PET for Automated Lymphoma Staging",
+      "abstract": "We develop a multi-modal neural network that fuses CT and PET imaging for automated Ann Arbor lymphoma staging in 620 Hodgkin lymphoma patients. The model achieves staging accuracy of 0.84 and AUC 0.91 for stage III-IV identification, outperforming CT-only and PET-only baselines. Clinical staging concordance is validated by two nuclear medicine specialists.",
+      "topic_hint": "multi-modal fusion, CT, PET, lymphoma staging, Hodgkin, cancer classification",
+      "methodology_hint": "CT+PET fusion, 620 Hodgkin patients, accuracy 0.84, AUC 0.91, CT-only/PET-only baselines, specialist validation",
+      "claimed_contribution": "Multi-modal CT+PET fusion for lymphoma staging accuracy 0.84 with nuclear medicine specialist validation."
+    },
+    {
+      "id": "p014",
+      "title": "CRISPR Screen Analysis Using Sparse Bayesian Methods for Cancer Target Identification",
+      "abstract": "We develop a sparse Bayesian regression model for analysing genome-wide CRISPR knockout screens to identify essential cancer-specific genes. Applied to 200 cancer cell lines from DepMap, the model identifies 47 pan-cancer essential genes with posterior probability >0.95, outperforming MAGeCK and BAGEL2 baselines in recall at controlled FDR. This is a target identification system, not a diagnostic tool.",
+      "topic_hint": "CRISPR screen, sparse Bayesian, DepMap, cancer target identification, essential genes",
+      "methodology_hint": "sparse Bayesian, DepMap 200 cell lines, 47 essential genes, MAGeCK/BAGEL2 baselines, target identification",
+      "claimed_contribution": "Sparse Bayesian CRISPR screen analysis identifying 47 pan-cancer essential genes with controlled FDR."
+    },
+    {
+      "id": "p015",
+      "title": "ResNet Ensemble for Cervical Cancer Screening from Cytology Slide Images",
+      "abstract": "We train a ResNet-50 ensemble on 250,000 cervical cytology slide images from the SIPaKMeD and Cervix93 benchmarks to classify normal, dysplastic, and malignant cells. The ensemble achieves macro-F1 of 0.90 and AUC 0.96, outperforming individual ResNet and VGG baselines. Per-cell predictions are aggregated at the slide level to match cytopathologist reporting conventions.",
+      "topic_hint": "ResNet ensemble, cervical cytology, cervical cancer screening, SIPaKMeD, cell classification",
+      "methodology_hint": "ResNet-50 ensemble, 250k cytology images, SIPaKMeD+Cervix93, macro-F1 0.90, AUC 0.96, VGG baseline",
+      "claimed_contribution": "ResNet ensemble for cervical cytology classification with macro-F1 0.90 and slide-level reporting."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "INCLUDE",
+      "p002": "EXCLUDE",
+      "p003": "INCLUDE",
+      "p004": "EXCLUDE",
+      "p005": "INCLUDE",
+      "p006": "EXCLUDE",
+      "p007": "INCLUDE",
+      "p008": "EXCLUDE",
+      "p009": "INCLUDE",
+      "p010": "EXCLUDE",
+      "p011": "INCLUDE",
+      "p012": "EXCLUDE",
+      "p013": "INCLUDE",
+      "p014": "EXCLUDE",
+      "p015": "INCLUDE"
+    }
+  }
+}

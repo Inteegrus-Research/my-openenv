@@ -1,0 +1,224 @@
+{
+  "task_id": "task4",
+  "instance_id": "instance_003",
+  "budget": 18,
+  "task_description": "Screen these abstracts for a systematic review on ML methods for automated clinical diagnosis. Produce a ranked top-5 shortlist of the most relevant and methodologically rigorous papers.\n\nINCLUDE only papers that present or evaluate an ML method applied directly to automated clinical diagnosis (disease detection, imaging diagnosis, or differential diagnosis from patient data). Prognosis, treatment selection, drug discovery, and methodology-only papers should be EXCLUDE.\n\nFor each INCLUDE paper: assign rank 1 (best) to 5 (fifth-best) and write one justification sentence (max 200 chars).\n\nQuality rubric: 1=no method; 2=vague method; 3=clear method with metrics; 4=full method with baselines and ablations.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "Convolutional Network for Automated Glaucoma Detection from OCT Scans",
+      "abstract": "We train a densely connected CNN on 180,000 optical coherence tomography scans to detect glaucoma. The model achieves AUC 0.96, sensitivity 0.91, and specificity 0.94 on a prospective test cohort. We compare against three clinical grading baselines and perform thickness-map ablation analysis.",
+      "topic_hint": "deep learning, glaucoma, OCT, ophthalmic diagnosis",
+      "methodology_hint": "dense CNN, OCT, AUC 0.96, sensitivity 0.91, specificity 0.94, clinical grading baselines, ablation",
+      "claimed_contribution": "Dense CNN glaucoma detector from OCT with AUC 0.96 and clinical grading comparison."
+    },
+    {
+      "id": "p002",
+      "title": "Bayesian Neural Networks for Uncertainty-Aware Prognosis in Heart Failure",
+      "abstract": "Machine learning for heart failure management requires uncertainty awareness. We apply Bayesian neural networks to predict one-year hospitalisation probability for 35,000 heart failure patients, achieving AUC 0.81. Calibrated uncertainty estimates support clinical triage. This is a prognostic, not diagnostic, system.",
+      "topic_hint": "Bayesian neural networks, heart failure, prognosis, uncertainty",
+      "methodology_hint": "Bayesian NN, AUC 0.81, uncertainty calibration, 35000 patients, prognosis not diagnosis",
+      "claimed_contribution": "Bayesian NN for heart failure hospitalisation prognosis with calibrated uncertainty estimates."
+    },
+    {
+      "id": "p003",
+      "title": "Vision Transformer for Multi-Class Skin Pathology Diagnosis from Dermoscopy",
+      "abstract": "We fine-tune a ViT-L/16 on 60,000 dermoscopy images for automated diagnosis of 14 skin pathology classes. The model achieves macro-F1 of 0.84, outperforming EfficientNet and ResNet baselines. We provide a full ablation study, calibration curves, and a confusion matrix analysis for clinically similar classes.",
+      "topic_hint": "vision transformer, dermoscopy, skin pathology, multi-class diagnosis",
+      "methodology_hint": "ViT-L/16, 60k images, macro-F1 0.84, EfficientNet/ResNet baselines, ablation, calibration",
+      "claimed_contribution": "ViT dermoscopy model for 14 skin pathology classes with macro-F1 0.84 and full ablation."
+    },
+    {
+      "id": "p004",
+      "title": "Deep Learning for Antibiotic Resistance Prediction from Genomic Sequences",
+      "abstract": "Machine learning has great potential for clinical microbiology. We train a CNN on whole-genome sequences of 45,000 bacterial isolates to predict antibiotic resistance phenotypes. AUC exceeds 0.90 for 8 of 12 antibiotic classes. The system informs treatment selection, not disease diagnosis.",
+      "topic_hint": "antibiotic resistance, genomic ML, treatment selection",
+      "methodology_hint": "CNN, whole-genome sequences, AUC 0.90, antibiotic phenotype prediction, treatment not diagnosis",
+      "claimed_contribution": "CNN predicting antibiotic resistance phenotypes from bacterial genomes for treatment selection."
+    },
+    {
+      "id": "p005",
+      "title": "Bidirectional LSTM for Sepsis Onset Detection from EHR Time-Series",
+      "abstract": "We develop a bidirectional LSTM to detect sepsis onset from continuous EHR time-series of vitals and labs in the ICU. Trained on MIMIC-IV, the model achieves AUC 0.89 and detects sepsis 5 hours before clinical recognition on average. We compare against SOFA score, qSOFA, and NEWS baselines.",
+      "topic_hint": "LSTM, sepsis detection, EHR, ICU, time-series diagnosis",
+      "methodology_hint": "biLSTM, MIMIC-IV, AUC 0.89, 5h early detection, SOFA/qSOFA/NEWS baseline comparison",
+      "claimed_contribution": "Bidirectional LSTM for ICU sepsis detection 5h before clinical recognition, AUC 0.89."
+    },
+    {
+      "id": "p006",
+      "title": "Molecular Docking Acceleration Using Deep Neural Networks",
+      "abstract": "We train a deep neural network to approximate molecular docking scores for drug discovery screening. The model achieves Spearman correlation of 0.93 with AutoDock scores on a benchmark of 500,000 compounds, reducing compute time by 1000x. No clinical diagnostic application is presented.",
+      "topic_hint": "molecular docking, deep learning, drug discovery, virtual screening",
+      "methodology_hint": "NN docking approximation, Spearman 0.93, AutoDock comparison, drug discovery only",
+      "claimed_contribution": "Neural network approximating molecular docking scores with 1000x speedup over AutoDock."
+    },
+    {
+      "id": "p007",
+      "title": "Sparse Transformer for Automated Pathology Report Generation from WSI",
+      "abstract": "We develop a sparse transformer that generates structured pathology reports from whole-slide images, including tumour type, grade, and margin status. Trained on 32,000 annotated slides, the model achieves BLEU-4 of 0.74 and AUC 0.92 for key diagnostic fields. Clinical concordance is validated by two pathologists.",
+      "topic_hint": "sparse transformer, whole-slide image, pathology report, tumour classification",
+      "methodology_hint": "sparse transformer, WSI, BLEU-4 0.74, AUC 0.92, pathologist validation, tumour grading",
+      "claimed_contribution": "Sparse transformer generating pathology reports from WSI with AUC 0.92 and pathologist concordance."
+    },
+    {
+      "id": "p008",
+      "title": "Explainability Methods for Neural Networks in Healthcare: A Survey",
+      "abstract": "We survey 140 papers on explainability and interpretability methods applied to healthcare neural networks, covering Grad-CAM, SHAP, LIME, and integrated gradients. We identify gaps in clinical validation and propose an evaluation framework. No new model is trained or deployed.",
+      "topic_hint": "explainability, interpretability, neural networks, healthcare, survey",
+      "methodology_hint": "survey of 140 papers, Grad-CAM/SHAP/LIME, evaluation framework, no new model",
+      "claimed_contribution": "Survey of 140 explainability methods for healthcare neural networks with evaluation framework."
+    },
+    {
+      "id": "p009",
+      "title": "Markov Decision Processes for Dynamic Treatment Regimens in Oncology",
+      "abstract": "We formulate personalised cancer treatment as a Markov decision process and learn treatment policies from retrospective EHR data using fitted Q-iteration. The system selects chemotherapy sequences to maximise progression-free survival. This is a treatment selection system, not a diagnostic tool.",
+      "topic_hint": "MDP, treatment regimen, oncology, reinforcement learning, treatment selection",
+      "methodology_hint": "fitted Q-iteration, MDP, treatment policy, progression-free survival, not diagnosis",
+      "claimed_contribution": "MDP-based personalised chemotherapy sequence selection maximising progression-free survival."
+    },
+    {
+      "id": "p010",
+      "title": "Label-Efficient Deep Learning for Rare Tumour Detection in CT Scans",
+      "abstract": "Training data scarcity limits rare tumour ML. We apply semi-supervised learning with 150 labelled and 5,000 unlabelled CT scans to detect adrenal tumours. The model achieves AUC 0.91, within 3% of the fully-supervised upper bound. Comparison against two published baselines is provided.",
+      "topic_hint": "semi-supervised learning, CT, rare tumour, adrenal detection, label-efficient",
+      "methodology_hint": "semi-supervised, 150 labelled CT scans, AUC 0.91, supervised upper bound, two baselines",
+      "claimed_contribution": "Semi-supervised adrenal tumour detector reaching AUC 0.91 with only 150 labelled scans."
+    },
+    {
+      "id": "p011",
+      "title": "Causal Discovery in Longitudinal Biobank Data for Disease Risk Factors",
+      "abstract": "We apply causal discovery algorithms to UK Biobank longitudinal data to identify causal risk factors for type 2 diabetes and cardiovascular disease. No diagnostic model is developed; the study provides mechanistic hypotheses for future validation.",
+      "topic_hint": "causal discovery, biobank, risk factors, epidemiology",
+      "methodology_hint": "causal discovery, longitudinal biobank, risk factor identification, no diagnostic model",
+      "claimed_contribution": "Causal discovery in UK Biobank identifying risk factors for diabetes and cardiovascular disease."
+    },
+    {
+      "id": "p012",
+      "title": "Neural Architecture Search for Medical Image Classification",
+      "abstract": "We apply differentiable neural architecture search to find optimal CNN architectures for three medical image classification tasks. The discovered architectures match or exceed hand-designed baselines in AUC. No new diagnostic task or clinical evaluation is performed; this is an AutoML methodology paper.",
+      "topic_hint": "NAS, neural architecture search, AutoML, medical imaging",
+      "methodology_hint": "differentiable NAS, AUC comparison, three tasks, AutoML methodology, no clinical evaluation",
+      "claimed_contribution": "Neural architecture search discovering CNN architectures matching hand-designed baselines for medical imaging."
+    },
+    {
+      "id": "p013",
+      "title": "Multi-Task Learning for Joint Chest X-Ray Pathology Detection",
+      "abstract": "We train a multi-task CNN on CheXpert to simultaneously detect 14 chest pathologies including pneumonia, atelectasis, and pleural effusion. The model achieves mean AUC of 0.87 across pathologies, outperforming single-task baselines. Uncertainty calibration and failure mode analysis are provided.",
+      "topic_hint": "multi-task learning, chest X-ray, pathology detection, CheXpert",
+      "methodology_hint": "multi-task CNN, CheXpert, mean AUC 0.87, single-task baseline, calibration, failure analysis",
+      "claimed_contribution": "Multi-task CNN for 14 chest pathologies with mean AUC 0.87 and calibration analysis."
+    },
+    {
+      "id": "p014",
+      "title": "Bayesian Optimisation of CRISPR Guide RNA Design",
+      "abstract": "We apply Bayesian optimisation to select CRISPR guide RNA sequences that maximise on-target efficiency and minimise off-target effects. Evaluated on a benchmark of 1,200 targets, our approach outperforms heuristic and deep learning baselines. No clinical application is presented.",
+      "topic_hint": "Bayesian optimisation, CRISPR, guide RNA, gene editing",
+      "methodology_hint": "Bayesian optimisation, CRISPR guide selection, on-target efficiency, off-target minimisation",
+      "claimed_contribution": "Bayesian optimisation for CRISPR guide RNA selection outperforming deep learning baselines."
+    },
+    {
+      "id": "p015",
+      "title": "Self-Supervised Pre-training for Retinal Fundus Image Analysis",
+      "abstract": "We apply momentum contrast self-supervised pre-training to 1.2 million unlabelled retinal fundus images. The pre-trained encoder improves AUC by 5-9% on four downstream fundus disease classification tasks with 10x fewer labels than supervised baselines. Ablation of pre-training duration and batch size is provided.",
+      "topic_hint": "self-supervised, momentum contrast, fundus, retinal diagnosis",
+      "methodology_hint": "MoCo pre-training, 1.2M unlabelled fundus images, AUC improvement, four downstream tasks, ablation",
+      "claimed_contribution": "Self-supervised fundus pre-training improving downstream disease AUC by 5-9% with 10x fewer labels."
+    },
+    {
+      "id": "p016",
+      "title": "Genomic Language Models for Variant Effect Prediction",
+      "abstract": "We pre-train a large language model on 4 billion base pairs of human genomic sequences to predict variant pathogenicity. The model achieves state-of-the-art AUROC on ClinVar benchmark variants. Predictions are intended for variant triage in genetic counselling, not direct patient diagnosis.",
+      "topic_hint": "genomic language model, variant effect, pathogenicity prediction",
+      "methodology_hint": "genomic LLM, ClinVar benchmark, AUROC, variant triage, genetic counselling not diagnosis",
+      "claimed_contribution": "Genomic language model for variant pathogenicity prediction achieving SOTA on ClinVar."
+    },
+    {
+      "id": "p017",
+      "title": "Conformal Prediction for Clinically Valid Diagnostic Confidence Sets",
+      "abstract": "We apply conformal prediction to wrap any diagnostic classifier with guaranteed coverage properties. Applied to two diagnostic imaging classifiers, the method produces prediction sets that contain the true class with 90% coverage. No new diagnostic model is trained.",
+      "topic_hint": "conformal prediction, coverage guarantee, diagnostic classifier wrapping",
+      "methodology_hint": "conformal prediction, coverage guarantee, two imaging classifiers, no new diagnostic model",
+      "claimed_contribution": "Conformal prediction wrapper providing 90% coverage guarantees for diagnostic imaging classifiers."
+    },
+    {
+      "id": "p018",
+      "title": "Physics-Informed Neural Networks for Cardiovascular Haemodynamics Simulation",
+      "abstract": "We embed Navier-Stokes equations into neural network training for patient-specific cardiovascular haemodynamics simulation. Results support surgical planning for aortic dissection repair, not direct disease diagnosis.",
+      "topic_hint": "physics-informed NN, haemodynamics, cardiovascular simulation, surgical planning",
+      "methodology_hint": "PINN, Navier-Stokes, patient-specific simulation, surgical planning, not diagnosis",
+      "claimed_contribution": "Physics-informed NN for cardiovascular haemodynamics simulation supporting aortic repair planning."
+    },
+    {
+      "id": "p019",
+      "title": "Multimodal Contrastive Learning for Radiology Report and Image Alignment",
+      "abstract": "We apply CLIP-style contrastive learning to align 2.3 million radiology report and image pairs. The resulting encoder improves zero-shot retrieval and enables few-shot fine-tuning for chest pathology classification, achieving AUC 0.88 with no task-specific labels.",
+      "topic_hint": "contrastive learning, radiology report, image alignment, zero-shot",
+      "methodology_hint": "CLIP contrastive, 2.3M image-report pairs, zero-shot retrieval, AUC 0.88 few-shot",
+      "claimed_contribution": "CLIP-style radiology image-report alignment enabling zero-shot and few-shot chest pathology classification."
+    },
+    {
+      "id": "p020",
+      "title": "Transformer Model for Automated Clinical Coding from Discharge Summaries",
+      "abstract": "We develop a transformer trained on 310,000 discharge summaries for automated ICD-11 clinical coding. The model achieves macro-F1 of 0.79 across 500 code categories, outperforming BERT, CNN, and recurrent baselines. We provide a code-level breakdown and a detailed error analysis.",
+      "topic_hint": "transformer, discharge summaries, ICD coding, clinical coding, NLP",
+      "methodology_hint": "transformer, ICD-11, macro-F1 0.79, BERT/CNN/RNN baselines, error analysis",
+      "claimed_contribution": "Transformer for ICD-11 clinical coding from discharge summaries with macro-F1 0.79."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "INCLUDE",
+      "p002": "EXCLUDE",
+      "p003": "INCLUDE",
+      "p004": "EXCLUDE",
+      "p005": "INCLUDE",
+      "p006": "EXCLUDE",
+      "p007": "INCLUDE",
+      "p008": "EXCLUDE",
+      "p009": "EXCLUDE",
+      "p010": "INCLUDE",
+      "p011": "EXCLUDE",
+      "p012": "EXCLUDE",
+      "p013": "EXCLUDE",
+      "p014": "EXCLUDE",
+      "p015": "EXCLUDE",
+      "p016": "EXCLUDE",
+      "p017": "EXCLUDE",
+      "p018": "EXCLUDE",
+      "p019": "EXCLUDE",
+      "p020": "EXCLUDE"
+    },
+    "ranked_order": ["p005", "p007", "p003", "p001", "p010"],
+    "relevance_quality_scores": {
+      "p001": 0.88,
+      "p002": 0.07,
+      "p003": 0.91,
+      "p004": 0.10,
+      "p005": 0.94,
+      "p006": 0.04,
+      "p007": 0.89,
+      "p008": 0.08,
+      "p009": 0.06,
+      "p010": 0.83,
+      "p011": 0.05,
+      "p012": 0.12,
+      "p013": 0.45,
+      "p014": 0.03,
+      "p015": 0.50,
+      "p016": 0.15,
+      "p017": 0.10,
+      "p018": 0.04,
+      "p019": 0.40,
+      "p020": 0.35
+    },
+    "vocabulary_list": [
+      "glaucoma", "oct", "optic", "cnn", "densely", "auc", "sensitivity",
+      "specificity", "dermoscopy", "vit", "skin", "pathology", "macro",
+      "sepsis", "lstm", "mimic", "bidirectional", "detection", "tumour",
+      "adrenal", "semi", "supervised", "training", "model", "diagnosis",
+      "clinical", "neural", "network", "ablation", "evaluation", "baseline",
+      "classification", "chest", "pathology", "transformer", "icd", "coding",
+      "automated", "trained", "fundus", "retinal", "imaging", "comparison"
+    ]
+  }
+}

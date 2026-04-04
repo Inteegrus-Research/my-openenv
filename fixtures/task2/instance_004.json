@@ -1,0 +1,113 @@
+{
+  "task_id": "task2",
+  "instance_id": "instance_004",
+  "task_description": "Screen each abstract for relevance to machine learning applications in drug discovery and molecular biology, and rate each paper's methodological quality using the rubric below.\n\nRelevance: RELEVANT if the paper directly applies ML methods to a drug discovery, molecular property prediction, or target identification problem. NOT_RELEVANT otherwise.\n\nQuality rubric:\n  1 = No methodology described.\n  2 = Methodology mentioned but vague; no metrics or baselines provided.\n  3 = Methodology described with evaluation metrics and dataset details.\n  4 = Methodology described with reproducible details, ablation studies, and baseline comparisons.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "Message-Passing Neural Network for Molecular Solubility Prediction",
+      "abstract": "We implement a message-passing neural network (MPNN) trained on the ESOL dataset of 1,128 small molecules to predict aqueous solubility. The model achieves RMSE of 0.52 log mol/L on a held-out test set, outperforming random forest, SVM, and two published GNN baselines. Ablation studies confirm that edge features encoding bond type and ring membership provide the largest performance gain.",
+      "topic_hint": "MPNN, molecular solubility, ESOL, graph neural network, drug discovery",
+      "methodology_hint": "MPNN, ESOL dataset, RMSE 0.52, RF/SVM/GNN baselines, ablation of edge features",
+      "claimed_contribution": "MPNN for molecular solubility with RMSE 0.52, confirmed by ablation against four baselines."
+    },
+    {
+      "id": "p002",
+      "title": "Deep Learning for Drug Discovery: Opportunities and Challenges",
+      "abstract": "Machine learning has the potential to transform drug discovery by accelerating virtual screening, target identification, and lead optimisation. This perspective discusses recent successes and outstanding challenges including data scarcity, distribution shift, and interpretability. No new model is proposed and no empirical evaluation is presented.",
+      "topic_hint": "perspective, drug discovery, deep learning, challenges, review",
+      "methodology_hint": "perspective article, no empirical model, no metrics, no dataset",
+      "claimed_contribution": "Perspective on opportunities and challenges for deep learning in drug discovery."
+    },
+    {
+      "id": "p003",
+      "title": "Transformer Pre-training on SMILES for Multi-Task Molecular Property Prediction",
+      "abstract": "We pre-train a transformer on 100 million SMILES strings from PubChem using masked language modelling and fine-tune on 12 molecular property prediction tasks from the MoleculeNet benchmark. The pre-trained model achieves state-of-the-art AUC on 9 of 12 tasks and improves data efficiency by 10x in low-label regimes. We release model weights, pre-training code, and a detailed reproducibility checklist.",
+      "topic_hint": "transformer, SMILES, molecular pre-training, MoleculeNet, multi-task property prediction",
+      "methodology_hint": "masked LM pre-training, 100M SMILES, MoleculeNet, AUC SOTA on 9/12 tasks, public code, reproducibility checklist",
+      "claimed_contribution": "SMILES transformer pre-training achieving SOTA on 9/12 MoleculeNet tasks with 10x label efficiency."
+    },
+    {
+      "id": "p004",
+      "title": "Statistical Methods for Ecological Niche Modelling Under Climate Change",
+      "abstract": "We apply maximum entropy and boosted regression tree methods to species occurrence records and bioclimatic variables to project habitat suitability shifts under IPCC RCP 4.5 and 8.5 scenarios. Projected range contractions exceed 40% for 23 endemic species by 2100. No machine learning for drug discovery or biomedical problem is involved.",
+      "topic_hint": "ecological niche modelling, species distribution, climate change, MaxEnt",
+      "methodology_hint": "MaxEnt, boosted regression trees, bioclimatic variables, range projection, ecology",
+      "claimed_contribution": "Habitat suitability projections for endemic species under two climate change scenarios to 2100."
+    },
+    {
+      "id": "p005",
+      "title": "Equivariant Graph Neural Network for Binding Affinity Prediction",
+      "abstract": "We develop an SE(3)-equivariant GNN that encodes protein-ligand complexes using 3D atomic coordinates and predicts binding free energies. Trained on PDBbind v2020, the model achieves Pearson r=0.83 and Spearman r=0.81 on the CASF-2016 benchmark, outperforming SchNet, DimeNet, and AutoDock-Vina baselines. We provide an ablation study of equivariance and 3D feature contributions.",
+      "topic_hint": "equivariant GNN, protein-ligand binding, PDBbind, CASF-2016, binding affinity",
+      "methodology_hint": "SE(3)-equivariant GNN, PDBbind v2020, Pearson 0.83, CASF-2016, DimeNet/SchNet/AutoDock baselines, ablation",
+      "claimed_contribution": "SE(3)-equivariant GNN for binding affinity with Pearson 0.83 on CASF-2016 and equivariance ablation."
+    },
+    {
+      "id": "p006",
+      "title": "Machine Learning is Transforming Drug Discovery",
+      "abstract": "Machine learning approaches are increasingly applied to problems in drug discovery. We briefly survey virtual screening, generative chemistry, and ADMET prediction. This review article does not present a new method or empirical evaluation.",
+      "topic_hint": "survey, drug discovery, virtual screening, generative chemistry, review",
+      "methodology_hint": "review article, no new model, no dataset, no metrics reported",
+      "claimed_contribution": "Brief survey of ML applications in virtual screening, generative chemistry, and ADMET prediction."
+    },
+    {
+      "id": "p007",
+      "title": "Variational Autoencoder for De Novo Drug-Like Molecule Generation",
+      "abstract": "We train a SMILES-based variational autoencoder on 250,000 ChEMBL molecules to generate novel drug-like compounds via latent space interpolation. The model achieves 94% chemical validity, 85% uniqueness, and 62% novelty on 10,000 generated samples evaluated against GuacaMol benchmarks. Bayesian optimisation in the latent space produces molecules with predicted LogP improvements of 1.8 units over seed compounds.",
+      "topic_hint": "VAE, de novo molecule generation, SMILES, ChEMBL, GuacaMol, drug design",
+      "methodology_hint": "SMILES VAE, ChEMBL 250k, validity 94%, GuacaMol evaluation, Bayesian latent optimisation",
+      "claimed_contribution": "SMILES VAE generating drug-like molecules with 94% validity and 1.8-unit LogP improvement via latent optimisation."
+    },
+    {
+      "id": "p008",
+      "title": "Federated Learning for Privacy-Preserving Training Across Pharmaceutical Sites",
+      "abstract": "Machine learning for drug discovery requires large proprietary datasets. We apply federated learning to train ADMET property prediction models across four pharmaceutical company sites without sharing chemical structures. The federated model matches centralised training AUC on three ADMET endpoints while satisfying data governance requirements.",
+      "topic_hint": "federated learning, ADMET, drug discovery, privacy, pharmaceutical",
+      "methodology_hint": "federated learning, ADMET endpoints, four pharma sites, AUC comparison to centralised training",
+      "claimed_contribution": "Federated ADMET predictor matching centralised AUC across four pharmaceutical sites."
+    },
+    {
+      "id": "p009",
+      "title": "Recurrent Neural Network for Antibiotic Activity Prediction Against Resistant Pathogens",
+      "abstract": "We train a character-level RNN on SMILES representations of antibiotics to predict activity against six drug-resistant bacterial pathogens. The model achieves AUC 0.88 on a held-out test set and identifies three novel scaffold classes not represented in the training data. We note that no wet-lab validation is presented; results are in-silico predictions only.",
+      "topic_hint": "RNN, antibiotic activity, drug-resistant bacteria, SMILES, antimicrobial ML",
+      "methodology_hint": "character-level RNN, SMILES, AUC 0.88, six pathogens, in-silico only no wet-lab validation",
+      "claimed_contribution": "Character-level RNN predicting antibiotic activity against resistant pathogens with AUC 0.88."
+    },
+    {
+      "id": "p010",
+      "title": "Photovoltaic Efficiency Prediction Using Ensemble Machine Learning on Material Descriptors",
+      "abstract": "We apply gradient boosting and random forest models to predict power conversion efficiency of organic photovoltaic materials from quantum chemical descriptors computed on 8,500 donor-acceptor pairs. Models achieve R-squared of 0.87 on a held-out test set. No biomedical application is presented.",
+      "topic_hint": "gradient boosting, photovoltaic efficiency, organic materials, quantum chemistry, materials science",
+      "methodology_hint": "gradient boosting, random forest, R-squared 0.87, donor-acceptor descriptors, materials science",
+      "claimed_contribution": "Ensemble ML for organic photovoltaic efficiency prediction with R-squared 0.87 from quantum descriptors."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "RELEVANT",
+      "p002": "NOT_RELEVANT",
+      "p003": "RELEVANT",
+      "p004": "NOT_RELEVANT",
+      "p005": "RELEVANT",
+      "p006": "NOT_RELEVANT",
+      "p007": "RELEVANT",
+      "p008": "RELEVANT",
+      "p009": "RELEVANT",
+      "p010": "NOT_RELEVANT"
+    },
+    "quality_scores": {
+      "p001": 4,
+      "p002": 1,
+      "p003": 4,
+      "p004": 3,
+      "p005": 4,
+      "p006": 1,
+      "p007": 3,
+      "p008": 3,
+      "p009": 2,
+      "p010": 3
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "task_id": "task3",
+  "instance_id": "instance_003",
+  "budget": 15,
+  "task_description": "Screen each abstract for a systematic review on ML methods for predicting adverse drug reactions (ADRs) from patient data. INCLUDE papers that present or evaluate ML systems trained on patient-level data (EHR, genomics, claims) to predict or detect ADRs in individual patients. EXCLUDE papers about drug discovery, population pharmacovigilance from social media, non-ML pharmacokinetic models, and general drug interaction databases.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "Random Forest for Predicting Drug-Induced Liver Injury from Patient EHR Data",
+      "abstract": "We train a random forest on longitudinal EHR data including liver function tests, medication history, and demographics to predict drug-induced liver injury (DILI) in individual patients within 30 days of starting a new hepatotoxic drug. Our model achieves AUROC 0.85 on a held-out test cohort.",
+      "topic_hint": "random forest, DILI prediction, EHR",
+      "methodology_hint": "random forest, EHR, liver function tests, AUROC, patient-level",
+      "claimed_contribution": "Random forest DILI predictor with AUROC 0.85 from patient EHR data."
+    },
+    {
+      "id": "p002",
+      "title": "Pharmacogenomic ML Model for Warfarin ADR Risk Stratification",
+      "abstract": "We combine CYP2C9 and VKORC1 genotype data with clinical variables in an XGBoost model to predict risk of bleeding events in patients initiating warfarin therapy. Evaluated on 3,000 patients, our model achieves AUC 0.82 and outperforms standard pharmacogenomic dosing algorithms.",
+      "topic_hint": "pharmacogenomics, warfarin, bleeding risk",
+      "methodology_hint": "XGBoost, CYP2C9/VKORC1, patient cohort, AUC, dosing algorithm comparison",
+      "claimed_contribution": "XGBoost pharmacogenomic warfarin ADR predictor with AUC 0.82, outperforming standard dosing algorithms."
+    },
+    {
+      "id": "p003",
+      "title": "LSTM Model for Detecting Acute Kidney Injury from Medication Exposure Patterns",
+      "abstract": "We train an LSTM on sequential medication administration records and renal function lab values to detect acute kidney injury in hospitalised patients receiving nephrotoxic drugs. Our model achieves sensitivity 0.79 at 10% false positive rate, with 24-hour early detection lead time.",
+      "topic_hint": "LSTM, acute kidney injury, medication exposure",
+      "methodology_hint": "LSTM, medication records, renal labs, sensitivity/FPR, 24h lead time",
+      "claimed_contribution": "LSTM AKI detector from nephrotoxic medication exposure with sensitivity 0.79 at 24-hour lead time."
+    },
+    {
+      "id": "p004",
+      "title": "Graph Neural Network for Multi-Drug ADR Prediction in Polypharmacy",
+      "abstract": "We model drug-patient relationships as a bipartite graph and train a GNN to predict ADR risk in patients taking five or more medications. Evaluated against clinical pharmacist review of 2,000 polypharmacy cases, our model identifies 74% of clinically significant ADRs.",
+      "topic_hint": "GNN, polypharmacy, adverse drug reaction",
+      "methodology_hint": "GNN, bipartite graph, polypharmacy, pharmacist review evaluation",
+      "claimed_contribution": "GNN for polypharmacy ADR prediction identifying 74% of clinically significant events."
+    },
+    {
+      "id": "p005",
+      "title": "Deep Learning for Predicting QT Prolongation from ECG and Drug Exposure Data",
+      "abstract": "We train a CNN on 12-lead ECGs combined with current medication lists to predict risk of drug-induced QT prolongation. Tested on 20,000 ECG-medication pairs from a cardiology database, our model achieves AUC 0.91 and identifies high-risk combinations not flagged by standard interaction tables.",
+      "topic_hint": "CNN, QT prolongation, ECG, drug safety",
+      "methodology_hint": "CNN, ECG data, medication list, AUC, interaction table comparison",
+      "claimed_contribution": "CNN ECG-based drug-induced QT prolongation predictor with AUC 0.91."
+    },
+    {
+      "id": "p006",
+      "title": "Transformer for ADR Detection from Clinical Notes at Point of Prescribing",
+      "abstract": "We fine-tune a clinical BERT model to flag potential ADRs from free-text prescribing notes and recent clinical documentation. Evaluated retrospectively on 50,000 prescribing events, our system detects 81% of confirmed ADRs documented in incident reports.",
+      "topic_hint": "BERT, clinical NLP, ADR detection, prescribing",
+      "methodology_hint": "clinical BERT, prescribing notes, retrospective evaluation, incident report validation",
+      "claimed_contribution": "Clinical BERT ADR detector achieving 81% recall on confirmed ADR incident reports."
+    },
+    {
+      "id": "p007",
+      "title": "Survival Analysis ML Model for Chemotherapy Toxicity Prediction",
+      "abstract": "We apply gradient boosting survival analysis to predict time-to-grade-3 toxicity in cancer patients receiving combination chemotherapy. Using pretreatment clinical and genomic features, our model achieves C-index 0.75 and identifies patients who can safely receive dose escalation.",
+      "topic_hint": "gradient boosting, chemotherapy toxicity, survival analysis",
+      "methodology_hint": "gradient boosting, survival analysis, C-index, toxicity prediction, patient-level",
+      "claimed_contribution": "Gradient boosting survival model for chemotherapy toxicity prediction with C-index 0.75."
+    },
+    {
+      "id": "p008",
+      "title": "Multi-Task Neural Network for Simultaneous Prediction of Multiple ADR Types",
+      "abstract": "We train a multi-task neural network to jointly predict six common ADR types (nephrotoxicity, hepatotoxicity, cardiotoxicity, haematotoxicity, neurotoxicity, hypersensitivity) from patient medication and lab profiles. Multi-task learning improves average AUROC by 0.04 over single-task baselines.",
+      "topic_hint": "multi-task learning, ADR prediction, patient data",
+      "methodology_hint": "multi-task neural network, six ADR types, AUROC, single-task comparison",
+      "claimed_contribution": "Multi-task neural network for six ADR types improving average AUROC 0.04 over single-task models."
+    },
+    {
+      "id": "p009",
+      "title": "Machine Learning Approaches to ADR Signal Detection in Spontaneous Reporting Systems",
+      "abstract": "Adverse drug reaction prediction from patient data is an active research area. In this work, we apply disproportionality analysis and Bayesian methods to the FDA FAERS spontaneous reporting database to detect new ADR signals at the population level for recently approved drugs.",
+      "topic_hint": "pharmacovigilance, FAERS, population-level ADR signal detection",
+      "methodology_hint": "disproportionality analysis, FAERS population database, Bayesian signal detection",
+      "claimed_contribution": "Bayesian ADR signal detection in FDA FAERS for recently approved drugs."
+    },
+    {
+      "id": "p010",
+      "title": "ML Methods for ADR Prediction: Applications in Computational Drug Discovery",
+      "abstract": "Predicting adverse drug reactions is important for patient safety. We review ML methods for predicting ADRs from molecular structure in the drug discovery phase, covering QSAR models, graph neural networks for molecular toxicity, and in silico ADMET prediction tools.",
+      "topic_hint": "drug discovery, molecular QSAR, in silico toxicity",
+      "methodology_hint": "review, QSAR, molecular structure, in silico ADMET, not patient data",
+      "claimed_contribution": "Review of ML methods for ADR prediction from molecular structure in drug discovery."
+    },
+    {
+      "id": "p011",
+      "title": "Social Media Mining for ADR Detection Using Twitter and Reddit",
+      "abstract": "Adverse drug reactions represent a major patient safety challenge. We develop an NLP pipeline to mine ADR signals from patient-reported experiences on Twitter and Reddit. Our system identifies ADR mentions with precision 0.77 and can detect emerging signals weeks before FAERS reports.",
+      "topic_hint": "NLP, social media, pharmacovigilance",
+      "methodology_hint": "Twitter/Reddit mining, NLP, precision, population-level signals",
+      "claimed_contribution": "Social media NLP pipeline detecting ADR signals with precision 0.77 weeks before FAERS."
+    },
+    {
+      "id": "p012",
+      "title": "Mechanistic PBPK Modelling for Drug Interaction Prediction",
+      "abstract": "Predicting adverse drug reactions from patient data is an emerging field. We develop a physiologically based pharmacokinetic (PBPK) model for predicting drug-drug interactions from first principles, using clinical pharmacokinetic parameters. The model does not use machine learning or patient-level data.",
+      "topic_hint": "PBPK, pharmacokinetics, drug interaction modelling",
+      "methodology_hint": "PBPK, mechanistic pharmacokinetics, no ML, no patient data",
+      "claimed_contribution": "PBPK model for drug interaction prediction from first-principles pharmacokinetic parameters."
+    },
+    {
+      "id": "p013",
+      "title": "Privacy-Preserving Federated Learning for Fraud Detection in Banking",
+      "abstract": "We develop a federated learning framework for collaborative fraud detection across multiple banks without sharing raw transaction data. Differential privacy guarantees are incorporated into the aggregation protocol, achieving a 14% improvement in fraud detection rate versus isolated local models.",
+      "topic_hint": "federated learning, fraud detection, differential privacy",
+      "methodology_hint": "federated learning, differential privacy, fraud detection, banking",
+      "claimed_contribution": "Federated fraud detection with differential privacy achieving 14% improvement over local models."
+    },
+    {
+      "id": "p014",
+      "title": "Sparse Reconstruction Methods for Compressed Sensing in MRI Acquisition",
+      "abstract": "We develop iterative sparse reconstruction algorithms for accelerated MRI acquisition using compressed sensing theory. Our algorithm reduces scan time by 60% while maintaining diagnostic image quality as assessed by a radiologist review of 200 cases.",
+      "topic_hint": "compressed sensing, MRI, sparse reconstruction",
+      "methodology_hint": "compressed sensing, sparse reconstruction, scan time reduction, radiologist quality assessment",
+      "claimed_contribution": "Compressed sensing MRI reconstruction reducing scan time 60% with diagnostic image quality."
+    },
+    {
+      "id": "p015",
+      "title": "Hierarchical Bayesian Models for Estimating Global Disease Burden",
+      "abstract": "We develop hierarchical Bayesian models for estimating age-sex-specific disease burden across 195 countries using heterogeneous data sources. Our approach propagates uncertainty from data quality through to final burden estimates, improving transparency of Global Burden of Disease estimates.",
+      "topic_hint": "Bayesian modelling, global disease burden, epidemiology",
+      "methodology_hint": "hierarchical Bayesian, disease burden, uncertainty propagation, GBD",
+      "claimed_contribution": "Hierarchical Bayesian framework for transparent global disease burden estimation with full uncertainty."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "INCLUDE",
+      "p002": "INCLUDE",
+      "p003": "INCLUDE",
+      "p004": "INCLUDE",
+      "p005": "INCLUDE",
+      "p006": "INCLUDE",
+      "p007": "INCLUDE",
+      "p008": "INCLUDE",
+      "p009": "EXCLUDE",
+      "p010": "EXCLUDE",
+      "p011": "EXCLUDE",
+      "p012": "EXCLUDE",
+      "p013": "EXCLUDE",
+      "p014": "EXCLUDE",
+      "p015": "EXCLUDE"
+    }
+  }
+}

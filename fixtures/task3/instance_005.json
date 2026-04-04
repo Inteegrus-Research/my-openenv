@@ -1,0 +1,147 @@
+{
+  "task_id": "task3",
+  "instance_id": "instance_005",
+  "budget": 15,
+  "task_description": "Screen each abstract for a systematic review on ML methods for automated neurological disorder diagnosis. INCLUDE a paper only if it presents or evaluates an ML system that directly performs automated diagnosis or classification of a neurological condition from patient data. Papers about neurological prognosis, surgical planning, treatment selection, rehabilitation monitoring, or general neuroscience (without a diagnostic output) should be EXCLUDE.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "ResNet-3D for Automated Multiple Sclerosis Lesion Classification from MRI",
+      "abstract": "We train a 3D ResNet on T1, T2, and FLAIR MRI from 480 multiple sclerosis patients to classify lesion burden level as none, mild, moderate, or severe. The model achieves quadratic weighted kappa 0.83 on a prospective test set of 120 patients, outperforming radiologist consensus labels on the mild-moderate boundary. Cross-scanner validation on three MRI field strengths confirms robustness.",
+      "topic_hint": "3D ResNet, multiple sclerosis, MRI lesion classification, FLAIR, neurological diagnosis",
+      "methodology_hint": "3D ResNet, FLAIR+T1+T2, kappa 0.83, radiologist comparison, cross-scanner validation",
+      "claimed_contribution": "3D ResNet for MS lesion burden classification with kappa 0.83 and cross-scanner robustness."
+    },
+    {
+      "id": "p002",
+      "title": "Machine Learning for Optimising Deep Brain Stimulation Parameters in Parkinson's",
+      "abstract": "Machine learning for neurological clinical decision support has growing applicability in movement disorders. We develop an RL-based system to optimise deep brain stimulation parameters for Parkinson's disease patients, reducing tremor power by 31% over clinician-set parameters in a closed-loop pilot study with 12 patients. This is a treatment optimisation system, not a diagnostic tool.",
+      "topic_hint": "reinforcement learning, deep brain stimulation, Parkinson's, treatment optimisation, closed-loop",
+      "methodology_hint": "RL-based DBS optimisation, 12 patients, tremor reduction 31%, treatment not diagnosis",
+      "claimed_contribution": "RL for DBS parameter optimisation reducing Parkinson's tremor power 31% in closed-loop pilot."
+    },
+    {
+      "id": "p003",
+      "title": "Transformer for Automated Dementia Type Differential Diagnosis from Speech",
+      "abstract": "We fine-tune a speech transformer on 3,200 DementiaBank transcripts and audio features to classify among Alzheimer's disease, frontotemporal dementia, Lewy body dementia, and healthy controls. The model achieves macro-F1 of 0.78 on a four-way classification held-out test set, outperforming acoustic, linguistic, and GP rating baselines. Attention analysis identifies pauses and lexical retrieval failures as key diagnostic markers.",
+      "topic_hint": "speech transformer, dementia differential diagnosis, DementiaBank, Alzheimer's, FTD, LBD",
+      "methodology_hint": "speech transformer, DementiaBank, macro-F1 0.78, four-way classification, acoustic/linguistic baselines, attention",
+      "claimed_contribution": "Speech transformer for four-way dementia differential diagnosis with macro-F1 0.78 from audio-text features."
+    },
+    {
+      "id": "p004",
+      "title": "Deep Learning for Predicting Post-Stroke Functional Outcome from Acute MRI",
+      "abstract": "Machine learning for neurological clinical decision support enables post-stroke care planning. We train a convolutional network on acute DWI-MRI lesion maps from 1,800 ischaemic stroke patients to predict 90-day modified Rankin Scale scores, achieving AUC 0.81. The model assists rehabilitation planning. Functional outcome prediction is a prognosis task, not diagnostic classification.",
+      "topic_hint": "CNN, stroke, DWI-MRI, modified Rankin Scale, post-stroke prognosis",
+      "methodology_hint": "CNN, DWI lesion maps, 1800 patients, mRS AUC 0.81, prognosis not diagnosis",
+      "claimed_contribution": "CNN for 90-day post-stroke mRS prognosis from acute DWI-MRI lesion maps, AUC 0.81."
+    },
+    {
+      "id": "p005",
+      "title": "Bidirectional GRU for Automated Seizure Type Classification from EEG",
+      "abstract": "We train a bidirectional GRU on 3,600 EEG recordings from the Temple University Hospital Seizure Corpus to classify 12 seizure types including focal, generalised, and absence. The model achieves macro-F1 of 0.72, outperforming both SVM and unidirectional LSTM baselines. Seizure type misclassification analysis identifies the focal-to-bilateral-tonic-clonic boundary as the hardest case.",
+      "topic_hint": "bidirectional GRU, EEG, seizure classification, Temple University, epilepsy diagnosis",
+      "methodology_hint": "biGRU, Temple University Seizure Corpus, macro-F1 0.72, 12 seizure types, SVM and LSTM baselines",
+      "claimed_contribution": "Bidirectional GRU for 12-class seizure type classification with macro-F1 0.72 from EEG."
+    },
+    {
+      "id": "p006",
+      "title": "Physics-Informed Neural Networks for Cerebral Blood Flow Simulation in Stroke",
+      "abstract": "Machine learning approaches to neurological clinical decision support include haemodynamic simulation. We develop a physics-informed neural network to simulate cerebral blood flow patterns in patients with large vessel occlusion, supporting surgical thrombectomy planning. No diagnostic classification output is generated; this is a biophysical simulation tool.",
+      "topic_hint": "PINN, cerebral blood flow, stroke, haemodynamic simulation, surgical planning",
+      "methodology_hint": "physics-informed NN, CFD simulation, thrombectomy planning, no diagnostic output",
+      "claimed_contribution": "PINN for cerebral blood flow simulation supporting thrombectomy planning in large vessel occlusion."
+    },
+    {
+      "id": "p007",
+      "title": "Graph Convolutional Network for Autism Spectrum Disorder Classification from rs-fMRI",
+      "abstract": "We model resting-state fMRI functional connectivity as a graph and train a GCN on 1,112 participants from the ABIDE II dataset to classify autism spectrum disorder versus neurotypical controls. The model achieves AUC 0.85 and accuracy 0.78, outperforming SVM and graph-theoretic feature baselines. Cross-site generalisation is evaluated on 10 held-out acquisition sites.",
+      "topic_hint": "GCN, autism, rs-fMRI, ABIDE II, functional connectivity, ASD classification",
+      "methodology_hint": "GCN, ABIDE II 1112 subjects, AUC 0.85, accuracy 0.78, SVM baseline, cross-site validation",
+      "claimed_contribution": "GCN for ASD classification from rs-fMRI connectivity graphs, AUC 0.85 with cross-site validation."
+    },
+    {
+      "id": "p008",
+      "title": "Ensemble Methods for Predicting Conversion from MCI to Alzheimer's Disease",
+      "abstract": "Machine learning for neurological clinical decision support extends to prognosis. We develop a random forest ensemble trained on MRI volumetrics, PET SUVRs, and cognitive assessments from the ADNI cohort to predict 3-year conversion from mild cognitive impairment to Alzheimer's disease, achieving AUC 0.84. Conversion prediction is a prognostic task, not a diagnostic classification of current disease state.",
+      "topic_hint": "random forest, MCI to AD conversion, ADNI, prognosis, Alzheimer's progression",
+      "methodology_hint": "random forest, ADNI, MRI+PET+cognitive, AUC 0.84, 3-year conversion prognosis not diagnosis",
+      "claimed_contribution": "Random forest for MCI-to-AD conversion prognosis with AUC 0.84 from multi-modal ADNI data."
+    },
+    {
+      "id": "p009",
+      "title": "Convolutional Network for Automated Intracranial Haemorrhage Detection in Non-Contrast CT",
+      "abstract": "We train a DenseNet-121 on 36,000 head CT scans to detect intracranial haemorrhage subtypes including epidural, subdural, subarachnoid, and intraparenchymal haemorrhage. The model achieves AUC 0.97 on the RSNA Intracranial Hemorrhage dataset and reduces radiologist time-to-flagging by 41% in an emergency workflow simulation.",
+      "topic_hint": "DenseNet, intracranial haemorrhage, head CT, emergency radiology, detection",
+      "methodology_hint": "DenseNet-121, 36k head CTs, RSNA benchmark, AUC 0.97, emergency workflow time reduction 41%",
+      "claimed_contribution": "DenseNet ICH detector with AUC 0.97 on RSNA benchmark, reducing time-to-flagging 41% in emergency workflow."
+    },
+    {
+      "id": "p010",
+      "title": "Transfer Learning for Sleep Stage Classification from Wrist Actigraphy",
+      "abstract": "Machine learning for neurological clinical decision support includes sleep disorder management. We apply transfer learning from PSG-trained models to wrist actigraphy for five-stage sleep classification. Cohen's kappa of 0.61 is achieved against PSG ground truth. Sleep staging guides treatment planning for insomnia and sleep apnoea; it does not provide a primary neurological diagnosis.",
+      "topic_hint": "transfer learning, sleep staging, actigraphy, PSG, wrist sensor, sleep disorders",
+      "methodology_hint": "transfer learning, actigraphy, five-stage sleep, kappa 0.61, treatment guidance not neurological diagnosis",
+      "claimed_contribution": "Transfer learning for five-stage sleep classification from wrist actigraphy with kappa 0.61 vs PSG."
+    },
+    {
+      "id": "p011",
+      "title": "Sparse Transformer for Early Parkinson's Disease Detection from Olfactory fMRI Patterns",
+      "abstract": "We develop a sparse transformer trained on task-based olfactory fMRI from 280 Parkinson's patients and 280 age-matched controls to detect early-stage disease before motor symptom onset. The model achieves AUC 0.88 and accuracy 0.82, outperforming standard ROI-based SVM analysis. Longitudinal follow-up confirms 76% of detected pre-motor positives developed motor symptoms within 3 years.",
+      "topic_hint": "sparse transformer, olfactory fMRI, Parkinson's early detection, pre-motor phase",
+      "methodology_hint": "sparse transformer, olfactory fMRI, 280 PD + 280 controls, AUC 0.88, SVM baseline, longitudinal validation",
+      "claimed_contribution": "Sparse transformer for pre-motor Parkinson's detection from olfactory fMRI with AUC 0.88."
+    },
+    {
+      "id": "p012",
+      "title": "Federated Learning for Privacy-Preserving Neuroimaging Studies Across Sites",
+      "abstract": "Machine learning for neurological clinical decision support is limited by small single-site datasets. We implement federated learning to train Alzheimer's classification models across 12 sites without transferring patient MRI data. The federated model matches centralised AUC 0.88 under differential privacy guarantees. Note: this paper presents a federated training methodology, not a new diagnostic model.",
+      "topic_hint": "federated learning, neuroimaging, Alzheimer's, privacy, multi-site",
+      "methodology_hint": "federated learning methodology, 12 sites, AUC 0.88, differential privacy, methodology not new diagnostic model",
+      "claimed_contribution": "Federated training framework for neuroimaging matching centralised AUC 0.88 under differential privacy."
+    },
+    {
+      "id": "p013",
+      "title": "LSTM for Automated Migraine Episode Detection from Wearable Sensor Streams",
+      "abstract": "We train an LSTM on continuous data from wearable sensors (PPG, galvanic skin response, accelerometry) from 180 migraine patients to detect migraine episode onset within a 2-hour window. Sensitivity of 0.82 and specificity of 0.88 are achieved on a held-out test set of 30 participants. The model outperforms threshold-based and random forest baselines.",
+      "topic_hint": "LSTM, migraine detection, wearable sensor, PPG, galvanic skin response, headache diagnosis",
+      "methodology_hint": "LSTM, wearable multi-sensor, 180 patients, sensitivity 0.82, specificity 0.88, threshold and RF baselines",
+      "claimed_contribution": "LSTM for wearable-based migraine onset detection with sensitivity 0.82 and specificity 0.88."
+    },
+    {
+      "id": "p014",
+      "title": "Causal Discovery in Resting-State fMRI for Effective Connectivity Analysis",
+      "abstract": "We apply causal discovery algorithms including PC and FCI to resting-state fMRI from 200 healthy volunteers to reconstruct effective connectivity graphs. Directed connectivity patterns are compared to known anatomical tracts from diffusion tractography. No diagnostic model is developed; this is a neuroscience methods paper.",
+      "topic_hint": "causal discovery, effective connectivity, fMRI, PC algorithm, neuroscience methods",
+      "methodology_hint": "PC and FCI causal discovery, resting-state fMRI, 200 healthy subjects, neuroscience only no diagnosis",
+      "claimed_contribution": "Causal discovery of effective connectivity from resting-state fMRI validated against tractography."
+    },
+    {
+      "id": "p015",
+      "title": "CNN-LSTM Hybrid for Automated Tourette Syndrome Tic Classification from Video",
+      "abstract": "We develop a CNN-LSTM architecture that processes body landmark trajectories extracted from clinical video recordings to classify Tourette syndrome tic types (motor vs phonic, simple vs complex) in 220 paediatric patients. The model achieves macro-F1 of 0.76 on a held-out test set of 40 patients, outperforming human observer agreement. Deployment requires only a standard webcam.",
+      "topic_hint": "CNN-LSTM, Tourette syndrome, tic classification, video analysis, paediatric neurology",
+      "methodology_hint": "CNN-LSTM, body landmark trajectories, 220 patients, macro-F1 0.76, observer agreement comparison, webcam deployment",
+      "claimed_contribution": "CNN-LSTM for Tourette tic classification from video with macro-F1 0.76 using standard webcam."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "INCLUDE",
+      "p002": "EXCLUDE",
+      "p003": "INCLUDE",
+      "p004": "EXCLUDE",
+      "p005": "INCLUDE",
+      "p006": "EXCLUDE",
+      "p007": "INCLUDE",
+      "p008": "EXCLUDE",
+      "p009": "INCLUDE",
+      "p010": "EXCLUDE",
+      "p011": "INCLUDE",
+      "p012": "EXCLUDE",
+      "p013": "INCLUDE",
+      "p014": "EXCLUDE",
+      "p015": "INCLUDE"
+    }
+  }
+}

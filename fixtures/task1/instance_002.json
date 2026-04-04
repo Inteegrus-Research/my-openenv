@@ -1,0 +1,101 @@
+{
+  "task_id": "task1",
+  "instance_id": "instance_002",
+  "task_description": "Screen each abstract for relevance to: natural language processing for scientific information extraction. Label RELEVANT if the paper presents or evaluates an NLP system designed to extract structured information (entities, relations, facts) from scientific or technical text. Label NOT_RELEVANT otherwise.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "SciBERT for Biomedical Named Entity Recognition",
+      "abstract": "We fine-tune SciBERT on annotated biomedical literature to recognise genes, diseases, chemicals, and species as named entities. Our model achieves F1 of 0.91 on the BioNLP 2011 benchmark, establishing a new state of the art for biomedical NER.",
+      "topic_hint": "NLP, biomedical NER, scientific text",
+      "methodology_hint": "SciBERT fine-tuning, BioNLP benchmark, F1",
+      "claimed_contribution": "SciBERT-based biomedical NER achieving F1 0.91 on BioNLP 2011."
+    },
+    {
+      "id": "p002",
+      "title": "Relation Extraction from Scientific Literature Using Distant Supervision",
+      "abstract": "We apply distant supervision to automatically label protein-protein interaction sentences in PubMed abstracts using a curated interaction database as a knowledge base. A BERT-based classifier trained on these labels achieves precision 0.82 and recall 0.79 on a manually annotated test set.",
+      "topic_hint": "NLP, relation extraction, distant supervision",
+      "methodology_hint": "distant supervision, BERT, precision/recall, PubMed",
+      "claimed_contribution": "Distant-supervised protein interaction extractor with precision 0.82 and recall 0.79."
+    },
+    {
+      "id": "p003",
+      "title": "Chemical Compound Extraction from Patent Text",
+      "abstract": "We develop a pipeline for extracting chemical compound names and their associated properties from pharmaceutical patent documents. Using a combination of chemistry-specific tokenization and a CRF-based sequence tagger, we achieve F1 of 0.88 on the ChemDNER benchmark.",
+      "topic_hint": "NLP, chemistry, patent mining",
+      "methodology_hint": "CRF, chemical NER, ChemDNER benchmark",
+      "claimed_contribution": "Chemical compound extraction pipeline achieving F1 0.88 on ChemDNER patent benchmark."
+    },
+    {
+      "id": "p004",
+      "title": "Scientific Claim Verification with Evidence Retrieval",
+      "abstract": "We address the task of verifying scientific claims against a corpus of research abstracts. Our system combines dense passage retrieval with a BERT-based natural language inference module, achieving 0.84 F1 on the SciFact benchmark for claim verification.",
+      "topic_hint": "NLP, fact verification, information retrieval",
+      "methodology_hint": "dense retrieval, BERT NLI, SciFact benchmark",
+      "claimed_contribution": "Scientific claim verification system achieving F1 0.84 on SciFact via retrieval-augmented NLI."
+    },
+    {
+      "id": "p005",
+      "title": "Automated Knowledge Graph Construction from Biomedical Literature",
+      "abstract": "We present an end-to-end system that extracts entities and relations from biomedical abstracts and integrates them into a knowledge graph. Evaluated on manual extraction from 5,000 PubMed abstracts, our system achieves relation F1 of 0.76 and entity linking accuracy of 0.91.",
+      "topic_hint": "NLP, knowledge graph, entity linking",
+      "methodology_hint": "end-to-end IE, entity linking, relation extraction, PubMed evaluation",
+      "claimed_contribution": "Biomedical knowledge graph construction system with relation F1 0.76 and entity linking 0.91."
+    },
+    {
+      "id": "p006",
+      "title": "Generative Adversarial Networks for High-Resolution Image Synthesis",
+      "abstract": "We introduce StyleGAN3, an alias-free generative model that eliminates texture sticking artefacts in high-resolution image synthesis. Our architecture decouples style from structure using Fourier features, achieving state-of-the-art FID scores on FFHQ and AFHQv2 benchmarks.",
+      "topic_hint": "computer vision, GANs, image generation",
+      "methodology_hint": "GAN, Fourier features, FID score",
+      "claimed_contribution": "Alias-free GAN with state-of-the-art FID on face and animal image benchmarks."
+    },
+    {
+      "id": "p007",
+      "title": "Robotic Arm Motion Planning with Riemannian Geometry",
+      "abstract": "We formulate robotic arm motion planning as geodesic computation on a Riemannian manifold defined by joint configuration space. Our planner avoids local minima common in potential field methods and scales to 7-DOF arms, reducing planning time by 60% versus RRT*.",
+      "topic_hint": "robotics, motion planning, Riemannian geometry",
+      "methodology_hint": "Riemannian manifold, geodesic, RRT* comparison",
+      "claimed_contribution": "Riemannian motion planner for 7-DOF arms, 60% faster planning than RRT*."
+    },
+    {
+      "id": "p008",
+      "title": "Ensemble Weather Forecasting Using Numerical Weather Prediction",
+      "abstract": "We develop a 50-member ensemble NWP system with stochastic parameterisation of sub-grid convection. Validated against ECMWF ERA5 reanalysis, our ensemble achieves better-calibrated precipitation forecasts at 48-hour lead times compared to deterministic NWP runs.",
+      "topic_hint": "meteorology, numerical weather prediction, ensemble forecasting",
+      "methodology_hint": "ensemble NWP, stochastic parameterisation, ECMWF comparison",
+      "claimed_contribution": "50-member ensemble NWP with better-calibrated precipitation at 48-hour lead times."
+    },
+    {
+      "id": "p009",
+      "title": "Reinforcement Learning for Atari Game Playing",
+      "abstract": "We train a deep Q-network agent to achieve superhuman performance on 57 Atari games using only raw pixel inputs and game scores. Our agent achieves median normalised performance of 490% versus human experts, improving on prior DQN and PPO baselines.",
+      "topic_hint": "reinforcement learning, Atari, game playing",
+      "methodology_hint": "DQN, PPO, pixel input, Atari benchmark",
+      "claimed_contribution": "DQN agent achieving 490% median normalised performance on 57 Atari games."
+    },
+    {
+      "id": "p010",
+      "title": "Low-Power Video Codec Design for Mobile Streaming",
+      "abstract": "We present an H.266-compatible video codec architecture optimised for real-time encoding on mobile SoCs. Our design uses adaptive quantisation and hardware-accelerated motion estimation to achieve 4K30 encoding at under 500 mW, enabling battery-efficient video streaming.",
+      "topic_hint": "video compression, codec design, mobile hardware",
+      "methodology_hint": "H.266, adaptive quantisation, hardware acceleration, power benchmarking",
+      "claimed_contribution": "H.266-compatible mobile codec achieving 4K30 encoding under 500 mW."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "RELEVANT",
+      "p002": "RELEVANT",
+      "p003": "RELEVANT",
+      "p004": "RELEVANT",
+      "p005": "RELEVANT",
+      "p006": "NOT_RELEVANT",
+      "p007": "NOT_RELEVANT",
+      "p008": "NOT_RELEVANT",
+      "p009": "NOT_RELEVANT",
+      "p010": "NOT_RELEVANT"
+    }
+  }
+}

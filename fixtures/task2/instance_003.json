@@ -1,0 +1,113 @@
+{
+  "task_id": "task2",
+  "instance_id": "instance_003",
+  "task_description": "Screen each abstract for relevance to deep learning for medical imaging, and rate methodological quality.\n\nRelevance: RELEVANT if the paper develops or evaluates a deep learning system for interpreting medical images. NOT_RELEVANT otherwise.\n\nQuality rubric:\n  1 = No methodology described.\n  2 = Methodology mentioned but vague; no metrics or baselines.\n  3 = Methodology described with evaluation metrics and dataset details.\n  4 = Methodology with metrics, multiple baselines, ablations, or statistical significance.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "Self-Supervised Learning for Retinal Layer Segmentation in OCT",
+      "abstract": "We pretrain an encoder on 500,000 unlabelled OCT scans using masked autoencoding, then fine-tune on 2,000 annotated scans for retinal layer segmentation. Compared to fully supervised training, our approach improves Dice by 4 points and requires 80% less labelled data. Ablations over pretraining strategy and fine-tuning data fraction are included.",
+      "topic_hint": "self-supervised learning, OCT, retinal segmentation",
+      "methodology_hint": "masked autoencoding, semi-supervised fine-tuning, Dice, ablations over data fraction",
+      "claimed_contribution": "Self-supervised pretraining for OCT segmentation improving Dice 4 points with 80% fewer labels."
+    },
+    {
+      "id": "p002",
+      "title": "Towards AI-Assisted Radiology: Opportunities and Pitfalls",
+      "abstract": "We discuss the opportunities and risks of deploying deep learning systems in clinical radiology. Key themes include distribution shift, regulatory hurdles, and the importance of prospective validation. No experiments are presented; this is a perspective article.",
+      "topic_hint": "radiology AI, perspective, clinical deployment",
+      "methodology_hint": "perspective article, no experiments",
+      "claimed_contribution": "Discussion of challenges and opportunities for AI deployment in radiology."
+    },
+    {
+      "id": "p003",
+      "title": "3D Dense Prediction for Cardiac MRI Segmentation",
+      "abstract": "We design a 3D dense prediction network for simultaneous segmentation of four cardiac chambers and the aorta from short-axis MRI. Evaluated on the ACDC challenge, our model achieves mean Dice 0.91 and outperforms 2D slice-by-slice and 2.5D baselines with and without post-processing.",
+      "topic_hint": "deep learning, cardiac MRI, 3D segmentation",
+      "methodology_hint": "3D dense prediction, ACDC challenge, Dice, 2D/2.5D baselines, post-processing ablation",
+      "claimed_contribution": "3D cardiac MRI segmentation network achieving Dice 0.91 on ACDC, beating 2D and 2.5D baselines."
+    },
+    {
+      "id": "p004",
+      "title": "CNN for Skin Lesion Classification on Dermoscopy Images",
+      "abstract": "We train a MobileNetV3 classifier on the ISIC 2020 dataset to distinguish malignant melanoma from benign nevi. Our model achieves AUC 0.89 on the ISIC 2020 test set, with performance comparable to dermatologists in an informal reader study described without statistical tests.",
+      "topic_hint": "CNN, dermoscopy, melanoma classification",
+      "methodology_hint": "MobileNetV3, ISIC 2020, AUC, informal reader study without statistics",
+      "claimed_contribution": "MobileNetV3 melanoma classifier with AUC 0.89 and informal dermatologist comparison."
+    },
+    {
+      "id": "p005",
+      "title": "Uncertainty Quantification in Chest X-Ray Pathology Detection",
+      "abstract": "We train an ensemble of 10 DenseNet-121 models for chest X-ray classification and use ensemble disagreement as an uncertainty estimate. On CheXpert, our ensemble achieves mean AUC 0.92 and calibrated uncertainty that correlates with pathologist agreement. We compare against MC Dropout and temperature scaling baselines.",
+      "topic_hint": "uncertainty estimation, chest X-ray, ensemble methods",
+      "methodology_hint": "DenseNet ensemble, CheXpert, AUC, MC Dropout and temperature scaling baselines",
+      "claimed_contribution": "Ensemble chest X-ray classifier with AUC 0.92 and calibrated uncertainty, benchmarked against baselines."
+    },
+    {
+      "id": "p006",
+      "title": "Curriculum Learning for Low-Resource Language Modelling",
+      "abstract": "We study curriculum learning strategies for training language models on low-resource languages. Ordering training examples by sentence length or perplexity improves perplexity by 8% versus random ordering on Swahili and Tamil benchmarks, with consistent gains across model sizes.",
+      "topic_hint": "NLP, curriculum learning, low-resource languages",
+      "methodology_hint": "curriculum strategies, perplexity, Swahili and Tamil benchmarks",
+      "claimed_contribution": "Curriculum learning reducing perplexity 8% for low-resource language models on Swahili and Tamil."
+    },
+    {
+      "id": "p007",
+      "title": "Topology Optimisation for Structural Engineering Under Uncertainty",
+      "abstract": "We develop a level-set topology optimisation method that accounts for uncertain material properties and loading conditions. Applied to 2D and 3D structural engineering problems, our robust formulation reduces worst-case compliance by 15% compared to deterministic topology optimisation.",
+      "topic_hint": "structural engineering, topology optimisation, uncertainty",
+      "methodology_hint": "level-set method, robust optimisation, 3D structural problems, deterministic comparison",
+      "claimed_contribution": "Robust topology optimisation reducing worst-case compliance 15% versus deterministic methods."
+    },
+    {
+      "id": "p008",
+      "title": "Numerical Schemes for Incompressible Navier-Stokes on Unstructured Meshes",
+      "abstract": "We develop a high-order finite volume scheme for incompressible Navier-Stokes equations on unstructured meshes, using a compact stencil with WENO reconstruction. Validated on lid-driven cavity and backward-facing step benchmarks, our scheme achieves fourth-order spatial accuracy.",
+      "topic_hint": "computational fluid dynamics, Navier-Stokes, finite volume",
+      "methodology_hint": "WENO finite volume, unstructured mesh, spatial order verification",
+      "claimed_contribution": "Fourth-order finite volume scheme for incompressible Navier-Stokes on unstructured meshes."
+    },
+    {
+      "id": "p009",
+      "title": "Graph Colouring Algorithms for Register Allocation in Compilers",
+      "abstract": "We revisit graph colouring heuristics for register allocation in LLVM and propose a new interference graph coarsening strategy. On SPEC CPU 2017, our method reduces spill code by 12% and compilation time by 8% versus the standard Chaitin-Briggs allocator.",
+      "topic_hint": "compilers, register allocation, graph colouring",
+      "methodology_hint": "interference graph, LLVM, SPEC CPU 2017, Chaitin-Briggs comparison",
+      "claimed_contribution": "Interference graph coarsening reducing spill code 12% and compilation time 8% on SPEC CPU 2017."
+    },
+    {
+      "id": "p010",
+      "title": "Predator-Prey Population Dynamics with Stochastic Harvesting",
+      "abstract": "We analyse a stochastic predator-prey model with seasonal harvesting using Itô calculus and mean-field approximations. We derive conditions for persistence and extinction and validate the analytical results against Monte Carlo simulations of the full stochastic system.",
+      "topic_hint": "ecology, population dynamics, stochastic modelling",
+      "methodology_hint": "Itô calculus, mean-field, Monte Carlo validation",
+      "claimed_contribution": "Persistence and extinction conditions for stochastic predator-prey system with seasonal harvesting."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "RELEVANT",
+      "p002": "RELEVANT",
+      "p003": "RELEVANT",
+      "p004": "RELEVANT",
+      "p005": "RELEVANT",
+      "p006": "NOT_RELEVANT",
+      "p007": "NOT_RELEVANT",
+      "p008": "NOT_RELEVANT",
+      "p009": "NOT_RELEVANT",
+      "p010": "NOT_RELEVANT"
+    },
+    "quality_scores": {
+      "p001": 4,
+      "p002": 1,
+      "p003": 4,
+      "p004": 2,
+      "p005": 4,
+      "p006": 3,
+      "p007": 3,
+      "p008": 3,
+      "p009": 3,
+      "p010": 3
+    }
+  }
+}

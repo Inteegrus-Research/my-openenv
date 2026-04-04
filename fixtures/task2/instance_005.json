@@ -1,0 +1,113 @@
+{
+  "task_id": "task2",
+  "instance_id": "instance_005",
+  "task_description": "Screen each abstract for relevance to machine learning applications in biomedical research, and rate each paper's methodological quality using the rubric below.\n\nRelevance: RELEVANT if the paper directly applies ML methods to a biomedical problem involving human health, disease, or biological data. NOT_RELEVANT otherwise.\n\nQuality rubric:\n  1 = No methodology described.\n  2 = Methodology mentioned but vague; no metrics or baselines provided.\n  3 = Methodology described with evaluation metrics and dataset details.\n  4 = Methodology described with reproducible details, ablation studies, and baseline comparisons.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "Graph Attention Network for Multi-Omics Cancer Subtype Classification",
+      "abstract": "We develop a graph attention network that integrates mRNA expression, copy number variation, and DNA methylation from 3,600 TCGA samples across 12 cancer types to predict molecular subtypes. The model achieves micro-F1 of 0.87, outperforming PCA+SVM, SNF, and MOGONET baselines. Attention weights identify known biomarker genes for six cancer subtypes, and an ablation study quantifies each omics modality's contribution.",
+      "topic_hint": "graph attention network, multi-omics, TCGA, cancer subtype, molecular classification",
+      "methodology_hint": "GAT, TCGA 3600 samples, micro-F1 0.87, PCA+SVM/SNF/MOGONET baselines, ablation of omics modalities",
+      "claimed_contribution": "GAT for multi-omics cancer subtyping with micro-F1 0.87, ablation, and biomarker attention weights."
+    },
+    {
+      "id": "p002",
+      "title": "Quantum Algorithms for Optimisation: A Complexity-Theoretic Perspective",
+      "abstract": "We analyse the computational complexity of variational quantum eigensolvers and quantum approximate optimisation algorithms for combinatorial problems. Our results establish tighter approximation ratio bounds and identify problem classes where quantum advantage is unlikely under standard complexity assumptions. No biomedical data or machine learning application is presented.",
+      "topic_hint": "quantum algorithms, variational quantum eigensolver, QAOA, complexity theory",
+      "methodology_hint": "complexity analysis, approximation ratio bounds, quantum circuit theory, no empirical data",
+      "claimed_contribution": "Complexity-theoretic bounds on quantum optimisation algorithms identifying unlikely quantum advantage classes."
+    },
+    {
+      "id": "p003",
+      "title": "Deep Learning for Neoantigen Prioritisation in Cancer Immunotherapy",
+      "abstract": "We train a transformer-based model to predict neoantigen immunogenicity from HLA-peptide binding affinity, T-cell receptor contact scores, and tumour mutational burden features. Evaluated on 12 clinical trial datasets, the model achieves AUROC 0.79 for predicting immunotherapy responders. We compare against NetMHCpan and MixMHCpred baselines and provide feature importance analysis.",
+      "topic_hint": "transformer, neoantigen, immunotherapy, HLA, peptide binding, cancer immunology",
+      "methodology_hint": "transformer, AUROC 0.79, 12 clinical trial datasets, NetMHCpan/MixMHCpred baselines, feature importance",
+      "claimed_contribution": "Transformer for neoantigen immunogenicity prediction with AUROC 0.79 across 12 clinical trial datasets."
+    },
+    {
+      "id": "p004",
+      "title": "Federated Machine Learning for Financial Fraud Detection Across Banking Institutions",
+      "abstract": "We apply federated learning to train fraud detection models across 15 banking institutions without sharing customer transaction data. The federated ensemble achieves AUC 0.93 matching centralised training while satisfying GDPR constraints. This work focuses on financial data; no biomedical application is presented.",
+      "topic_hint": "federated learning, fraud detection, banking, transaction data, GDPR",
+      "methodology_hint": "federated ensemble, 15 banks, AUC 0.93, GDPR compliance, financial domain only",
+      "claimed_contribution": "Federated fraud detection matching centralised AUC 0.93 across 15 banking institutions under GDPR."
+    },
+    {
+      "id": "p005",
+      "title": "Recurrent Variational Autoencoder for Longitudinal EHR Trajectory Modelling",
+      "abstract": "We develop a recurrent VAE trained on 500,000 longitudinal EHR records to model disease progression trajectories. The latent space encodes patient health states and enables 12-month ahead prediction of disease transitions. Machine learning for biomedical longitudinal data offers scalable patient stratification.",
+      "topic_hint": "recurrent VAE, EHR, longitudinal modelling, disease progression, patient stratification",
+      "methodology_hint": "recurrent VAE, 500k EHR records, 12-month prediction, disease transition modelling — no baseline or metric comparison",
+      "claimed_contribution": "Recurrent VAE for EHR disease trajectory modelling enabling 12-month disease transition prediction."
+    },
+    {
+      "id": "p006",
+      "title": "Natural Language Processing for Scientific Literature: A Survey",
+      "abstract": "We survey NLP methods applied to scientific literature including information extraction, citation network analysis, and automated summarisation. Applications span chemistry, biology, and clinical medicine. No new model is proposed; this is a review article.",
+      "topic_hint": "NLP, scientific literature, information extraction, citation analysis, survey",
+      "methodology_hint": "review article, no new model, no empirical evaluation, survey of NLP methods",
+      "claimed_contribution": "Survey of NLP methods for scientific literature extraction, citation analysis, and summarisation."
+    },
+    {
+      "id": "p007",
+      "title": "Self-Supervised Contrastive Learning for Protein Remote Homology Detection",
+      "abstract": "We apply contrastive self-supervised pre-training to sequences of 12 million UniRef50 proteins to learn representations for remote homology detection. Pre-trained encoders achieve AUC 0.91 on the SCOP remote homology benchmark, outperforming PSI-BLAST, ESM-1b, and ProtBERT baselines. An ablation study isolates the contribution of contrastive loss versus masked language modelling.",
+      "topic_hint": "contrastive learning, protein homology, UniRef, SCOP, protein representation",
+      "methodology_hint": "contrastive pre-training, 12M UniRef50, SCOP benchmark, AUC 0.91, ESM/ProtBERT baselines, ablation",
+      "claimed_contribution": "Contrastive protein pre-training achieving AUC 0.91 on remote homology with ablation of training objectives."
+    },
+    {
+      "id": "p008",
+      "title": "Sparse Bayesian Regression for Genome-Wide Association Studies",
+      "abstract": "We apply spike-and-slab Bayesian regression with variational inference to genome-wide association study (GWAS) data from 200,000 UK Biobank participants for type 2 diabetes. The model identifies 42 novel loci not detected by standard LASSO regression and achieves better prediction AUC on a held-out cohort of 30,000 individuals. Posterior inclusion probabilities provide interpretable variant rankings.",
+      "topic_hint": "Bayesian regression, GWAS, UK Biobank, type 2 diabetes, variant association",
+      "methodology_hint": "spike-and-slab Bayesian regression, UK Biobank 200k, 42 novel loci, LASSO comparison, AUC on 30k holdout",
+      "claimed_contribution": "Spike-and-slab Bayesian GWAS identifying 42 novel diabetes loci with better prediction than LASSO."
+    },
+    {
+      "id": "p009",
+      "title": "Neural Network for Clinical Trial Success Prediction",
+      "abstract": "Machine learning has been suggested as a way to improve clinical trial efficiency. We are developing a neural network to predict clinical trial phase transitions from molecular and clinical features. Preliminary results on a small internal dataset are promising.",
+      "topic_hint": "neural network, clinical trial, phase prediction, drug development",
+      "methodology_hint": "neural network, small internal dataset, no specific metrics, preliminary results mentioned only",
+      "claimed_contribution": "Neural network under development for clinical trial success prediction from molecular features."
+    },
+    {
+      "id": "p010",
+      "title": "Knowledge Graph Embedding for Multi-Hop Drug Repurposing",
+      "abstract": "We apply TransE, RotatE, and ComplEx knowledge graph embedding methods to a biomedical knowledge graph containing 800,000 entities and 4.2 million relations to discover drug repurposing candidates via multi-hop link prediction. The best-performing model (RotatE) achieves hits@10 of 0.47 on a held-out test set of known drug-disease associations. Twelve repurposing candidates are evaluated for chemical plausibility.",
+      "topic_hint": "knowledge graph embedding, drug repurposing, TransE, RotatE, link prediction",
+      "methodology_hint": "TransE/RotatE/ComplEx comparison, 800k entities, hits@10 0.47, held-out drug-disease test set",
+      "claimed_contribution": "Knowledge graph embedding for multi-hop drug repurposing with hits@10 0.47 on known drug-disease associations."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "RELEVANT",
+      "p002": "NOT_RELEVANT",
+      "p003": "RELEVANT",
+      "p004": "NOT_RELEVANT",
+      "p005": "RELEVANT",
+      "p006": "NOT_RELEVANT",
+      "p007": "RELEVANT",
+      "p008": "RELEVANT",
+      "p009": "RELEVANT",
+      "p010": "RELEVANT"
+    },
+    "quality_scores": {
+      "p001": 4,
+      "p002": 2,
+      "p003": 3,
+      "p004": 3,
+      "p005": 2,
+      "p006": 1,
+      "p007": 4,
+      "p008": 3,
+      "p009": 2,
+      "p010": 3
+    }
+  }
+}

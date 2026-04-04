@@ -1,0 +1,147 @@
+{
+  "task_id": "task3",
+  "instance_id": "instance_002",
+  "budget": 15,
+  "task_description": "Screen each abstract for a systematic review on ML methods for early disease detection. INCLUDE a paper only if it presents or evaluates an ML system for detecting a disease at an early or preclinical stage, using patient data (imaging, EHR, genomics, biomarkers). EXCLUDE papers about disease prognosis after diagnosis, drug discovery, hospital operations, and non-ML statistical methods.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "Deep CNN for Early Lung Cancer Detection in Low-Dose CT Screening",
+      "abstract": "We train a 3D convolutional network on 15,000 low-dose CT scans from the National Lung Screening Trial to detect early-stage (Stage I/II) lung cancer. Our model achieves sensitivity 0.94 at one false positive per scan and outperforms radiologist performance on the NLST screening cohort.",
+      "topic_hint": "CNN, lung cancer, CT screening",
+      "methodology_hint": "3D CNN, NLST, sensitivity/FP rate, radiologist comparison",
+      "claimed_contribution": "3D CNN for early lung cancer detection with sensitivity 0.94 at 1 FP/scan, outperforming radiologists."
+    },
+    {
+      "id": "p002",
+      "title": "Recurrent Networks for Prediabetes Identification from EHR Time Series",
+      "abstract": "We develop an LSTM model trained on longitudinal EHR data to identify patients at risk of developing type 2 diabetes before clinical diagnosis. Our model identifies 72% of future diabetes cases 18 months before diagnosis, with a 12% false positive rate.",
+      "topic_hint": "LSTM, prediabetes, EHR time series",
+      "methodology_hint": "LSTM, longitudinal EHR, 18-month lead time, sensitivity/specificity",
+      "claimed_contribution": "LSTM prediabetes risk model identifying 72% of future cases 18 months before diagnosis."
+    },
+    {
+      "id": "p003",
+      "title": "Transformer Model for Early Alzheimer's Detection from Speech Features",
+      "abstract": "We extract acoustic and linguistic features from brief speech samples and train a transformer classifier to identify early cognitive impairment consistent with Alzheimer's disease. Evaluated on the DementiaBank corpus, our model achieves AUC 0.88, outperforming prior handcrafted feature baselines.",
+      "topic_hint": "transformer, Alzheimer detection, speech analysis",
+      "methodology_hint": "speech features, DementiaBank, AUC, handcrafted baseline comparison",
+      "claimed_contribution": "Transformer for early Alzheimer's detection from speech with AUC 0.88 on DementiaBank."
+    },
+    {
+      "id": "p004",
+      "title": "CNN for Early Glaucoma Detection from Optic Disc Photographs",
+      "abstract": "We train a ResNet-based model to detect early-stage glaucoma from colour optic disc photographs before visual field loss occurs. Evaluated on a 5,000-patient prospective screening cohort, our model achieves AUC 0.91 and identifies cases missed by standard cup-to-disc ratio criteria.",
+      "topic_hint": "CNN, glaucoma detection, optic disc imaging",
+      "methodology_hint": "ResNet, prospective cohort, AUC, cup-to-disc ratio comparison",
+      "claimed_contribution": "ResNet glaucoma detector with AUC 0.91, identifying cases missed by cup-to-disc ratio screening."
+    },
+    {
+      "id": "p005",
+      "title": "Polygenic Risk Score Plus ML for Early Colorectal Cancer Risk Stratification",
+      "abstract": "We combine polygenic risk scores with clinical risk factors in an XGBoost classifier to stratify colorectal cancer risk for screening prioritisation. Evaluated on UK Biobank, our combined model achieves AUC 0.78, significantly outperforming PRS or clinical factors alone.",
+      "topic_hint": "machine learning, polygenic risk, colorectal cancer screening",
+      "methodology_hint": "XGBoost, PRS, UK Biobank, AUC, comparison to PRS-only baseline",
+      "claimed_contribution": "XGBoost colorectal cancer risk stratifier combining PRS and clinical factors with AUC 0.78."
+    },
+    {
+      "id": "p006",
+      "title": "Graph Neural Network for Early Sepsis Detection from ICU Vital Sign Streams",
+      "abstract": "We model temporal relationships between ICU vital signs and lab values as a dynamic graph and train a GNN to detect early sepsis. Our model achieves AUROC 0.90 at 4-hour lead time, outperforming SOFA score and prior LSTM-based approaches.",
+      "topic_hint": "GNN, sepsis detection, vital signs",
+      "methodology_hint": "dynamic graph, GNN, AUROC, SOFA and LSTM comparison",
+      "claimed_contribution": "GNN early sepsis detector with AUROC 0.90 at 4-hour lead time, outperforming SOFA and LSTM."
+    },
+    {
+      "id": "p007",
+      "title": "Self-Supervised Contrastive Learning for Breast Cancer Risk from Mammography",
+      "abstract": "We pretrain a contrastive learning encoder on 300,000 unlabelled mammograms and fine-tune for breast cancer risk prediction. Our model achieves AUC 0.82 on an independent screening cohort and identifies high-risk patients not captured by standard mammographic density measures.",
+      "topic_hint": "self-supervised learning, mammography, breast cancer risk",
+      "methodology_hint": "contrastive pretraining, mammography, AUC, density measure comparison",
+      "claimed_contribution": "Contrastive mammography model for breast cancer risk with AUC 0.82 beyond density measures."
+    },
+    {
+      "id": "p008",
+      "title": "BERT-Based Screening of EHR Notes for Undiagnosed Autoimmune Conditions",
+      "abstract": "We fine-tune a clinical BERT model to screen free-text EHR notes for patients with symptoms consistent with undiagnosed autoimmune disease. Evaluated against rheumatologist review of 1,000 patient records, our system identifies 68% of subsequently confirmed autoimmune cases.",
+      "topic_hint": "BERT, clinical NLP, autoimmune detection",
+      "methodology_hint": "clinical BERT, EHR notes, rheumatologist review, detection rate",
+      "claimed_contribution": "Clinical BERT screening for undiagnosed autoimmune conditions identifying 68% of confirmed cases."
+    },
+    {
+      "id": "p009",
+      "title": "Machine Learning Predicts 5-Year Survival in Advanced Colorectal Cancer",
+      "abstract": "Machine learning for early disease detection has shown promise across many cancer types. In this work, we apply XGBoost to predict 5-year survival probability in patients already diagnosed with stage III-IV colorectal cancer using genomic and clinical features. Our model achieves C-index 0.74.",
+      "topic_hint": "machine learning, survival prediction, colorectal cancer",
+      "methodology_hint": "XGBoost, stage III-IV survival, genomic features, C-index",
+      "claimed_contribution": "XGBoost survival predictor for advanced colorectal cancer with C-index 0.74."
+    },
+    {
+      "id": "p010",
+      "title": "Deep Learning for Early Disease Detection: Current ML Methods in Drug Discovery",
+      "abstract": "Early disease detection is a critical goal for healthcare AI. This paper reviews ML approaches applied to drug target identification and lead compound optimisation in the pharmaceutical industry, highlighting recent advances in molecular property prediction and virtual screening.",
+      "topic_hint": "drug discovery, molecular ML, virtual screening",
+      "methodology_hint": "review of drug discovery ML, molecular property prediction",
+      "claimed_contribution": "Review of ML methods for drug target identification and lead optimisation."
+    },
+    {
+      "id": "p011",
+      "title": "Neural Network for Hospital Readmission Risk after Acute Myocardial Infarction",
+      "abstract": "ML methods are increasingly applied for early detection of complications. We train a neural network to predict 30-day readmission after AMI using EHR discharge data. Our model achieves AUROC 0.76 and helps identify patients needing enhanced outpatient follow-up.",
+      "topic_hint": "neural network, readmission prediction, post-AMI",
+      "methodology_hint": "neural network, EHR discharge data, AUROC, readmission prediction",
+      "claimed_contribution": "Neural network AMI readmission predictor with AUROC 0.76 for post-discharge risk stratification."
+    },
+    {
+      "id": "p012",
+      "title": "Logistic Regression for Perioperative Bleeding Risk Assessment",
+      "abstract": "Early detection of high-risk surgical patients is important for patient safety. We develop a logistic regression model using preoperative blood parameters to predict major perioperative bleeding events. Our model achieves AUC 0.71 without employing any machine learning techniques beyond standard regression.",
+      "topic_hint": "logistic regression, bleeding risk, preoperative assessment",
+      "methodology_hint": "logistic regression (not ML), preoperative labs, AUC",
+      "claimed_contribution": "Logistic regression perioperative bleeding risk score with AUC 0.71."
+    },
+    {
+      "id": "p013",
+      "title": "Tensor Decomposition Methods for Hyperspectral Remote Sensing",
+      "abstract": "We develop efficient tensor decomposition algorithms for hyperspectral image unmixing in remote sensing applications. Our non-negative tensor factorisation method achieves better spectral accuracy than matrix-based NMF on aerial mineral mapping datasets.",
+      "topic_hint": "remote sensing, tensor decomposition, hyperspectral",
+      "methodology_hint": "non-negative tensor factorisation, hyperspectral unmixing, NMF comparison",
+      "claimed_contribution": "Non-negative tensor factorisation for hyperspectral unmixing outperforming matrix NMF."
+    },
+    {
+      "id": "p014",
+      "title": "Monte Carlo Tree Search for Planning in Stochastic Environments",
+      "abstract": "We develop an MCTS variant with risk-sensitive rollout policies for sequential decision making in stochastic environments. Applied to benchmark planning tasks, our approach achieves better risk-adjusted returns than standard UCB-based MCTS and model-predictive control baselines.",
+      "topic_hint": "MCTS, planning, stochastic environments",
+      "methodology_hint": "MCTS, risk-sensitive rollout, UCB, MPC comparison",
+      "claimed_contribution": "Risk-sensitive MCTS achieving better risk-adjusted planning returns than UCB-MCTS and MPC."
+    },
+    {
+      "id": "p015",
+      "title": "Formal Verification of Safety Properties in Autonomous Systems",
+      "abstract": "We develop a model-checking framework for verifying safety properties in autonomous cyber-physical systems with probabilistic transitions. Our tool scales to systems with 10^8 states and verifies PCTL specifications 10x faster than PRISM on automotive benchmark models.",
+      "topic_hint": "formal methods, model checking, autonomous systems",
+      "methodology_hint": "PCTL, probabilistic model checking, PRISM comparison",
+      "claimed_contribution": "Model checker for probabilistic autonomous systems 10x faster than PRISM on automotive benchmarks."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "INCLUDE",
+      "p002": "INCLUDE",
+      "p003": "INCLUDE",
+      "p004": "INCLUDE",
+      "p005": "INCLUDE",
+      "p006": "INCLUDE",
+      "p007": "INCLUDE",
+      "p008": "INCLUDE",
+      "p009": "EXCLUDE",
+      "p010": "EXCLUDE",
+      "p011": "EXCLUDE",
+      "p012": "EXCLUDE",
+      "p013": "EXCLUDE",
+      "p014": "EXCLUDE",
+      "p015": "EXCLUDE"
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "task_id": "task2",
+  "instance_id": "instance_002",
+  "task_description": "Screen each abstract for relevance to NLP applied to scientific information extraction, and rate methodological quality.\n\nRelevance: RELEVANT if the paper presents or evaluates an NLP system that extracts structured information from scientific text. NOT_RELEVANT otherwise.\n\nQuality rubric:\n  1 = No methodology described.\n  2 = Methodology mentioned but vague; no evaluation metrics or baselines.\n  3 = Methodology described with evaluation metrics and dataset details.\n  4 = Methodology with metrics, multiple baselines, ablations, or statistical significance.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "Cross-Lingual Transfer for Biomedical NER in Low-Resource Languages",
+      "abstract": "We study cross-lingual transfer of biomedical NER from English to Spanish and Portuguese using multilingual BERT. Evaluated on manually annotated corpora for three biomedical entity types, our best model achieves F1 0.79, outperforming translate-and-tag and zero-shot baselines. Ablations quantify the contribution of each pretraining language.",
+      "topic_hint": "NLP, cross-lingual NER, biomedical text",
+      "methodology_hint": "multilingual BERT, cross-lingual transfer, three baselines, ablations",
+      "claimed_contribution": "Cross-lingual biomedical NER achieving F1 0.79 with multilingual BERT and ablation study."
+    },
+    {
+      "id": "p002",
+      "title": "Opportunity and Challenge: NLP for Scientific Discovery",
+      "abstract": "We discuss the potential of NLP to accelerate scientific discovery by automating literature analysis. We describe several possible application areas and highlight open challenges without reporting experimental results. No code or benchmarks are provided.",
+      "topic_hint": "NLP, scientific discovery, position paper",
+      "methodology_hint": "position paper, no experiments",
+      "claimed_contribution": "Overview of NLP opportunities and challenges in scientific literature analysis."
+    },
+    {
+      "id": "p003",
+      "title": "Event Extraction from Clinical Trial Reports",
+      "abstract": "We frame clinical trial information extraction as a structured event extraction task and train a BERT-based system on the PICO benchmark. Our model identifies participants, interventions, comparators, and outcomes with F1 0.83, outperforming prior template-filling and sequence tagging baselines.",
+      "topic_hint": "NLP, event extraction, clinical trials",
+      "methodology_hint": "BERT, PICO benchmark, template-filling and seq-tagging baselines, F1",
+      "claimed_contribution": "BERT event extractor for clinical trial PICO elements achieving F1 0.83."
+    },
+    {
+      "id": "p004",
+      "title": "Table Parsing for Extracting Numerical Results from ML Papers",
+      "abstract": "We build a table-parsing system that extracts numerical performance results from machine learning papers. Using a rule-based table detector and a cell classifier, we achieve 87% accuracy on 500 manually annotated paper tables, though no comparison to prior work is included.",
+      "topic_hint": "NLP, table parsing, results extraction",
+      "methodology_hint": "rule-based table detection, cell classification, 87% accuracy, no baseline comparison",
+      "claimed_contribution": "Table parser extracting ML benchmark results with 87% accuracy on manually annotated tables."
+    },
+    {
+      "id": "p005",
+      "title": "Coreference Resolution for Scientific Entity Tracking in Papers",
+      "abstract": "We extend the SpanBERT coreference resolution model to track scientific entities (datasets, models, metrics) across sections of research papers. Evaluated on 300 papers with crowd-sourced coreference annotations, our model achieves CoNLL F1 0.71, with an ablation showing the impact of scientific entity type embeddings.",
+      "topic_hint": "NLP, coreference resolution, scientific entities",
+      "methodology_hint": "SpanBERT, CoNLL F1, crowd annotation, ablation on entity embeddings",
+      "claimed_contribution": "SpanBERT coreference model for scientific entity tracking achieving CoNLL F1 0.71 with ablation."
+    },
+    {
+      "id": "p006",
+      "title": "Point Cloud Registration for 3D Scene Reconstruction",
+      "abstract": "We propose a learning-based point cloud registration method for aligning partial 3D scans into a coherent scene. Using a cross-attention transformer over local geometric features, we achieve rotation error below 2 degrees and translation error below 5cm on the 3DMatch benchmark.",
+      "topic_hint": "3D vision, point cloud, registration",
+      "methodology_hint": "cross-attention transformer, 3DMatch, rotation and translation error",
+      "claimed_contribution": "Transformer-based point cloud registration with sub-2-degree rotation error on 3DMatch."
+    },
+    {
+      "id": "p007",
+      "title": "Population Genetics Inference from Ancient DNA",
+      "abstract": "We develop a statistical framework for inferring population migration and admixture from ancient DNA samples using a hidden Markov model of haplotype sharing. Applied to 1,200 ancient Eurasian genomes, we recover known migration patterns and identify two previously unreported admixture events.",
+      "topic_hint": "population genetics, ancient DNA, statistical inference",
+      "methodology_hint": "HMM, haplotype sharing, ancient genome analysis",
+      "claimed_contribution": "HMM-based framework identifying two unreported admixture events from 1,200 ancient Eurasian genomes."
+    },
+    {
+      "id": "p008",
+      "title": "Causal Inference for Policy Evaluation in Economics",
+      "abstract": "We apply difference-in-differences and regression discontinuity designs to estimate the causal effect of a minimum wage increase on employment. Using state-level panel data from 2000 to 2020, we find a small but statistically significant negative effect on low-wage employment in treated states.",
+      "topic_hint": "econometrics, causal inference, labour economics",
+      "methodology_hint": "DiD, regression discontinuity, panel data, statistical significance",
+      "claimed_contribution": "Causal evaluation of minimum wage effects using DiD and RD designs on 20 years of state data."
+    },
+    {
+      "id": "p009",
+      "title": "Protein Folding Pathway Simulation with Coarse-Grained MD",
+      "abstract": "We simulate the folding pathway of a 150-residue intrinsically disordered protein using a coarse-grained molecular dynamics model. Our simulations reproduce experimentally measured folding times and identify a metastable intermediate not observed in all-atom simulations due to timescale limitations.",
+      "topic_hint": "computational chemistry, molecular dynamics, protein folding",
+      "methodology_hint": "coarse-grained MD, folding time validation, metastable intermediate",
+      "claimed_contribution": "Coarse-grained MD identifying folding intermediate in 150-residue intrinsically disordered protein."
+    },
+    {
+      "id": "p010",
+      "title": "Distributed Systems Fault Tolerance via Consensus Protocols",
+      "abstract": "We present a Byzantine fault-tolerant consensus protocol that tolerates up to one-third of malicious nodes in asynchronous networks. Our protocol achieves O(n^2) message complexity and maintains safety and liveness under network partitions, with formal proofs provided.",
+      "topic_hint": "distributed systems, consensus protocols, fault tolerance",
+      "methodology_hint": "BFT consensus, message complexity, formal proofs",
+      "claimed_contribution": "Byzantine fault-tolerant consensus protocol with O(n^2) messages and formal safety proofs."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "RELEVANT",
+      "p002": "RELEVANT",
+      "p003": "RELEVANT",
+      "p004": "RELEVANT",
+      "p005": "RELEVANT",
+      "p006": "NOT_RELEVANT",
+      "p007": "NOT_RELEVANT",
+      "p008": "NOT_RELEVANT",
+      "p009": "NOT_RELEVANT",
+      "p010": "NOT_RELEVANT"
+    },
+    "quality_scores": {
+      "p001": 4,
+      "p002": 1,
+      "p003": 4,
+      "p004": 2,
+      "p005": 4,
+      "p006": 3,
+      "p007": 3,
+      "p008": 3,
+      "p009": 3,
+      "p010": 3
+    }
+  }
+}

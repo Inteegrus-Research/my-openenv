@@ -1,0 +1,224 @@
+{
+  "task_id": "task4",
+  "instance_id": "instance_002",
+  "budget": 18,
+  "task_description": "Screen these abstracts for a systematic review on ML methods for automated clinical diagnosis. Produce a ranked top-5 shortlist of the most relevant and methodologically rigorous papers.\n\nINCLUDE only papers that present or evaluate an ML method applied directly to automated clinical diagnosis (disease detection, imaging diagnosis, or differential diagnosis from patient data). Prognosis, treatment selection, drug discovery, and methodology-only papers should be EXCLUDE.\n\nFor each INCLUDE paper: assign rank 1 (best) to 5 (fifth-best) and write one justification sentence (max 200 chars).\n\nQuality rubric: 1=no method; 2=vague method; 3=clear method with metrics; 4=full method with baselines and ablations.",
+  "papers": [
+    {
+      "id": "p001",
+      "title": "Deep Learning for Diabetic Retinopathy Grading in Fundus Photography",
+      "abstract": "We train a ResNet-152 on 220,000 annotated fundus images to grade diabetic retinopathy at five severity levels. Our model achieves quadratic weighted kappa of 0.91 on a prospective test cohort of 15,000 images, outperforming three independent grading systems. Full ablation and calibration analysis are provided.",
+      "topic_hint": "deep learning, ophthalmology, retinopathy grading, fundus imaging",
+      "methodology_hint": "ResNet-152, fundus images, quadratic kappa 0.91, prospective test, ablation, calibration",
+      "claimed_contribution": "ResNet retinopathy grader with kappa 0.91, outperforming three grading systems."
+    },
+    {
+      "id": "p002",
+      "title": "Survival Models for Post-Operative Complication Prediction",
+      "abstract": "Machine learning for postoperative risk is a growing field. We apply a deep survival model to predict 90-day post-operative complication rates from pre-operative assessments of 42,000 elective surgery patients. C-index of 0.77 is achieved. This is a prognostic tool, not a diagnostic system.",
+      "topic_hint": "survival model, postoperative prognosis, surgery risk",
+      "methodology_hint": "deep survival model, C-index 0.77, pre-operative assessment, prognosis",
+      "claimed_contribution": "Deep survival model for 90-day post-operative complication risk with C-index 0.77."
+    },
+    {
+      "id": "p003",
+      "title": "NLP System for Rare Genetic Disorder Identification in Clinical Notes",
+      "abstract": "We fine-tune a clinical BERT variant on 1.4 million discharge summaries to flag patients with undiagnosed Fabry disease. The system achieves precision 0.83 and recall 0.79, enabling earlier referral. We compare against ICD-code rule matching and a logistic regression baseline on a held-out test set from three hospital systems.",
+      "topic_hint": "NLP, rare disease, Fabry disease, clinical notes, diagnosis",
+      "methodology_hint": "clinical BERT, precision 0.83, recall 0.79, ICD rule baseline, LR baseline, multi-site",
+      "claimed_contribution": "Clinical BERT rare-disease detector with P=0.83 R=0.79, validated across three hospital systems."
+    },
+    {
+      "id": "p004",
+      "title": "Reinforcement Learning for Personalised Chemotherapy Dose Optimisation",
+      "abstract": "Machine learning clinical decision support has broad applicability. We apply reinforcement learning to personalise chemotherapy dosing for non-small-cell lung cancer patients. The RL policy reduces grade-3 toxicity events by 19% in a retrospective simulation study. This is a treatment optimisation system.",
+      "topic_hint": "reinforcement learning, chemotherapy, treatment optimisation",
+      "methodology_hint": "RL, chemotherapy dosing, toxicity reduction, retrospective simulation, treatment not diagnosis",
+      "claimed_contribution": "RL chemotherapy dosing policy reducing grade-3 toxicity by 19% in retrospective simulation."
+    },
+    {
+      "id": "p005",
+      "title": "Multi-Modal Transformer for Alzheimer's Disease Diagnosis from MRI and PET",
+      "abstract": "We develop a multi-modal transformer that fuses 3D MRI and PET imaging for automated Alzheimer's disease diagnosis across three stages (cognitively normal, MCI, AD). Trained on ADNI data, the model achieves macro-AUC of 0.93, outperforming unimodal CNN baselines. Grad-CAM visualisations confirm clinically relevant attention regions.",
+      "topic_hint": "multi-modal transformer, Alzheimer's, MRI, PET, diagnosis",
+      "methodology_hint": "multi-modal transformer, MRI+PET fusion, ADNI, macro-AUC 0.93, CNN baselines, Grad-CAM",
+      "claimed_contribution": "Multi-modal MRI+PET transformer for Alzheimer's diagnosis with macro-AUC 0.93 and Grad-CAM."
+    },
+    {
+      "id": "p006",
+      "title": "Variational Autoencoders for Molecular Property Prediction",
+      "abstract": "We train a variational autoencoder on SMILES representations of 1.8 million molecules to predict ADMET properties relevant to drug discovery. The model achieves strong Pearson correlations on solubility and permeability benchmarks. No clinical diagnosis application is presented.",
+      "topic_hint": "drug discovery, VAE, molecular property prediction, ADMET",
+      "methodology_hint": "variational autoencoder, SMILES, ADMET prediction, drug discovery, no diagnosis",
+      "claimed_contribution": "VAE for molecular property prediction achieving strong Pearson correlation on ADMET benchmarks."
+    },
+    {
+      "id": "p007",
+      "title": "U-Net with Attention Gates for Automated Brain Tumour Segmentation and Detection",
+      "abstract": "We extend U-Net with attention gates for simultaneous brain tumour segmentation and presence detection from multi-parametric MRI. Trained on BraTS 2021, our model achieves Dice of 0.91 for tumour core and AUC 0.97 for detection, outperforming three published baselines. Reproducible code is released.",
+      "topic_hint": "U-Net, attention, brain tumour, MRI, detection, segmentation",
+      "methodology_hint": "attention U-Net, BraTS 2021, Dice 0.91, AUC 0.97, three baselines, public code",
+      "claimed_contribution": "Attention U-Net for brain tumour detection and segmentation with Dice 0.91 and AUC 0.97."
+    },
+    {
+      "id": "p008",
+      "title": "Benchmark Study of Preprocessing Pipelines for Wearable ECG Analysis",
+      "abstract": "We compare 12 signal preprocessing pipelines for wearable ECG devices across noise removal, baseline wander correction, and R-peak detection. No new diagnostic model is proposed. Results inform best-practice guidelines for wearable cardiac monitoring research.",
+      "topic_hint": "ECG preprocessing, wearable, benchmark, signal processing",
+      "methodology_hint": "preprocessing benchmark, 12 pipelines, signal quality, no diagnostic model",
+      "claimed_contribution": "Systematic benchmark of 12 ECG preprocessing pipelines for wearable cardiac monitoring."
+    },
+    {
+      "id": "p009",
+      "title": "Meta-Analysis of Machine Learning for Sepsis Prediction in the ICU",
+      "abstract": "We perform a meta-analysis of 67 studies on ML-based sepsis prediction, covering algorithm type, feature sets, and validation methodology. We report pooled AUC and identify high heterogeneity in training setups. No new diagnostic model is developed.",
+      "topic_hint": "meta-analysis, sepsis prediction, ICU, machine learning",
+      "methodology_hint": "meta-analysis, 67 studies, pooled AUC, heterogeneity analysis, no new model",
+      "claimed_contribution": "Meta-analysis of 67 ICU sepsis ML studies reporting pooled AUC and heterogeneity."
+    },
+    {
+      "id": "p010",
+      "title": "XGBoost for Colorectal Cancer Detection from Multi-Omics Data",
+      "abstract": "We apply XGBoost to a multi-omics panel of methylation, RNA-seq, and protein markers for colorectal cancer detection in a case-control study of 1,800 subjects. The model achieves AUC 0.94 with SHAP-based feature attribution identifying known oncogenic markers. Two independent validation cohorts confirm generalisability.",
+      "topic_hint": "XGBoost, colorectal cancer, multi-omics, detection, biomarker",
+      "methodology_hint": "XGBoost, methylation+RNA-seq+protein, AUC 0.94, SHAP, two validation cohorts",
+      "claimed_contribution": "XGBoost multi-omics colorectal cancer detector with AUC 0.94 validated in two cohorts."
+    },
+    {
+      "id": "p011",
+      "title": "Transfer Learning for Low-Resource Medical Image Classification",
+      "abstract": "We study the effect of source domain choice on transfer learning performance for 14 medical image classification tasks. ImageNet pre-training is compared to medical domain pre-training across CT, dermatology, and pathology. No new diagnostic model is proposed; results are methodology guidance.",
+      "topic_hint": "transfer learning, medical imaging, pre-training, methodology",
+      "methodology_hint": "transfer learning study, 14 tasks, ImageNet vs medical domain, methodology guidance",
+      "claimed_contribution": "Systematic study of source domain choice for medical image transfer learning across 14 tasks."
+    },
+    {
+      "id": "p012",
+      "title": "Generative Pre-training for Low-Resource EHR Phenotyping",
+      "abstract": "We apply a GPT-based generative pre-training approach to EHR sequences for clinical phenotype extraction. Pre-training on 3 million patient sequences, we achieve state-of-the-art F1 on 10 phenotyping tasks with as few as 50 labelled examples. Phenotyping here supports epidemiology, not direct patient diagnosis.",
+      "topic_hint": "GPT, EHR, phenotyping, low-resource learning",
+      "methodology_hint": "GPT pre-training, EHR sequences, F1 on 10 phenotyping tasks, epidemiology not patient diagnosis",
+      "claimed_contribution": "GPT EHR pre-training achieving SOTA phenotyping F1 with as few as 50 labelled examples."
+    },
+    {
+      "id": "p013",
+      "title": "Optimal Control for Drug Delivery in Closed-Loop Insulin Systems",
+      "abstract": "We develop an optimal control framework for insulin delivery in closed-loop systems for type 1 diabetes. The controller reduces time-below-range events by 23% compared to standard PID control in a simulation study. This is a treatment control system, not a diagnostic model.",
+      "topic_hint": "optimal control, insulin delivery, diabetes management, treatment",
+      "methodology_hint": "optimal control, closed-loop insulin, time-below-range, PID comparison, treatment",
+      "claimed_contribution": "Optimal control for insulin delivery reducing time-below-range by 23% vs PID control."
+    },
+    {
+      "id": "p014",
+      "title": "Uncertainty Quantification in Deep Learning for Medical Imaging",
+      "abstract": "We compare Bayesian deep learning and Monte Carlo dropout for uncertainty quantification in three medical image classification tasks. No new diagnostic model is proposed. We recommend uncertainty thresholding as a rejection criterion before deployment.",
+      "topic_hint": "uncertainty quantification, Bayesian deep learning, medical imaging",
+      "methodology_hint": "Bayesian DL, MC dropout, three tasks, uncertainty threshold, methodology study",
+      "claimed_contribution": "Comparison of uncertainty quantification methods for medical image classifiers across three tasks."
+    },
+    {
+      "id": "p015",
+      "title": "Semi-Supervised Learning for Cardiac MRI Segmentation and Detection",
+      "abstract": "We apply semi-supervised mean teacher training to cardiac MRI, using 200 labelled and 4,000 unlabelled scans. The approach achieves Dice 0.87 for left ventricular segmentation and AUC 0.93 for cardiomyopathy detection. Results are compared to supervised-only and fully-labelled upper-bound baselines.",
+      "topic_hint": "semi-supervised learning, cardiac MRI, segmentation, cardiomyopathy detection",
+      "methodology_hint": "mean teacher, 200 labelled scans, Dice 0.87, AUC 0.93, supervised and upper-bound baselines",
+      "claimed_contribution": "Semi-supervised cardiac MRI approach with Dice 0.87 and AUC 0.93 for cardiomyopathy detection."
+    },
+    {
+      "id": "p016",
+      "title": "Spatial Statistics of Single-Cell RNA Sequencing in Tumour Microenvironments",
+      "abstract": "We apply spatial statistical models to single-cell RNA sequencing data to characterise immune cell distributions in tumour microenvironments. Results provide mechanistic insights into immune evasion. No diagnostic classifier or clinical prediction model is developed.",
+      "topic_hint": "single-cell, RNA sequencing, tumour microenvironment, spatial statistics",
+      "methodology_hint": "spatial statistics, scRNA-seq, immune cell characterisation, no clinical prediction",
+      "claimed_contribution": "Spatial statistical characterisation of immune cells in tumour microenvironments from scRNA-seq."
+    },
+    {
+      "id": "p017",
+      "title": "Federated Learning Privacy Guarantees: Formal Analysis",
+      "abstract": "We formally analyse the privacy guarantees of federated learning with secure aggregation and differential privacy for clinical data. We prove tight bounds on information leakage under various threat models. No clinical model is trained or evaluated.",
+      "topic_hint": "federated learning, privacy, formal analysis, differential privacy",
+      "methodology_hint": "formal privacy analysis, information leakage bounds, no clinical model",
+      "claimed_contribution": "Formal tight privacy bounds for federated learning with secure aggregation and differential privacy."
+    },
+    {
+      "id": "p018",
+      "title": "Predictive Modelling for ICU Length of Stay After Cardiac Surgery",
+      "abstract": "We apply ensemble machine learning to predict ICU length of stay after cardiac surgery from pre-operative and intra-operative features. Mean absolute error of 1.2 days is achieved. Length-of-stay prediction is a logistic outcome, not a diagnosis.",
+      "topic_hint": "ICU length of stay, cardiac surgery, predictive modelling, prognosis",
+      "methodology_hint": "ensemble ML, MAE 1.2 days, pre-operative features, LOS prediction, not diagnosis",
+      "claimed_contribution": "Ensemble ML for ICU length-of-stay prediction after cardiac surgery with MAE 1.2 days."
+    },
+    {
+      "id": "p019",
+      "title": "Causal Inference for Treatment Effect Estimation in Observational EHR Studies",
+      "abstract": "We apply doubly-robust causal inference methods to estimate average treatment effects from observational EHR data, controlling for time-varying confounding. Methods are demonstrated on statin therapy evaluation in a cohort of 200,000 patients. No diagnostic model is developed.",
+      "topic_hint": "causal inference, treatment effect, EHR, observational study",
+      "methodology_hint": "doubly-robust causal inference, time-varying confounding, treatment effect, no diagnostic model",
+      "claimed_contribution": "Doubly-robust causal inference for treatment effect estimation from 200,000 patient EHR cohort."
+    },
+    {
+      "id": "p020",
+      "title": "Contrastive Learning for Histopathology Cancer Grading",
+      "abstract": "We develop a contrastive self-supervised pre-training method for whole-slide histopathology image analysis and apply it to cancer grading. Pre-trained on 12,000 unlabelled slides, the fine-tuned model achieves AUC 0.95 for Gleason grading of prostate cancer, outperforming supervised baselines with 10x fewer labels.",
+      "topic_hint": "contrastive learning, histopathology, cancer grading, Gleason, diagnosis",
+      "methodology_hint": "contrastive pre-training, whole-slide images, AUC 0.95, Gleason grading, label-efficient",
+      "claimed_contribution": "Contrastive pre-training for histopathology achieving AUC 0.95 on Gleason grading with 10x fewer labels."
+    }
+  ],
+  "ground_truth": {
+    "labels": {
+      "p001": "INCLUDE",
+      "p002": "EXCLUDE",
+      "p003": "INCLUDE",
+      "p004": "EXCLUDE",
+      "p005": "INCLUDE",
+      "p006": "EXCLUDE",
+      "p007": "INCLUDE",
+      "p008": "EXCLUDE",
+      "p009": "EXCLUDE",
+      "p010": "INCLUDE",
+      "p011": "EXCLUDE",
+      "p012": "EXCLUDE",
+      "p013": "EXCLUDE",
+      "p014": "EXCLUDE",
+      "p015": "EXCLUDE",
+      "p016": "EXCLUDE",
+      "p017": "EXCLUDE",
+      "p018": "EXCLUDE",
+      "p019": "EXCLUDE",
+      "p020": "EXCLUDE"
+    },
+    "ranked_order": ["p005", "p007", "p001", "p003", "p010"],
+    "relevance_quality_scores": {
+      "p001": 0.87,
+      "p002": 0.08,
+      "p003": 0.90,
+      "p004": 0.06,
+      "p005": 0.95,
+      "p006": 0.04,
+      "p007": 0.92,
+      "p008": 0.10,
+      "p009": 0.12,
+      "p010": 0.83,
+      "p011": 0.15,
+      "p012": 0.20,
+      "p013": 0.05,
+      "p014": 0.13,
+      "p015": 0.60,
+      "p016": 0.03,
+      "p017": 0.02,
+      "p018": 0.07,
+      "p019": 0.04,
+      "p020": 0.55
+    },
+    "vocabulary_list": [
+      "retinopathy", "fundus", "resnet", "kappa", "bert", "fabry",
+      "discharge", "precision", "recall", "diagnosis", "clinical",
+      "alzheimer", "mri", "pet", "transformer", "multimodal", "adni",
+      "tumour", "brain", "unet", "attention", "dice", "detection",
+      "colorectal", "omics", "xgboost", "shap", "ablation", "trained",
+      "model", "network", "evaluation", "baseline", "classification",
+      "automated", "neural", "imaging", "cancer", "grading", "histopathology"
+    ]
+  }
+}
