@@ -1,112 +1,112 @@
 {
   "task_id": "task2",
   "instance_id": "instance_003",
-  "task_description": "Screen each abstract for relevance to deep learning for medical imaging, and rate methodological quality.\n\nRelevance: RELEVANT if the paper develops or evaluates a deep learning system for interpreting medical images. NOT_RELEVANT otherwise.\n\nQuality rubric:\n  1 = No methodology described.\n  2 = Methodology mentioned but vague; no metrics or baselines.\n  3 = Methodology described with evaluation metrics and dataset details.\n  4 = Methodology with metrics, multiple baselines, ablations, or statistical significance.",
+  "task_description": "Screen each abstract for relevance to machine learning for predicting patient outcomes in oncology (survival, recurrence, treatment response). Rate methodological quality.\n\nRelevance: RELEVANT if the paper applies ML to predict any oncological patient outcome (survival time, recurrence, treatment response) from clinical, imaging, genomic, or pathology data. NOT_RELEVANT if the ML task is diagnosis, screening, drug discovery, or unrelated to oncology outcomes.\n\nQuality rubric:\n  1 = No methodology described or purely conceptual.\n  2 = Approach mentioned but metrics vague or dataset underspecified.\n  3 = Clear methodology, evaluation metrics, and dataset; limited comparison.\n  4 = Rigorous evaluation with multiple baselines, external validation, and reproducibility.",
   "papers": [
     {
       "id": "p001",
-      "title": "Self-Supervised Learning for Retinal Layer Segmentation in OCT",
-      "abstract": "We pretrain an encoder on 500,000 unlabelled OCT scans using masked autoencoding, then fine-tune on 2,000 annotated scans for retinal layer segmentation. Compared to fully supervised training, our approach improves Dice by 4 points and requires 80% less labelled data. Ablations over pretraining strategy and fine-tuning data fraction are included.",
-      "topic_hint": "self-supervised learning, OCT, retinal segmentation",
-      "methodology_hint": "masked autoencoding, semi-supervised fine-tuning, Dice, ablations over data fraction",
-      "claimed_contribution": "Self-supervised pretraining for OCT segmentation improving Dice 4 points with 80% fewer labels."
+      "title": "Neural Survival Model for Non-Small Cell Lung Cancer Recurrence from CT Radiomics",
+      "abstract": "Post-resection recurrence prediction guides adjuvant therapy decisions. We extract 107 radiomic features from pre-surgery CT scans of 680 NSCLC patients and train a DeepHit neural survival model. C-index 0.72 is achieved on a held-out test set. We compare against Cox proportional hazards with the same features and an RSF baseline. An external validation cohort confirms generalisability.",
+      "topic_hint": "neural survival model, NSCLC, CT radiomics, recurrence prediction, DeepHit",
+      "methodology_hint": "DeepHit, 680 NSCLC, C-index 0.72, Cox and RSF baselines, external validation",
+      "claimed_contribution": "DeepHit for NSCLC recurrence prediction, C-index 0.72, 2 baselines, external validation."
     },
     {
       "id": "p002",
-      "title": "Towards AI-Assisted Radiology: Opportunities and Pitfalls",
-      "abstract": "We discuss the opportunities and risks of deploying deep learning systems in clinical radiology. Key themes include distribution shift, regulatory hurdles, and the importance of prospective validation. No experiments are presented; this is a perspective article.",
-      "topic_hint": "radiology AI, perspective, clinical deployment",
-      "methodology_hint": "perspective article, no experiments",
-      "claimed_contribution": "Discussion of challenges and opportunities for AI deployment in radiology."
+      "title": "GAN-Based Data Augmentation for Rare Tumour Classification in Histopathology",
+      "abstract": "Rare sarcoma subtypes have few labelled pathology images. We train a conditional GAN to synthesise H&E images of three rare sarcoma subtypes and use the augmented data to train a CNN classifier. The classifier achieves macro-F1 0.73 compared to 0.61 without augmentation. This work is about diagnostic classification of tumour subtype, not patient outcome prediction.",
+      "topic_hint": "GAN, data augmentation, sarcoma, histopathology, classification",
+      "methodology_hint": "conditional GAN, H&E synthesis, macro-F1 0.73 — diagnostic classification not outcome prediction",
+      "claimed_contribution": "GAN augmentation improving sarcoma classification macro-F1 to 0.73, diagnostic task not prognosis."
     },
     {
       "id": "p003",
-      "title": "3D Dense Prediction for Cardiac MRI Segmentation",
-      "abstract": "We design a 3D dense prediction network for simultaneous segmentation of four cardiac chambers and the aorta from short-axis MRI. Evaluated on the ACDC challenge, our model achieves mean Dice 0.91 and outperforms 2D slice-by-slice and 2.5D baselines with and without post-processing.",
-      "topic_hint": "deep learning, cardiac MRI, 3D segmentation",
-      "methodology_hint": "3D dense prediction, ACDC challenge, Dice, 2D/2.5D baselines, post-processing ablation",
-      "claimed_contribution": "3D cardiac MRI segmentation network achieving Dice 0.91 on ACDC, beating 2D and 2.5D baselines."
+      "title": "AI for Oncology: A Broad Overview of Potential Applications",
+      "abstract": "Artificial intelligence has the potential to transform oncology across the continuum of care from prevention and screening to treatment and survivorship. This commentary discusses likely developments but presents no empirical analysis or model evaluation.",
+      "topic_hint": "AI, oncology, overview, commentary",
+      "methodology_hint": "commentary, no model, no data, no evaluation",
+      "claimed_contribution": "Commentary on AI potential across the oncology care continuum."
     },
     {
       "id": "p004",
-      "title": "CNN for Skin Lesion Classification on Dermoscopy Images",
-      "abstract": "We train a MobileNetV3 classifier on the ISIC 2020 dataset to distinguish malignant melanoma from benign nevi. Our model achieves AUC 0.89 on the ISIC 2020 test set, with performance comparable to dermatologists in an informal reader study described without statistical tests.",
-      "topic_hint": "CNN, dermoscopy, melanoma classification",
-      "methodology_hint": "MobileNetV3, ISIC 2020, AUC, informal reader study without statistics",
-      "claimed_contribution": "MobileNetV3 melanoma classifier with AUC 0.89 and informal dermatologist comparison."
+      "title": "Multi-Task Learning for Joint Prediction of Overall Survival and Treatment Response in Breast Cancer",
+      "abstract": "We train a multi-task neural network on a multi-omics dataset (mRNA, miRNA, methylation) from 1,100 TCGA breast cancer patients to jointly predict overall survival and pathological complete response to neoadjuvant chemotherapy. C-index 0.71 for survival and AUC 0.82 for pCR are achieved. Sharing representations between tasks improves both versus single-task models. An external METABRIC cohort validates survival prediction.",
+      "topic_hint": "multi-task learning, breast cancer, overall survival, pCR, multi-omics, TCGA",
+      "methodology_hint": "multi-task NN, TCGA 1100 patients, C-index 0.71, AUC 0.82, single-task comparison, METABRIC validation",
+      "claimed_contribution": "Multi-task NN for joint OS and pCR prediction in breast cancer, C-index 0.71, external validation."
     },
     {
       "id": "p005",
-      "title": "Uncertainty Quantification in Chest X-Ray Pathology Detection",
-      "abstract": "We train an ensemble of 10 DenseNet-121 models for chest X-ray classification and use ensemble disagreement as an uncertainty estimate. On CheXpert, our ensemble achieves mean AUC 0.92 and calibrated uncertainty that correlates with pathologist agreement. We compare against MC Dropout and temperature scaling baselines.",
-      "topic_hint": "uncertainty estimation, chest X-ray, ensemble methods",
-      "methodology_hint": "DenseNet ensemble, CheXpert, AUC, MC Dropout and temperature scaling baselines",
-      "claimed_contribution": "Ensemble chest X-ray classifier with AUC 0.92 and calibrated uncertainty, benchmarked against baselines."
+      "title": "Transformer for Predicting Immunotherapy Response in NSCLC from Tumour Microenvironment Features",
+      "abstract": "PD-L1 status alone is an imperfect immunotherapy response predictor. We extract spatial tumour microenvironment features from multiplex immunofluorescence images and train a transformer encoder to predict durable response to anti-PD-1 therapy in 420 NSCLC patients. AUC 0.79 is achieved, substantially outperforming PD-L1 IHC and TMB. We do not compare against deep learning image baselines.",
+      "topic_hint": "transformer, NSCLC, immunotherapy response, tumour microenvironment, multiplex IF",
+      "methodology_hint": "transformer, 420 NSCLC patients, AUC 0.79, PD-L1 and TMB comparison — no DL image baseline",
+      "claimed_contribution": "Transformer for immunotherapy response prediction from TME features, AUC 0.79, outperforming PD-L1."
     },
     {
       "id": "p006",
-      "title": "Curriculum Learning for Low-Resource Language Modelling",
-      "abstract": "We study curriculum learning strategies for training language models on low-resource languages. Ordering training examples by sentence length or perplexity improves perplexity by 8% versus random ordering on Swahili and Tamil benchmarks, with consistent gains across model sizes.",
-      "topic_hint": "NLP, curriculum learning, low-resource languages",
-      "methodology_hint": "curriculum strategies, perplexity, Swahili and Tamil benchmarks",
-      "claimed_contribution": "Curriculum learning reducing perplexity 8% for low-resource language models on Swahili and Tamil."
+      "title": "Deep Learning for Automated Breast Cancer Detection in Mammography",
+      "abstract": "We develop a convolutional neural network for breast cancer detection in screening mammography, trained on 120,000 exams. AUC 0.94 is achieved, outperforming radiologist stand-alone reads in a reader study. This is a screening detection task; the model identifies cancer presence but does not predict survival or treatment response outcomes.",
+      "topic_hint": "CNN, mammography, breast cancer detection, screening, radiologist comparison",
+      "methodology_hint": "CNN, 120k mammograms, AUC 0.94, reader study — screening detection not outcome prediction",
+      "claimed_contribution": "CNN for breast cancer screening detection AUC 0.94 outperforming radiologists, not prognosis."
     },
     {
       "id": "p007",
-      "title": "Topology Optimisation for Structural Engineering Under Uncertainty",
-      "abstract": "We develop a level-set topology optimisation method that accounts for uncertain material properties and loading conditions. Applied to 2D and 3D structural engineering problems, our robust formulation reduces worst-case compliance by 15% compared to deterministic topology optimisation.",
-      "topic_hint": "structural engineering, topology optimisation, uncertainty",
-      "methodology_hint": "level-set method, robust optimisation, 3D structural problems, deterministic comparison",
-      "claimed_contribution": "Robust topology optimisation reducing worst-case compliance 15% versus deterministic methods."
+      "title": "Graph Neural Network for 5-Year Colorectal Cancer Survival from Pathology Report Text",
+      "abstract": "Pathology reports contain prognostic information beyond stage. We build a GNN over concept graphs extracted from 3,800 colorectal cancer pathology reports and train to predict 5-year survival. C-index 0.74 is achieved. Only a logistic regression text baseline is compared; no Cox or survival-specific baselines are reported.",
+      "topic_hint": "GNN, colorectal cancer, pathology reports, 5-year survival, NLP",
+      "methodology_hint": "GNN on concept graphs, 3800 reports, C-index 0.74, only LR baseline — no Cox comparison",
+      "claimed_contribution": "GNN for 5-year colorectal survival from pathology text, C-index 0.74, limited baseline."
     },
     {
       "id": "p008",
-      "title": "Numerical Schemes for Incompressible Navier-Stokes on Unstructured Meshes",
-      "abstract": "We develop a high-order finite volume scheme for incompressible Navier-Stokes equations on unstructured meshes, using a compact stencil with WENO reconstruction. Validated on lid-driven cavity and backward-facing step benchmarks, our scheme achieves fourth-order spatial accuracy.",
-      "topic_hint": "computational fluid dynamics, Navier-Stokes, finite volume",
-      "methodology_hint": "WENO finite volume, unstructured mesh, spatial order verification",
-      "claimed_contribution": "Fourth-order finite volume scheme for incompressible Navier-Stokes on unstructured meshes."
+      "title": "Support Vector Machine for Prostate Cancer Screening Using PSA Velocity",
+      "abstract": "PSA velocity may improve prostate cancer screening specificity. We train an SVM on PSA trajectories from 4,200 men to classify cancer presence versus benign hypertrophy. Sensitivity 0.80 at specificity 0.75 is achieved. This is a screening and diagnostic classification task, not an outcome or survival prediction model.",
+      "topic_hint": "SVM, PSA, prostate cancer screening, classification",
+      "methodology_hint": "SVM, PSA velocity, sensitivity/specificity, cancer screening — diagnosis not outcome prediction",
+      "claimed_contribution": "SVM for prostate cancer screening from PSA velocity, sensitivity 0.80, diagnostic not prognostic."
     },
     {
       "id": "p009",
-      "title": "Graph Colouring Algorithms for Register Allocation in Compilers",
-      "abstract": "We revisit graph colouring heuristics for register allocation in LLVM and propose a new interference graph coarsening strategy. On SPEC CPU 2017, our method reduces spill code by 12% and compilation time by 8% versus the standard Chaitin-Briggs allocator.",
-      "topic_hint": "compilers, register allocation, graph colouring",
-      "methodology_hint": "interference graph, LLVM, SPEC CPU 2017, Chaitin-Briggs comparison",
-      "claimed_contribution": "Interference graph coarsening reducing spill code 12% and compilation time 8% on SPEC CPU 2017."
+      "title": "Gradient Boosting for Predicting Chemotherapy Toxicity Grade in Elderly Cancer Patients",
+      "abstract": "Elderly patients face high chemotherapy toxicity risk. We train a gradient boosting model on geriatric assessment scores, comorbidities, and baseline labs from 2,100 patients across four cancer types to predict grade 3+ toxicity within the first cycle. AUC 0.78 is achieved. Comparison against the CARG and CRASH toxicity scores is provided alongside an ablation of geriatric features.",
+      "topic_hint": "gradient boosting, chemotherapy toxicity, elderly, geriatric oncology",
+      "methodology_hint": "gradient boosting, 2100 patients, AUC 0.78, CARG/CRASH comparison, geriatric feature ablation",
+      "claimed_contribution": "Gradient boosting for chemotherapy toxicity prediction in elderly, AUC 0.78, clinical score comparison."
     },
     {
       "id": "p010",
-      "title": "Predator-Prey Population Dynamics with Stochastic Harvesting",
-      "abstract": "We analyse a stochastic predator-prey model with seasonal harvesting using Itô calculus and mean-field approximations. We derive conditions for persistence and extinction and validate the analytical results against Monte Carlo simulations of the full stochastic system.",
-      "topic_hint": "ecology, population dynamics, stochastic modelling",
-      "methodology_hint": "Itô calculus, mean-field, Monte Carlo validation",
-      "claimed_contribution": "Persistence and extinction conditions for stochastic predator-prey system with seasonal harvesting."
+      "title": "Machine Learning in Oncology Drug Discovery: Accelerating Lead Identification",
+      "abstract": "We apply random forest and graph neural network models to predict cytotoxicity IC50 values for novel compound libraries screened against 12 cancer cell lines from the NCI-60 panel. The models guide compound prioritisation in a drug discovery campaign. This is a drug discovery application; patient survival outcomes are not modelled.",
+      "topic_hint": "random forest, GNN, cancer drug discovery, IC50, NCI-60, compound screening",
+      "methodology_hint": "RF and GNN, NCI-60, IC50 prediction — drug discovery not patient outcome prediction",
+      "claimed_contribution": "RF and GNN for cancer drug IC50 prediction in discovery campaign, patient outcomes not modelled."
     }
   ],
   "ground_truth": {
     "labels": {
       "p001": "RELEVANT",
-      "p002": "RELEVANT",
-      "p003": "RELEVANT",
+      "p002": "NOT_RELEVANT",
+      "p003": "NOT_RELEVANT",
       "p004": "RELEVANT",
       "p005": "RELEVANT",
       "p006": "NOT_RELEVANT",
-      "p007": "NOT_RELEVANT",
+      "p007": "RELEVANT",
       "p008": "NOT_RELEVANT",
-      "p009": "NOT_RELEVANT",
+      "p009": "RELEVANT",
       "p010": "NOT_RELEVANT"
     },
     "quality_scores": {
       "p001": 4,
-      "p002": 1,
-      "p003": 4,
-      "p004": 2,
-      "p005": 4,
+      "p002": 3,
+      "p003": 1,
+      "p004": 4,
+      "p005": 2,
       "p006": 3,
-      "p007": 3,
+      "p007": 2,
       "p008": 3,
-      "p009": 3,
+      "p009": 4,
       "p010": 3
     }
   }

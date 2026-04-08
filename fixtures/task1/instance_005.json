@@ -1,87 +1,87 @@
 {
   "task_id": "task1",
   "instance_id": "instance_005",
-  "task_description": "Screen each abstract for relevance to: machine learning applications in biomedical research. Label RELEVANT if the paper directly applies machine learning methods to a biomedical problem involving human health, disease, or biological data. Label NOT_RELEVANT otherwise. Note: papers applying ML to non-human domains, administrative tasks, or general methodology without biomedical application should be labelled NOT_RELEVANT.",
+  "task_description": "Screen each abstract for relevance to: machine learning for early detection or diagnosis of neurodegenerative diseases (Alzheimer's, Parkinson's, ALS, Huntington's, or related conditions). Label RELEVANT if the paper applies ML to detect, classify, or diagnose a neurodegenerative condition from any data modality. Label NOT_RELEVANT if the ML task is prognosis, treatment selection, mechanism discovery, or unrelated disease.",
   "papers": [
     {
       "id": "p001",
-      "title": "Variational Autoencoder for Latent Representation Learning in Single-Cell RNA Sequencing",
-      "abstract": "We train a variational autoencoder on single-cell RNA sequencing data from 1.2 million human peripheral blood mononuclear cells to learn low-dimensional cell-type embeddings. Downstream clustering using the learned latent space recovers 28 cell types with adjusted Rand index 0.91 versus expert annotations. The representations generalise to five held-out cohorts with different library preparation protocols.",
-      "topic_hint": "VAE, single-cell RNA-seq, cell-type discovery, dimensionality reduction, genomics",
-      "methodology_hint": "variational autoencoder, scRNA-seq, adjusted Rand index 0.91, cross-cohort generalisation",
-      "claimed_contribution": "VAE for scRNA-seq cell-type representation generalising across five cohorts with ARI 0.91."
+      "title": "Multi-Modal Graph Neural Network for Alzheimer's Disease Diagnosis from MRI and PET",
+      "abstract": "We construct heterogeneous graphs over brain regions using both structural MRI volumes and FDG-PET SUVRs from 720 ADNI participants. A multi-modal graph neural network aggregates features across modalities to classify cognitively normal, MCI, and Alzheimer's disease subjects. Three-way accuracy 0.87 is achieved, outperforming unimodal baselines and random forest. Attention weights confirm amyloid-affected regions dominate classification.",
+      "topic_hint": "GNN, Alzheimer's disease, MRI, PET, ADNI, multi-modal diagnosis",
+      "methodology_hint": "multi-modal GNN, ADNI, accuracy 0.87, three-way AD classification, attention weights",
+      "claimed_contribution": "Multi-modal GNN for AD diagnosis from MRI+PET, accuracy 0.87 with amyloid-region attention."
     },
     {
       "id": "p002",
-      "title": "Machine Learning for Predictive Maintenance in Industrial Wind Turbines",
-      "abstract": "We apply gradient boosting and LSTM models to SCADA sensor streams from 240 offshore wind turbines to predict gearbox failures 72 hours in advance. Precision 0.84 and recall 0.79 are achieved on a held-out 12-month test period. Early warning lead time reduces unplanned downtime by 31% in retrospective evaluation.",
-      "topic_hint": "predictive maintenance, wind turbines, SCADA, industrial IoT, gradient boosting",
-      "methodology_hint": "gradient boosting, LSTM, SCADA sensors, precision 0.84, recall 0.79, downtime reduction",
-      "claimed_contribution": "ML framework predicting wind turbine gearbox failure 72 hours ahead, reducing downtime by 31%."
+      "title": "Causal Inference for Identifying Neuroprotective Factors Against Parkinson's Disease",
+      "abstract": "Observational data offer opportunities to identify neuroprotective lifestyle factors if confounding is controlled. We apply doubly-robust causal inference to 65,000 participants from UK Biobank to estimate protective effects of physical activity, coffee consumption, and NSAID use on Parkinson's disease incidence. Causal effect estimates differ substantially from unadjusted associations. No ML classifier or diagnostic model is built.",
+      "topic_hint": "causal inference, Parkinson's disease, neuroprotection, UK Biobank, observational",
+      "methodology_hint": "doubly-robust causal inference, UK Biobank, PD incidence — causal analysis not ML diagnosis",
+      "claimed_contribution": "Causal estimates of neuroprotective factors for PD from UK Biobank, no diagnostic ML model."
     },
     {
       "id": "p003",
-      "title": "Graph Transformer for Drug Synergy Prediction in Cancer Cell Lines",
-      "abstract": "We develop a graph transformer that encodes drug molecular structures as graphs and predicts synergy scores for drug pairs tested against 39 cancer cell lines from the ALMANAC dataset. The model achieves Pearson r=0.81 and outperforms random forest, GNN, and DeepSynergy baselines. Cross-cell-line generalisation is validated on six held-out cancer types.",
-      "topic_hint": "graph transformer, drug synergy, cancer cell lines, ALMANAC, computational oncology",
-      "methodology_hint": "graph transformer, ALMANAC, Pearson 0.81, RF/GNN/DeepSynergy baselines, cross-cell-line validation",
-      "claimed_contribution": "Graph transformer for drug synergy prediction with Pearson 0.81, generalising to six held-out cancer types."
+      "title": "Gait Asymmetry Features and SVM for Early Parkinson's Detection from Wearable Sensors",
+      "abstract": "Motor asymmetry precedes clinical Parkinson's diagnosis by years. We extract 42 gait asymmetry features from three-axis accelerometers worn by 180 early-stage Parkinson's and 180 age-matched healthy participants over 7-day free-living monitoring periods. An SVM trained on these features achieves accuracy 0.83 and AUC 0.88 distinguishing early PD from controls, with sensitivity 0.82 at 90% specificity.",
+      "topic_hint": "SVM, gait analysis, Parkinson's detection, wearable, accelerometer",
+      "methodology_hint": "SVM, gait asymmetry features, 7-day wearable, accuracy 0.83, AUC 0.88, early PD detection",
+      "claimed_contribution": "SVM for early Parkinson's detection from wearable gait features, AUC 0.88, sensitivity 0.82."
     },
     {
       "id": "p004",
-      "title": "Deep Reinforcement Learning for Autonomous Navigation in Unstructured Outdoor Terrain",
-      "abstract": "We train a deep RL agent using proximal policy optimisation to navigate wheeled robots across unstructured outdoor terrain using RGB-D sensor input. The agent achieves 88% goal-reach rate on held-out terrains versus 61% for a hand-engineered baseline. Sim-to-real transfer is demonstrated on a physical platform in three outdoor environments.",
-      "topic_hint": "reinforcement learning, robot navigation, outdoor terrain, sim-to-real, robotics",
-      "methodology_hint": "PPO, RGB-D navigation, goal-reach rate 88%, sim-to-real transfer, physical robot",
-      "claimed_contribution": "RL agent for outdoor robot navigation with 88% goal-reach rate and successful sim-to-real transfer."
+      "title": "Deep Reinforcement Learning for Adaptive Clinical Trial Design in Alzheimer's Research",
+      "abstract": "Adaptive trial designs can reduce sample sizes for Alzheimer's drug trials by enriching enrolment of likely progressors. We apply deep reinforcement learning to optimise adaptive randomisation and stopping rules in simulated amyloid-positive MCI trials. The RL policy reduces expected sample size by 28% while preserving statistical power. This paper concerns trial design, not diagnostic or detection algorithms.",
+      "topic_hint": "reinforcement learning, adaptive clinical trial, Alzheimer's, trial design",
+      "methodology_hint": "deep RL, adaptive trial design, Alzheimer's simulation — trial design not diagnosis",
+      "claimed_contribution": "RL for adaptive AD trial design, 28% sample reduction, no diagnostic ML."
     },
     {
       "id": "p005",
-      "title": "Convolutional Neural Network for Somatic Copy Number Alteration Detection from Shallow WGS",
-      "abstract": "We develop a CNN that processes read depth profiles from shallow whole-genome sequencing to call somatic copy number alterations in tumour samples at 0.1x coverage. The model achieves precision 0.88 and recall 0.85 on a validation set of 1,400 tumour-normal pairs, substantially outperforming segmentation-based baselines. Low-coverage inference enables cost-effective liquid biopsy applications.",
-      "topic_hint": "CNN, copy number alteration, whole-genome sequencing, liquid biopsy, somatic mutation",
-      "methodology_hint": "CNN, shallow WGS, 0.1x coverage, precision 0.88, recall 0.85, segmentation baseline comparison",
-      "claimed_contribution": "CNN for somatic copy number detection at 0.1x WGS coverage, enabling cost-effective liquid biopsy."
+      "title": "LSTM on Longitudinal Neuropsychological Test Scores for Predicting MCI-to-AD Conversion",
+      "abstract": "Longitudinal cognitive test trajectories carry diagnostic information beyond single assessments. We train an LSTM on sequences of MMSE, MoCA, and ADAS-Cog scores from 3,200 ADNI participants tracked over 4 years to predict conversion from mild cognitive impairment to Alzheimer's disease within 24 months. AUC 0.83 is achieved, outperforming the last-observation-only baseline by 9 points.",
+      "topic_hint": "LSTM, MCI-to-AD conversion, neuropsychological testing, ADNI, longitudinal",
+      "methodology_hint": "LSTM, MMSE/MoCA/ADAS-Cog sequences, ADNI, AUC 0.83, longitudinal cognitive testing",
+      "claimed_contribution": "LSTM for MCI-to-AD conversion prediction from longitudinal neuropsychological scores, AUC 0.83."
     },
     {
       "id": "p006",
-      "title": "Transformer-Based Code Generation for Automated Software Refactoring",
-      "abstract": "We fine-tune a code-generation transformer on a dataset of 1.8 million paired code before/after refactoring commits to automate code smell removal. The model achieves CodeBLEU of 0.73 and reduces code complexity metrics by 22% on a held-out benchmark. Human evaluation confirms 79% of suggestions are accepted by developers.",
-      "topic_hint": "code generation, software refactoring, transformer, CodeBLEU, software engineering",
-      "methodology_hint": "code transformer fine-tuning, 1.8M refactoring commits, CodeBLEU 0.73, developer acceptance",
-      "claimed_contribution": "Code generation transformer automating refactoring with 79% developer acceptance rate."
+      "title": "Recurrent Neural Networks for Mortality Prediction in Mechanical Ventilation Patients",
+      "abstract": "We train RNNs on minute-resolution ventilator waveforms and ABG data from 22,000 MIMIC-IV mechanically ventilated episodes to predict 30-day mortality. AUROC 0.84 is achieved, significantly outperforming static SOFA score. The work focuses on ICU critical care mortality, not neurodegenerative disease detection.",
+      "topic_hint": "RNN, mechanical ventilation, ICU mortality, MIMIC-IV, SOFA",
+      "methodology_hint": "RNN, ventilator waveforms, MIMIC-IV, AUROC 0.84, ICU mortality — not neurodegeneration",
+      "claimed_contribution": "RNN for ventilated patient mortality prediction, AUROC 0.84, outperforming SOFA."
     },
     {
       "id": "p007",
-      "title": "Sparse Autoencoder for Metagenomics Feature Extraction and Microbiome Disease Association",
-      "abstract": "We apply a sparse autoencoder to shotgun metagenomic sequencing data from 3,200 gut microbiome samples to extract interpretable microbial community features. Features learned from healthy controls and colorectal cancer patients separate disease states with AUC 0.87 and identify known oncogenic taxa. The approach generalises to two independent validation cohorts.",
-      "topic_hint": "sparse autoencoder, metagenomics, microbiome, colorectal cancer, disease association",
-      "methodology_hint": "sparse autoencoder, shotgun metagenomics, AUC 0.87, colorectal cancer, two validation cohorts",
-      "claimed_contribution": "Sparse autoencoder for metagenomics features achieving AUC 0.87 for colorectal cancer detection."
+      "title": "Convolutional Neural Network for ALS Diagnosis from Eye-Tracking and Speech Biomarkers",
+      "abstract": "Amyotrophic lateral sclerosis affects both motor and bulbar function. We extract eye movement irregularity scores and acoustic speech features from 160 ALS patients and 160 healthy controls recorded during tablet-based assessment sessions. A CNN trained on the combined feature map achieves accuracy 0.81 and AUC 0.87. Saccadic intrusions in eye-tracking and reduced pitch range in speech emerge as early biomarkers.",
+      "topic_hint": "CNN, ALS diagnosis, eye-tracking, speech biomarkers, acoustic features",
+      "methodology_hint": "CNN, eye movement + speech features, 160 ALS + 160 controls, accuracy 0.81, AUC 0.87",
+      "claimed_contribution": "CNN for ALS diagnosis from eye-tracking and speech, AUC 0.87, with biomarker identification."
     },
     {
       "id": "p008",
-      "title": "Multi-Agent Reinforcement Learning for Traffic Signal Optimisation in Smart Cities",
-      "abstract": "We train a cooperative multi-agent RL system to coordinate traffic signal timing across 120 intersections in a simulated urban network. Average vehicle delay is reduced by 34% versus fixed-time signals and 18% versus adaptive single-agent baselines. The system adapts to demand fluctuations without manual re-tuning.",
-      "topic_hint": "multi-agent RL, traffic signal control, smart city, urban transportation",
-      "methodology_hint": "cooperative MARL, 120-intersection simulation, delay reduction 34%, adaptive baseline comparison",
-      "claimed_contribution": "Cooperative MARL for traffic signal coordination reducing vehicle delay by 34% over fixed-time control."
+      "title": "Federated Machine Learning for Genomic Variant Pathogenicity Classification",
+      "abstract": "Rare variant pathogenicity classification requires diverse datasets held across institutions. We implement federated learning to train an ensemble model on variant consequence annotations from ClinVar, gnomAD, and 8 hospital genomic programs. The federated model matches centralised performance on ClinGen benchmarks for BRCA1/2 and Lynch syndrome variants. This work is about germline variant classification, not neurodegenerative disease diagnosis.",
+      "topic_hint": "federated learning, variant pathogenicity, ClinVar, genomics, germline",
+      "methodology_hint": "federated learning, ClinVar/gnomAD, BRCA1/2 — genomic variant not neurodegeneration",
+      "claimed_contribution": "Federated variant pathogenicity classifier matching centralised performance on ClinGen benchmarks."
     },
     {
       "id": "p009",
-      "title": "Attention-Based Neural Network for CRISPR Guide RNA Off-Target Effect Prediction",
-      "abstract": "We develop an attention mechanism-based neural network trained on 420,000 CRISPR-Cas9 off-target cleavage measurements to predict guide RNA specificity scores. The model achieves AUROC 0.93 on a held-out benchmark of 15,000 guide-target pairs, outperforming CFD score, DeepCRISPR, and CRISPOR baselines. In-silico guide selection using the model reduces predicted off-target sites by 3.2x.",
-      "topic_hint": "attention neural network, CRISPR, guide RNA, off-target prediction, gene editing",
-      "methodology_hint": "attention NN, 420k cleavage measurements, AUROC 0.93, CFD/DeepCRISPR/CRISPOR baselines",
-      "claimed_contribution": "Attention NN for CRISPR off-target prediction with AUROC 0.93, reducing predicted off-targets 3.2x."
+      "title": "Speech Analysis with Transformer Encoder for Early Alzheimer's Detection",
+      "abstract": "Subtle language deficits appear in spontaneous speech years before clinical Alzheimer's diagnosis. We fine-tune a Wav2Vec 2.0 encoder on 1,800 speech samples from the DementiaBank Pitt Corpus to classify Alzheimer's disease versus healthy ageing. The model achieves F1 0.79, outperforming hand-crafted acoustic and linguistic feature baselines. Explainability analysis identifies shorter utterance lengths, more fillers, and reduced lexical diversity as discriminative signals.",
+      "topic_hint": "speech analysis, Wav2Vec, Alzheimer's detection, DementiaBank, Pitt Corpus",
+      "methodology_hint": "Wav2Vec 2.0, DementiaBank Pitt, F1 0.79, acoustic/linguistic baselines, early AD detection",
+      "claimed_contribution": "Wav2Vec for early AD detection from speech, F1 0.79, with linguistic signal explainability."
     },
     {
       "id": "p010",
-      "title": "Contrastive Learning for Visual Product Similarity in E-Commerce Recommendation",
-      "abstract": "We apply SimCLR-style contrastive pre-training on 50 million product images to learn visual embeddings for e-commerce similarity search and recommendation. Top-10 recall improves by 14% over supervised classification pre-training on a held-out test set of 500,000 query-product pairs. A/B testing confirms a 6% click-through rate lift in online deployment.",
-      "topic_hint": "contrastive learning, product similarity, e-commerce, visual search, recommendation",
-      "methodology_hint": "SimCLR contrastive pre-training, 50M product images, top-10 recall, A/B testing, click-through lift",
-      "claimed_contribution": "Contrastive visual embeddings for e-commerce improving top-10 recall 14% and CTR 6% in deployment."
+      "title": "Spatiotemporal Graph Neural Networks for Crowd Flow Prediction in Urban Environments",
+      "abstract": "Urban crowd density forecasting supports emergency response and event planning. We develop a spatiotemporal GNN trained on metro station passenger counts and GPS mobility traces from four cities to predict 30-minute-ahead crowd flow. Mean absolute error of 18 persons per cell is achieved. No biomedical, clinical, or neurodegenerative data is involved.",
+      "topic_hint": "spatiotemporal GNN, crowd flow prediction, urban mobility, metro",
+      "methodology_hint": "spatiotemporal GNN, metro crowd flow, urban mobility — no biomedical or neurodegeneration",
+      "claimed_contribution": "Spatiotemporal GNN for urban crowd flow prediction, MAE 18 persons, no biomedical connection."
     }
   ],
   "ground_truth": {

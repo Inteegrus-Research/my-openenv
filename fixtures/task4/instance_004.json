@@ -2,167 +2,167 @@
   "task_id": "task4",
   "instance_id": "instance_004",
   "budget": 18,
-  "task_description": "Screen these abstracts for a systematic review on ML methods for automated clinical diagnosis. Produce a ranked top-5 shortlist of the most relevant and methodologically rigorous papers.\n\nINCLUDE only papers that present or evaluate an ML method applied directly to automated clinical diagnosis (disease detection, imaging diagnosis, or differential diagnosis from patient data). Prognosis, treatment selection, drug discovery, and methodology-only papers should be EXCLUDE.\n\nFor each INCLUDE paper: assign rank 1 (best) to 5 (fifth-best) and write one justification sentence (max 200 chars).\n\nQuality rubric: 1=no method; 2=vague method; 3=clear method with metrics; 4=full method with baselines and ablations.",
+  "task_description": "Screen these abstracts for a systematic review on ML methods for automated skin lesion diagnosis from dermoscopy or clinical photographs. Produce a ranked top-5 shortlist.\n\nINCLUDE only papers that present or evaluate an ML model classifying skin lesions (benign vs malignant, or multiclass dermatological diagnosis) from dermoscopy images, clinical photographs, or reflectance confocal microscopy. Papers about non-skin conditions, non-dermoscopy imaging, prognosis, treatment selection, or methodology without skin lesion diagnosis should be EXCLUDE.\n\nFor each INCLUDE paper: assign rank 1 (best) to 5 (fifth-best) and write one justification sentence (max 200 chars).\n\nQuality rubric: 1=no method; 2=vague; 3=clear metrics; 4=multiple baselines, external validation, and ablation.",
   "papers": [
     {
       "id": "p001",
-      "title": "Deep Learning for Glaucoma Detection from Fundus Photography at Population Scale",
-      "abstract": "We train an Inception-V4 on 101,000 fundus photographs from population-based screening to detect referable glaucoma. The model achieves AUC 0.99, sensitivity 0.97 at 99% specificity, and is validated prospectively across two independent screening cohorts. An external audit by a panel of glaucoma specialists confirms agreement on 94% of ambiguous cases. Full ablation of image preprocessing steps is reported.",
-      "topic_hint": "deep learning, glaucoma, fundus photography, population screening, optic disc",
-      "methodology_hint": "Inception-V4, 101k fundus images, AUC 0.99, prospective validation two cohorts, specialist audit, ablation",
-      "claimed_contribution": "Inception-V4 glaucoma detector AUC 0.99, prospectively validated with specialist audit and preprocessing ablation."
+      "title": "EfficientNet-B5 for 8-Class Skin Lesion Diagnosis on ISIC 2019",
+      "abstract": "We fine-tune EfficientNet-B5 on 25,000 dermoscopy images from ISIC 2019 for 8-class skin lesion classification including melanoma, BCC, and seborrhoeic keratosis. Balanced accuracy 0.88 is achieved, outperforming the challenge winner and ResNet-50, DenseNet-121, and ViT-B baselines. Calibration curves per class and performance stratified by Fitzpatrick skin type are provided. Code is released.",
+      "topic_hint": "EfficientNet, dermoscopy, ISIC 2019, 8-class diagnosis, balanced accuracy",
+      "methodology_hint": "EfficientNet-B5, ISIC 2019 25k, balanced accuracy 0.88, 3 baselines, skin type stratification, code",
+      "claimed_contribution": "EfficientNet for 8-class dermoscopy diagnosis balanced accuracy 0.88, Fitzpatrick stratification, code released."
     },
     {
       "id": "p002",
-      "title": "Reinforcement Learning for Anti-VEGF Treatment Decision Support in Wet AMD",
-      "abstract": "Machine learning for clinical diagnosis and decision support in ophthalmology is rapidly advancing. We apply reinforcement learning to OCT imaging time series to recommend injection intervals for anti-VEGF treatment of wet age-related macular degeneration. The RL policy reduces injection frequency by 18% versus a fixed treat-and-extend protocol in a retrospective cohort of 3,200 patients. This is a treatment selection tool.",
-      "topic_hint": "reinforcement learning, anti-VEGF, AMD, OCT, treatment selection",
-      "methodology_hint": "RL, OCT time series, 3200 patients, injection frequency reduction 18%, treatment not diagnosis",
-      "claimed_contribution": "RL policy reducing anti-VEGF injection frequency by 18% vs fixed treat-and-extend protocol."
+      "title": "Federated Learning for Privacy-Preserving Skin Lesion Classifier Across 18 Dermatology Clinics",
+      "abstract": "Dermoscopy AI benefits from multi-site diversity. We implement federated learning to train a skin lesion classifier across 18 clinics without sharing images. AUC 0.93 for melanoma detection is achieved, matching centralised training. The federated model generalises better across skin tones than single-site models. We note this is a federated training methodology paper; the diagnostic model uses a published architecture.",
+      "topic_hint": "federated learning, dermoscopy, melanoma, multi-site, skin lesion",
+      "methodology_hint": "federated learning, 18 clinics, AUC 0.93, methodology paper — no new diagnostic architecture",
+      "claimed_contribution": "Federated dermoscopy melanoma classification AUC 0.93, 18 clinics, methodology contribution."
     },
     {
       "id": "p003",
-      "title": "Vision Transformer for Diabetic Macular Oedema Detection and Grading from OCT",
-      "abstract": "We fine-tune a ViT-L/16 on 98,000 OCT B-scans from the OCTAGON multi-site dataset to detect and grade diabetic macular oedema across three severity levels. The model achieves macro-AUC of 0.96 and outperforms ResNet-50, EfficientNet-B4, and a retinal specialist consensus. Per-layer attention analysis reveals fluid-containing hyperreflective regions as the primary diagnostic signal.",
-      "topic_hint": "ViT, diabetic macular oedema, OCT, grading, OCTAGON, retinal diagnosis",
-      "methodology_hint": "ViT-L/16, OCTAGON multi-site, macro-AUC 0.96, ResNet/EfficientNet/specialist baselines, attention analysis",
-      "claimed_contribution": "ViT for DMO grading from OCT with macro-AUC 0.96, outperforming retinal specialist consensus."
+      "title": "Self-Supervised MoCo Pre-training on 2M Dermoscopy Images for Skin Lesion Classification",
+      "abstract": "We apply MoCo contrastive pre-training on 2 million unlabelled dermoscopy images before fine-tuning for 14 skin lesion classes. AUC 0.92 averaged across classes is achieved with 100 labelled images per class, outperforming ImageNet pre-training and a fully supervised baseline on the same label budget. An ablation of pre-training duration and data augmentation strategy is provided.",
+      "topic_hint": "MoCo, self-supervised, dermoscopy, skin lesion, label-efficient",
+      "methodology_hint": "MoCo pre-training, 2M dermoscopy, AUC 0.92 at 100 labels, ImageNet and supervised baselines, ablation",
+      "claimed_contribution": "MoCo pre-training for skin lesion classification AUC 0.92 at 100 labels, 2 baselines, ablation."
     },
     {
       "id": "p004",
-      "title": "Prognosis of Visual Acuity Loss After Cataract Surgery Using Machine Learning",
-      "abstract": "Machine learning for ophthalmic clinical decision support encompasses both diagnosis and prognosis applications. We apply gradient boosting to pre-operative biometry and clinical variables to predict 3-month post-operative visual acuity outcomes in 4,800 cataract surgery patients, achieving mean absolute error of 0.08 logMAR. This is a prognostic model; no diagnostic classification is performed.",
-      "topic_hint": "gradient boosting, cataract surgery, visual acuity prognosis, biometry",
-      "methodology_hint": "gradient boosting, pre-operative biometry, MAE 0.08 logMAR, prognosis not diagnosis",
-      "claimed_contribution": "Gradient boosting for 3-month post-cataract visual acuity prognosis with MAE 0.08 logMAR."
+      "title": "Survival Analysis for Melanoma-Specific Mortality Risk Using Clinical and Dermoscopic Features",
+      "abstract": "Stage I melanoma has variable prognosis. We train a neural survival model on Breslow thickness, mitotic rate, and dermoscopic features from 1,800 stage I melanoma patients to predict 5-year melanoma-specific mortality. C-index 0.78 is achieved. This is a prognostic model; dermoscopy is used as a feature source, not for initial diagnosis.",
+      "topic_hint": "neural survival model, melanoma prognosis, dermoscopic features, stage I",
+      "methodology_hint": "neural survival, C-index 0.78, dermoscopy as features for prognosis — not lesion classification",
+      "claimed_contribution": "Neural survival model for melanoma prognosis C-index 0.78, dermoscopy features, not diagnosis."
     },
     {
       "id": "p005",
-      "title": "CNN for Automated Diagnosis of Age-Related Macular Degeneration Staging from Fundus",
-      "abstract": "We develop a convolutional neural network trained on 80,000 fundus photographs from the Age-Related Eye Disease Study to classify AMD across five AREDS stages. The model achieves AUC 0.96 and quadratic weighted kappa 0.88, outperforming two-reader grading consensus. Grad-CAM visualisations identify drusen distribution and RPE atrophy as primary staging features.",
-      "topic_hint": "CNN, AMD staging, AREDS, fundus photography, macular degeneration",
-      "methodology_hint": "CNN, AREDS 80k images, AUC 0.96, kappa 0.88, grading consensus comparison, Grad-CAM",
-      "claimed_contribution": "CNN for five-stage AMD classification with AUC 0.96, outperforming reader consensus with Grad-CAM."
+      "title": "GAN-Based Dermoscopy Augmentation for Rare Lesion Type Training",
+      "abstract": "Rare dermatological lesion classes have insufficient training data. We train a class-conditional GAN on ISIC images to synthesise dermoscopy images of five rare lesion types. Classifiers trained with GAN augmentation improve macro-F1 for rare classes from 0.51 to 0.72. The GAN improves diagnostic classifier performance for rare classes.",
+      "topic_hint": "GAN, dermoscopy augmentation, rare lesion, ISIC, skin classification",
+      "methodology_hint": "conditional GAN, ISIC, macro-F1 0.72 for rare classes, augmentation methodology contributing to diagnosis",
+      "claimed_contribution": "GAN dermoscopy augmentation improving rare lesion classification macro-F1 to 0.72."
     },
     {
       "id": "p006",
-      "title": "Drug Repurposing for Ophthalmic Conditions Using Knowledge Graph Embeddings",
-      "abstract": "We apply knowledge graph embedding methods to identify drug repurposing candidates for rare ophthalmic conditions including choroideremia and Stargardt disease. Using 1.2 million biomedical knowledge graph triples, link prediction identifies 18 plausible drug-disease candidates not in the training data. No clinical diagnostic model is developed.",
-      "topic_hint": "knowledge graph, drug repurposing, ophthalmic disease, choroideremia, link prediction",
-      "methodology_hint": "KG embedding, link prediction, 1.2M triples, drug repurposing candidates, no diagnostic model",
-      "claimed_contribution": "Knowledge graph embedding identifying 18 drug repurposing candidates for rare ophthalmic conditions."
+      "title": "ResNet-50 for Acne Severity Grading from Clinical Smartphone Photographs",
+      "abstract": "Acne severity grading guides treatment decisions. We train ResNet-50 on 8,000 standardised clinical facial photographs to classify acne severity across four IGA grades. Weighted kappa 0.78 is achieved, outperforming a dermatologist panel. This uses clinical photographs, not dermoscopy.",
+      "topic_hint": "ResNet-50, acne grading, clinical photographs, IGA, smartphone",
+      "methodology_hint": "ResNet-50, 8k clinical photos, kappa 0.78, dermatologist comparison, clinical not dermoscopy",
+      "claimed_contribution": "ResNet for acne severity grading kappa 0.78, clinical photos not dermoscopy."
     },
     {
       "id": "p007",
-      "title": "Attention U-Net for Automated Optic Disc and Cup Segmentation in Glaucoma Assessment",
-      "abstract": "We train an attention U-Net on 4,500 fundus photographs to segment the optic disc and cup for automated cup-to-disc ratio measurement supporting glaucoma assessment. Dice scores of 0.96 and 0.87 are achieved for disc and cup respectively. The model outputs CDR values that correlate r=0.93 with manual grading. Three publicly available fundus segmentation benchmarks are included in evaluation.",
-      "topic_hint": "attention U-Net, optic disc segmentation, cup-to-disc ratio, glaucoma, fundus",
-      "methodology_hint": "attention U-Net, 4500 fundus, Dice 0.96/0.87, CDR r=0.93, three benchmark evaluation",
-      "claimed_contribution": "Attention U-Net for optic disc/cup segmentation achieving Dice 0.96/0.87 with CDR correlation r=0.93."
+      "title": "Transformer for Psoriasis Area and Severity Index Estimation from Body Photographs",
+      "abstract": "PASI scoring requires time-consuming clinical assessment. We train a transformer on 6,200 full-body photographs to estimate PASI scores, achieving mean absolute error 1.8 PASI units. Correlation with dermatologist PASI is 0.88. This uses clinical photographs for severity estimation, not dermoscopy for lesion classification.",
+      "topic_hint": "transformer, PASI, psoriasis, body photographs, severity estimation",
+      "methodology_hint": "transformer, 6200 body photos, MAE 1.8 PASI, severity estimation — not dermoscopy lesion classification",
+      "claimed_contribution": "Transformer for PASI estimation from body photos, MAE 1.8, not dermoscopy diagnosis."
     },
     {
       "id": "p008",
-      "title": "Survey of Deep Learning Methods for Retinal Fundus Image Analysis",
-      "abstract": "We survey 230 papers on deep learning methods for automated analysis of retinal fundus images, covering diabetic retinopathy grading, glaucoma detection, AMD classification, and vessel segmentation. We present a benchmark comparison of leading architectures and identify open challenges in domain generalisation and uncertainty quantification. No new model is proposed.",
-      "topic_hint": "survey, fundus image analysis, deep learning, retinal diagnosis, benchmark comparison",
-      "methodology_hint": "survey of 230 papers, benchmark comparison, no new model, architecture review",
-      "claimed_contribution": "Survey of 230 fundus deep learning papers with benchmark comparison and open challenge analysis."
+      "title": "ViT-L/16 for Multiclass Dermoscopy Diagnosis with Uncertainty-Guided Human-AI Collaboration",
+      "abstract": "We fine-tune ViT-L/16 on 60,000 dermoscopy images for 14-class skin lesion diagnosis. Macro-AUC 0.94 is achieved. A Monte Carlo Dropout uncertainty mechanism routes low-confidence cases to dermatologist review, improving overall workflow accuracy to 0.97 in a simulated hybrid system. Ablation confirms uncertainty routing contributes beyond pure classification. External validation on a multi-centre European dataset is provided.",
+      "topic_hint": "ViT, dermoscopy, multiclass diagnosis, uncertainty, human-AI collaboration",
+      "methodology_hint": "ViT-L/16, 60k dermoscopy, macro-AUC 0.94, MC Dropout, hybrid workflow, ablation, external validation",
+      "claimed_contribution": "ViT for 14-class dermoscopy macro-AUC 0.94, uncertainty routing to 0.97 hybrid, ablation, external validation."
     },
     {
       "id": "p009",
-      "title": "Self-Supervised Pre-training for Low-Resource Retinal Disease Classification",
-      "abstract": "We apply momentum contrastive pre-training on 2 million unlabelled fundus photographs to learn retinal representations. The pre-trained encoder improves AUC by 8-12% on four downstream retinal disease classification tasks compared to supervised baselines when fine-tuned with 100 labels. Ablation of pre-training dataset size and augmentation strategy is provided.",
-      "topic_hint": "self-supervised learning, fundus pre-training, retinal disease, contrastive, low-resource",
-      "methodology_hint": "MoCo pre-training, 2M unlabelled fundus, AUC improvement 8-12%, four tasks, ablation of dataset size",
-      "claimed_contribution": "Contrastive fundus pre-training improving downstream retinal disease AUC 8-12% with 100 labels."
+      "title": "Knowledge Distillation for On-Device Skin Lesion Triage in Primary Care",
+      "abstract": "Deploying dermoscopy AI in primary care requires lightweight models. We distil EfficientNet-B5 to a lightweight student achieving AUC 0.90 for benign/malignant dermoscopy triage at 3x faster inference on smartphone CPUs. Comparison against the teacher model and a pruning baseline is provided.",
+      "topic_hint": "knowledge distillation, dermoscopy, skin lesion triage, mobile, AUC",
+      "methodology_hint": "distillation from EfficientNet-B5, AUC 0.90, 3x speedup, pruning baseline, dermoscopy triage",
+      "claimed_contribution": "Knowledge distillation for dermoscopy triage AUC 0.90, 3x speedup, mobile deployment."
     },
     {
       "id": "p010",
-      "title": "Federated Learning for Multi-Site Diabetic Retinopathy Grading Without Data Sharing",
-      "abstract": "We implement federated learning across 6 diabetic retinopathy screening sites in three countries to train a DR grading model without centralising patient fundus images. The federated model achieves AUC 0.93, within 2% of the centralised upper bound. We note this is a federated training methodology paper; the diagnostic model itself builds on published DR grading architectures.",
-      "topic_hint": "federated learning, diabetic retinopathy, multi-site, privacy, grading methodology",
-      "methodology_hint": "federated training, 6 sites three countries, AUC 0.93, 2% below centralised, methodology paper",
-      "claimed_contribution": "Federated training achieving AUC 0.93 for DR grading across 6 international sites without data sharing."
+      "title": "Deep Learning for Eczema Patch Testing Result Prediction from Photograph",
+      "abstract": "Predicting patch test outcomes could guide allergen panels. We train a CNN on 3,200 patch test photographs to predict test result grading. Accuracy 0.84 is achieved. This uses clinical photographs to predict patch test results, not dermoscopy for skin lesion classification.",
+      "topic_hint": "CNN, eczema, patch testing, clinical photograph, allergen",
+      "methodology_hint": "CNN, patch test photos, accuracy 0.84 — clinical not dermoscopy, patch test not lesion diagnosis",
+      "claimed_contribution": "CNN for patch test outcome prediction accuracy 0.84, not dermoscopy lesion diagnosis."
     },
     {
       "id": "p011",
-      "title": "Sparse Autoencoder for Anomaly Detection in OCT Volume Scans",
-      "abstract": "We train a sparse autoencoder on 50,000 healthy OCT volume scans and use reconstruction error as an anomaly score to detect unseen pathologies including macular holes, epiretinal membranes, and vitreous detachment. The approach achieves AUC 0.88 across five pathology classes without class-specific supervision, outperforming density estimation and one-class SVM baselines.",
-      "topic_hint": "sparse autoencoder, OCT, anomaly detection, macular hole, retinal pathology",
-      "methodology_hint": "sparse autoencoder, 50k healthy OCTs, reconstruction error, AUC 0.88, five pathology classes, one-class SVM baseline",
-      "claimed_contribution": "Sparse autoencoder OCT anomaly detector achieving AUC 0.88 across five pathologies without class supervision."
+      "title": "Meta-Analysis of Deep Learning for Melanoma Detection: 62 Studies",
+      "abstract": "We meta-analyse 62 studies on deep learning for melanoma detection from dermoscopy. Pooled sensitivity 0.88 and specificity 0.82 are reported. Substantial heterogeneity in dataset characteristics and validation design is found. No new model is developed.",
+      "topic_hint": "meta-analysis, melanoma detection, dermoscopy, 62 studies",
+      "methodology_hint": "meta-analysis, 62 studies, no new model",
+      "claimed_contribution": "Meta-analysis of 62 DL melanoma detection studies, heterogeneity analysis, no new model."
     },
     {
       "id": "p012",
-      "title": "Automated Intraocular Pressure Prediction for Glaucoma Risk Stratification from Fundus",
-      "abstract": "Machine learning for ophthalmic clinical decision support includes novel biomarker estimation. We train a CNN to predict intraocular pressure from fundus photographs as a surrogate biomarker for glaucoma risk stratification. Pearson correlation 0.71 with tonometry measurements is achieved. IOP prediction supports risk stratification; automated glaucoma diagnosis is not performed.",
-      "topic_hint": "CNN, intraocular pressure, fundus photography, glaucoma risk, biomarker prediction",
-      "methodology_hint": "CNN, IOP prediction from fundus, Pearson 0.71, risk stratification not diagnosis",
-      "claimed_contribution": "CNN predicting IOP from fundus photographs with Pearson 0.71 for glaucoma risk stratification."
+      "title": "U-Net for Dermoscopic Lesion Boundary Segmentation Without Classification",
+      "abstract": "Accurate lesion boundary segmentation supports clinical measurement and feature extraction. We train a U-Net on 4,000 manually annotated dermoscopy images to segment lesion boundaries. Dice 0.91 is achieved. The model segments boundaries only and does not classify lesion type or malignancy.",
+      "topic_hint": "U-Net, dermoscopy, lesion segmentation, boundary delineation",
+      "methodology_hint": "U-Net, 4000 dermoscopy images, Dice 0.91, segmentation only — no classification",
+      "claimed_contribution": "U-Net dermoscopy lesion segmentation Dice 0.91, no lesion classification."
     },
     {
       "id": "p013",
-      "title": "Multi-Modal CNN for Conjunctival Melanoma Diagnosis from Anterior Segment Photography",
-      "abstract": "We develop a multi-modal CNN that fuses anterior segment photography and patient metadata to classify conjunctival lesions as benign, dysplastic, or malignant melanoma. Trained on 2,800 lesions from four tertiary referral centres, the model achieves AUC 0.94 and sensitivity 0.91 at 85% specificity. Comparison against three consultant ophthalmologists and a dermoscopy baseline is provided.",
-      "topic_hint": "multi-modal CNN, conjunctival melanoma, anterior segment photography, ocular oncology, diagnosis",
-      "methodology_hint": "multi-modal CNN, 2800 conjunctival lesions, AUC 0.94, sensitivity 0.91, ophthalmologist comparison, dermoscopy baseline",
-      "claimed_contribution": "Multi-modal CNN for conjunctival melanoma diagnosis with AUC 0.94, validated against specialist ophthalmologists."
+      "title": "Dense CNN for Reflectance Confocal Microscopy Basal Cell Carcinoma Detection",
+      "abstract": "Reflectance confocal microscopy provides near-histological skin imaging. We train a dense CNN on 3,800 RCM sequences from 420 patients to detect basal cell carcinoma. Sensitivity 0.89 at specificity 0.88 is achieved, outperforming dermoscopy expert assessment. RCM enables non-invasive BCC diagnosis.",
+      "topic_hint": "dense CNN, reflectance confocal microscopy, BCC, skin lesion detection",
+      "methodology_hint": "dense CNN, RCM 3800 sequences, sensitivity 0.89, dermoscopy expert comparison",
+      "claimed_contribution": "Dense CNN for RCM-based BCC detection sensitivity 0.89, dermoscopy expert comparison."
     },
     {
       "id": "p014",
-      "title": "LSTM for Predicting Visual Field Progression Rate in Glaucoma",
-      "abstract": "Machine learning for ophthalmic clinical decision support supports treatment monitoring. We apply an LSTM to longitudinal series of visual field Humphrey 24-2 tests from 1,800 glaucoma patients to predict mean deviation progression rate over the next 2 years, achieving mean absolute error of 0.8 dB/year. Progression rate prediction informs treatment escalation decisions. This is a prognosis model.",
-      "topic_hint": "LSTM, visual field, glaucoma progression, Humphrey 24-2, prognosis",
-      "methodology_hint": "LSTM, longitudinal visual fields, 1800 patients, MAE 0.8 dB/year, prognosis not diagnosis",
-      "claimed_contribution": "LSTM for glaucoma visual field progression rate prediction with MAE 0.8 dB/year."
+      "title": "ABCDE Feature-Guided Attention CNN for Melanoma Diagnosis with Explainability",
+      "abstract": "Clinical ABCDE criteria for melanoma assessment provide structured explainability anchors. We incorporate ABCDE-derived attention supervision into a CNN trained on 32,000 dermoscopy images. Balanced accuracy 0.87 is achieved for melanoma diagnosis, with attention maps validated against dermatologist feature ratings. The model outperforms a standard fine-tuned CNN baseline and provides interpretable diagnostic signals.",
+      "topic_hint": "ABCDE, attention CNN, melanoma diagnosis, dermoscopy, explainability",
+      "methodology_hint": "ABCDE-guided attention CNN, 32k dermoscopy, balanced accuracy 0.87, CNN baseline, dermatologist validation",
+      "claimed_contribution": "ABCDE-guided attention CNN for melanoma diagnosis 0.87, CNN baseline, dermatologist-validated attention."
     },
     {
       "id": "p015",
-      "title": "Explainable AI for Retinopathy of Prematurity Staging from Retinal Imaging",
-      "abstract": "We train a DenseNet-121 on 6,000 retinal images from premature infants to classify retinopathy of prematurity at five international classification stages. The model achieves AUC 0.95 and quadratic weighted kappa 0.87, outperforming three neonatologist graders. LIME and Grad-CAM provide lesion-level explanations that improve clinician trust in a simulation study.",
-      "topic_hint": "DenseNet, retinopathy of prematurity, ROP staging, neonatal retinal imaging, explainability",
-      "methodology_hint": "DenseNet-121, 6000 neonatal retinal images, AUC 0.95, kappa 0.87, neonatologist comparison, LIME+Grad-CAM",
-      "claimed_contribution": "DenseNet for ROP staging with AUC 0.95 and LIME/Grad-CAM explanations improving clinician trust."
+      "title": "Reinforcement Learning for Biopsy Site Selection in Suspicious Skin Lesions",
+      "abstract": "When biopsying a large or complex skin lesion, optimal site selection maximises diagnostic yield. We train an RL agent on dermoscopy images to select biopsy coordinates. Diagnostic yield improves by 18% in simulation. This is a procedural guidance tool, not automated skin lesion classification.",
+      "topic_hint": "RL, biopsy site selection, skin lesion, procedural guidance",
+      "methodology_hint": "RL, biopsy site selection, dermoscopy — procedural guidance not classification",
+      "claimed_contribution": "RL for optimal biopsy site selection, 18% diagnostic yield improvement, not classification."
     },
     {
       "id": "p016",
-      "title": "Uncertainty Quantification in Ophthalmic Deep Learning: A Methodology Study",
-      "abstract": "We evaluate Monte Carlo dropout, deep ensembles, and conformal prediction for uncertainty quantification in three ophthalmic image classification tasks. No new diagnostic model is developed; this is a methodology comparison aimed at guiding uncertainty-aware deployment of existing retinal classifiers.",
-      "topic_hint": "uncertainty quantification, Monte Carlo dropout, ensembles, ophthalmic imaging, methodology",
-      "methodology_hint": "MC dropout, deep ensembles, conformal prediction, three tasks, methodology comparison only",
-      "claimed_contribution": "Comparison of uncertainty quantification methods for ophthalmic image classifiers across three tasks."
+      "title": "Contrastive Learning for Cross-Domain Dermoscopy Generalisation Across Camera Types",
+      "abstract": "Dermoscopy AI is sensitive to camera and acquisition protocol. We apply cross-domain contrastive learning to align features across six dermoscope camera types, training on ISIC and a proprietary dataset. Generalisation AUC improves from 0.83 to 0.91 on held-out camera types for 8-class skin lesion diagnosis. Ablation confirms domain alignment is more effective than simple augmentation.",
+      "topic_hint": "contrastive learning, dermoscopy, domain generalisation, camera types, skin lesion",
+      "methodology_hint": "contrastive cross-domain, 6 camera types, AUC 0.91, ablation vs augmentation, skin lesion classification",
+      "claimed_contribution": "Contrastive dermoscopy domain generalisation AUC 0.91 across camera types, ablation."
     },
     {
       "id": "p017",
-      "title": "Generative Adversarial Network for Synthetic Retinal Image Augmentation",
-      "abstract": "We train a conditional GAN on fundus photographs to generate synthetic retinal images with specified pathology labels for dataset augmentation. Classifiers trained with GAN augmentation improve AUC by 5-7% for four rare retinal conditions. We note this is an augmentation methodology paper; the downstream diagnostic models use published architectures.",
-      "topic_hint": "GAN, synthetic data augmentation, fundus, retinal disease, dataset imbalance",
-      "methodology_hint": "conditional GAN, fundus augmentation, AUC improvement 5-7%, augmentation methodology paper",
-      "claimed_contribution": "Conditional GAN for synthetic fundus augmentation improving rare retinal disease AUC 5-7%."
+      "title": "Clinical Trial for Topical Retinoid Efficacy in Acne: No AI Component",
+      "abstract": "A randomised controlled trial evaluating topical tretinoin versus adapalene for moderate acne. IGA response at 12 weeks is the primary endpoint. No machine learning or automated image analysis is used.",
+      "topic_hint": "RCT, acne, retinoid, clinical trial",
+      "methodology_hint": "RCT, no ML, no image analysis",
+      "claimed_contribution": "RCT for topical retinoid acne treatment, no AI component."
     },
     {
       "id": "p018",
-      "title": "Causal Inference for Identifying Risk Factors of Myopia Progression in Children",
-      "abstract": "We apply doubly-robust causal inference to a longitudinal study of 12,000 children to identify causal risk factors for myopia progression, including outdoor exposure, screen time, and parental refractive error. No predictive model or diagnostic system is developed; this is an observational causal study.",
-      "topic_hint": "causal inference, myopia progression, longitudinal cohort, risk factors, children",
-      "methodology_hint": "doubly-robust causal inference, 12k children, risk factor identification, observational study, no diagnostic model",
-      "claimed_contribution": "Causal identification of myopia progression risk factors in 12,000 children using doubly-robust inference."
+      "title": "ViT for Nail Psoriasis Severity Scoring from Standardised Nail Photographs",
+      "abstract": "Nail psoriasis is common and hard to quantify. We train ViT-B/16 on 4,100 standardised nail photographs to score NAPSI severity. AUC 0.88 versus expert NAPSI is achieved. This uses clinical photographs of nails, not dermoscopy for skin lesion classification.",
+      "topic_hint": "ViT, nail psoriasis, NAPSI, nail photographs, severity scoring",
+      "methodology_hint": "ViT-B/16, nail photos, AUC 0.88, nail psoriasis severity — not dermoscopy lesion diagnosis",
+      "claimed_contribution": "ViT for NAPSI nail psoriasis scoring AUC 0.88, not skin lesion classification."
     },
     {
       "id": "p019",
-      "title": "EfficientNet for Corneal Pathology Classification from Anterior Segment OCT",
-      "abstract": "We fine-tune an EfficientNet-B5 on 18,000 anterior segment OCT scans to classify six corneal pathologies including keratoconus, Fuchs dystrophy, and bullous keratopathy. The model achieves macro-F1 of 0.91 and AUC 0.95, outperforming ResNet-50, VGG-16, and a slit-lamp expert grader baseline. Per-class analysis identifies keratoconus as the highest-performance category.",
-      "topic_hint": "EfficientNet, corneal pathology, anterior segment OCT, keratoconus, diagnosis",
-      "methodology_hint": "EfficientNet-B5, 18k AS-OCT, macro-F1 0.91, AUC 0.95, ResNet/VGG/expert baselines, per-class analysis",
-      "claimed_contribution": "EfficientNet for six-class corneal pathology diagnosis from AS-OCT with macro-F1 0.91 and AUC 0.95."
+      "title": "Sparse Autoencoder for Unsupervised Discovery of Dermoscopic Lesion Subtypes",
+      "abstract": "Unsupervised dermoscopy analysis may reveal novel lesion subtypes. We train a sparse autoencoder on 80,000 dermoscopy images and cluster the latent space into 24 groups. Downstream classification of clinically labelled cases achieves AUC 0.87. The pipeline ends in supervised classification of dermoscopy images.",
+      "topic_hint": "sparse autoencoder, dermoscopy, unsupervised subtype discovery, classification",
+      "methodology_hint": "sparse autoencoder, 80k dermoscopy, 24 clusters, AUC 0.87 downstream classification",
+      "claimed_contribution": "Sparse autoencoder for dermoscopy subtype discovery, downstream classification AUC 0.87."
     },
     {
       "id": "p020",
-      "title": "Physics-Informed Neural Network for Intraocular Lens Power Calculation",
-      "abstract": "We embed optical refraction physics into a neural network to improve intraocular lens power calculation for cataract surgery planning. The model reduces prediction error for post-operative target refraction from 0.41D (existing formula) to 0.28D mean absolute error. This is a surgical planning tool, not a diagnostic classifier.",
-      "topic_hint": "physics-informed NN, IOL calculation, cataract surgery, refraction, surgical planning",
-      "methodology_hint": "physics-informed NN, IOL power, MAE 0.28D, optical formula comparison, surgical planning not diagnosis",
-      "claimed_contribution": "Physics-informed NN for IOL power calculation reducing prediction error from 0.41D to 0.28D MAE."
+      "title": "Bayesian CNN for Dermoscopy with Calibrated Uncertainty for Triage in Teledermatology",
+      "abstract": "Teledermatology triage requires both accurate diagnosis and reliable uncertainty. We train a Bayesian CNN using MC Dropout on 18,000 dermoscopy images for 6-class skin lesion diagnosis. AUC 0.91 is achieved. The model's uncertainty estimates stratify cases by risk in a teledermatology simulation, with low-confidence cases achieving equal accuracy to dermatologist consensus after expert review. Comparison against a deterministic EfficientNet baseline is provided.",
+      "topic_hint": "Bayesian CNN, dermoscopy, teledermatology, uncertainty, 6-class diagnosis",
+      "methodology_hint": "Bayesian CNN, 18k dermoscopy, AUC 0.91, EfficientNet baseline, teledermatology simulation",
+      "claimed_contribution": "Bayesian CNN for teledermatology dermoscopy diagnosis AUC 0.91 with uncertainty triage, EfficientNet comparison."
     }
   ],
   "ground_truth": {
@@ -171,54 +171,37 @@
       "p002": "EXCLUDE",
       "p003": "INCLUDE",
       "p004": "EXCLUDE",
-      "p005": "INCLUDE",
+      "p005": "EXCLUDE",
       "p006": "EXCLUDE",
       "p007": "EXCLUDE",
-      "p008": "EXCLUDE",
+      "p008": "INCLUDE",
       "p009": "EXCLUDE",
       "p010": "EXCLUDE",
       "p011": "EXCLUDE",
       "p012": "EXCLUDE",
       "p013": "INCLUDE",
-      "p014": "EXCLUDE",
-      "p015": "INCLUDE",
+      "p014": "INCLUDE",
+      "p015": "EXCLUDE",
       "p016": "EXCLUDE",
       "p017": "EXCLUDE",
       "p018": "EXCLUDE",
       "p019": "EXCLUDE",
       "p020": "EXCLUDE"
     },
-    "ranked_order": ["p001", "p003", "p005", "p013", "p015"],
+    "ranked_order": ["p008", "p001", "p013", "p003", "p014"],
     "relevance_quality_scores": {
-      "p001": 0.97,
-      "p002": 0.06,
-      "p003": 0.93,
-      "p004": 0.07,
-      "p005": 0.90,
-      "p006": 0.04,
-      "p007": 0.35,
-      "p008": 0.08,
-      "p009": 0.40,
-      "p010": 0.30,
-      "p011": 0.38,
-      "p012": 0.15,
-      "p013": 0.88,
-      "p014": 0.09,
-      "p015": 0.87,
-      "p016": 0.10,
-      "p017": 0.25,
-      "p018": 0.05,
-      "p019": 0.45,
-      "p020": 0.08
+      "p001": 0.91, "p002": 0.30, "p003": 0.88, "p004": 0.12,
+      "p005": 0.35, "p006": 0.40, "p007": 0.20, "p008": 0.96,
+      "p009": 0.45, "p010": 0.15, "p011": 0.08, "p012": 0.20,
+      "p013": 0.86, "p014": 0.84, "p015": 0.10, "p016": 0.50,
+      "p017": 0.02, "p018": 0.22, "p019": 0.48, "p020": 0.60
     },
     "vocabulary_list": [
-      "glaucoma", "fundus", "inception", "auc", "prospective", "validation",
-      "specialist", "ablation", "vit", "macular", "oedema", "oct", "octagon",
-      "grading", "amsler", "diabetic", "retinopathy", "melanoma", "conjunctival",
-      "anterior", "segment", "rop", "prematurity", "densenet", "kappa",
-      "neonatologist", "trained", "model", "diagnosis", "clinical", "network",
-      "detection", "classification", "evaluation", "baseline", "comparison",
-      "automated", "imaging", "retinal", "optic", "sensitivity", "specificity"
+      "dermoscopy", "melanoma", "skin", "lesion", "classification", "diagnosis",
+      "efficientnet", "vit", "auc", "isic", "balanced", "accuracy", "trained",
+      "model", "baseline", "ablation", "evaluation", "confocal", "rcm",
+      "benign", "malignant", "multiclass", "neural", "network", "external",
+      "validation", "calibration", "uncertainty", "bayesian", "attention"
     ]
   }
 }

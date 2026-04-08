@@ -1,100 +1,100 @@
 {
   "task_id": "task1",
   "instance_id": "instance_003",
-  "task_description": "Screen each abstract for relevance to: deep learning for radiology and medical imaging analysis. Label RELEVANT if the paper develops or evaluates a deep learning system for interpreting medical images (X-ray, CT, MRI, ultrasound, fundus, pathology slides). Label NOT_RELEVANT otherwise.",
+  "task_description": "Screen each abstract for relevance to: deep learning applied to retinal fundus image analysis for eye disease detection or grading. Label RELEVANT if the paper applies deep learning to retinal fundus photographs or OCT images to detect or grade any ocular condition. Label NOT_RELEVANT if the imaging modality, method type, or clinical task does not satisfy these criteria.",
   "papers": [
     {
       "id": "p001",
-      "title": "U-Net with Attention Gates for Lung Nodule Segmentation in CT",
-      "abstract": "We extend U-Net with soft attention gates to focus on lung nodule regions during CT volume segmentation. Evaluated on the LIDC-IDRI dataset, our model achieves Dice 0.84 for nodule segmentation and sensitivity 0.91 at one false positive per scan.",
-      "topic_hint": "deep learning, CT segmentation, lung nodules",
-      "methodology_hint": "U-Net, attention gates, Dice, LIDC-IDRI benchmark",
-      "claimed_contribution": "Attention-gated U-Net for lung nodule segmentation achieving Dice 0.84 on LIDC-IDRI."
+      "title": "Transfer Learning from ImageNet for Diabetic Retinopathy Grading in Low-Resource Settings",
+      "abstract": "High-quality retinal grading AI typically requires large labelled datasets unavailable in low-income settings. We study transfer learning from ImageNet-pretrained ResNet-50 fine-tuned on 4,800 fundus photographs from two African hospital systems. Quadratic weighted kappa 0.82 is achieved on a held-out validation set, comparable to models trained on ten times more data. We provide a practical guide for deployment on low-cost tablet fundus cameras.",
+      "topic_hint": "transfer learning, diabetic retinopathy, fundus photography, low-resource, ResNet",
+      "methodology_hint": "ResNet-50 transfer learning, 4800 fundus images, kappa 0.82, low-resource deployment",
+      "claimed_contribution": "ResNet-50 transfer learning for DR grading with kappa 0.82 in low-resource settings, deployment guide."
     },
     {
       "id": "p002",
-      "title": "Vision Transformer for Multi-Label Chest X-Ray Pathology Classification",
-      "abstract": "We adapt Vision Transformer (ViT-B/16) to classify 14 pathologies simultaneously from frontal chest X-rays. Fine-tuned on CheXpert, our model achieves mean AUC 0.90 across all pathologies and outperforms DenseNet-121 on 10 of 14 labels.",
-      "topic_hint": "vision transformer, chest X-ray, multi-label classification",
-      "methodology_hint": "ViT, CheXpert, mean AUC, DenseNet comparison",
-      "claimed_contribution": "ViT-based multi-label chest X-ray classifier with mean AUC 0.90 on CheXpert."
+      "title": "Reinforcement Learning for Surgical Instrument Tracking in Robot-Assisted Operations",
+      "abstract": "Accurate instrument tracking is critical for autonomous robotic surgery. We train a reinforcement learning agent using a combination of surgical video frames and kinematic sensor streams from 320 laparoscopic procedures. The agent achieves 94% tracking accuracy at 30 fps, outperforming optical flow and convolutional tracker baselines. No fundus imaging, retinal analysis, or ocular disease detection is involved.",
+      "topic_hint": "reinforcement learning, surgical robotics, instrument tracking, laparoscopic",
+      "methodology_hint": "RL, surgical video, kinematic sensors, tracking accuracy 94%, surgical setting — no fundus imaging",
+      "claimed_contribution": "RL agent for surgical instrument tracking at 94% accuracy, 30 fps, in laparoscopic procedures."
     },
     {
       "id": "p003",
-      "title": "Conditional GAN for MRI Data Augmentation in Brain Tumour Segmentation",
-      "abstract": "We train a conditional GAN to synthesise realistic brain MRI scans for data augmentation in tumour segmentation. Adding synthesised images to the training set of a 3D U-Net improves Dice on the BraTS 2021 validation set from 0.81 to 0.86.",
-      "topic_hint": "GAN, MRI augmentation, brain tumour segmentation",
-      "methodology_hint": "cGAN, 3D U-Net, BraTS 2021, Dice improvement",
-      "claimed_contribution": "cGAN augmentation strategy improving 3D U-Net tumour segmentation by 5 Dice points on BraTS 2021."
+      "title": "Attention-Guided CNN for Age-Related Macular Degeneration Detection from Fundus Images",
+      "abstract": "Age-related macular degeneration is a leading cause of irreversible vision loss. We develop an attention-guided convolutional network trained on 58,000 fundus photographs from the UK Biobank to detect and grade AMD severity. The model achieves macro-AUC 0.95 across four AMD stages and correctly localises drusen and geographic atrophy using spatial attention maps. Performance is maintained across three different fundus camera models.",
+      "topic_hint": "CNN, AMD detection, fundus photography, UK Biobank, attention maps",
+      "methodology_hint": "attention CNN, 58k fundus images, UK Biobank, macro-AUC 0.95, multi-camera validation",
+      "claimed_contribution": "Attention CNN for AMD grading from fundus images, macro-AUC 0.95 with drusen localisation across cameras."
     },
     {
       "id": "p004",
-      "title": "EfficientNet for Diabetic Retinopathy Severity Grading",
-      "abstract": "We apply EfficientNet-B4 to grade diabetic retinopathy severity from colour fundus photographs at five levels. Trained on the EyePACS dataset with 88,000 images, our model achieves quadratic kappa 0.93 and outperforms prior inception-based graders.",
-      "topic_hint": "deep learning, diabetic retinopathy, fundus images",
-      "methodology_hint": "EfficientNet, EyePACS, quadratic kappa, severity grading",
-      "claimed_contribution": "EfficientNet-B4 grader for diabetic retinopathy achieving kappa 0.93 on EyePACS."
+      "title": "Contrastive Self-Supervised Learning for Chest X-Ray Abnormality Detection",
+      "abstract": "We apply contrastive self-supervised pre-training on 1.3 million unlabelled chest radiographs and fine-tune for 14 pathology labels from the CheXpert benchmark. AUC 0.88 averaged across pathologies is achieved with 100 labelled examples per class, demonstrating strong label efficiency. This work targets thoracic imaging, not retinal fundus analysis.",
+      "topic_hint": "contrastive learning, chest X-ray, self-supervised, CheXpert, thoracic pathology",
+      "methodology_hint": "contrastive pre-training, chest X-ray, AUC 0.88, label-efficient — chest not fundus imaging",
+      "claimed_contribution": "Contrastive pre-training for chest X-ray pathology, AUC 0.88 with 100 labels per class."
     },
     {
       "id": "p005",
-      "title": "Multi-Scale Attention Network for Fetal Biometry in Ultrasound",
-      "abstract": "We propose a multi-scale attention network that simultaneously localises and measures fetal biometric planes in third-trimester ultrasound. Evaluated on 3,000 scans from three clinical sites, our model agrees with sonographer measurements within 1.2mm mean error.",
-      "topic_hint": "deep learning, ultrasound, fetal biometry",
-      "methodology_hint": "multi-scale attention, fetal measurement, sonographer agreement",
-      "claimed_contribution": "Attention network for fetal biometry in ultrasound with 1.2mm mean measurement error."
+      "title": "Sparse Transformer for Glaucoma Suspect Classification from Optic Disc OCT Volumes",
+      "abstract": "Glaucoma suspects — patients with elevated intraocular pressure but no confirmed field loss — are challenging to monitor. We train a sparse transformer on 3D optical coherence tomography volumes of the optic disc from 14,000 suspect patients. Longitudinal OCT sequences predict conversion to glaucoma within two years with AUC 0.86, outperforming retinal nerve fibre layer thickness thresholds. Code and model weights are released.",
+      "topic_hint": "sparse transformer, glaucoma suspect, OCT, optic disc, progression prediction",
+      "methodology_hint": "sparse transformer, 3D OCT, 14k patients, AUC 0.86, RNFL thickness comparison, public code",
+      "claimed_contribution": "Sparse transformer for glaucoma conversion prediction from longitudinal OCT, AUC 0.86."
     },
     {
       "id": "p006",
-      "title": "Large Language Models for Legal Contract Summarisation",
-      "abstract": "We fine-tune GPT-4 on 50,000 commercial contracts to generate concise plain-language summaries of key obligations and risk clauses. Human evaluators rate our summaries as accurate and complete for 87% of contracts tested, outperforming zero-shot baselines by 23 percentage points.",
-      "topic_hint": "NLP, legal AI, document summarisation",
-      "methodology_hint": "GPT-4 fine-tuning, human evaluation, summarisation accuracy",
-      "claimed_contribution": "GPT-4-based contract summariser with 87% accuracy on key obligations and risk clauses."
+      "title": "U-Net Variants for Prostate Cancer Segmentation in Multiparametric MRI",
+      "abstract": "We systematically evaluate five U-Net architectural variants for prostate cancer lesion segmentation in T2-weighted and diffusion-weighted MRI from 320 patients. The best variant achieves Dice 0.72 on clinically significant lesions. Attention gates and deep supervision provide the largest gains. This work involves pelvic MRI, not retinal or optic imaging.",
+      "topic_hint": "U-Net, prostate cancer, MRI segmentation, multiparametric, lesion detection",
+      "methodology_hint": "U-Net variants, T2+DWI MRI, Dice 0.72, prostate lesion — pelvic not retinal imaging",
+      "claimed_contribution": "U-Net variant comparison for prostate cancer segmentation, Dice 0.72, best with attention and deep supervision."
     },
     {
       "id": "p007",
-      "title": "Deep Reinforcement Learning for High-Frequency Trading Strategies",
-      "abstract": "We train a deep RL agent to execute high-frequency equity trading strategies using limit order book features. Backtested on two years of NASDAQ tick data, our agent achieves Sharpe ratio 2.4, outperforming both TWAP and benchmark momentum strategies.",
-      "topic_hint": "reinforcement learning, finance, algorithmic trading",
-      "methodology_hint": "deep RL, order book, Sharpe ratio, TWAP comparison",
-      "claimed_contribution": "Deep RL trading agent with Sharpe ratio 2.4, outperforming TWAP on NASDAQ tick data."
+      "title": "EfficientNet for Retinal Vessel Segmentation and Diabetic Retinopathy Screening",
+      "abstract": "Retinal vessel morphology provides diagnostic information beyond manual grading. We train an EfficientNet-B3 encoder-decoder on DRIVE and CHASE_DB1 benchmarks for vessel segmentation, achieving Dice 0.82. We further fine-tune the vessel representation for diabetic retinopathy screening, using vessel tortuosity and calibre as auxiliary features that improve DR detection F1 from 0.81 to 0.87 on a held-out validation set.",
+      "topic_hint": "EfficientNet, retinal vessel segmentation, DRIVE, diabetic retinopathy, fundus",
+      "methodology_hint": "EfficientNet-B3, DRIVE/CHASE_DB1, vessel Dice 0.82, DR F1 0.87 with vessel features",
+      "claimed_contribution": "EfficientNet retinal vessel segmentation (Dice 0.82) improving DR screening F1 to 0.87 via vessel features."
     },
     {
       "id": "p008",
-      "title": "Self-Supervised Learning for Autonomous Driving Perception",
-      "abstract": "We develop a contrastive learning framework for pretraining LiDAR point cloud encoders without manual annotation. Pretrained on 100,000 unlabelled driving scenes and fine-tuned with only 5% labelled data, our model achieves 93% of the performance of a fully supervised baseline.",
-      "topic_hint": "self-supervised learning, LiDAR, autonomous driving",
-      "methodology_hint": "contrastive learning, LiDAR pretraining, semi-supervised fine-tuning",
-      "claimed_contribution": "Contrastive LiDAR pretraining reaching 93% of supervised performance with 5% labelled data."
+      "title": "Vision Transformer for Histopathology Grading of Colorectal Cancer Biopsies",
+      "abstract": "We fine-tune a ViT-L/16 on 90,000 H&E stained colorectal biopsy whole-slide images for five-tier cancer grading. Macro-F1 0.91 is achieved, outperforming ResNet and attention-pooling baselines. Patch-level attention visualisations match pathologist annotations on 87% of cases. No retinal, fundus, or ophthalmic imaging is involved.",
+      "topic_hint": "ViT, histopathology, colorectal cancer grading, whole-slide images, H&E",
+      "methodology_hint": "ViT-L/16, 90k WSIs, macro-F1 0.91, pathologist comparison — histopathology not fundus",
+      "claimed_contribution": "ViT for colorectal cancer grading from H&E WSIs, macro-F1 0.91, pathologist-concordant attention."
     },
     {
       "id": "p009",
-      "title": "Diffusion Models for High-Fidelity Text-to-Image Generation",
-      "abstract": "We present a latent diffusion model that synthesises photorealistic images from text prompts using a cross-attention mechanism trained on LAION-5B. Our model achieves FID 7.2 on MS-COCO and demonstrates superior prompt fidelity compared to DALL-E 2 and Imagen.",
-      "topic_hint": "diffusion models, text-to-image, generative AI",
-      "methodology_hint": "latent diffusion, cross-attention, FID, LAION-5B",
-      "claimed_contribution": "Latent diffusion model with FID 7.2 on MS-COCO, outperforming DALL-E 2 and Imagen."
+      "title": "Semi-Supervised Deep Learning for Retinal Arteriolar-to-Venular Ratio Measurement",
+      "abstract": "Arteriolar-to-venular ratio (AVR) from fundus photographs is a biomarker for hypertension and cardiovascular risk. Manual AVR measurement is time-consuming. We develop a semi-supervised deep learning pipeline trained on 2,000 labelled and 30,000 unlabelled fundus images to automatically segment arteries and veins and compute AVR. Agreement with expert measurement achieves intraclass correlation 0.89, enabling population-scale cardiovascular screening.",
+      "topic_hint": "semi-supervised deep learning, fundus photography, AVR measurement, vessel segmentation",
+      "methodology_hint": "semi-supervised DL, 2k labelled + 30k unlabelled fundus, ICC 0.89, AVR computation",
+      "claimed_contribution": "Semi-supervised deep learning for AVR from fundus images, ICC 0.89 with expert measurement."
     },
     {
       "id": "p010",
-      "title": "Neural Architecture Search for Efficient Edge Inference",
-      "abstract": "We propose a differentiable neural architecture search method that optimises model accuracy and latency jointly for edge deployment on ARM Cortex-M devices. Our searched architectures achieve 92% ImageNet top-1 accuracy at 1ms inference latency on Cortex-M7.",
-      "topic_hint": "neural architecture search, edge inference, mobile deployment",
-      "methodology_hint": "differentiable NAS, latency optimisation, ImageNet, ARM Cortex-M",
-      "claimed_contribution": "Differentiable NAS producing edge models with 92% accuracy at 1ms latency on Cortex-M7."
+      "title": "Federated Learning for Skin Lesion Classification Across Dermatology Clinics",
+      "abstract": "Dermatology AI benefits from multi-site diversity but patient data cannot be centralised. We apply federated learning to train a skin lesion classifier across 18 dermatology clinics without sharing images. AUC 0.91 for melanoma detection is achieved, matching centralised training. The federated model generalises better to under-represented skin tones than single-site models. No retinal or fundus imaging is involved.",
+      "topic_hint": "federated learning, skin lesion, dermatology, melanoma detection, multi-site",
+      "methodology_hint": "federated learning, 18 clinics, AUC 0.91, melanoma — skin dermatology not fundus",
+      "claimed_contribution": "Federated melanoma detector AUC 0.91 matching centralised, better generalisation across skin tones."
     }
   ],
   "ground_truth": {
     "labels": {
       "p001": "RELEVANT",
-      "p002": "RELEVANT",
+      "p002": "NOT_RELEVANT",
       "p003": "RELEVANT",
-      "p004": "RELEVANT",
+      "p004": "NOT_RELEVANT",
       "p005": "RELEVANT",
       "p006": "NOT_RELEVANT",
-      "p007": "NOT_RELEVANT",
+      "p007": "RELEVANT",
       "p008": "NOT_RELEVANT",
-      "p009": "NOT_RELEVANT",
+      "p009": "RELEVANT",
       "p010": "NOT_RELEVANT"
     }
   }

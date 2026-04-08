@@ -1,112 +1,112 @@
 {
   "task_id": "task2",
   "instance_id": "instance_001",
-  "task_description": "Screen each abstract for relevance to machine learning in biomedical research, and rate methodological quality using the 4-point rubric below.\n\nRelevance: RELEVANT if the paper directly applies ML to a biomedical problem. NOT_RELEVANT otherwise.\n\nQuality rubric:\n  1 = No methodology described.\n  2 = Methodology mentioned but vague; no evaluation metrics or baselines.\n  3 = Methodology described with evaluation metrics and dataset details.\n  4 = Methodology described with evaluation metrics, baselines, and reproducible details (ablations, code, or statistical tests).",
+  "task_description": "Screen each abstract for relevance to machine learning for medical imaging diagnosis, and rate methodological quality.\n\nRelevance: RELEVANT if the paper applies ML or deep learning to classify, detect, or grade a medical condition from any imaging modality (radiology, pathology, fundus, dermatology, etc). NOT_RELEVANT if the ML task is non-diagnostic (segmentation only, registration, reconstruction) or the domain is non-medical.\n\nQuality rubric:\n  1 = No methodology described or purely conceptual.\n  2 = Approach mentioned but no evaluation metrics or baselines reported.\n  3 = Evaluation metrics and dataset described; limited or no baseline comparison.\n  4 = Full methodology with multiple baselines, ablation, and reproducible evaluation.",
   "papers": [
     {
       "id": "p001",
-      "title": "Deep Learning for Protein Structure Prediction from Sequence",
-      "abstract": "We present a transformer-based model for predicting protein tertiary structure from amino acid sequences. Trained on PDB structures, our model achieves state-of-the-art RMSD on CASP14. We compare against AlphaFold baselines and provide ablations over architectural choices. Code is publicly available.",
-      "topic_hint": "deep learning, protein folding, bioinformatics",
-      "methodology_hint": "transformer, PDB training, CASP14 RMSD, AlphaFold comparison, ablation, public code",
-      "claimed_contribution": "Transformer protein structure model with CASP14 state-of-the-art, full ablations, and public code."
+      "title": "Towards AI-Assisted Radiology: Opportunities and Limitations",
+      "abstract": "Artificial intelligence is poised to transform radiology practice. This perspective discusses potential applications in chest X-ray triage, CT stroke detection, and mammography screening. We outline key challenges including dataset bias, regulatory hurdles, and radiologist workflow integration. No empirical model is trained or evaluated; this is a conceptual overview.",
+      "topic_hint": "AI, radiology, perspective, opportunities, limitations",
+      "methodology_hint": "perspective article, no model, no evaluation, no metrics",
+      "claimed_contribution": "Perspective on AI opportunities and limitations in radiology practice."
     },
     {
       "id": "p002",
-      "title": "Machine Learning for Early Sepsis Detection: A Review",
-      "abstract": "Machine learning holds promise for early sepsis detection in ICU patients. In this review, we summarise existing ML approaches to sepsis prediction and argue that future work should focus on external validation. We do not present new experiments or data.",
-      "topic_hint": "machine learning, sepsis, clinical prediction",
-      "methodology_hint": "literature review only, no new experiments",
-      "claimed_contribution": "Review of ML sepsis detection approaches with recommendations for future research."
+      "title": "ResNet-50 for Mammography Mass Detection with CBIS-DDSM Benchmark",
+      "abstract": "We fine-tune a ResNet-50 on the CBIS-DDSM mammography dataset to detect malignant and benign masses. AUC 0.88 is achieved on the official test partition. We compare against VGG-16 and an SVM on handcrafted GLCM features. An ablation study shows that data augmentation with synthetic deformation contributes 3.2 points to AUC. Reproducibility scripts are released on GitHub.",
+      "topic_hint": "ResNet-50, mammography, CBIS-DDSM, mass detection, AUC",
+      "methodology_hint": "ResNet-50, CBIS-DDSM, AUC 0.88, VGG and SVM baselines, ablation, public code",
+      "claimed_contribution": "ResNet-50 mammography mass detection AUC 0.88, ablation, two baselines, reproducible."
     },
     {
       "id": "p003",
-      "title": "Convolutional Networks for Drug-Target Binding Affinity Prediction",
-      "abstract": "We apply a 1D CNN to predict drug-target binding affinity from protein sequence and compound SMILES strings. Evaluated on the Davis and KIBA benchmarks, our model achieves MSE 0.24 and concordance index 0.89, outperforming graph-based and sequence-based baselines.",
-      "topic_hint": "CNN, drug-target interaction, binding affinity",
-      "methodology_hint": "1D CNN, Davis and KIBA benchmarks, MSE, concordance index, multiple baselines",
-      "claimed_contribution": "1D CNN for drug-target affinity achieving CI 0.89, outperforming graph and sequence baselines."
+      "title": "Transformer Architecture for 3D Brain Tumour Segmentation",
+      "abstract": "We develop a Swin Transformer variant for volumetric brain tumour segmentation on BraTS 2021. Dice 0.92 for whole tumour, 0.88 for tumour core, and 0.85 for enhancing tumour are achieved. This is a segmentation method; the model produces voxel-level masks, not disease diagnosis or grading labels.",
+      "topic_hint": "Swin Transformer, brain tumour, segmentation, BraTS 2021",
+      "methodology_hint": "Swin Transformer, BraTS 2021, Dice 0.92/0.88/0.85 — segmentation not diagnosis",
+      "claimed_contribution": "Swin Transformer brain tumour segmentation, Dice 0.92/0.88/0.85 on BraTS 2021."
     },
     {
       "id": "p004",
-      "title": "Random Forest Prediction of ICU Mortality",
-      "abstract": "We trained a random forest on MIMIC-III vital signs and lab values to predict 30-day ICU mortality. Our model achieves AUROC 0.83 on a held-out test cohort. We mention SOFA score as a comparison but do not report its performance in the same cohort.",
-      "topic_hint": "machine learning, ICU mortality, MIMIC-III",
-      "methodology_hint": "random forest, MIMIC-III, AUROC, SOFA mentioned but not formally compared",
-      "claimed_contribution": "Random forest ICU mortality predictor with AUROC 0.83 on MIMIC-III held-out cohort."
+      "title": "Deep Learning May Improve Chest X-Ray Interpretation",
+      "abstract": "Machine learning holds promise for automated chest radiograph analysis. We believe that deep learning architectures could improve detection of pneumonia, atelectasis, and pleural effusion if trained on sufficiently large and diverse datasets. Preliminary internal experiments suggest encouraging results. We plan future validation but present no quantitative results in this report.",
+      "topic_hint": "deep learning, chest X-ray, pneumonia, preliminary",
+      "methodology_hint": "conceptual note, no metrics, no dataset details, no baseline, preliminary only",
+      "claimed_contribution": "Preliminary claim that deep learning may improve chest X-ray interpretation."
     },
     {
       "id": "p005",
-      "title": "Transformer for Genomic Variant Pathogenicity Classification",
-      "abstract": "We adapt a BERT-style transformer pretrained on human genome sequences to classify variant pathogenicity. Fine-tuned on ClinVar and benchmarked against CADD, SIFT, and PolyPhen-2, our model achieves AUC 0.92. We conduct ablations over pretraining data size and context window. Statistical tests confirm significance.",
-      "topic_hint": "transformer, genomics, variant classification",
-      "methodology_hint": "BERT pretraining, ClinVar, CADD/SIFT/PolyPhen comparison, ablations, statistical testing",
-      "claimed_contribution": "Genome-pretrained BERT for variant pathogenicity with AUC 0.92 and full evaluation suite."
+      "title": "EfficientNet-B4 for Multiclass Skin Lesion Diagnosis on ISIC 2019",
+      "abstract": "Automated skin lesion diagnosis from dermoscopy images can triage teledermatology workloads. We fine-tune EfficientNet-B4 on ISIC 2019 (25,000 images, 8 classes). Balanced accuracy 0.87 is achieved, outperforming the challenge winner. We compare against ResNet-50, DenseNet-121, and ViT-B baselines, provide class-wise calibration curves, and report performance stratified by skin tone using the ITA angle.",
+      "topic_hint": "EfficientNet-B4, dermoscopy, ISIC 2019, skin lesion diagnosis, balanced accuracy",
+      "methodology_hint": "EfficientNet-B4, ISIC 2019, balanced accuracy 0.87, 3 baselines, calibration, skin tone stratification",
+      "claimed_contribution": "EfficientNet-B4 for 8-class skin lesion diagnosis, balanced accuracy 0.87, 3 baselines, skin tone analysis."
     },
     {
       "id": "p006",
-      "title": "Bayesian Optimisation for Hyperparameter Tuning in Neural Networks",
-      "abstract": "We propose a Gaussian process-based Bayesian optimisation framework for tuning neural network hyperparameters. We demonstrate efficiency improvements over random search and grid search on image classification tasks, reducing the number of evaluations required by 60%.",
-      "topic_hint": "Bayesian optimisation, hyperparameter tuning, neural networks",
-      "methodology_hint": "Gaussian process, BO, random search comparison, image classification",
-      "claimed_contribution": "GP-based Bayesian optimisation for hyperparameter search, 60% fewer evaluations than random search."
+      "title": "Unsupervised Anomaly Detection in MRI via Reconstruction Error",
+      "abstract": "We train a variational autoencoder on 8,000 healthy brain MRI scans and use per-voxel reconstruction error as an anomaly score for detecting lesions in unseen pathological scans. AUC 0.79 averaged across four unseen pathology types is achieved without any labelled pathological training data. We do not classify specific disease categories; the approach flags anomalies rather than diagnosing conditions.",
+      "topic_hint": "VAE, anomaly detection, brain MRI, reconstruction error, unsupervised",
+      "methodology_hint": "VAE, healthy training only, AUC 0.79, 4 pathology types, anomaly detection — not diagnostic classification",
+      "claimed_contribution": "VAE anomaly detection AUC 0.79 across 4 pathologies without labelled training data."
     },
     {
       "id": "p007",
-      "title": "Quantum Circuit Simulation on Tensor Network Hardware",
-      "abstract": "We implement tensor network-based contraction algorithms for simulating shallow quantum circuits on classical hardware. Our simulator achieves 2x speedup over prior MPS-based simulators on circuits with up to 100 qubits and depth 20.",
-      "topic_hint": "quantum computing, tensor networks, circuit simulation",
-      "methodology_hint": "tensor contraction, MPS simulation, circuit depth scaling",
-      "claimed_contribution": "Tensor network quantum circuit simulator achieving 2x speedup over MPS baselines."
+      "title": "CNN for Diabetic Macular Oedema Grading from OCT with Uncertainty Estimation",
+      "abstract": "We train a MC-Dropout convolutional network on 12,000 OCT B-scans to grade diabetic macular oedema severity across three clinical levels. The model achieves AUC 0.93 and provides per-prediction confidence intervals. Uncertain predictions are flagged for human review in a hybrid human-AI workflow. We do not compare against other deep learning baselines but report performance against retinal specialist consensus.",
+      "topic_hint": "CNN, DMO grading, OCT, uncertainty, MC-Dropout",
+      "methodology_hint": "MC-Dropout CNN, 12k OCT, AUC 0.93, specialist consensus — no DL baseline comparison",
+      "claimed_contribution": "MC-Dropout CNN for DMO grading AUC 0.93 with uncertainty flagging, specialist comparison only."
     },
     {
       "id": "p008",
-      "title": "Supply Chain Optimisation with Integer Programming",
-      "abstract": "We formulate multi-echelon supply chain optimisation as a mixed-integer program and develop a branch-and-price algorithm with valid inequalities. Tested on instances from the OR-Library, our method achieves solutions within 1% of optimal for instances with up to 500 nodes.",
-      "topic_hint": "operations research, supply chain, integer programming",
-      "methodology_hint": "mixed-integer programming, branch-and-price, OR-Library",
-      "claimed_contribution": "Branch-and-price algorithm for supply chain optimisation within 1% of optimal on OR-Library."
+      "title": "Physics-Based CT Image Reconstruction Using Deep Unrolling Networks",
+      "abstract": "We develop a deep unrolling algorithm that integrates physical forward models into iterative CT reconstruction, reducing noise artefacts at low radiation dose. SSIM improves from 0.79 to 0.91 versus filtered back-projection. The network reconstructs images; it does not classify pathology, detect disease, or produce diagnostic labels.",
+      "topic_hint": "deep unrolling, CT reconstruction, low-dose, image quality",
+      "methodology_hint": "deep unrolling, CT, SSIM 0.91, image reconstruction — no diagnostic task",
+      "claimed_contribution": "Deep unrolling CT reconstruction improving SSIM from 0.79 to 0.91, no disease classification."
     },
     {
       "id": "p009",
-      "title": "Lattice QCD Calculation of Hadronic Vacuum Polarisation",
-      "abstract": "We compute the leading-order hadronic vacuum polarisation contribution to the muon anomalous magnetic moment using lattice QCD with physical quark masses. Our result achieves sub-percent precision and is consistent with a recent dispersive data-driven determination.",
-      "topic_hint": "particle physics, lattice QCD, muon anomalous moment",
-      "methodology_hint": "lattice QCD, physical quark masses, sub-percent precision",
-      "claimed_contribution": "Sub-percent precision lattice QCD calculation of hadronic vacuum polarisation for muon g-2."
+      "title": "ViT-L for Colon Polyp Classification from Colonoscopy Images",
+      "abstract": "Accurate polyp classification supports informed resection decisions. We fine-tune ViT-L/16 on 41,000 colonoscopy images from two university hospitals to classify polyps into hyperplastic, sessile serrated, and adenomatous categories. Macro-AUC 0.92 is achieved. Comparisons against ResNet-101, DenseNet-121, and two gastroenterologist readers are provided. An ablation study evaluates the contribution of pre-training dataset scale and augmentation strategy.",
+      "topic_hint": "ViT, colonoscopy, colon polyp classification, macro-AUC, gastroenterology",
+      "methodology_hint": "ViT-L/16, 41k colonoscopy images, macro-AUC 0.92, 2 DL baselines, 2 gastroenterologist readers, ablation",
+      "claimed_contribution": "ViT-L colonoscopy polyp classification, macro-AUC 0.92, multiple baselines and ablation."
     },
     {
       "id": "p010",
-      "title": "Multi-Agent Reinforcement Learning for Traffic Signal Control",
-      "abstract": "We train a multi-agent RL system where each signalised intersection is an independent agent coordinating via communication. Evaluated in the SUMO traffic simulator on a 10-intersection grid, our system reduces mean vehicle delay by 28% versus fixed-phase plans.",
-      "topic_hint": "multi-agent RL, traffic optimisation, signal control",
-      "methodology_hint": "MARL, SUMO simulator, communication, fixed-phase comparison",
-      "claimed_contribution": "MARL traffic signal controller reducing mean vehicle delay 28% in 10-intersection SUMO grid."
+      "title": "Generative Adversarial Network for Paired MRI-to-CT Synthesis",
+      "abstract": "We train a CycleGAN on paired MRI and CT volumes to synthesise pseudo-CT images for radiation treatment planning. Mean absolute error 67 HU is achieved on held-out patients. The model performs image-to-image translation; it does not classify disease, detect abnormalities, or produce diagnostic labels for any pathological condition.",
+      "topic_hint": "CycleGAN, MRI-to-CT synthesis, radiation planning, image translation",
+      "methodology_hint": "CycleGAN, paired MRI-CT, MAE 67 HU, image synthesis — no diagnostic task",
+      "claimed_contribution": "CycleGAN MRI-to-CT synthesis, MAE 67 HU, for radiation treatment planning, no diagnosis."
     }
   ],
   "ground_truth": {
     "labels": {
-      "p001": "RELEVANT",
+      "p001": "NOT_RELEVANT",
       "p002": "RELEVANT",
-      "p003": "RELEVANT",
+      "p003": "NOT_RELEVANT",
       "p004": "RELEVANT",
       "p005": "RELEVANT",
       "p006": "NOT_RELEVANT",
-      "p007": "NOT_RELEVANT",
+      "p007": "RELEVANT",
       "p008": "NOT_RELEVANT",
-      "p009": "NOT_RELEVANT",
+      "p009": "RELEVANT",
       "p010": "NOT_RELEVANT"
     },
     "quality_scores": {
-      "p001": 4,
-      "p002": 1,
-      "p003": 4,
-      "p004": 2,
+      "p001": 1,
+      "p002": 4,
+      "p003": 3,
+      "p004": 1,
       "p005": 4,
       "p006": 3,
-      "p007": 3,
+      "p007": 2,
       "p008": 3,
-      "p009": 3,
+      "p009": 4,
       "p010": 3
     }
   }

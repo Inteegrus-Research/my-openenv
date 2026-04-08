@@ -1,87 +1,87 @@
 {
   "task_id": "task1",
   "instance_id": "instance_004",
-  "task_description": "Screen each abstract for relevance to: machine learning applications in neuroimaging and brain disorder analysis. Label RELEVANT if the paper directly applies machine learning methods to neuroimaging data or brain disorder classification. Label NOT_RELEVANT otherwise.",
+  "task_description": "Screen each abstract for relevance to: machine learning for predicting drug-target binding affinity or drug-target interaction. Label RELEVANT if the paper applies ML or deep learning to predict whether a small molecule will bind to a protein target, or to estimate the binding affinity score. Label NOT_RELEVANT if the prediction task differs (e.g., toxicity, ADMET, drug synergy, disease classification) or if no ML is involved.",
   "papers": [
     {
       "id": "p001",
-      "title": "3D Convolutional Neural Network for Alzheimer's Disease Classification from Structural MRI",
-      "abstract": "We develop a 3D CNN trained on T1-weighted structural MRI scans from the ADNI cohort to classify Alzheimer's disease, mild cognitive impairment, and cognitively normal subjects. Our model achieves classification accuracy of 0.89 and AUC 0.93 on a held-out test set of 450 scans. Gradient-based saliency maps identify hippocampal and entorhinal cortex regions as the most discriminative features, consistent with known neuropathology.",
-      "topic_hint": "deep learning, Alzheimer's disease, structural MRI, ADNI, neuroimaging",
-      "methodology_hint": "3D CNN, T1-weighted MRI, ADNI dataset, accuracy 0.89, AUC 0.93, saliency maps",
-      "claimed_contribution": "3D CNN for Alzheimer's classification from structural MRI with saliency-based interpretability."
+      "title": "Equivariant Graph Neural Network for Structure-Based Binding Affinity Prediction",
+      "abstract": "We develop an SE(3)-equivariant graph neural network that encodes protein-ligand co-crystal structures and predicts binding free energy. Trained on PDBbind v2020, the model achieves Pearson r=0.84 and RMSE 1.21 kcal/mol on the CASF-2016 benchmark, outperforming SchNet, DimeNet++, and conventional docking scores. An ablation study confirms that equivariant message-passing outperforms invariant alternatives by 0.07 in Pearson correlation.",
+      "topic_hint": "equivariant GNN, protein-ligand binding, PDBbind, CASF-2016, structure-based",
+      "methodology_hint": "SE(3)-equivariant GNN, PDBbind v2020, Pearson 0.84, CASF-2016, ablation",
+      "claimed_contribution": "SE(3)-equivariant GNN for structure-based binding affinity, Pearson 0.84 on CASF-2016."
     },
     {
       "id": "p002",
-      "title": "Topological Data Analysis of Simplicial Complexes in Pure Mathematics",
-      "abstract": "We develop new theoretical bounds on persistent homology for filtered simplicial complexes using algebraic topology. Our main results extend classical Betti number computations to higher-dimensional filtrations and provide algorithmic improvements for barcode computation. No empirical dataset or machine learning method is used.",
-      "topic_hint": "topology, persistent homology, simplicial complexes, algebraic topology",
-      "methodology_hint": "algebraic topology, Betti numbers, persistence barcodes, theoretical proofs only",
-      "claimed_contribution": "New theoretical bounds on persistent homology for higher-dimensional simplicial filtrations."
+      "title": "Sparse Bayesian Regression for Genome-Wide Variant Association with Type 2 Diabetes",
+      "abstract": "We apply spike-and-slab variational inference to GWAS data from 280,000 UK Biobank participants to identify causal variants for type 2 diabetes. The method identifies 51 novel loci while controlling false discovery rate. Cross-population replication is confirmed in an East Asian cohort. No drug or protein target is modelled; this is a statistical genetics study.",
+      "topic_hint": "Bayesian regression, GWAS, type 2 diabetes, UK Biobank, variant association",
+      "methodology_hint": "spike-and-slab VI, GWAS, 280k participants, T2D loci — statistical genetics not drug-target",
+      "claimed_contribution": "Spike-and-slab GWAS identifying 51 novel T2D loci with FDR control and cross-population replication."
     },
     {
       "id": "p003",
-      "title": "Bidirectional LSTM for Automated Epileptic Seizure Detection from Scalp EEG",
-      "abstract": "We train a bidirectional LSTM on 200 hours of continuous scalp EEG recordings from the Temple University EEG Corpus to detect ictal events. The model achieves sensitivity of 0.87 and specificity of 0.91, outperforming a CNN baseline and a feature-engineering SVM approach. Real-time inference latency meets the requirements for bedside monitoring deployment.",
-      "topic_hint": "LSTM, epilepsy, seizure detection, EEG, neural signal processing",
-      "methodology_hint": "bidirectional LSTM, Temple University EEG, sensitivity 0.87, specificity 0.91, CNN and SVM comparison",
-      "claimed_contribution": "BiLSTM seizure detector from scalp EEG with real-time latency, outperforming CNN and SVM baselines."
+      "title": "Transformer-Based Virtual Screening for Kinase Inhibitor Discovery",
+      "abstract": "We pre-train a molecular transformer on 130 million SMILES strings and fine-tune for binary classification of kinase binding activity across 372 kinase targets. The model achieves mean AUC 0.91 across targets on a held-out test set, outperforming fingerprint-based SVM and graph neural network baselines. An analysis of attention heads reveals that the model learns substrate-recognition motifs consistent with kinase biology.",
+      "topic_hint": "transformer, virtual screening, kinase inhibitor, drug-target binding, SMILES",
+      "methodology_hint": "molecular transformer, 372 kinase targets, AUC 0.91, SVM/GNN baseline, attention analysis",
+      "claimed_contribution": "Molecular transformer for kinase binding classification, mean AUC 0.91 across 372 targets."
     },
     {
       "id": "p004",
-      "title": "Stochastic Optimal Control for Spacecraft Attitude Manoeuvres Under Uncertainty",
-      "abstract": "We formulate spacecraft attitude control as a stochastic optimal control problem and derive closed-form policies using Hamilton-Jacobi-Bellman equations under Gaussian process noise. Simulations confirm 40% fuel savings over PID baselines. No biomedical or neuroimaging data is involved.",
-      "topic_hint": "optimal control, spacecraft, attitude manoeuvre, Hamilton-Jacobi-Bellman",
-      "methodology_hint": "stochastic optimal control, HJB equations, spacecraft simulation, PID comparison",
-      "claimed_contribution": "Closed-form stochastic attitude control policy achieving 40% fuel savings over PID baseline."
+      "title": "Neural Networks for Predicting Cytochrome P450 Inhibition and ADMET Properties",
+      "abstract": "Drug metabolism and safety profiling requires accurate prediction of cytochrome P450 inhibitory activity and ADMET properties. We train a multi-task neural network on 48 assay endpoints from ChEMBL and proprietary screening data. AUC 0.87 is achieved averaged across CYP450 isoforms. The prediction task is metabolic liability and safety, not drug-target binding affinity or interaction prediction.",
+      "topic_hint": "neural network, CYP450, ADMET, metabolism, drug safety, multi-task",
+      "methodology_hint": "multi-task NN, ChEMBL, AUC 0.87, CYP450 — ADMET/metabolism not binding affinity",
+      "claimed_contribution": "Multi-task NN for CYP450 and ADMET prediction, AUC 0.87, not binding affinity."
     },
     {
       "id": "p005",
-      "title": "Graph Convolutional Network for Functional Connectivity Analysis in Major Depression",
-      "abstract": "We model resting-state fMRI data as functional connectivity graphs and train a graph convolutional network to classify major depressive disorder versus healthy controls in a cohort of 620 participants. Node features are derived from 116 brain parcellations from the AAL atlas. The model achieves AUC 0.84, and SHAP-based attribution identifies the default mode network as the most depression-relevant subgraph.",
-      "topic_hint": "GCN, fMRI, functional connectivity, major depression, resting-state",
-      "methodology_hint": "graph convolutional network, resting-state fMRI, AAL atlas, AUC 0.84, SHAP attribution",
-      "claimed_contribution": "GCN for depression classification from fMRI functional connectivity graphs, AUC 0.84."
+      "title": "Graph Attention Network for Drug-Target Interaction Prediction from Molecular and Protein Graphs",
+      "abstract": "We build dual graph attention networks encoding both molecular topology of the drug and structural features of the protein target residue graph. Interaction predictions are obtained by a bilinear attention readout. Trained on DrugBank and KEGG, the model achieves AUROC 0.92 and AP 0.89 on a held-out balanced test set, substantially outperforming fingerprint-similarity, matrix factorisation, and previous GNN baselines. Generalisation to unseen protein families is validated.",
+      "topic_hint": "graph attention network, drug-target interaction, molecular graph, protein graph, DrugBank",
+      "methodology_hint": "dual GAT, DrugBank+KEGG, AUROC 0.92, AP 0.89, unseen protein family generalisation",
+      "claimed_contribution": "Dual GAT for drug-target interaction prediction, AUROC 0.92, generalising to unseen protein families."
     },
     {
       "id": "p006",
-      "title": "Combinatorial Auction Mechanisms for Spectrum Allocation in Wireless Networks",
-      "abstract": "We design truthful combinatorial auction mechanisms for dynamic spectrum allocation in heterogeneous wireless networks. Our approach leverages primal-dual techniques to achieve near-optimal social welfare while satisfying incentive compatibility constraints. Simulation results confirm 30% throughput improvement over greedy baselines.",
-      "topic_hint": "auction mechanism, spectrum allocation, wireless networks, game theory",
-      "methodology_hint": "combinatorial auction, primal-dual algorithm, social welfare, spectrum simulation",
-      "claimed_contribution": "Truthful combinatorial spectrum auction achieving 30% throughput improvement with incentive compatibility."
+      "title": "Deep Learning for Automated Grading of Knee Osteoarthritis from X-Rays",
+      "abstract": "We train a convolutional neural network on 23,000 knee radiographs from the OAI dataset to predict Kellgren-Lawrence osteoarthritis grades. The model achieves weighted kappa 0.76, matching radiologist inter-reader agreement. Grad-CAM visualisations highlight joint space narrowing and osteophyte regions. This work involves medical imaging and musculoskeletal disease, not drug-target binding prediction.",
+      "topic_hint": "CNN, knee osteoarthritis, X-ray, Kellgren-Lawrence grading, OAI",
+      "methodology_hint": "CNN, OAI 23k radiographs, kappa 0.76, Grad-CAM — orthopaedic imaging not drug-target",
+      "claimed_contribution": "CNN for KL osteoarthritis grading from X-rays, kappa 0.76, with radiologist agreement."
     },
     {
       "id": "p007",
-      "title": "Multi-Scale Transformer for Parkinson's Disease Motor Severity Prediction from DaTscan",
-      "abstract": "We develop a multi-scale vision transformer trained on dopamine transporter (DaTscan) SPECT imaging from the PPMI cohort to predict Unified Parkinson's Disease Rating Scale motor severity scores. The model achieves Spearman correlation 0.79 with clinical ratings and regression error within one UPDRS point for 73% of scans. Attention rollout maps highlight putamen and caudate regions consistent with dopaminergic pathology.",
-      "topic_hint": "transformer, Parkinson's disease, DaTscan, SPECT, UPDRS, motor severity",
-      "methodology_hint": "vision transformer, DaTscan SPECT, PPMI cohort, Spearman 0.79, attention rollout",
-      "claimed_contribution": "Multi-scale transformer for Parkinson's motor severity prediction from DaTscan with attention maps."
+      "title": "Binding Affinity Estimation via Pretrained Protein Language Models and Molecular Fingerprints",
+      "abstract": "Protein language models trained on evolutionary sequence data encode rich structural information useful for binding prediction. We combine ESM-2 protein embeddings with Morgan fingerprints and train a gradient boosting regressor to predict pIC50 binding affinity across 380 assays in the ChEMBL bioassay database. Mean Pearson r=0.77 is achieved. The approach generalises better to novel protein families than structure-based methods requiring co-crystal structures.",
+      "topic_hint": "protein language model, ESM-2, binding affinity, pIC50, gradient boosting, ChEMBL",
+      "methodology_hint": "ESM-2 embeddings, Morgan fingerprints, gradient boosting, pIC50, Pearson 0.77, ChEMBL",
+      "claimed_contribution": "ESM-2 + Morgan fingerprint regressor for pIC50 binding affinity, Pearson 0.77, sequence-only."
     },
     {
       "id": "p008",
-      "title": "Efficient Algorithms for Large-Scale Integer Linear Programming in Logistics",
-      "abstract": "We propose branch-and-cut enhancements for solving large-scale integer linear programs arising in vehicle routing and warehouse logistics. Our cutting plane strategy reduces the integrality gap by 18% on standard benchmark instances. No machine learning or biomedical application is considered.",
-      "topic_hint": "integer linear programming, branch-and-cut, vehicle routing, logistics optimisation",
-      "methodology_hint": "branch-and-cut, cutting planes, ILP benchmark, 18% integrality gap reduction",
-      "claimed_contribution": "Branch-and-cut enhancements reducing integrality gap by 18% on logistics ILP benchmarks."
+      "title": "Variational Inference for Patient Clustering from Longitudinal ICU Data",
+      "abstract": "ICU patient trajectories are heterogeneous and clustering reveals clinically meaningful phenotypes. We apply a variational deep embedding model to 72-hour vital sign and lab sequences from 32,000 MIMIC-IV stays. Six stable ICU phenotypes are identified, each with distinct organ failure patterns and mortality rates. Clinical validation confirms the phenotypes are actionable. No drug-target data or binding prediction is involved.",
+      "topic_hint": "variational inference, patient clustering, ICU, longitudinal, MIMIC-IV",
+      "methodology_hint": "variational deep embedding, MIMIC-IV, ICU phenotyping — patient clustering not drug-target",
+      "claimed_contribution": "Variational embedding for ICU phenotyping, 6 clusters with distinct mortality profiles, no drug-target."
     },
     {
       "id": "p009",
-      "title": "Convolutional Encoder-Decoder for White Matter Lesion Segmentation in Multiple Sclerosis MRI",
-      "abstract": "We train a U-Net-style convolutional encoder-decoder on T2-FLAIR MRI from 310 multiple sclerosis patients to segment white matter lesions. Our model achieves Dice coefficient 0.74 and lesion-level F1 of 0.81, outperforming FreeSurfer and three deep learning baselines on the ISBI 2015 MS challenge dataset. Lesion volume estimates correlate strongly with clinical disability scores.",
-      "topic_hint": "U-Net, white matter lesion, multiple sclerosis, T2-FLAIR, MRI segmentation",
-      "methodology_hint": "encoder-decoder CNN, FLAIR MRI, Dice 0.74, lesion F1 0.81, ISBI 2015 benchmark",
-      "claimed_contribution": "Encoder-decoder for MS white matter lesion segmentation achieving Dice 0.74 on ISBI benchmark."
+      "title": "Contrastive Pre-training for Improved Drug-Target Affinity Prediction with Limited Labels",
+      "abstract": "Large binding affinity datasets are available for some target classes but sparse for others. We apply contrastive pre-training on 4.2 million unlabelled drug-target pairs from ChEMBL and BindingDB to learn representations before fine-tuning on task-specific affinity labels. In low-label regimes (100 labelled pairs), the pre-trained model outperforms fully supervised baselines by 15% in Pearson r. Evaluation follows the Davis and KIBA benchmark protocols.",
+      "topic_hint": "contrastive pre-training, drug-target affinity, label-efficient, Davis, KIBA, ChEMBL",
+      "methodology_hint": "contrastive pre-training, 4.2M pairs, Davis/KIBA benchmarks, Pearson +15% low-label regime",
+      "claimed_contribution": "Contrastive pre-training for drug-target affinity, +15% Pearson in low-label settings, Davis/KIBA benchmarks."
     },
     {
       "id": "p010",
-      "title": "Distributed Ledger Technologies for Cross-Border Trade Finance",
-      "abstract": "We analyse the feasibility of permissioned blockchain architectures for automating cross-border trade finance operations, covering letter of credit issuance, document verification, and settlement. We evaluate throughput and latency under varying network conditions. No biomedical or machine learning component is included.",
-      "topic_hint": "blockchain, distributed ledger, trade finance, cross-border payments",
-      "methodology_hint": "permissioned blockchain, throughput/latency evaluation, trade finance workflow",
-      "claimed_contribution": "Analysis of permissioned blockchain for automating cross-border trade finance operations."
+      "title": "A Survey of Machine Learning Methods for Antibiotic Resistance Surveillance",
+      "abstract": "Antimicrobial resistance surveillance relies on phenotypic susceptibility testing augmented by genomic prediction. This survey covers 140 papers applying ML to predict minimum inhibitory concentrations from whole-genome sequencing, plasmid detection, and resistome profiling. We categorise methods, summarise benchmark performance, and identify gaps. No new ML model is developed and no drug-target binding or affinity data is used.",
+      "topic_hint": "survey, antibiotic resistance, ML, MIC prediction, genomic surveillance",
+      "methodology_hint": "survey 140 papers, antibiotic resistance surveillance — no new model, no drug-target binding",
+      "claimed_contribution": "Survey of ML for antibiotic resistance surveillance across 140 papers, no new model."
     }
   ],
   "ground_truth": {

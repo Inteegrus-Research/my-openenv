@@ -2,145 +2,145 @@
   "task_id": "task3",
   "instance_id": "instance_003",
   "budget": 15,
-  "task_description": "Screen each abstract for a systematic review on ML methods for predicting adverse drug reactions (ADRs) from patient data. INCLUDE papers that present or evaluate ML systems trained on patient-level data (EHR, genomics, claims) to predict or detect ADRs in individual patients. EXCLUDE papers about drug discovery, population pharmacovigilance from social media, non-ML pharmacokinetic models, and general drug interaction databases.",
+  "task_description": "Screen each abstract for a systematic review on ML methods for automated seizure or epilepsy detection from EEG signals. INCLUDE a paper only if it presents or evaluates an ML model that detects seizure events or classifies epilepsy from EEG recordings. Papers about seizure prediction (forecasting future seizures), post-ictal classification, treatment outcome, SEEG localisation, or non-EEG biomarkers should be EXCLUDE.",
   "papers": [
     {
       "id": "p001",
-      "title": "Random Forest for Predicting Drug-Induced Liver Injury from Patient EHR Data",
-      "abstract": "We train a random forest on longitudinal EHR data including liver function tests, medication history, and demographics to predict drug-induced liver injury (DILI) in individual patients within 30 days of starting a new hepatotoxic drug. Our model achieves AUROC 0.85 on a held-out test cohort.",
-      "topic_hint": "random forest, DILI prediction, EHR",
-      "methodology_hint": "random forest, EHR, liver function tests, AUROC, patient-level",
-      "claimed_contribution": "Random forest DILI predictor with AUROC 0.85 from patient EHR data."
+      "title": "Bidirectional GRU for Automated Focal Seizure Detection in Scalp EEG",
+      "abstract": "We train a bidirectional GRU on 3-second EEG windows from 180 patients in the Temple University Hospital EEG Corpus to detect focal seizure events. Sensitivity 0.84 and specificity 0.88 are achieved, outperforming a 1D CNN and an SVM with handcrafted spectral features. We evaluate across four seizure types and provide per-type performance breakdowns.",
+      "topic_hint": "GRU, scalp EEG, focal seizure detection, Temple University EEG Corpus",
+      "methodology_hint": "biGRU, TUHSZ, sensitivity 0.84, specificity 0.88, CNN and SVM baselines",
+      "claimed_contribution": "BiGRU for focal seizure detection, sensitivity 0.84, 3 baselines, per-type breakdown."
     },
     {
       "id": "p002",
-      "title": "Pharmacogenomic ML Model for Warfarin ADR Risk Stratification",
-      "abstract": "We combine CYP2C9 and VKORC1 genotype data with clinical variables in an XGBoost model to predict risk of bleeding events in patients initiating warfarin therapy. Evaluated on 3,000 patients, our model achieves AUC 0.82 and outperforms standard pharmacogenomic dosing algorithms.",
-      "topic_hint": "pharmacogenomics, warfarin, bleeding risk",
-      "methodology_hint": "XGBoost, CYP2C9/VKORC1, patient cohort, AUC, dosing algorithm comparison",
-      "claimed_contribution": "XGBoost pharmacogenomic warfarin ADR predictor with AUC 0.82, outperforming standard dosing algorithms."
+      "title": "Transformer for Predicting Seizure Occurrence from Interictal EEG Features",
+      "abstract": "Seizure forecasting from interictal EEG could enable patient-specific warning systems. We train a transformer on spectral features extracted from 72-hour iEEG recordings to predict seizure occurrence probability in the next 4 hours. AUC 0.79 is achieved on held-out patients. This is a pre-ictal forecasting task, not detection of seizures already occurring.",
+      "topic_hint": "transformer, seizure forecasting, interictal EEG, pre-ictal prediction",
+      "methodology_hint": "transformer, 72h iEEG, AUC 0.79 — seizure forecasting not detection of ongoing seizures",
+      "claimed_contribution": "Transformer for seizure occurrence forecasting, AUC 0.79, 4-hour horizon, not detection."
     },
     {
       "id": "p003",
-      "title": "LSTM Model for Detecting Acute Kidney Injury from Medication Exposure Patterns",
-      "abstract": "We train an LSTM on sequential medication administration records and renal function lab values to detect acute kidney injury in hospitalised patients receiving nephrotoxic drugs. Our model achieves sensitivity 0.79 at 10% false positive rate, with 24-hour early detection lead time.",
-      "topic_hint": "LSTM, acute kidney injury, medication exposure",
-      "methodology_hint": "LSTM, medication records, renal labs, sensitivity/FPR, 24h lead time",
-      "claimed_contribution": "LSTM AKI detector from nephrotoxic medication exposure with sensitivity 0.79 at 24-hour lead time."
+      "title": "Convolutional Neural Network for Neonatal Seizure Detection from EEG",
+      "abstract": "Neonatal seizures are clinically subtle and difficult to detect manually. We train a multi-channel CNN on 80 hours of annotated neonatal EEG from the Helsinki University Hospital dataset to detect electrographic seizure patterns. Sensitivity 0.87 at false alarm rate 0.6/hour is achieved, substantially outperforming a previous LSTM and rule-based detector baselines.",
+      "topic_hint": "CNN, neonatal EEG, seizure detection, Helsinki University Hospital",
+      "methodology_hint": "multi-channel CNN, Helsinki neonatal EEG, sensitivity 0.87, LSTM and rule-based baselines",
+      "claimed_contribution": "CNN for neonatal seizure detection, sensitivity 0.87, outperforming LSTM and rule-based."
     },
     {
       "id": "p004",
-      "title": "Graph Neural Network for Multi-Drug ADR Prediction in Polypharmacy",
-      "abstract": "We model drug-patient relationships as a bipartite graph and train a GNN to predict ADR risk in patients taking five or more medications. Evaluated against clinical pharmacist review of 2,000 polypharmacy cases, our model identifies 74% of clinically significant ADRs.",
-      "topic_hint": "GNN, polypharmacy, adverse drug reaction",
-      "methodology_hint": "GNN, bipartite graph, polypharmacy, pharmacist review evaluation",
-      "claimed_contribution": "GNN for polypharmacy ADR prediction identifying 74% of clinically significant events."
+      "title": "Machine Learning for Identifying Epileptic Foci from SEEG for Surgical Planning",
+      "abstract": "Stereo-EEG is used to localise seizure onset zones before resective surgery. We develop an ML model to rank electrode contacts by epileptogenicity from SEEG recordings. Concordance with post-surgical outcome in 62 patients is 0.71 AUC. This localises seizure generators for surgical planning; it does not perform automated seizure event detection.",
+      "topic_hint": "SEEG, epileptic focus localisation, surgical planning, epileptogenicity",
+      "methodology_hint": "ML, SEEG, epileptogenicity ranking, AUC 0.71 — localisation for surgery not seizure detection",
+      "claimed_contribution": "ML for SEEG epileptic focus localisation, AUC 0.71, surgical planning not seizure detection."
     },
     {
       "id": "p005",
-      "title": "Deep Learning for Predicting QT Prolongation from ECG and Drug Exposure Data",
-      "abstract": "We train a CNN on 12-lead ECGs combined with current medication lists to predict risk of drug-induced QT prolongation. Tested on 20,000 ECG-medication pairs from a cardiology database, our model achieves AUC 0.91 and identifies high-risk combinations not flagged by standard interaction tables.",
-      "topic_hint": "CNN, QT prolongation, ECG, drug safety",
-      "methodology_hint": "CNN, ECG data, medication list, AUC, interaction table comparison",
-      "claimed_contribution": "CNN ECG-based drug-induced QT prolongation predictor with AUC 0.91."
+      "title": "Sparse Autoencoder for Epileptiform Discharge Detection in Routine EEG",
+      "abstract": "Routine EEG reports epileptiform discharges (IEDs) as markers of epilepsy. We train a sparse autoencoder on 14,000 annotated EEG segments from 420 adult patients to detect IEDs including spikes, sharp waves, and spike-wave complexes. F1 0.81 is achieved, outperforming a CNN and a Hilbert-transform rule baseline. IED detection differs from seizure detection; these are interictal markers.",
+      "topic_hint": "sparse autoencoder, epileptiform discharges, routine EEG, IED detection",
+      "methodology_hint": "sparse autoencoder, 14k EEG segments, F1 0.81, CNN and Hilbert baselines, IED not seizure detection",
+      "claimed_contribution": "Sparse autoencoder for IED detection F1 0.81, EEG epilepsy marker classification."
     },
     {
       "id": "p006",
-      "title": "Transformer for ADR Detection from Clinical Notes at Point of Prescribing",
-      "abstract": "We fine-tune a clinical BERT model to flag potential ADRs from free-text prescribing notes and recent clinical documentation. Evaluated retrospectively on 50,000 prescribing events, our system detects 81% of confirmed ADRs documented in incident reports.",
-      "topic_hint": "BERT, clinical NLP, ADR detection, prescribing",
-      "methodology_hint": "clinical BERT, prescribing notes, retrospective evaluation, incident report validation",
-      "claimed_contribution": "Clinical BERT ADR detector achieving 81% recall on confirmed ADR incident reports."
+      "title": "Deep Learning for Predicting Anti-Epileptic Drug Treatment Outcome",
+      "abstract": "Predicting which patients will achieve seizure freedom on first-line anti-epileptic drugs could personalise therapy. We train a neural network on clinical features and EEG spectral markers from 1,800 newly diagnosed epilepsy patients to predict treatment response. AUC 0.72 is achieved. This predicts drug response, not seizure events in EEG data.",
+      "topic_hint": "neural network, AED treatment outcome, epilepsy, drug response prediction",
+      "methodology_hint": "NN, 1800 epilepsy patients, AUC 0.72, drug response — treatment outcome not seizure detection",
+      "claimed_contribution": "NN for AED treatment response prediction, AUC 0.72, not EEG seizure detection."
     },
     {
       "id": "p007",
-      "title": "Survival Analysis ML Model for Chemotherapy Toxicity Prediction",
-      "abstract": "We apply gradient boosting survival analysis to predict time-to-grade-3 toxicity in cancer patients receiving combination chemotherapy. Using pretreatment clinical and genomic features, our model achieves C-index 0.75 and identifies patients who can safely receive dose escalation.",
-      "topic_hint": "gradient boosting, chemotherapy toxicity, survival analysis",
-      "methodology_hint": "gradient boosting, survival analysis, C-index, toxicity prediction, patient-level",
-      "claimed_contribution": "Gradient boosting survival model for chemotherapy toxicity prediction with C-index 0.75."
+      "title": "Graph Neural Network for Seizure Type Classification from 10-20 Scalp EEG Topographies",
+      "abstract": "Different seizure types require different clinical management. We represent multichannel EEG as functional connectivity graphs and train a GNN on 2,600 seizure segments from the TUSZ corpus to classify generalised tonic-clonic, focal onset impaired awareness, and absence seizure types. Macro-F1 0.83 is achieved, outperforming spectral feature SVM and per-channel CNN baselines.",
+      "topic_hint": "GNN, seizure type classification, EEG connectivity, TUSZ corpus",
+      "methodology_hint": "GNN, TUSZ 2600 segments, macro-F1 0.83, SVM and per-channel CNN baselines",
+      "claimed_contribution": "GNN for EEG seizure type classification macro-F1 0.83, functional connectivity features."
     },
     {
       "id": "p008",
-      "title": "Multi-Task Neural Network for Simultaneous Prediction of Multiple ADR Types",
-      "abstract": "We train a multi-task neural network to jointly predict six common ADR types (nephrotoxicity, hepatotoxicity, cardiotoxicity, haematotoxicity, neurotoxicity, hypersensitivity) from patient medication and lab profiles. Multi-task learning improves average AUROC by 0.04 over single-task baselines.",
-      "topic_hint": "multi-task learning, ADR prediction, patient data",
-      "methodology_hint": "multi-task neural network, six ADR types, AUROC, single-task comparison",
-      "claimed_contribution": "Multi-task neural network for six ADR types improving average AUROC 0.04 over single-task models."
+      "title": "Federated Learning for Privacy-Preserving EEG Abnormality Classification Across Hospitals",
+      "abstract": "We implement federated learning to train an EEG abnormality classifier across eight hospitals without sharing patient recordings. The federated model classifies EEGs as normal, epileptiform, or artefactual, achieving macro-AUC 0.87. We note the model classifies EEG abnormality patterns including epileptiform activity; it does not detect ictal seizure events in real time.",
+      "topic_hint": "federated learning, EEG abnormality, epileptiform classification, multi-site",
+      "methodology_hint": "federated learning, 8 hospitals, macro-AUC 0.87, EEG abnormality — not ictal seizure detection",
+      "claimed_contribution": "Federated EEG abnormality classifier macro-AUC 0.87, includes epileptiform classification."
     },
     {
       "id": "p009",
-      "title": "Machine Learning Approaches to ADR Signal Detection in Spontaneous Reporting Systems",
-      "abstract": "Adverse drug reaction prediction from patient data is an active research area. In this work, we apply disproportionality analysis and Bayesian methods to the FDA FAERS spontaneous reporting database to detect new ADR signals at the population level for recently approved drugs.",
-      "topic_hint": "pharmacovigilance, FAERS, population-level ADR signal detection",
-      "methodology_hint": "disproportionality analysis, FAERS population database, Bayesian signal detection",
-      "claimed_contribution": "Bayesian ADR signal detection in FDA FAERS for recently approved drugs."
+      "title": "1D ResNet for Real-Time Generalised Seizure Detection in Long-Term EEG Monitoring",
+      "abstract": "Long-term EEG monitoring generates large volumes requiring automated seizure detection. We develop a 1D ResNet trained on 450 hours of long-term monitoring EEG from 92 patients to detect generalised tonic-clonic seizures in near-real-time. Sensitivity 0.91 at 0.3 false alarms per hour is achieved, with inference time under 50 ms per 2-second window.",
+      "topic_hint": "1D ResNet, long-term EEG monitoring, seizure detection, generalised tonic-clonic",
+      "methodology_hint": "1D ResNet, 450h long-term EEG, sensitivity 0.91, 0.3 FA/hour, real-time inference",
+      "claimed_contribution": "1D ResNet for real-time GTCS detection, sensitivity 0.91, 0.3 false alarms/hour."
     },
     {
       "id": "p010",
-      "title": "ML Methods for ADR Prediction: Applications in Computational Drug Discovery",
-      "abstract": "Predicting adverse drug reactions is important for patient safety. We review ML methods for predicting ADRs from molecular structure in the drug discovery phase, covering QSAR models, graph neural networks for molecular toxicity, and in silico ADMET prediction tools.",
-      "topic_hint": "drug discovery, molecular QSAR, in silico toxicity",
-      "methodology_hint": "review, QSAR, molecular structure, in silico ADMET, not patient data",
-      "claimed_contribution": "Review of ML methods for ADR prediction from molecular structure in drug discovery."
+      "title": "Multivariate LSTM for Post-Ictal Autonomic Recovery Monitoring After Generalised Seizures",
+      "abstract": "Post-ictal autonomic dysregulation contributes to sudden unexpected death in epilepsy. We train an LSTM on ECG, SpO2, and nasal airflow signals recorded immediately after generalised tonic-clonic seizures to characterise recovery trajectories. Patients with prolonged autonomic suppression are identified. This is a post-ictal monitoring study, not seizure event detection from EEG.",
+      "topic_hint": "LSTM, post-ictal, autonomic recovery, ECG, SUDEP",
+      "methodology_hint": "LSTM, post-ictal ECG+SpO2, recovery trajectories — post-ictal monitoring not seizure detection",
+      "claimed_contribution": "LSTM for post-ictal autonomic recovery characterisation, SUDEP risk, not seizure EEG detection."
     },
     {
       "id": "p011",
-      "title": "Social Media Mining for ADR Detection Using Twitter and Reddit",
-      "abstract": "Adverse drug reactions represent a major patient safety challenge. We develop an NLP pipeline to mine ADR signals from patient-reported experiences on Twitter and Reddit. Our system identifies ADR mentions with precision 0.77 and can detect emerging signals weeks before FAERS reports.",
-      "topic_hint": "NLP, social media, pharmacovigilance",
-      "methodology_hint": "Twitter/Reddit mining, NLP, precision, population-level signals",
-      "claimed_contribution": "Social media NLP pipeline detecting ADR signals with precision 0.77 weeks before FAERS."
+      "title": "Attention-Based CNN for Online Seizure Detection in ECoG Implant Data",
+      "abstract": "Closed-loop neuromodulation requires real-time seizure detection from intracranial recordings. We train an attention CNN on subdural ECoG strips from 24 patients with drug-resistant focal epilepsy to detect seizure onset in real time. Sensitivity 0.89 at 0.2 false detections per hour is achieved. Latency from seizure onset to detection is under 4 seconds.",
+      "topic_hint": "attention CNN, ECoG, intracranial EEG, seizure detection, closed-loop",
+      "methodology_hint": "attention CNN, ECoG 24 patients, sensitivity 0.89, 0.2 FA/hour, 4s latency",
+      "claimed_contribution": "Attention CNN for ECoG seizure detection, sensitivity 0.89, 4s detection latency."
     },
     {
       "id": "p012",
-      "title": "Mechanistic PBPK Modelling for Drug Interaction Prediction",
-      "abstract": "Predicting adverse drug reactions from patient data is an emerging field. We develop a physiologically based pharmacokinetic (PBPK) model for predicting drug-drug interactions from first principles, using clinical pharmacokinetic parameters. The model does not use machine learning or patient-level data.",
-      "topic_hint": "PBPK, pharmacokinetics, drug interaction modelling",
-      "methodology_hint": "PBPK, mechanistic pharmacokinetics, no ML, no patient data",
-      "claimed_contribution": "PBPK model for drug interaction prediction from first-principles pharmacokinetic parameters."
+      "title": "Random Forest for Discriminating Epileptic from Non-Epileptic Attack Disorder in EEG",
+      "abstract": "Distinguishing epileptic seizures from non-epileptic attack disorder (NEAD) is clinically challenging. We extract time-frequency features from ictal EEG and train a random forest to classify recorded attacks as epileptic or NEAD. Accuracy 0.81 is achieved. We note this classifies attack type from existing EEG recordings, not prospective seizure detection.",
+      "topic_hint": "random forest, epilepsy vs NEAD, EEG classification, attack type",
+      "methodology_hint": "random forest, ictal EEG features, accuracy 0.81, epileptic vs NEAD classification",
+      "claimed_contribution": "Random forest for epileptic vs NEAD classification from EEG, accuracy 0.81."
     },
     {
       "id": "p013",
-      "title": "Privacy-Preserving Federated Learning for Fraud Detection in Banking",
-      "abstract": "We develop a federated learning framework for collaborative fraud detection across multiple banks without sharing raw transaction data. Differential privacy guarantees are incorporated into the aggregation protocol, achieving a 14% improvement in fraud detection rate versus isolated local models.",
-      "topic_hint": "federated learning, fraud detection, differential privacy",
-      "methodology_hint": "federated learning, differential privacy, fraud detection, banking",
-      "claimed_contribution": "Federated fraud detection with differential privacy achieving 14% improvement over local models."
+      "title": "Graph-Based Feature Extraction for EEG-Based Anaesthesia Depth Monitoring",
+      "abstract": "Monitoring anaesthesia depth prevents intraoperative awareness. We extract graph-based connectivity features from intraoperative EEG and train an SVM to classify anaesthesia depth levels. The work is about anaesthesia monitoring; no seizure or epilepsy classification is performed.",
+      "topic_hint": "SVM, EEG, anaesthesia depth, intraoperative monitoring",
+      "methodology_hint": "SVM, intraoperative EEG connectivity, anaesthesia depth — not seizure or epilepsy detection",
+      "claimed_contribution": "SVM for anaesthesia depth monitoring from EEG, not seizure detection."
     },
     {
       "id": "p014",
-      "title": "Sparse Reconstruction Methods for Compressed Sensing in MRI Acquisition",
-      "abstract": "We develop iterative sparse reconstruction algorithms for accelerated MRI acquisition using compressed sensing theory. Our algorithm reduces scan time by 60% while maintaining diagnostic image quality as assessed by a radiologist review of 200 cases.",
-      "topic_hint": "compressed sensing, MRI, sparse reconstruction",
-      "methodology_hint": "compressed sensing, sparse reconstruction, scan time reduction, radiologist quality assessment",
-      "claimed_contribution": "Compressed sensing MRI reconstruction reducing scan time 60% with diagnostic image quality."
+      "title": "Transformer Encoder for Detecting Subclinical Seizures in Critically Ill Patients",
+      "abstract": "Subclinical seizures in the ICU are detectable only by continuous EEG and are missed by clinical observation. We fine-tune a transformer encoder on 920 hours of continuous EEG from 110 critically ill patients to detect subclinical electrographic seizures. Sensitivity 0.86 and specificity 0.91 are achieved, outperforming a threshold-based rule system and a prior CNN baseline.",
+      "topic_hint": "transformer, subclinical seizures, continuous EEG, ICU, critically ill",
+      "methodology_hint": "transformer, 920h EEG, 110 ICU patients, sensitivity 0.86, specificity 0.91, CNN and rule baselines",
+      "claimed_contribution": "Transformer for ICU subclinical seizure detection, sensitivity 0.86, 2 baselines."
     },
     {
       "id": "p015",
-      "title": "Hierarchical Bayesian Models for Estimating Global Disease Burden",
-      "abstract": "We develop hierarchical Bayesian models for estimating age-sex-specific disease burden across 195 countries using heterogeneous data sources. Our approach propagates uncertainty from data quality through to final burden estimates, improving transparency of Global Burden of Disease estimates.",
-      "topic_hint": "Bayesian modelling, global disease burden, epidemiology",
-      "methodology_hint": "hierarchical Bayesian, disease burden, uncertainty propagation, GBD",
-      "claimed_contribution": "Hierarchical Bayesian framework for transparent global disease burden estimation with full uncertainty."
+      "title": "Bayesian Deep Learning for Uncertainty-Aware Sleep Stage Classification from PSG",
+      "abstract": "Sleep stage classification from polysomnography informs sleep disorder diagnosis. We train a Bayesian CNN on 5,000 PSG recordings to classify five sleep stages, achieving accuracy 0.82. Uncertainty estimates flag ambiguous epochs for expert review. This is sleep stage classification from PSG; EEG seizure detection is not performed.",
+      "topic_hint": "Bayesian CNN, sleep staging, PSG, uncertainty estimation, sleep disorders",
+      "methodology_hint": "Bayesian CNN, 5000 PSG, accuracy 0.82, sleep staging — not seizure or epilepsy detection",
+      "claimed_contribution": "Bayesian CNN for sleep staging from PSG, accuracy 0.82, uncertainty for ambiguous epochs."
     }
   ],
   "ground_truth": {
     "labels": {
       "p001": "INCLUDE",
-      "p002": "INCLUDE",
+      "p002": "EXCLUDE",
       "p003": "INCLUDE",
-      "p004": "INCLUDE",
+      "p004": "EXCLUDE",
       "p005": "INCLUDE",
-      "p006": "INCLUDE",
+      "p006": "EXCLUDE",
       "p007": "INCLUDE",
-      "p008": "INCLUDE",
-      "p009": "EXCLUDE",
+      "p008": "EXCLUDE",
+      "p009": "INCLUDE",
       "p010": "EXCLUDE",
-      "p011": "EXCLUDE",
-      "p012": "EXCLUDE",
+      "p011": "INCLUDE",
+      "p012": "INCLUDE",
       "p013": "EXCLUDE",
-      "p014": "EXCLUDE",
+      "p014": "INCLUDE",
       "p015": "EXCLUDE"
     }
   }

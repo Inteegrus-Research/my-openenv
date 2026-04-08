@@ -2,183 +2,183 @@
   "task_id": "task4",
   "instance_id": "instance_001",
   "budget": 18,
-  "task_description": "Screen these abstracts for a systematic review on ML methods for automated clinical diagnosis. Produce a ranked top-5 shortlist of the most relevant and methodologically rigorous papers.\n\nINCLUDE only papers that present or evaluate an ML method applied directly to automated clinical diagnosis (disease detection, imaging diagnosis, or differential diagnosis from patient data). Prognosis, treatment selection, drug discovery, and methodology papers without a diagnostic application should be EXCLUDE.\n\nFor each INCLUDE paper: assign rank 1 (best) to 5 (fifth-best) and write one justification sentence (max 200 chars).\n\nQuality rubric: 1=no method; 2=vague method; 3=clear method with metrics; 4=full method with baselines and ablations.",
+  "task_description": "Screen these abstracts for a systematic review on ML methods for automated clinical diagnosis of cardiac conditions. Produce a ranked top-5 shortlist of the most relevant and methodologically rigorous papers.\n\nINCLUDE only papers that present or evaluate an ML model applied directly to automated cardiac diagnosis (arrhythmia detection, heart failure classification, valve disease detection, coronary artery disease detection). Prognosis, treatment selection, cardiac rehabilitation, surgical planning, and imaging reconstruction should be EXCLUDE.\n\nFor each INCLUDE paper: assign rank 1 (best) to 5 (fifth-best) and write one justification sentence (max 200 chars).\n\nQuality rubric: 1=no method; 2=vague method; 3=clear method with metrics; 4=full method with baselines and ablation.",
   "papers": [
     {
       "id": "p001",
-      "title": "CNN for Automated Pneumonia Detection in Chest Radiographs",
-      "abstract": "We train a ResNet-50 convolutional neural network on 112,000 chest X-rays labelled for pneumonia. The model achieves AUC 0.95 on a prospective test set and matches the sensitivity of three radiologists in a reader study. Ablation analysis confirms the value of data augmentation and class-balanced sampling.",
-      "topic_hint": "deep learning, radiology, pneumonia detection",
-      "methodology_hint": "ResNet-50, AUC 0.95, radiologist reader study, ablation study",
-      "claimed_contribution": "ResNet-50 pneumonia detector matching radiologist sensitivity with a full ablation study."
+      "title": "Gradient Boosting for 10-Year MACE Prognosis in Stable Coronary Disease",
+      "abstract": "We train gradient boosting on 28,000 stable coronary disease patients from the PROMISE trial to predict 10-year major adverse cardiovascular events. C-index 0.79 is achieved. This is a prognostic model; patients already have confirmed coronary disease and the model predicts future events, not disease presence.",
+      "topic_hint": "gradient boosting, MACE prognosis, coronary disease, PROMISE trial",
+      "methodology_hint": "gradient boosting, C-index 0.79, prognosis not diagnosis",
+      "claimed_contribution": "Gradient boosting for MACE prognosis C-index 0.79, prognostic not diagnostic."
     },
     {
       "id": "p002",
-      "title": "Gradient Boosting for 30-Day ICU Mortality Prediction",
-      "abstract": "Machine learning for clinical diagnosis has expanded dramatically. We apply gradient boosting to predict 30-day mortality risk for ICU patients using admission vitals and lab results, achieving AUC 0.83. The system is intended to assist with palliative care consultations, not to provide a diagnosis.",
-      "topic_hint": "machine learning, ICU, mortality prediction, prognosis",
-      "methodology_hint": "gradient boosting, ICU vitals, AUC 0.83, prognosis not diagnosis",
-      "claimed_contribution": "Gradient boosting model predicting 30-day ICU mortality for palliative care prioritisation."
+      "title": "Transformer for 20-Class Holter Arrhythmia Diagnosis from 48-Hour ECG Recordings",
+      "abstract": "We train a transformer on 75,000 48-hour Holter ECG recordings from four hospital systems for 20-class arrhythmia diagnosis using multi-label learning. Macro-AUC 0.94 is achieved with prospective blinded cardiologist reader study validation. Per-class ablation of the attention temporal receptive field is provided alongside public code release.",
+      "topic_hint": "transformer, Holter ECG, arrhythmia diagnosis, multi-label, 20-class",
+      "methodology_hint": "transformer, 75k 48-hour Holters, macro-AUC 0.94, prospective reader study, attention ablation, code",
+      "claimed_contribution": "Transformer for 20-class Holter arrhythmia diagnosis macro-AUC 0.94, prospective validation, code released."
     },
     {
       "id": "p003",
-      "title": "BERT Fine-Tuning for ICD Diagnosis Code Assignment from Clinical Notes",
-      "abstract": "We fine-tune a BERT model on 240,000 discharge summaries to assign ICD-10 diagnosis codes from free-text clinical notes. The system achieves micro-F1 of 0.82 on the MIMIC-III benchmark, outperforming CNN and LSTM baselines. Model weights and a replication package are publicly released.",
-      "topic_hint": "NLP, clinical notes, ICD coding, diagnosis",
-      "methodology_hint": "BERT fine-tuning, MIMIC-III, micro-F1 0.82, CNN and LSTM baselines, public code",
-      "claimed_contribution": "BERT ICD-10 coder with micro-F1 0.82 on MIMIC-III, outperforming all prior baselines."
+      "title": "Deep RL for Personalised Cardiac Rehabilitation Exercise Intensity Prescription",
+      "abstract": "Cardiac rehabilitation outcomes depend on exercise intensity personalisation. We apply reinforcement learning to optimise exercise prescription in 1,200 post-MI rehabilitation patients. The RL policy achieves 23% greater VO2 max improvement versus fixed protocols. This is treatment personalisation, not cardiac diagnosis.",
+      "topic_hint": "reinforcement learning, cardiac rehabilitation, exercise prescription, post-MI",
+      "methodology_hint": "RL, rehabilitation, VO2 max improvement — treatment not diagnosis",
+      "claimed_contribution": "RL cardiac rehabilitation prescription improving VO2 max 23%, treatment not diagnosis."
     },
     {
       "id": "p004",
-      "title": "Deep Reinforcement Learning for Antibiotic Selection in ICU Sepsis",
-      "abstract": "We apply deep reinforcement learning to recommend antibiotic regimens for sepsis patients. Using a retrospective cohort of 18,000 ICU episodes, the RL policy reduces 28-day mortality by 11% relative to standard of care in off-policy evaluation. This is a treatment selection task, not diagnostic.",
-      "topic_hint": "reinforcement learning, sepsis, treatment selection",
-      "methodology_hint": "deep RL, off-policy evaluation, 18000 episodes, mortality reduction",
-      "claimed_contribution": "RL antibiotic policy reducing 28-day sepsis mortality by 11% in retrospective cohort."
+      "title": "3D CNN for Hypertrophic Cardiomyopathy Diagnosis and Differential from Cardiac MRI",
+      "abstract": "We train a 3D CNN on 5,200 cardiac MRI cine stacks from UK Biobank and three clinical centres to diagnose hypertrophic cardiomyopathy and distinguish it from athlete's heart and hypertensive cardiomyopathy. AUC 0.97 for HCM detection and macro-AUC 0.93 for the three-way differential are achieved, outperforming CMR-reporting cardiologists. Full temporal and structural feature ablation is provided.",
+      "topic_hint": "3D CNN, hypertrophic cardiomyopathy, cardiac MRI, differential diagnosis",
+      "methodology_hint": "3D CNN, 5200 CMR stacks, AUC 0.97, macro-AUC 0.93, cardiologist comparison, ablation",
+      "claimed_contribution": "3D CNN for HCM differential diagnosis AUC 0.97, outperforming CMR cardiologists, full ablation."
     },
     {
       "id": "p005",
-      "title": "EfficientNet for Skin Lesion Classification Across Seven Dermoscopy Classes",
-      "abstract": "We train an EfficientNet-B4 on 25,000 dermoscopy images across 7 lesion classes including melanoma. The model achieves balanced accuracy of 0.87, matching board-certified dermatologists on a held-out test set, with full ablation, confidence calibration, and inter-rater reliability analysis.",
-      "topic_hint": "deep learning, dermatology, lesion classification, melanoma diagnosis",
-      "methodology_hint": "EfficientNet-B4, balanced accuracy 0.87, dermatologist comparison, ablation, calibration",
-      "claimed_contribution": "EfficientNet skin lesion classifier matching dermatologist accuracy with full ablation and calibration."
+      "title": "GAN for Cardiac MRI Super-Resolution and Motion Correction",
+      "abstract": "Motion artefacts and low resolution degrade cardiac MRI quality. We train a conditional GAN for simultaneous super-resolution and motion correction on 8,000 cardiac MRI studies. SSIM improves from 0.71 to 0.89. This is an image quality enhancement method; no cardiac condition is diagnosed.",
+      "topic_hint": "GAN, cardiac MRI, super-resolution, motion correction, image quality",
+      "methodology_hint": "conditional GAN, cardiac MRI, SSIM 0.89 — image quality not diagnosis",
+      "claimed_contribution": "GAN for CMR super-resolution and motion correction SSIM 0.89, not diagnostic."
     },
     {
       "id": "p006",
-      "title": "Graph Neural Networks for Drug-Target Interaction Prediction",
-      "abstract": "Predicting drug-target binding affinity is central to drug discovery. We develop a graph neural network trained on ChEMBL to predict interaction scores for novel pairs. The model achieves Pearson r=0.87 on a held-out benchmark and outperforms random forest and SVM baselines.",
-      "topic_hint": "drug discovery, GNN, binding affinity prediction",
-      "methodology_hint": "GNN, ChEMBL, Pearson correlation, drug-target affinity, RF and SVM baselines",
-      "claimed_contribution": "GNN for drug-target binding prediction with Pearson r=0.87 on held-out benchmark."
+      "title": "Attention RNN for Atrial Fibrillation Detection from Single-Lead PPG Wristband",
+      "abstract": "We train an attention-based RNN on 22,000 30-second PPG segments from wristband devices to detect paroxysmal AF. AUC 0.96 and sensitivity 0.94 at specificity 0.95 are achieved, validated against 12-lead ECG gold standard. Attention weights correctly localise RR interval irregularity. Inter-patient and intra-patient evaluation strategies are both reported.",
+      "topic_hint": "attention RNN, PPG, atrial fibrillation, wristband, AF detection",
+      "methodology_hint": "attention RNN, 22k PPG segments, AUC 0.96, ECG gold standard, attention localisation, dual evaluation",
+      "claimed_contribution": "Attention RNN for AF detection from PPG, AUC 0.96, ECG-validated, attention localisation."
     },
     {
       "id": "p007",
-      "title": "Transformer-Based Arrhythmia Diagnosis from 12-Lead ECG Signals",
-      "abstract": "We apply a transformer architecture to 12-lead ECG signals for automated arrhythmia diagnosis across 20 classes. Trained on 500,000 ECGs from three hospital systems, the model achieves macro-F1 of 0.88. We compare against CNN and LSTM baselines and perform per-class ablation of attention heads.",
-      "topic_hint": "deep learning, ECG, arrhythmia, cardiac diagnosis",
-      "methodology_hint": "transformer, ECG, macro-F1 0.88, multi-site training, CNN/LSTM comparison, ablation",
-      "claimed_contribution": "Transformer ECG classifier with macro-F1 0.88 across 20 arrhythmia classes with full ablation."
+      "title": "Bayesian NN for Uncertainty-Aware Heart Failure Mortality Prognosis",
+      "abstract": "Heart failure prognosis with calibrated uncertainty is clinically important. We train a Bayesian NN on 35,000 heart failure patients from a multi-centre registry to predict 1-year mortality. C-index 0.81 is achieved. This predicts survival probability in confirmed heart failure patients, not the diagnosis itself.",
+      "topic_hint": "Bayesian NN, heart failure prognosis, mortality, uncertainty",
+      "methodology_hint": "Bayesian NN, C-index 0.81, heart failure prognosis — survival prediction not diagnosis",
+      "claimed_contribution": "Bayesian NN for heart failure mortality prognosis C-index 0.81, prognostic not diagnostic."
     },
     {
       "id": "p008",
-      "title": "Bayesian Optimisation for Hyperparameter Tuning in Medical Imaging CNNs",
-      "abstract": "We present a Bayesian optimisation framework for automated hyperparameter selection in medical imaging neural networks. Applied to three public imaging datasets, the framework reduces tuning wall-clock time by 60% while matching test AUC versus grid search. No new diagnostic model is proposed.",
-      "topic_hint": "AutoML, hyperparameter optimisation, medical imaging",
-      "methodology_hint": "Bayesian optimisation, AUC, grid search comparison, wall-clock, no diagnostic model",
-      "claimed_contribution": "Bayesian optimisation reduces medical imaging model tuning time by 60% vs grid search."
+      "title": "ViT for Six-Class Valvular Heart Disease Diagnosis from Echocardiography Videos",
+      "abstract": "We fine-tune a ViT-B/16 on 42,000 echocardiographic cine clips for six-class valvular diagnosis including aortic stenosis, mitral regurgitation, and tricuspid regurgitation across severity grades. Macro-AUC 0.95 is achieved with validation against a board-certified echocardiographer consensus. Temporal attention maps highlight peak systole and diastole as the most informative frames.",
+      "topic_hint": "ViT, echocardiography, valvular heart disease, diagnosis, aortic stenosis",
+      "methodology_hint": "ViT-B/16, 42k echo videos, macro-AUC 0.95, echocardiographer consensus, temporal attention maps",
+      "claimed_contribution": "ViT for six-class valvular diagnosis macro-AUC 0.95, echocardiographer-validated, temporal attention."
     },
     {
       "id": "p009",
-      "title": "Systematic Review of ML in Clinical Diagnosis and Prognosis",
-      "abstract": "We review 180 published papers on machine learning in clinical medicine, covering diagnosis and prognosis. Diagnostic ML papers report higher AUCs on average but use less rigorous experimental designs. We identify methodological gaps and recommend reporting standards.",
-      "topic_hint": "systematic review, clinical ML, reporting standards",
-      "methodology_hint": "systematic review, meta-analysis, AUC comparison, methodology audit",
-      "claimed_contribution": "Systematic review of 180 clinical ML papers with reporting standard recommendations."
+      "title": "ResNet-50 for Structural Cardiac Abnormality Detection from Frontal Chest X-Ray",
+      "abstract": "We train ResNet-50 on 110,000 frontal CXRs to detect six structural cardiac findings including cardiomegaly, pericardial effusion, and aortic root dilatation. Mean AUC 0.92 is achieved, outperforming five radiology resident readers, with external validation on two independent health systems.",
+      "topic_hint": "ResNet-50, chest X-ray, cardiac abnormality, cardiomegaly, detection",
+      "methodology_hint": "ResNet-50, 110k CXRs, mean AUC 0.92, 5 radiology residents, two external validations",
+      "claimed_contribution": "ResNet-50 for cardiac abnormality detection from CXR, AUC 0.92, two external validations."
     },
     {
       "id": "p010",
-      "title": "GAN Augmentation for Rare Disease Diagnostic Imaging",
-      "abstract": "Training data scarcity limits diagnostic ML for rare diseases. We use generative adversarial networks to synthesise pathology images for three rare genetic conditions. A diagnostic CNN trained with GAN augmentation improves macro-F1 from 0.51 to 0.71 on real patient test data.",
-      "topic_hint": "GAN, data augmentation, rare disease, diagnostic imaging",
-      "methodology_hint": "GAN synthesis, CNN, macro-F1 improvement from 0.51 to 0.71",
-      "claimed_contribution": "GAN augmentation improves rare-disease diagnostic CNN macro-F1 from 0.51 to 0.71."
+      "title": "Physics-Informed NN for Patient-Specific Haemodynamic Simulation",
+      "abstract": "We develop a physics-informed NN embedding Navier-Stokes equations for patient-specific coronary haemodynamics simulation. Results support fractional flow reserve estimation without invasive catheterisation. This is computational simulation for procedural planning, not automated cardiac diagnosis from patient data.",
+      "topic_hint": "physics-informed NN, haemodynamics, FFR, coronary, simulation",
+      "methodology_hint": "PINN, Navier-Stokes, FFR simulation — computational simulation not diagnosis",
+      "claimed_contribution": "PINN for FFR simulation supporting procedural planning, not automated diagnosis."
     },
     {
       "id": "p011",
-      "title": "Federated Learning for Multi-Site Hospital Readmission Prediction",
-      "abstract": "We propose a federated learning framework for training readmission prediction models across 8 hospital sites without sharing patient data. The federated model matches the centralised baseline AUC of 0.79 while preserving privacy. Readmission prediction is a prognosis task.",
-      "topic_hint": "federated learning, privacy, readmission prediction, multi-site",
-      "methodology_hint": "federated learning, differential privacy, AUC 0.79, 8 sites, prognosis task",
-      "claimed_contribution": "Federated readmission predictor matching centralised AUC with differential privacy."
+      "title": "XGBoost for Coronary Artery Disease Detection from Non-Invasive Biomarkers",
+      "abstract": "We apply XGBoost to 42 non-invasive biomarkers including high-sensitivity troponin, BNP, and carotid IMT from 2,400 patients in a prospective study. AUC 0.88 for obstructive CAD diagnosis (>50% stenosis on angiography) is achieved, outperforming Diamond-Forrester and Duke Clinical Scores. SHAP feature importance confirms troponin and IMT as primary predictors.",
+      "topic_hint": "XGBoost, CAD detection, non-invasive biomarkers, troponin, IMT",
+      "methodology_hint": "XGBoost, 2400 patients, AUC 0.88, 2 clinical score baselines, SHAP feature importance",
+      "claimed_contribution": "XGBoost for CAD detection from biomarkers AUC 0.88, outperforming clinical scores, SHAP analysis."
     },
     {
       "id": "p012",
-      "title": "Graph Neural Networks for Rare Metabolic Disease Diagnosis from EHR",
-      "abstract": "We represent each patient's EHR as a heterogeneous graph over diagnoses, labs, and medications, and train a GNN to flag rare lysosomal storage disorders. Trained on 2.1 million records, the model achieves precision 0.79 and recall 0.81. GNN results are compared to rule-based and logistic regression baselines.",
-      "topic_hint": "GNN, EHR, rare disease, metabolic disorder, clinical diagnosis",
-      "methodology_hint": "heterogeneous GNN, EHR graph, precision 0.79, recall 0.81, rule-based and LR comparison",
-      "claimed_contribution": "GNN rare-disease detector from EHR with precision 0.79 and recall 0.81, baseline comparison."
+      "title": "Federated CNN for Arrhythmia Classification Across 20 Hospital ECG Networks",
+      "abstract": "We apply federated learning to train an arrhythmia classification model across 20 hospitals without sharing patient ECGs. The federated model achieves AUC 0.91, within 3% of centralised training. We note this is a federated training methodology paper; the diagnostic model uses a standard published architecture.",
+      "topic_hint": "federated learning, ECG, arrhythmia classification, multi-site",
+      "methodology_hint": "federated learning, 20 hospitals, AUC 0.91, 3% below centralised — methodology paper",
+      "claimed_contribution": "Federated arrhythmia classification AUC 0.91 across 20 hospitals, methodology paper."
     },
     {
       "id": "p013",
-      "title": "AlphaFold Extension for Intrinsically Disordered Protein Regions",
-      "abstract": "We extend AlphaFold2 to predict structures of intrinsically disordered protein regions using conditional generation. Our approach achieves TM-score improvements of 0.12 over the baseline on a benchmark of 500 disordered regions. No clinical diagnostic application is presented.",
-      "topic_hint": "protein structure, AlphaFold, structural biology",
-      "methodology_hint": "AlphaFold extension, conditional generation, TM-score, structural biology only",
-      "claimed_contribution": "AlphaFold extension for disordered protein regions improving TM-score by 0.12."
+      "title": "Meta-Analysis of Deep Learning for ECG Interpretation: 112 Studies",
+      "abstract": "We meta-analyse 112 studies on deep learning for ECG interpretation covering arrhythmia detection, MI diagnosis, and channelopathy classification. Pooled AUC 0.93 for binary tasks is reported. Key methodological concerns include publication bias and lack of external validation. No new model is developed.",
+      "topic_hint": "meta-analysis, deep learning, ECG, systematic review, 112 studies",
+      "methodology_hint": "meta-analysis, 112 studies, no new model",
+      "claimed_contribution": "Meta-analysis of 112 DL-ECG studies, pooled AUC 0.93, methodological quality analysis."
     },
     {
       "id": "p014",
-      "title": "Continual Learning for Adapting Clinical NLP to New Hospital Sites",
-      "abstract": "Clinical NLP models degrade at new institutions due to vocabulary shift. We propose a continual learning approach that adapts a diagnosis extraction model to new sites using 500 labelled notes, without catastrophic forgetting. F1 on the source domain is preserved within 2% after adaptation.",
-      "topic_hint": "continual learning, clinical NLP, domain adaptation",
-      "methodology_hint": "continual learning, catastrophic forgetting prevention, F1 preservation, few-shot",
-      "claimed_contribution": "Continual learning adapter for clinical NLP preserving source-domain F1 within 2%."
+      "title": "Lightweight Transformer for Implantable Device VT/VF Detection with 22% Fewer Shocks",
+      "abstract": "We develop a lightweight transformer (8 KB, 2 ms inference) for real-time VT/VF detection from implantable cardiac device electrograms. Tested on 18,000 arrhythmia episodes, sensitivity 0.96 and specificity 0.93 are achieved, reducing inappropriate shocks by 22% versus device manufacturer algorithms.",
+      "topic_hint": "lightweight transformer, VT/VF detection, implantable device, electrogram",
+      "methodology_hint": "lightweight transformer, 18k episodes, sensitivity 0.96, manufacturer baseline, shock reduction 22%",
+      "claimed_contribution": "Lightweight transformer for implantable device VT/VF detection, sensitivity 0.96, 22% shock reduction."
     },
     {
       "id": "p015",
-      "title": "Random Forest for Diabetic Retinopathy Grading from Fundus Features",
-      "abstract": "We extract hand-crafted features from fundus photographs and train a random forest to grade diabetic retinopathy at five severity levels. On 8,000 test images, the model achieves quadratic weighted kappa of 0.83. We compare against a deep learning baseline and analyse feature importance.",
-      "topic_hint": "random forest, diabetic retinopathy, fundus grading, diagnosis",
-      "methodology_hint": "random forest, hand-crafted fundus features, quadratic kappa 0.83, DL comparison",
-      "claimed_contribution": "Random forest retinopathy grader with kappa 0.83 and deep learning comparison."
+      "title": "Causal Inference for Modifiable Heart Failure Risk Factor Identification from EHR",
+      "abstract": "We apply doubly-robust causal inference to 180,000 patient EHR records to identify causal risk factors for incident heart failure. Hypertension, obesity, and sleep apnoea are confirmed as causal. No predictive or diagnostic ML model is developed.",
+      "topic_hint": "causal inference, heart failure risk factors, EHR, observational study",
+      "methodology_hint": "doubly-robust causal inference, 180k patients, risk factors — causal analysis not diagnosis",
+      "claimed_contribution": "Causal identification of modifiable heart failure risk factors, 180k EHR, no diagnostic model."
     },
     {
       "id": "p016",
-      "title": "Optimal Transport for Staining Domain Adaptation in Histopathology",
-      "abstract": "Histopathology models degrade across staining protocols. We apply optimal transport to align feature distributions across staining domains for tumour detection. AUC improves from 0.72 to 0.88 after adaptation on three public histopathology benchmarks.",
-      "topic_hint": "optimal transport, domain adaptation, histopathology, tumour detection",
-      "methodology_hint": "optimal transport, AUC 0.72 to 0.88, three benchmarks, staining adaptation",
-      "claimed_contribution": "Optimal transport domain adaptation improves histopathology tumour AUC from 0.72 to 0.88."
+      "title": "Graph Transformer for Multi-Scale Cardiac Segmentation Supporting Functional Analysis",
+      "abstract": "We construct cardiac mesh graphs from CMR and train a GNN to predict six functional phenotypes including ejection fraction and strain. EF MAE 2.1% is achieved. Functional phenotyping supports monitoring but does not perform diagnostic classification of cardiac conditions.",
+      "topic_hint": "GNN, cardiac mesh, CMR, functional phenotyping, ejection fraction",
+      "methodology_hint": "GNN, cardiac mesh, EF MAE 2.1% — phenotyping not diagnostic classification",
+      "claimed_contribution": "GNN for cardiac functional phenotyping EF MAE 2.1%, not diagnostic classification."
     },
     {
       "id": "p017",
-      "title": "Regulatory and Ethical Frameworks for Clinical ML Deployment",
-      "abstract": "This position paper discusses regulatory pathways and ethical obligations for deploying ML diagnostic systems. We review FDA guidance, CE marking requirements, and post-market surveillance standards. No new ML model or empirical evaluation is presented.",
-      "topic_hint": "regulatory, ethics, clinical ML, FDA",
-      "methodology_hint": "regulatory review, ethics analysis, no empirical ML evaluation",
-      "claimed_contribution": "Review of regulatory and ethical frameworks for clinical ML deployment."
+      "title": "Semi-Supervised Learning for Cardiac MRI Segmentation with Limited Labels",
+      "abstract": "We apply mean teacher semi-supervised training to cardiac cine MRI using 150 labelled scans for LV segmentation. Dice 0.93 for LV segmentation is achieved. The method supports downstream analysis; it produces segmentation masks not diagnostic labels.",
+      "topic_hint": "semi-supervised learning, cardiac MRI, LV segmentation, mean teacher",
+      "methodology_hint": "mean teacher, 150 labelled CMR, Dice 0.93, segmentation not diagnosis",
+      "claimed_contribution": "Semi-supervised CMR LV segmentation Dice 0.93, functional analysis support, not diagnosis."
     },
     {
       "id": "p018",
-      "title": "Neural Survival Models for Cancer Recurrence Prognosis",
-      "abstract": "We apply a neural network survival model to predict cancer recurrence after surgical resection in colorectal cancer. Using pathology reports and molecular markers, the model achieves concordance index 0.78, outperforming Cox regression. Recurrence prediction is a prognostic task.",
-      "topic_hint": "survival analysis, neural networks, cancer prognosis, recurrence",
-      "methodology_hint": "neural survival model, concordance index 0.78, Cox regression comparison, prognosis",
-      "claimed_contribution": "Neural survival model for colorectal cancer recurrence with concordance index 0.78."
+      "title": "Sparse Autoencoder for ECG Anomaly Scoring Without Disease-Specific Labels",
+      "abstract": "We train a sparse autoencoder on 50,000 normal ECG recordings and use reconstruction error as an anomaly score for detecting unseen cardiac pathologies. AUC 0.86 across five pathology classes is achieved without class-specific supervision. This is an anomaly detection approach; specific cardiac condition diagnosis is not performed.",
+      "topic_hint": "sparse autoencoder, ECG, anomaly detection, unsupervised, cardiac pathology",
+      "methodology_hint": "sparse autoencoder, 50k normal ECGs, AUC 0.86, anomaly not specific diagnosis",
+      "claimed_contribution": "Sparse autoencoder ECG anomaly detection AUC 0.86, unsupervised, no disease-specific diagnosis."
     },
     {
       "id": "p019",
-      "title": "Survey of Attention Mechanisms in Medical Image Segmentation",
-      "abstract": "We survey 95 papers on attention mechanisms in medical image segmentation across CT, MRI, and histopathology. We provide a taxonomy, benchmark comparison table, and identify open challenges. No new model is proposed and no diagnostic task is evaluated.",
-      "topic_hint": "survey, attention, medical image segmentation",
-      "methodology_hint": "survey, taxonomy, benchmark table, no new model, no diagnostic evaluation",
-      "claimed_contribution": "Survey of attention mechanisms in medical image segmentation covering 95 papers."
+      "title": "Survey of Deep Learning for Cardiac MRI: Methods and Clinical Applications",
+      "abstract": "We survey 180 papers on deep learning for cardiac MRI covering segmentation, reconstruction, disease classification, and functional analysis. Benchmark comparisons are provided for key tasks. No new model is proposed.",
+      "topic_hint": "survey, deep learning, cardiac MRI, 180 papers",
+      "methodology_hint": "survey, 180 papers, no new model",
+      "claimed_contribution": "Survey of 180 DL cardiac MRI papers, no new model or evaluation."
     },
     {
       "id": "p020",
-      "title": "Contrastive Self-Supervised Pre-training for ECG Representation Learning",
-      "abstract": "We present a contrastive self-supervised pre-training strategy for ECG encoders using 2 million unlabelled ECGs. The pre-trained encoder, fine-tuned on small labelled sets, outperforms supervised baselines on arrhythmia classification and ST-elevation detection by 4-7% AUC using only 1% of labels.",
-      "topic_hint": "self-supervised learning, ECG, contrastive pre-training, arrhythmia",
-      "methodology_hint": "contrastive pre-training, label-efficient fine-tuning, AUC improvement, ECG diagnosis",
-      "claimed_contribution": "Contrastive ECG pre-training for label-efficient arrhythmia and ST-elevation detection."
+      "title": "Wearable ECG Patch for Long-Term Paroxysmal AF Monitoring with Transformer Classifier",
+      "abstract": "Paroxysmal AF is intermittent and missed by short recordings. We deploy a transformer classifier on a 14-day wearable ECG patch worn by 3,400 cryptogenic stroke patients, detecting AF in 12.3% versus 4.1% for 24-hour Holter. AUC 0.94 for AF episode detection is achieved with real-world external validation.",
+      "topic_hint": "wearable ECG, paroxysmal AF, long-term monitoring, transformer, cryptogenic stroke",
+      "methodology_hint": "transformer, 14-day wearable, 3400 patients, AUC 0.94, AF detection, real-world validation",
+      "claimed_contribution": "Transformer on 14-day wearable ECG for AF detection AUC 0.94, real-world validation in stroke patients."
     }
   ],
   "ground_truth": {
     "labels": {
-      "p001": "INCLUDE",
-      "p002": "EXCLUDE",
-      "p003": "INCLUDE",
-      "p004": "EXCLUDE",
-      "p005": "INCLUDE",
-      "p006": "EXCLUDE",
-      "p007": "INCLUDE",
-      "p008": "EXCLUDE",
+      "p001": "EXCLUDE",
+      "p002": "INCLUDE",
+      "p003": "EXCLUDE",
+      "p004": "INCLUDE",
+      "p005": "EXCLUDE",
+      "p006": "INCLUDE",
+      "p007": "EXCLUDE",
+      "p008": "INCLUDE",
       "p009": "EXCLUDE",
       "p010": "EXCLUDE",
       "p011": "EXCLUDE",
-      "p012": "INCLUDE",
+      "p012": "EXCLUDE",
       "p013": "EXCLUDE",
       "p014": "EXCLUDE",
       "p015": "EXCLUDE",
@@ -186,39 +186,22 @@
       "p017": "EXCLUDE",
       "p018": "EXCLUDE",
       "p019": "EXCLUDE",
-      "p020": "EXCLUDE"
+      "p020": "INCLUDE"
     },
-    "ranked_order": ["p007", "p003", "p001", "p005", "p012"],
+    "ranked_order": ["p004", "p008", "p002", "p006", "p020"],
     "relevance_quality_scores": {
-      "p001": 0.88,
-      "p002": 0.10,
-      "p003": 0.92,
-      "p004": 0.08,
-      "p005": 0.85,
-      "p006": 0.05,
-      "p007": 0.95,
-      "p008": 0.12,
-      "p009": 0.15,
-      "p010": 0.30,
-      "p011": 0.18,
-      "p012": 0.82,
-      "p013": 0.03,
-      "p014": 0.20,
-      "p015": 0.40,
-      "p016": 0.25,
-      "p017": 0.02,
-      "p018": 0.07,
-      "p019": 0.10,
-      "p020": 0.35
+      "p001": 0.10, "p002": 0.91, "p003": 0.08, "p004": 0.97,
+      "p005": 0.06, "p006": 0.88, "p007": 0.09, "p008": 0.93,
+      "p009": 0.45, "p010": 0.07, "p011": 0.42, "p012": 0.28,
+      "p013": 0.10, "p014": 0.38, "p015": 0.05, "p016": 0.12,
+      "p017": 0.15, "p018": 0.30, "p019": 0.06, "p020": 0.85
     },
     "vocabulary_list": [
-      "pneumonia", "chest", "radiograph", "cnn", "resnet", "bert",
-      "discharge", "icd", "diagnosis", "clinical", "arrhythmia", "ecg",
-      "transformer", "macro", "trained", "model", "accuracy", "ablation",
-      "detection", "classification", "neural", "network", "dataset",
-      "evaluation", "skin", "lesion", "dermoscopy", "ehr", "graph",
-      "metabolic", "lysosomal", "precision", "recall", "efficiencynet",
-      "automated", "baseline", "comparison", "training"
+      "arrhythmia", "ecg", "cardiac", "diagnosis", "detection", "transformer",
+      "atrial", "fibrillation", "holter", "macro", "auc", "valvular",
+      "echocardiography", "hypertrophic", "cardiomyopathy", "mri", "trained",
+      "model", "classification", "neural", "network", "evaluation", "baseline",
+      "ablation", "prospective", "validated", "wearable", "ppg", "sensitivity"
     ]
   }
 }

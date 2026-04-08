@@ -2,167 +2,167 @@
   "task_id": "task4",
   "instance_id": "instance_005",
   "budget": 18,
-  "task_description": "Screen these abstracts for a systematic review on ML methods for automated clinical diagnosis. Produce a ranked top-5 shortlist of the most relevant and methodologically rigorous papers.\n\nINCLUDE only papers that present or evaluate an ML method applied directly to automated clinical diagnosis (disease detection, imaging diagnosis, or differential diagnosis from patient data). Prognosis, treatment selection, drug discovery, and methodology-only papers should be EXCLUDE.\n\nFor each INCLUDE paper: assign rank 1 (best) to 5 (fifth-best) and write one justification sentence (max 200 chars).\n\nQuality rubric: 1=no method; 2=vague method; 3=clear method with metrics; 4=full method with baselines and ablations.",
+  "task_description": "Screen these abstracts for a systematic review on ML methods for brain tumour detection or classification from MRI. Produce a ranked top-5 shortlist.\n\nINCLUDE only papers that present or evaluate an ML model that detects or classifies brain tumour type, grade, or malignancy from MRI. Papers about brain tumour segmentation without classification, treatment planning, prognosis, genomic subtype prediction from MRI, or non-brain tumours should be EXCLUDE.\n\nFor each INCLUDE paper: assign rank 1 (best) to 5 (fifth-best) and write one justification sentence (max 200 chars).\n\nQuality rubric: 1=no method; 2=vague; 3=clear metrics; 4=multiple baselines, external validation, and ablation.",
   "papers": [
     {
       "id": "p001",
-      "title": "Deep Learning for Hypertrophic Cardiomyopathy Diagnosis from Cardiac MRI",
-      "abstract": "We train a 3D convolutional network on 5,200 cardiac MRI cine stacks from the UK Biobank and three clinical centres to diagnose hypertrophic cardiomyopathy and distinguish it from athlete's heart and hypertensive cardiomyopathy. The model achieves AUC 0.97 for HCM detection and macro-AUC 0.93 for the three-way differential, outperforming CMR reporting cardiologists. Full ablation of temporal and structural features is provided.",
-      "topic_hint": "3D CNN, hypertrophic cardiomyopathy, cardiac MRI, UK Biobank, CMR diagnosis",
-      "methodology_hint": "3D CNN, 5200 CMR stacks, AUC 0.97, macro-AUC 0.93, cardiologist comparison, temporal/structural ablation",
-      "claimed_contribution": "3D CNN for HCM differential diagnosis from CMR with AUC 0.97, outperforming CMR cardiologists."
+      "title": "3D ResNet for WHO 2021 Brain Tumour Grade Classification from Multi-Parametric MRI",
+      "abstract": "WHO 2021 brain tumour grading integrates morphology, IDH mutation, and 1p/19q codeletion. We train a 3D ResNet on 1,400 multi-parametric MRI studies (T1, T2, T1ce, FLAIR) to classify glioma WHO grade 2, 3, and 4 without biopsy. Three-way macro-AUC 0.91 is achieved, outperforming radiologist consensus, a 2D slice CNN, and a radiomic SVM baseline. An external validation cohort and ablation of imaging modalities are provided.",
+      "topic_hint": "3D ResNet, WHO grading, brain tumour, multi-parametric MRI, glioma",
+      "methodology_hint": "3D ResNet, 1400 mpMRI, macro-AUC 0.91, 3 baselines, external validation, modality ablation",
+      "claimed_contribution": "3D ResNet for glioma WHO grade classification macro-AUC 0.91, 3 baselines, external validation, ablation."
     },
     {
       "id": "p002",
-      "title": "Reinforcement Learning for Adaptive Cardiovascular Drug Titration",
-      "abstract": "Machine learning for cardiac clinical decision support extends to treatment management. We apply deep RL to titrate antihypertensive medication in 2,100 hypertension patients using outpatient blood pressure readings, achieving target control in 71% of patients versus 54% for guideline-based titration. This is a treatment selection system, not a diagnostic tool.",
-      "topic_hint": "reinforcement learning, antihypertensive, drug titration, hypertension management",
-      "methodology_hint": "deep RL, antihypertensive titration, 2100 patients, 71% target control, treatment not diagnosis",
-      "claimed_contribution": "RL antihypertensive titration achieving 71% target control versus 54% guideline-based titration."
+      "title": "Swin Transformer for Brain Tumour Segmentation on BraTS 2021",
+      "abstract": "We develop a Swin Transformer-based U-Net for brain tumour segmentation on BraTS 2021. Dice 0.93 for whole tumour, 0.89 for tumour core, and 0.86 for enhancing tumour are achieved, outperforming CNN baselines. The model produces voxel-level segmentation masks, not tumour type or grade classification.",
+      "topic_hint": "Swin Transformer, brain tumour segmentation, BraTS 2021",
+      "methodology_hint": "Swin Transformer, BraTS 2021, segmentation Dice — no classification",
+      "claimed_contribution": "Swin Transformer brain tumour segmentation Dice 0.93, BraTS 2021, no classification."
     },
     {
       "id": "p003",
-      "title": "Transformer for Multi-Label Arrhythmia Classification from Holter ECG Recordings",
-      "abstract": "We develop a transformer trained on 75,000 48-hour Holter ECG recordings from four hospital systems to classify 20 arrhythmia classes simultaneously using multi-label learning. The model achieves macro-AUC of 0.94 and is validated prospectively in a blinded cardiologist reader study. Per-class ablation of the attention mechanism's temporal receptive field is reported alongside public code release.",
-      "topic_hint": "transformer, Holter ECG, arrhythmia, multi-label, 20-class, cardiac diagnosis",
-      "methodology_hint": "transformer, 75k 48-hour Holters, macro-AUC 0.94, prospective reader study, attention ablation, public code",
-      "claimed_contribution": "Transformer for 20-class Holter arrhythmia with macro-AUC 0.94, prospective validation and attention ablation."
+      "title": "ViT for Distinguishing Primary CNS Lymphoma from Glioblastoma on MRI",
+      "abstract": "CNS lymphoma and GBM have overlapping MRI appearances but require different treatment. We fine-tune ViT-B/16 on 820 MRI studies to binary-classify PCNSL versus GBM. AUC 0.92 is achieved, outperforming ResNet-50 and a neuroradiologist panel in a blinded read. An ablation study confirms that contrast-enhanced T1 is the most discriminative sequence.",
+      "topic_hint": "ViT, CNS lymphoma, GBM, MRI classification, differential diagnosis",
+      "methodology_hint": "ViT-B/16, 820 MRI studies, AUC 0.92, ResNet-50 and neuroradiologist baselines, ablation of sequences",
+      "claimed_contribution": "ViT for PCNSL vs GBM differential on MRI, AUC 0.92, radiologist comparison, sequence ablation."
     },
     {
       "id": "p004",
-      "title": "Bayesian Neural Network for 10-Year MACE Prediction in Stable Coronary Disease",
-      "abstract": "Machine learning for cardiovascular clinical decision support includes risk stratification. We train a Bayesian neural network on 28,000 stable coronary artery disease patients from the PROMISE trial to predict 10-year major adverse cardiovascular events, achieving C-index 0.79 with calibrated uncertainty. This is a prognostic tool informing statin and aspirin prescribing; no diagnostic classification is performed.",
-      "topic_hint": "Bayesian NN, MACE prediction, coronary disease, PROMISE, prognosis, risk stratification",
-      "methodology_hint": "Bayesian NN, PROMISE trial 28k patients, C-index 0.79, calibrated uncertainty, prognosis not diagnosis",
-      "claimed_contribution": "Bayesian NN for 10-year MACE prognosis in coronary disease with C-index 0.79 and uncertainty calibration."
+      "title": "Graph Neural Network for Predicting MGMT Methylation Status from MRI Features",
+      "abstract": "MGMT methylation status predicts response to temozolomide chemotherapy in GBM. We extract radiomic and deep features from MRI and train a GNN to predict MGMT status. AUC 0.76 is achieved. This predicts a molecular biomarker from MRI, not tumour type or histological grade.",
+      "topic_hint": "GNN, MGMT methylation, GBM, MRI, molecular prediction",
+      "methodology_hint": "GNN, MGMT prediction, AUC 0.76 — molecular biomarker not tumour classification",
+      "claimed_contribution": "GNN for MGMT prediction from MRI AUC 0.76, molecular biomarker not tumour classification."
     },
     {
       "id": "p005",
-      "title": "Vision Transformer for Echocardiographic Valvular Disease Classification",
-      "abstract": "We fine-tune a ViT-B/16 on 42,000 echocardiographic videos to classify six valvular heart disease states including aortic stenosis, mitral regurgitation, and tricuspid regurgitation across severity grades. The model achieves macro-AUC 0.95 and sensitivity 0.90 at 85% specificity, validated against a board-certified echocardiographer consensus. Temporal attention maps highlight peak systole and diastole as the most informative frames.",
-      "topic_hint": "ViT, echocardiography, valvular heart disease, aortic stenosis, mitral regurgitation, diagnosis",
-      "methodology_hint": "ViT-B/16, 42k echo videos, macro-AUC 0.95, echocardiographer consensus, temporal attention maps",
-      "claimed_contribution": "ViT for six-class echocardiographic valvular disease with macro-AUC 0.95 and temporal attention analysis."
+      "title": "Radiotherapy Dose Planning for Glioblastoma Using Deep Learning Autocontouring",
+      "abstract": "Automated GTV and CTV delineation for GBM radiotherapy planning is time-consuming. We train a U-Net on 380 treatment planning MRI studies to autocontour structures. Dice 0.87 for GTV is achieved. This is a radiotherapy planning tool; no tumour type or grade classification is performed.",
+      "topic_hint": "U-Net, radiotherapy planning, GBM, autocontouring",
+      "methodology_hint": "U-Net, autocontouring Dice 0.87, radiation planning — not tumour classification",
+      "claimed_contribution": "U-Net for GBM radiotherapy autocontouring Dice 0.87, not tumour classification."
     },
     {
       "id": "p006",
-      "title": "Molecular Dynamics Simulations for Cardiac Ion Channel Drug Binding",
-      "abstract": "We perform microsecond-scale molecular dynamics simulations of hERG potassium channel conformations to characterise drug binding poses for cardiotoxicity screening. Results identify three novel binding modes that explain class-specific QT prolongation. No ML diagnostic model is developed; this is computational structural biology.",
-      "topic_hint": "molecular dynamics, hERG, cardiotoxicity, ion channel, structural biology",
-      "methodology_hint": "molecular dynamics, hERG simulation, binding pose analysis, structural biology, no diagnostic model",
-      "claimed_contribution": "Microsecond MD simulations identifying three novel hERG binding modes explaining QT prolongation classes."
+      "title": "EfficientNet for Distinguishing Benign from Malignant Brain Tumour in Paediatric MRI",
+      "abstract": "Paediatric brain tumours include low-grade gliomas, medulloblastomas, and ependymomas. We fine-tune EfficientNet-B3 on 1,100 paediatric MRI studies to binary classify benign versus malignant tumours. AUC 0.89 is achieved, with external validation on a children's hospital database and comparison against a paediatric neuroradiology panel.",
+      "topic_hint": "EfficientNet, paediatric brain tumour, benign vs malignant, MRI",
+      "methodology_hint": "EfficientNet-B3, 1100 paediatric MRI, AUC 0.89, external validation, neuroradiology comparison",
+      "claimed_contribution": "EfficientNet for paediatric brain tumour benign/malignant classification AUC 0.89, external validation."
     },
     {
       "id": "p007",
-      "title": "GAN-Based Synthetic ECG Generation for Imbalanced Arrhythmia Training Data",
-      "abstract": "We train a conditional Wasserstein GAN on 12-lead ECG recordings to generate synthetic rare arrhythmia examples for training data augmentation. Classifiers trained with GAN-augmented data improve F1 by 9-15% for four rare arrhythmia classes on a held-out test set. This is a data augmentation methodology paper; no new diagnostic model is proposed.",
-      "topic_hint": "WGAN, synthetic ECG, data augmentation, arrhythmia, class imbalance",
-      "methodology_hint": "conditional WGAN, ECG augmentation, F1 improvement 9-15%, four rare arrhythmias, augmentation methodology",
-      "claimed_contribution": "Conditional WGAN for synthetic ECG augmentation improving rare arrhythmia F1 by 9-15%."
+      "title": "Survival Analysis for Overall Survival in GBM Using Deep MRI Features",
+      "abstract": "Predicting GBM overall survival supports treatment stratification. We train a deep survival model on deep radiomic features extracted from post-resection MRI of 640 GBM patients. C-index 0.67 is achieved. This predicts survival after diagnosis; tumour classification is not performed.",
+      "topic_hint": "survival analysis, GBM, overall survival, MRI features, prognosis",
+      "methodology_hint": "deep survival, 640 GBM, C-index 0.67, prognosis not classification",
+      "claimed_contribution": "Deep survival model for GBM OS prediction C-index 0.67, prognosis not classification."
     },
     {
       "id": "p008",
-      "title": "Semi-Supervised Learning for Cardiac MRI Segmentation with Limited Labels",
-      "abstract": "We apply mean teacher semi-supervised training to cardiac cine MRI using 150 labelled and 3,000 unlabelled scans for left ventricular segmentation and ejection fraction estimation. Dice coefficient 0.93 and EF mean absolute error 3.1% are achieved. The method supports downstream functional analysis; no primary diagnosis is generated.",
-      "topic_hint": "semi-supervised learning, cardiac MRI, LV segmentation, ejection fraction",
-      "methodology_hint": "mean teacher, 150 labelled CMR, Dice 0.93, EF MAE 3.1%, functional analysis not diagnosis",
-      "claimed_contribution": "Semi-supervised CMR segmentation with Dice 0.93 and EF MAE 3.1% using 150 labelled scans."
+      "title": "Attention-Guided CNN for Meningioma Grade Classification from Contrast-Enhanced MRI",
+      "abstract": "Meningioma grading is important for surgical decision-making. We develop an attention-guided CNN trained on 920 contrast-enhanced MRI studies to classify meningioma grade (WHO I, II, III). Macro-F1 0.84 is achieved, outperforming a vanilla ResNet-50 and a radiomics SVM. The model attends to enhancement pattern and brain invasion zones, confirmed by post-surgical histology.",
+      "topic_hint": "attention CNN, meningioma grading, contrast-enhanced MRI, WHO grade",
+      "methodology_hint": "attention CNN, 920 CE-MRI, macro-F1 0.84, ResNet-50 and SVM baselines, histology correlation",
+      "claimed_contribution": "Attention CNN for meningioma WHO grading macro-F1 0.84, 2 baselines, histology correlation."
     },
     {
       "id": "p009",
-      "title": "ResNet-50 for Automated Detection of Structural Heart Disease from Chest X-Ray",
-      "abstract": "We train a ResNet-50 on 110,000 frontal chest X-rays to detect six structural cardiac abnormalities including cardiomegaly, pericardial effusion, and aortic root dilatation. The model achieves mean AUC of 0.92 across abnormalities, outperforming five radiology resident readers and a prior chest X-ray AI baseline. External validation on two independent health systems is reported.",
-      "topic_hint": "ResNet, chest X-ray, structural heart disease, cardiomegaly, cardiac diagnosis",
-      "methodology_hint": "ResNet-50, 110k CXRs, mean AUC 0.92, 5 radiology resident comparison, two external validation cohorts",
-      "claimed_contribution": "ResNet-50 for structural cardiac abnormality detection from CXR with mean AUC 0.92 and external validation."
+      "title": "MRI Reconstruction with Deep Unrolling for Accelerated Brain Imaging",
+      "abstract": "Deep unrolling networks reduce MRI acquisition time by reconstructing undersampled k-space data. We achieve 4x acceleration for T2-FLAIR brain MRI with SSIM 0.93 versus full sampling. This is an image reconstruction method; no brain tumour diagnosis is performed.",
+      "topic_hint": "deep unrolling, MRI reconstruction, k-space, acceleration",
+      "methodology_hint": "deep unrolling, SSIM 0.93, reconstruction — not diagnosis",
+      "claimed_contribution": "Deep unrolling MRI reconstruction at 4x acceleration SSIM 0.93, not tumour diagnosis."
     },
     {
       "id": "p010",
-      "title": "Causal Inference for Identifying Modifiable Risk Factors of Heart Failure",
-      "abstract": "We apply instrumental variable and doubly-robust methods to EHR data from 180,000 patients to identify causal risk factors for incident heart failure. Hypertension, obesity, and sleep apnoea are confirmed as causal; diabetes effect is attenuated after adjustment. No diagnostic model or prediction tool is developed.",
-      "topic_hint": "causal inference, heart failure, risk factors, instrumental variable, observational study",
-      "methodology_hint": "instrumental variables, doubly-robust, 180k patients, causal risk factor identification, no diagnostic model",
-      "claimed_contribution": "Causal identification of modifiable heart failure risk factors from 180,000-patient EHR study."
+      "title": "Contrastive Pre-training on BraTS and TCGA-GBM for Tumour Type Classification",
+      "abstract": "Self-supervised pre-training on large brain MRI archives enables label-efficient tumour classification. We apply SimSiam contrastive pre-training on 8,000 multi-parametric MRI volumes from BraTS and TCGA-GBM before fine-tuning for tumour type classification (GBM, LGG, metastasis). Three-way AUC 0.93 is achieved using only 50 labelled scans per class, outperforming ImageNet and MoCo pre-training. An ablation of pre-training objectives is provided.",
+      "topic_hint": "contrastive pre-training, BraTS, brain tumour classification, SimSiam, label-efficient",
+      "methodology_hint": "SimSiam pre-training, 8k volumes, AUC 0.93, ImageNet and MoCo baselines, ablation",
+      "claimed_contribution": "SimSiam pre-training for brain tumour type classification AUC 0.93, 2 baselines, label-efficient ablation."
     },
     {
       "id": "p011",
-      "title": "Attention-Based RNN for Atrial Fibrillation Detection from PPG Waveforms",
-      "abstract": "We develop an attention-based recurrent neural network trained on 22,000 30-second PPG segments from wristband devices to detect paroxysmal atrial fibrillation. The model achieves AUC 0.96, sensitivity 0.94, and specificity 0.95, validated against 12-lead ECG gold standard. Attention weights correctly localise RR interval irregularity in inter-patient and intra-patient evaluations.",
-      "topic_hint": "RNN, attention, PPG, atrial fibrillation, wristband, cardiac diagnosis",
-      "methodology_hint": "attention RNN, 22k PPG segments, AUC 0.96, sensitivity 0.94, ECG gold standard, attention localisation",
-      "claimed_contribution": "Attention RNN for AF detection from PPG wristband with AUC 0.96, validated against 12-lead ECG."
+      "title": "Federated Learning for Multi-Site Brain MRI Abnormality Classification",
+      "abstract": "We implement federated learning across 12 neuroradiology sites to classify MRI brain abnormalities including tumour presence, stroke, and white matter lesions. AUC 0.89 for tumour detection is achieved. We note the primary focus is federated training methodology; the tumour detection component uses a standard architecture.",
+      "topic_hint": "federated learning, brain MRI, abnormality classification, tumour detection",
+      "methodology_hint": "federated learning, 12 sites, AUC 0.89, methodology paper — tumour classification present",
+      "claimed_contribution": "Federated brain MRI abnormality classifier AUC 0.89 for tumour detection, methodology contribution."
     },
     {
       "id": "p012",
-      "title": "Federated Learning for Distributed ECG Model Training Across Hospital Networks",
-      "abstract": "Machine learning for cardiac clinical decision support requires large ECG datasets distributed across hospitals. We apply federated learning to train an arrhythmia classification model across 20 hospital sites without sharing patient ECG data. The federated model achieves AUC 0.91, within 3% of centralised training. This is a federated training methodology; the diagnostic model uses a published architecture.",
-      "topic_hint": "federated learning, ECG, arrhythmia, multi-site, training methodology",
-      "methodology_hint": "federated learning, 20 hospital sites, AUC 0.91, 3% below centralised, methodology paper",
-      "claimed_contribution": "Federated ECG arrhythmia training across 20 sites achieving AUC 0.91, within 3% of centralised."
+      "title": "Deep Learning for Automated Hippocampal Volume Measurement in Dementia",
+      "abstract": "Hippocampal atrophy is a biomarker for Alzheimer's disease. We train a U-Net for hippocampal segmentation from structural MRI, achieving Dice 0.92. Downstream volume measurements are compared with FreeSurfer. This is brain segmentation for dementia biomarker quantification, not brain tumour classification.",
+      "topic_hint": "U-Net, hippocampal segmentation, Alzheimer's, dementia biomarker, MRI",
+      "methodology_hint": "U-Net, segmentation Dice 0.92, dementia biomarker — not brain tumour",
+      "claimed_contribution": "U-Net for hippocampal segmentation Dice 0.92 for dementia biomarker, not tumour diagnosis."
     },
     {
       "id": "p013",
-      "title": "XGBoost for Coronary Artery Disease Detection from Non-Invasive Biomarkers",
-      "abstract": "We apply XGBoost to a panel of 42 non-invasive biomarkers including cardiac troponin, BNP, CRP, and carotid intima-media thickness to detect obstructive coronary artery disease, defined as >50% stenosis on coronary angiography. In a prospective study of 2,400 patients, the model achieves AUC 0.88 and outperforms the Diamond-Forrester score and Duke Clinical Score baselines. Feature importance confirms troponin and IMT as dominant predictors.",
-      "topic_hint": "XGBoost, coronary artery disease, biomarkers, CAD detection, non-invasive diagnosis",
-      "methodology_hint": "XGBoost, 42 biomarkers, 2400 patients, AUC 0.88, Diamond-Forrester and Duke score baselines, feature importance",
-      "claimed_contribution": "XGBoost CAD detection from non-invasive biomarkers with AUC 0.88, outperforming Diamond-Forrester score."
+      "title": "Multi-Modal Transformer for Brain Metastasis Detection and Primary Site Classification",
+      "abstract": "Brain metastases require identification and primary site attribution. We develop a multi-modal transformer fusing gadolinium-enhanced MRI and clinical metadata to simultaneously detect brain metastases and classify their primary site (lung, breast, melanoma). AUC 0.90 for primary site classification is achieved, outperforming single-modality CNN and a clinical staging model. Prospective pilot validation on 120 new patients is provided.",
+      "topic_hint": "multi-modal transformer, brain metastasis, primary site classification, MRI",
+      "methodology_hint": "multi-modal transformer, AUC 0.90, CNN and clinical staging baselines, prospective pilot",
+      "claimed_contribution": "Multi-modal transformer for brain metastasis primary site classification AUC 0.90, prospective pilot."
     },
     {
       "id": "p014",
-      "title": "Survival Analysis for Heart Transplant Waitlist Mortality Prediction",
-      "abstract": "Machine learning for cardiac clinical decision support supports organ allocation decisions. We apply a neural network survival model to predict 90-day waitlist mortality for 4,800 heart transplant candidates using haemodynamic and laboratory features, achieving C-index 0.82 versus 0.74 for UNOS Status alone. Waitlist mortality prediction guides urgency listing; it does not diagnose cardiac disease.",
-      "topic_hint": "neural survival model, heart transplant, waitlist mortality, UNOS, prognosis",
-      "methodology_hint": "neural survival model, 4800 transplant candidates, C-index 0.82, UNOS Status comparison, prognosis",
-      "claimed_contribution": "Neural survival model for heart transplant waitlist mortality with C-index 0.82 vs UNOS 0.74."
+      "title": "Genetic Algorithm Optimisation for MRI Scan Protocol Design",
+      "abstract": "MRI scan protocols balance image quality and acquisition time. We use genetic algorithms to optimise acquisition parameter combinations for brain MRI. Signal-to-noise ratio improves by 12% with no increase in scan time. No brain disease classification is performed.",
+      "topic_hint": "genetic algorithm, MRI protocol optimisation, acquisition parameters, SNR",
+      "methodology_hint": "genetic algorithm, MRI parameter optimisation — not disease classification",
+      "claimed_contribution": "Genetic algorithm for MRI protocol optimisation, SNR +12%, no disease classification."
     },
     {
       "id": "p015",
-      "title": "CNN for Point-of-Care Echocardiography Quality Assessment and View Classification",
-      "abstract": "We develop a CNN trained on 45,000 echocardiographic clips to simultaneously assess image quality and classify standard views (apical 4-chamber, parasternal long axis, etc.). The model achieves view classification accuracy 0.94 and quality score correlation r=0.88 with expert rating. Real-time inference on a tablet platform is demonstrated. Note: view classification is a prerequisite for diagnosis, not a primary diagnostic output.",
-      "topic_hint": "CNN, echocardiography, view classification, quality assessment, point-of-care",
-      "methodology_hint": "CNN, 45k echo clips, accuracy 0.94, correlation 0.88, real-time tablet deployment, view classification not diagnosis",
-      "claimed_contribution": "CNN for point-of-care echo view classification and quality assessment with 0.94 accuracy in real-time."
+      "title": "XGBoost for IDH Mutation Classification in Glioma from MRI Radiomic Features",
+      "abstract": "IDH mutation status is the primary molecular classifier in WHO 2021 glioma classification. We extract 200 radiomic features from T1, T2, and FLAIR MRI and train XGBoost to classify IDH-mutant versus IDH-wildtype glioma. AUC 0.82 is achieved. Only logistic regression is compared as a baseline; no external validation is included.",
+      "topic_hint": "XGBoost, IDH mutation, glioma, radiomics, molecular classification",
+      "methodology_hint": "XGBoost, 200 radiomic features, AUC 0.82, only LR baseline, no external validation",
+      "claimed_contribution": "XGBoost for IDH mutation classification from MRI radiomics AUC 0.82, limited validation."
     },
     {
       "id": "p016",
-      "title": "Interpretable Machine Learning for Cardiac Biomarker Threshold Derivation",
-      "abstract": "We use SHAP-based interpretable ML to derive data-driven thresholds for cardiac biomarkers (troponin, BNP, CRP) associated with adverse cardiac events in emergency presentations. Results challenge current guideline thresholds for high-sensitivity troponin. No predictive classification model is developed; this is a methodology paper for threshold analysis.",
-      "topic_hint": "SHAP, interpretable ML, cardiac biomarkers, troponin, threshold derivation, methodology",
-      "methodology_hint": "SHAP analysis, biomarker threshold derivation, guideline comparison, methodology paper, no classifier",
-      "claimed_contribution": "SHAP-based data-driven cardiac biomarker threshold derivation challenging current troponin guidelines."
+      "title": "Deep Learning for Predicting Pseudo-Progression vs True Progression in GBM After Chemoradiation",
+      "abstract": "Distinguishing pseudo-progression from true progression on MRI guides treatment decisions after chemoradiation. We train a CNN on 540 post-treatment MRI studies to classify pseudo-progression versus true progression. AUC 0.80 is achieved. This is a treatment response classification task in diagnosed GBM, not initial tumour type detection.",
+      "topic_hint": "CNN, pseudo-progression, GBM, treatment response, post-chemoradiation MRI",
+      "methodology_hint": "CNN, 540 post-treatment MRI, AUC 0.80, pseudo-progression classification — treatment response not diagnosis",
+      "claimed_contribution": "CNN for pseudo-progression vs true progression classification AUC 0.80, treatment response."
     },
     {
       "id": "p017",
-      "title": "Deep Learning Radiomics for Coronary Plaque Characterisation from CCTA",
-      "abstract": "We extract radiomic features from coronary CT angiography and train a deep neural network to characterise plaque type as calcified, mixed, or non-calcified across 3,100 lesions. The model achieves AUC 0.90 for non-calcified plaque detection, outperforming manual radiomic feature extraction. Plaque characterisation supports risk stratification but is not a primary diagnosis of CAD presence.",
-      "topic_hint": "radiomics, deep learning, coronary CCTA, plaque characterisation, risk stratification",
-      "methodology_hint": "deep radiomics, CCTA, 3100 lesions, AUC 0.90, manual radiomic baseline, risk stratification not diagnosis",
-      "claimed_contribution": "Deep radiomics for CCTA coronary plaque characterisation with AUC 0.90 vs manual radiomic extraction."
+      "title": "Radiomic Signature for Predicting Post-Surgical GBM Recurrence Location from Pre-Operative MRI",
+      "abstract": "Tumour recurrence in GBM often occurs at the surgical resection margin. We extract radiomic features from pre-operative MRI to predict recurrence location at 6 months post-surgery. This is a prognostic spatial prediction task after diagnosis; no tumour detection or classification is performed.",
+      "topic_hint": "radiomics, GBM recurrence location, prognostic, post-surgical",
+      "methodology_hint": "radiomics, recurrence location prediction, prognostic — not tumour detection or classification",
+      "claimed_contribution": "Radiomic signature for GBM recurrence location prediction, prognostic not classification."
     },
     {
       "id": "p018",
-      "title": "Transformer for Real-Time Cardiac Arrhythmia Detection from Implantable Device Streams",
-      "abstract": "We develop a lightweight transformer architecture for real-time arrhythmia detection from electrogram streams in implantable cardiac devices, operating within 8 KB memory and 2 ms inference time. Tested on 18,000 arrhythmia episodes from device logs, the model achieves sensitivity 0.96 and specificity 0.93 for ventricular tachycardia and fibrillation detection, matching device manufacturer algorithms while reducing inappropriate shocks by 22%.",
-      "topic_hint": "lightweight transformer, implantable device, arrhythmia detection, electrogram, real-time, VT/VF",
-      "methodology_hint": "lightweight transformer, 8KB, 18k device episodes, sensitivity 0.96, specificity 0.93, manufacturer baseline, shock reduction",
-      "claimed_contribution": "Lightweight transformer for implantable device VT/VF detection with sensitivity 0.96, reducing inappropriate shocks 22%."
+      "title": "Survey of AI for Brain Tumour Imaging: 75 Papers from 2018-2023",
+      "abstract": "We survey 75 papers applying AI to brain tumour MRI covering detection, segmentation, grading, and treatment response. Benchmark comparisons and methodological trends are discussed. No new model is developed.",
+      "topic_hint": "survey, AI, brain tumour, MRI, 75 papers",
+      "methodology_hint": "survey, 75 papers, no new model",
+      "claimed_contribution": "Survey of 75 brain tumour AI papers 2018-2023, no new model."
     },
     {
       "id": "p019",
-      "title": "Meta-Analysis of Deep Learning for ECG Interpretation: Systematic Review",
-      "abstract": "We meta-analyse 112 studies on deep learning for ECG interpretation, covering arrhythmia detection, MI diagnosis, and channelopathy classification. Pooled AUC is 0.93 for binary tasks but drops to 0.82 for multi-class settings. We identify publication bias, lack of external validation, and class imbalance as primary methodological concerns. No new model is presented.",
-      "topic_hint": "meta-analysis, deep learning, ECG interpretation, arrhythmia, systematic review",
-      "methodology_hint": "meta-analysis, 112 studies, pooled AUC, publication bias analysis, no new model",
-      "claimed_contribution": "Meta-analysis of 112 deep learning ECG studies identifying publication bias and validation gaps."
+      "title": "Dense CNN for Pituitary Adenoma Subtype Classification from MRI",
+      "abstract": "Pituitary adenoma subtypes differ in hormonal activity and surgical approach. We train a densely connected CNN on 680 pituitary MRI studies to classify functioning versus non-functioning adenomas and by size category. Macro-AUC 0.88 is achieved, outperforming a feature-based SVM baseline and endocrinologist assessment.",
+      "topic_hint": "dense CNN, pituitary adenoma, MRI, subtype classification",
+      "methodology_hint": "dense CNN, 680 pituitary MRI, macro-AUC 0.88, SVM baseline, endocrinologist comparison",
+      "claimed_contribution": "Dense CNN for pituitary adenoma subtype classification macro-AUC 0.88, 2 baselines."
     },
     {
       "id": "p020",
-      "title": "Graph Neural Network for Multi-Scale Cardiac Function Phenotyping from CMR",
-      "abstract": "We construct subject-specific cardiac mesh graphs from CMR imaging and train a GNN to predict six functional phenotypes including ejection fraction, strain, and diastolic parameters. Mean absolute error of 2.1% for EF and strong correlations for strain metrics are achieved versus manual analysis. Functional phenotyping from CMR supports research and clinical monitoring but does not perform diagnostic classification.",
-      "topic_hint": "GNN, cardiac mesh, CMR, functional phenotyping, ejection fraction, strain",
-      "methodology_hint": "GNN, cardiac mesh graphs, EF MAE 2.1%, strain correlation, functional phenotyping not diagnosis",
-      "claimed_contribution": "GNN for multi-scale cardiac functional phenotyping from CMR meshes with EF MAE 2.1%."
+      "title": "Bayesian Neural Network for Uncertainty-Aware Brain Tumour Type Classification",
+      "abstract": "Uncertain predictions in brain tumour classification should trigger radiologist review rather than automatic reporting. We train a Bayesian CNN using stochastic weight averaging on 1,600 brain MRI studies for four-class tumour type classification (GBM, LGG, meningioma, metastasis). Macro-AUC 0.93 is achieved with calibrated posteriors. Routing uncertain cases to expert review raises effective accuracy to 0.96 in simulation. Comparison against a deterministic ResNet and an ensemble baseline is provided.",
+      "topic_hint": "Bayesian CNN, brain tumour classification, uncertainty, 4-class, MRI",
+      "methodology_hint": "Bayesian CNN SWA, 1600 MRI, macro-AUC 0.93, ResNet and ensemble baselines, calibrated uncertainty",
+      "claimed_contribution": "Bayesian CNN for 4-class brain tumour classification macro-AUC 0.93, uncertainty routing, 2 baselines."
     }
   ],
   "ground_truth": {
@@ -171,13 +171,13 @@
       "p002": "EXCLUDE",
       "p003": "INCLUDE",
       "p004": "EXCLUDE",
-      "p005": "INCLUDE",
-      "p006": "EXCLUDE",
+      "p005": "EXCLUDE",
+      "p006": "INCLUDE",
       "p007": "EXCLUDE",
-      "p008": "EXCLUDE",
-      "p009": "INCLUDE",
+      "p008": "INCLUDE",
+      "p009": "EXCLUDE",
       "p010": "EXCLUDE",
-      "p011": "INCLUDE",
+      "p011": "EXCLUDE",
       "p012": "EXCLUDE",
       "p013": "EXCLUDE",
       "p014": "EXCLUDE",
@@ -186,40 +186,22 @@
       "p017": "EXCLUDE",
       "p018": "EXCLUDE",
       "p019": "EXCLUDE",
-      "p020": "EXCLUDE"
+      "p020": "INCLUDE"
     },
-    "ranked_order": ["p003", "p001", "p005", "p011", "p009"],
+    "ranked_order": ["p001", "p020", "p003", "p008", "p006"],
     "relevance_quality_scores": {
-      "p001": 0.94,
-      "p002": 0.06,
-      "p003": 0.96,
-      "p004": 0.08,
-      "p005": 0.92,
-      "p006": 0.04,
-      "p007": 0.20,
-      "p008": 0.25,
-      "p009": 0.85,
-      "p010": 0.05,
-      "p011": 0.88,
-      "p012": 0.28,
-      "p013": 0.50,
-      "p014": 0.09,
-      "p015": 0.30,
-      "p016": 0.10,
-      "p017": 0.35,
-      "p018": 0.55,
-      "p019": 0.08,
-      "p020": 0.22
+      "p001": 0.96, "p002": 0.25, "p003": 0.92, "p004": 0.30,
+      "p005": 0.10, "p006": 0.87, "p007": 0.15, "p008": 0.88,
+      "p009": 0.05, "p010": 0.60, "p011": 0.35, "p012": 0.08,
+      "p013": 0.50, "p014": 0.03, "p015": 0.45, "p016": 0.20,
+      "p017": 0.12, "p018": 0.04, "p019": 0.65, "p020": 0.91
     },
     "vocabulary_list": [
-      "hypertrophic", "cardiomyopathy", "cardiac", "mri", "cnn", "auc",
-      "ablation", "cardiologist", "holter", "arrhythmia", "transformer",
-      "macro", "prospective", "reader", "echocardiography", "valvular",
-      "aortic", "stenosis", "mitral", "regurgitation", "vit", "temporal",
-      "atrial", "fibrillation", "ppg", "attention", "rnn", "sensitivity",
-      "specificity", "trained", "model", "diagnosis", "clinical", "network",
-      "detection", "classification", "evaluation", "baseline", "comparison",
-      "automated", "imaging", "validation", "resnet", "chest", "structural"
+      "glioma", "brain", "tumour", "mri", "classification", "grade", "cnn",
+      "resnet", "auc", "macro", "trained", "model", "baseline", "ablation",
+      "external", "validation", "diagnosis", "detection", "who", "glioblastoma",
+      "meningioma", "metastasis", "multiparametric", "contrast", "enhanced",
+      "transformer", "paediatric", "attention", "bayesian", "uncertainty"
     ]
   }
 }

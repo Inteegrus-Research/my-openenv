@@ -1,47 +1,87 @@
 {
   "task_id": "task1",
   "instance_id": "instance_001",
-  "task_description": "Screen the following papers for relevance to: machine learning applications in biomedical research. Assign RELEVANT if the paper directly applies machine learning methods to a biomedical problem. Assign NOT_RELEVANT otherwise.",
+  "task_description": "Screen each abstract for relevance to: machine learning for predicting hospital readmission risk from electronic health records. Label RELEVANT if the paper applies ML to structured or unstructured EHR data to predict readmission probability within 30 or 90 days. Label NOT_RELEVANT if the paper does not meet both criteria (ML method + EHR data + readmission outcome).",
   "papers": [
     {
       "id": "p001",
-      "title": "Deep Learning for Protein Structure Prediction",
-      "abstract": "We present a transformer-based architecture for predicting protein tertiary structure from amino acid sequences. Trained on the Protein Data Bank, our model achieves state-of-the-art RMSD on CASP14 targets and generalises to novel fold families.",
-      "topic_hint": "deep learning, protein structure, bioinformatics",
-      "methodology_hint": "transformer neural network, supervised learning, RMSD evaluation",
-      "claimed_contribution": "A transformer model for protein structure prediction that outperforms prior methods on CASP14 benchmarks."
+      "title": "Gradient Boosting for 30-Day Readmission Prediction in Heart Failure Patients",
+      "abstract": "We develop a gradient boosting model trained on structured EHR data from 42,000 heart failure admissions across seven hospitals. Features include vital signs at discharge, comorbidity indices, lab trajectories, and prior admission history. Our model achieves AUROC 0.79 on a prospective hold-out cohort, outperforming LACE score and logistic regression. A calibration analysis confirms reliable probability estimates across risk deciles. We discuss clinical deployment as a discharge-planning decision aid.",
+      "topic_hint": "gradient boosting, EHR, heart failure, 30-day readmission",
+      "methodology_hint": "gradient boosting, structured EHR features, AUROC 0.79, LACE comparison",
+      "claimed_contribution": "Gradient boosting readmission predictor outperforming LACE score in heart failure with clinical deployment plan."
     },
     {
       "id": "p002",
-      "title": "Optimal Transport and Multi-Marginal Welfare Economics",
-      "abstract": "We study multi-marginal optimal transport and derive new theoretical bounds on allocation efficiency in competitive welfare economics settings. Our proofs extend classical Kantorovich duality using functional-analytic techniques.",
-      "topic_hint": "mathematics, economics, optimal transport",
-      "methodology_hint": "mathematical analysis, Kantorovich duality, theoretical proofs",
-      "claimed_contribution": "Extended Kantorovich duality for multi-marginal optimal transport with welfare economics interpretations."
+      "title": "Optimal Transport for Harmonising Multi-Site Neuroimaging Data in Depression Research",
+      "abstract": "Scanner variability across sites introduces systematic bias in neuroimaging studies. We apply optimal transport to harmonise cortical thickness measurements from structural MRI across 14 scanner models. The method reduces inter-site variance by 68% while preserving biologically meaningful signal. Downstream classification of major depressive disorder with an SVM improves from AUROC 0.63 to 0.81. We release harmonisation code and evaluate on an independent held-out site.",
+      "topic_hint": "optimal transport, neuroimaging harmonisation, MRI, multi-site, depression",
+      "methodology_hint": "optimal transport, cortical thickness, SVM, AUROC, multi-site bias correction",
+      "claimed_contribution": "Optimal transport harmonisation reducing scanner bias 68% and improving depression classification to AUROC 0.81."
     },
     {
       "id": "p003",
-      "title": "Convolutional Neural Networks for Drug Candidate Screening",
-      "abstract": "We apply convolutional neural networks to virtual screening of small-molecule drug candidates against a panel of oncology targets. Our model achieves a 3.2x improvement in hit rate over molecular docking baselines on a held-out test set of 50,000 compounds.",
-      "topic_hint": "machine learning, drug discovery, computational chemistry",
-      "methodology_hint": "convolutional neural networks, virtual screening, hit rate evaluation",
-      "claimed_contribution": "CNN-based virtual screening achieving 3.2x hit rate improvement over docking baselines across oncology targets."
+      "title": "Natural Language Processing on Discharge Summaries for Readmission Risk Stratification",
+      "abstract": "Structured EHR data alone may miss clinically relevant information recorded in free text. We fine-tune a ClinicalBERT model on 89,000 discharge summaries to predict 30-day readmission. Text-based features improve AUROC from 0.74 (structured only) to 0.82 when combined with diagnosis codes and lab values. We identify high-risk language patterns including unresolved symptoms and deferred follow-up instructions as key predictive signals.",
+      "topic_hint": "NLP, discharge summaries, ClinicalBERT, readmission prediction, EHR",
+      "methodology_hint": "ClinicalBERT, discharge summaries, AUROC 0.82, structured+text fusion",
+      "claimed_contribution": "ClinicalBERT on discharge summaries improving 30-day readmission AUROC to 0.82 vs structured-only baseline."
     },
     {
       "id": "p004",
-      "title": "Graph Neural Networks for 30-Day Hospital Readmission Prediction",
-      "abstract": "Patient clinical histories are represented as heterogeneous graphs over diagnoses, medications, and procedures. A graph neural network trained on multi-hospital EHR data outperforms logistic regression and gradient boosting on 30-day readmission prediction, with AUROC 0.81 on a held-out cohort.",
-      "topic_hint": "machine learning, electronic health records, clinical prediction",
-      "methodology_hint": "graph neural networks, EHR modelling, AUROC evaluation",
-      "claimed_contribution": "GNN readmission predictor trained on EHR graphs, validated across multiple hospital sites."
+      "title": "Causal Discovery in Longitudinal EHR Data for Identifying Modifiable Readmission Risk Factors",
+      "abstract": "Identifying causes of readmission rather than correlates requires causal reasoning. We apply constraint-based causal discovery to time-series EHR data from 120,000 discharges to identify modifiable risk factors for 30-day readmission. The resulting causal graph suggests that medication reconciliation errors and inadequate post-discharge follow-up instructions are direct causes. This is a causal analysis study; no predictive ML model is built or evaluated.",
+      "topic_hint": "causal discovery, EHR, readmission risk factors, modifiable causes",
+      "methodology_hint": "causal discovery, constraint-based algorithm, EHR time-series, causal graph — no predictive model",
+      "claimed_contribution": "Causal graph identifying medication reconciliation and follow-up gaps as direct readmission causes from EHR data."
     },
     {
       "id": "p005",
-      "title": "Nested Sampling for Gravitational Wave Parameter Estimation",
-      "abstract": "We develop a nested sampling framework for Bayesian parameter estimation of gravitational wave signals detected by LIGO-Virgo. The approach improves posterior coverage compared to MCMC for high-mass binary mergers and reduces wall-clock time by 40 percent.",
-      "topic_hint": "astrophysics, gravitational waves, Bayesian inference",
-      "methodology_hint": "nested sampling, Bayesian inference, MCMC comparison",
-      "claimed_contribution": "Faster and more accurate posterior estimation for gravitational wave parameters using nested sampling."
+      "title": "Deep Learning on Multimodal EHR for Sepsis Readmission Risk After Discharge",
+      "abstract": "Patients discharged after sepsis face elevated 30-day readmission rates. We train a multimodal deep learning model combining structured EHR features, nursing notes, and medication sequences from 28,000 sepsis survivorship records. A transformer encoder fuses these streams and achieves AUROC 0.84 on held-out data, outperforming single-modality baselines by 6–11 points. The model flags high-risk patients during discharge planning with explainability outputs highlighting the most predictive notes.",
+      "topic_hint": "deep learning, EHR, sepsis, readmission, multimodal, transformer",
+      "methodology_hint": "multimodal transformer, EHR structured+notes+medications, AUROC 0.84, single-modality baselines",
+      "claimed_contribution": "Multimodal transformer for post-sepsis 30-day readmission prediction, AUROC 0.84, with explainability outputs."
+    },
+    {
+      "id": "p006",
+      "title": "Bayesian Neural Networks for Mortality Prediction in ICU Patients",
+      "abstract": "We apply Bayesian neural networks to ICU time-series data from MIMIC-IV to predict in-hospital mortality. Capturing predictive uncertainty is clinically important; our model provides calibrated confidence intervals that inform treatment escalation decisions. AUROC 0.87 is achieved with well-calibrated posteriors. We compare against deterministic LSTM and logistic regression baselines. Note that the outcome is in-hospital mortality, not post-discharge readmission.",
+      "topic_hint": "Bayesian neural networks, ICU, mortality prediction, MIMIC-IV, uncertainty",
+      "methodology_hint": "Bayesian NN, MIMIC-IV, AUROC 0.87, mortality outcome — not readmission",
+      "claimed_contribution": "Bayesian NN for ICU mortality prediction with calibrated uncertainty, AUROC 0.87, outperforming LSTM and LR."
+    },
+    {
+      "id": "p007",
+      "title": "Random Forest Model Predicting 90-Day Readmission in Chronic Kidney Disease from EHR",
+      "abstract": "Chronic kidney disease patients are at high readmission risk but most predictive models focus on acute conditions. We train a random forest on longitudinal EHR features — eGFR trajectories, fluid balance, dialysis status, and comorbidities — from 19,000 CKD admissions to predict 90-day readmission. AUROC 0.76 is achieved with good calibration. Feature importance analysis confirms eGFR slope and prior readmission history as primary predictors.",
+      "topic_hint": "random forest, EHR, CKD, 90-day readmission, feature importance",
+      "methodology_hint": "random forest, longitudinal EHR, eGFR trajectories, AUROC 0.76, feature importance",
+      "claimed_contribution": "Random forest 90-day readmission predictor for CKD from EHR longitudinal data, AUROC 0.76."
+    },
+    {
+      "id": "p008",
+      "title": "Federated Learning for Drug Interaction Detection Across Hospital Networks",
+      "abstract": "Detecting adverse drug-drug interactions requires large datasets distributed across hospital systems. We implement federated learning to train a neural network on medication records from 12 hospital networks without centralising patient data. The federated model identifies 94% of known interaction pairs at false positive rate 0.03. Cross-site evaluation confirms consistent performance. This work focuses on drug interaction detection, not patient readmission prediction.",
+      "topic_hint": "federated learning, drug interactions, hospital networks, medication records",
+      "methodology_hint": "federated learning, medication records, recall 94%, drug interaction detection — not readmission",
+      "claimed_contribution": "Federated neural network for drug interaction detection achieving 94% recall across 12 hospital networks."
+    },
+    {
+      "id": "p009",
+      "title": "LSTM for Predicting 30-Day Readmission in Post-Surgical Patients Using Vital Sign Sequences",
+      "abstract": "Post-surgical readmission is driven partly by physiological instability detectable from vital sign trajectories during the index admission. We train an LSTM on 6-hour-windowed vital sign sequences from 31,000 inpatient surgical EHR records to predict 30-day readmission. The model achieves AUROC 0.77, significantly outperforming a static snapshot model. Patients with deteriorating respiratory rate patterns in the 48 hours pre-discharge emerge as a high-risk cohort.",
+      "topic_hint": "LSTM, vital signs, EHR, post-surgical readmission, time-series",
+      "methodology_hint": "LSTM, vital sign time-series, surgical EHR, AUROC 0.77, static snapshot comparison",
+      "claimed_contribution": "LSTM readmission predictor from vital sign sequences for post-surgical patients, AUROC 0.77."
+    },
+    {
+      "id": "p010",
+      "title": "Ensemble Methods for Length-of-Stay Prediction in Emergency Department Admissions",
+      "abstract": "Predicting length of stay (LOS) at ED admission enables bed management and staffing decisions. We build a stacked ensemble of gradient boosting, random forest, and neural network models trained on structured EHR data from 76,000 ED presentations. Mean absolute error of 1.4 days is achieved. Admission hour, chief complaint category, and triage severity are the strongest predictors. Length-of-stay prediction is a distinct problem from readmission and no readmission model is built.",
+      "topic_hint": "ensemble methods, EHR, length-of-stay prediction, emergency department",
+      "methodology_hint": "stacked ensemble, EHR, MAE 1.4 days, LOS prediction — not readmission outcome",
+      "claimed_contribution": "Stacked ensemble for ED length-of-stay prediction with MAE 1.4 days from structured EHR features."
     }
   ],
   "ground_truth": {
@@ -49,8 +89,13 @@
       "p001": "RELEVANT",
       "p002": "NOT_RELEVANT",
       "p003": "RELEVANT",
-      "p004": "RELEVANT",
-      "p005": "NOT_RELEVANT"
+      "p004": "NOT_RELEVANT",
+      "p005": "RELEVANT",
+      "p006": "NOT_RELEVANT",
+      "p007": "RELEVANT",
+      "p008": "NOT_RELEVANT",
+      "p009": "RELEVANT",
+      "p010": "NOT_RELEVANT"
     }
   }
 }

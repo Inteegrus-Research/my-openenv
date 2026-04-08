@@ -1,100 +1,100 @@
 {
   "task_id": "task1",
   "instance_id": "instance_002",
-  "task_description": "Screen each abstract for relevance to: natural language processing for scientific information extraction. Label RELEVANT if the paper presents or evaluates an NLP system designed to extract structured information (entities, relations, facts) from scientific or technical text. Label NOT_RELEVANT otherwise.",
+  "task_description": "Screen each abstract for relevance to: natural language processing for extracting adverse drug events from clinical or biomedical text. Label RELEVANT if the paper applies NLP or text mining to identify, classify, or extract adverse drug event mentions from any clinical or biomedical text source. Label NOT_RELEVANT otherwise.",
   "papers": [
     {
       "id": "p001",
-      "title": "SciBERT for Biomedical Named Entity Recognition",
-      "abstract": "We fine-tune SciBERT on annotated biomedical literature to recognise genes, diseases, chemicals, and species as named entities. Our model achieves F1 of 0.91 on the BioNLP 2011 benchmark, establishing a new state of the art for biomedical NER.",
-      "topic_hint": "NLP, biomedical NER, scientific text",
-      "methodology_hint": "SciBERT fine-tuning, BioNLP benchmark, F1",
-      "claimed_contribution": "SciBERT-based biomedical NER achieving F1 0.91 on BioNLP 2011."
+      "title": "Semi-Supervised Learning for Chemical-Disease Relation Extraction in PubMed Abstracts",
+      "abstract": "Extracting chemical-disease relations from biomedical literature supports pharmacovigilance. We develop a semi-supervised graph neural network trained on BioCreative V CDR data with 5,000 labelled and 120,000 unlabelled PubMed abstracts. The model achieves F1 0.78 on the test set, outperforming fully supervised BERT and BioBERT baselines. We identify adverse drug event relations as a primary use case and provide a breakdown of recall by relation type.",
+      "topic_hint": "NLP, chemical-disease relations, PubMed, adverse drug events, semi-supervised",
+      "methodology_hint": "semi-supervised GNN, BioCreative CDR, F1 0.78, BioBERT comparison, ADE relation extraction",
+      "claimed_contribution": "Semi-supervised GNN for chemical-disease relation extraction, F1 0.78, targeting pharmacovigilance."
     },
     {
       "id": "p002",
-      "title": "Relation Extraction from Scientific Literature Using Distant Supervision",
-      "abstract": "We apply distant supervision to automatically label protein-protein interaction sentences in PubMed abstracts using a curated interaction database as a knowledge base. A BERT-based classifier trained on these labels achieves precision 0.82 and recall 0.79 on a manually annotated test set.",
-      "topic_hint": "NLP, relation extraction, distant supervision",
-      "methodology_hint": "distant supervision, BERT, precision/recall, PubMed",
-      "claimed_contribution": "Distant-supervised protein interaction extractor with precision 0.82 and recall 0.79."
+      "title": "Predicting Drug Synergy in Cancer Cell Lines from Genomic and Molecular Features",
+      "abstract": "Drug combination screening is costly and large-scale computational prediction is attractive. We train a deep neural network on ALMANAC synergy scores and 39 cancer cell line genomic profiles to predict drug pair synergy. The model achieves Pearson r=0.83, outperforming random forest and matrix factorisation baselines. No text or clinical narrative is processed; the model operates entirely on structured genomic and chemical features.",
+      "topic_hint": "drug synergy, cancer cell lines, genomics, deep learning, ALMANAC",
+      "methodology_hint": "deep NN, ALMANAC, Pearson 0.83, genomic features — no text processing",
+      "claimed_contribution": "Deep NN for drug synergy prediction from genomic features, Pearson 0.83, no text involved."
     },
     {
       "id": "p003",
-      "title": "Chemical Compound Extraction from Patent Text",
-      "abstract": "We develop a pipeline for extracting chemical compound names and their associated properties from pharmaceutical patent documents. Using a combination of chemistry-specific tokenization and a CRF-based sequence tagger, we achieve F1 of 0.88 on the ChemDNER benchmark.",
-      "topic_hint": "NLP, chemistry, patent mining",
-      "methodology_hint": "CRF, chemical NER, ChemDNER benchmark",
-      "claimed_contribution": "Chemical compound extraction pipeline achieving F1 0.88 on ChemDNER patent benchmark."
+      "title": "Active Learning for Adverse Drug Reaction Detection in Social Media Health Forums",
+      "abstract": "Social media provides real-time pharmacovigilance signal but labelling is expensive. We apply active learning to prioritise annotation of posts from three health forums (DailyStrength, MedHelp, Twitter) for adverse drug reaction detection. Our uncertainty-sampling strategy reduces labelling cost by 60% while maintaining NLP classifier F1 above 0.80 across 12,000 posts. The approach is transferable to new drugs not seen during training.",
+      "topic_hint": "active learning, NLP, adverse drug reactions, social media, pharmacovigilance",
+      "methodology_hint": "active learning, uncertainty sampling, social media ADE, F1 0.80, label-efficient",
+      "claimed_contribution": "Active learning for ADE detection in social media reducing labelling cost 60% while maintaining F1 0.80."
     },
     {
       "id": "p004",
-      "title": "Scientific Claim Verification with Evidence Retrieval",
-      "abstract": "We address the task of verifying scientific claims against a corpus of research abstracts. Our system combines dense passage retrieval with a BERT-based natural language inference module, achieving 0.84 F1 on the SciFact benchmark for claim verification.",
-      "topic_hint": "NLP, fact verification, information retrieval",
-      "methodology_hint": "dense retrieval, BERT NLI, SciFact benchmark",
-      "claimed_contribution": "Scientific claim verification system achieving F1 0.84 on SciFact via retrieval-augmented NLI."
+      "title": "Graph Convolutional Networks for Protein Function Prediction from Interaction Networks",
+      "abstract": "We apply graph convolutional networks to protein-protein interaction networks and sequence features to predict gene ontology function labels for poorly annotated proteins. Training on STRING-DB and UniProt annotations, the model achieves Fmax 0.61 on the CAFA3 benchmark, outperforming sequence-only and network-only baselines. The work is concerned with protein biology and does not involve clinical text or adverse event detection.",
+      "topic_hint": "GCN, protein function prediction, PPI networks, STRING-DB, CAFA3",
+      "methodology_hint": "GCN, PPI + sequence features, Fmax 0.61, CAFA3 benchmark — no clinical text",
+      "claimed_contribution": "GCN for protein function prediction from PPI networks, Fmax 0.61 on CAFA3, no clinical NLP."
     },
     {
       "id": "p005",
-      "title": "Automated Knowledge Graph Construction from Biomedical Literature",
-      "abstract": "We present an end-to-end system that extracts entities and relations from biomedical abstracts and integrates them into a knowledge graph. Evaluated on manual extraction from 5,000 PubMed abstracts, our system achieves relation F1 of 0.76 and entity linking accuracy of 0.91.",
-      "topic_hint": "NLP, knowledge graph, entity linking",
-      "methodology_hint": "end-to-end IE, entity linking, relation extraction, PubMed evaluation",
-      "claimed_contribution": "Biomedical knowledge graph construction system with relation F1 0.76 and entity linking 0.91."
+      "title": "Sequence Labelling with BERT for Adverse Drug Event Span Extraction in EHR Notes",
+      "abstract": "We fine-tune a BERT-based token classifier on 7,500 annotated inpatient EHR notes to extract adverse drug event spans including the drug name, event type, and severity. The model achieves exact-span F1 0.71 and token-level F1 0.84, outperforming BiLSTM-CRF and rule-based baselines. Error analysis shows that rare event types and negated spans are hardest. We release annotation guidelines and a de-identified subset.",
+      "topic_hint": "BERT, token classification, adverse drug events, EHR notes, span extraction",
+      "methodology_hint": "BERT fine-tuning, EHR notes, F1 0.71 exact span, BiLSTM-CRF baseline, ADE extraction",
+      "claimed_contribution": "BERT token classifier for ADE span extraction from EHR notes, exact-span F1 0.71."
     },
     {
       "id": "p006",
-      "title": "Generative Adversarial Networks for High-Resolution Image Synthesis",
-      "abstract": "We introduce StyleGAN3, an alias-free generative model that eliminates texture sticking artefacts in high-resolution image synthesis. Our architecture decouples style from structure using Fourier features, achieving state-of-the-art FID scores on FFHQ and AFHQv2 benchmarks.",
-      "topic_hint": "computer vision, GANs, image generation",
-      "methodology_hint": "GAN, Fourier features, FID score",
-      "claimed_contribution": "Alias-free GAN with state-of-the-art FID on face and animal image benchmarks."
+      "title": "Transformer Models for Predicting Chemical Compound Toxicity from SMILES Strings",
+      "abstract": "We train a transformer operating on SMILES representations of chemical compounds to predict acute oral toxicity (LD50), Ames mutagenicity, and hERG inhibition. Evaluated on Tox21 and ClinTox benchmarks, the model achieves AUC 0.88 averaged across tasks. The model processes structured chemical representations, not text narratives, and does not extract adverse events from clinical records.",
+      "topic_hint": "transformer, SMILES, chemical toxicity, Tox21, hERG, molecular property",
+      "methodology_hint": "SMILES transformer, Tox21/ClinTox, AUC 0.88, chemical toxicity — no clinical text extraction",
+      "claimed_contribution": "SMILES transformer for chemical toxicity prediction, AUC 0.88 on Tox21/ClinTox, not NLP on text."
     },
     {
       "id": "p007",
-      "title": "Robotic Arm Motion Planning with Riemannian Geometry",
-      "abstract": "We formulate robotic arm motion planning as geodesic computation on a Riemannian manifold defined by joint configuration space. Our planner avoids local minima common in potential field methods and scales to 7-DOF arms, reducing planning time by 60% versus RRT*.",
-      "topic_hint": "robotics, motion planning, Riemannian geometry",
-      "methodology_hint": "Riemannian manifold, geodesic, RRT* comparison",
-      "claimed_contribution": "Riemannian motion planner for 7-DOF arms, 60% faster planning than RRT*."
+      "title": "Multi-Task Learning for Joint ADE and Drug-Drug Interaction Extraction from Clinical Notes",
+      "abstract": "Adverse drug events and drug-drug interactions often co-occur in clinical notes and share linguistic patterns. We train a multi-task learning model on 4,800 annotated clinical notes to jointly extract ADE mentions and drug-drug interaction pairs. Sharing representations improves ADE F1 from 0.68 to 0.74 and DDI F1 from 0.63 to 0.69 versus single-task baselines. The model is evaluated on the i2b2 2018 NLP shared task dataset.",
+      "topic_hint": "multi-task learning, NLP, ADE extraction, DDI, clinical notes, i2b2",
+      "methodology_hint": "multi-task learning, clinical notes, ADE F1 0.74, DDI F1 0.69, i2b2 2018",
+      "claimed_contribution": "Multi-task NLP model jointly extracting ADEs and DDIs from clinical notes, ADE F1 0.74."
     },
     {
       "id": "p008",
-      "title": "Ensemble Weather Forecasting Using Numerical Weather Prediction",
-      "abstract": "We develop a 50-member ensemble NWP system with stochastic parameterisation of sub-grid convection. Validated against ECMWF ERA5 reanalysis, our ensemble achieves better-calibrated precipitation forecasts at 48-hour lead times compared to deterministic NWP runs.",
-      "topic_hint": "meteorology, numerical weather prediction, ensemble forecasting",
-      "methodology_hint": "ensemble NWP, stochastic parameterisation, ECMWF comparison",
-      "claimed_contribution": "50-member ensemble NWP with better-calibrated precipitation at 48-hour lead times."
+      "title": "Machine Learning for Predicting Hospital-Acquired Pressure Injury Risk",
+      "abstract": "Pressure injuries cause significant patient harm and are partially preventable. We train an XGBoost model on structured nursing assessment EHR data from 58,000 admissions to predict pressure injury onset during hospitalisation. AUROC 0.81 is achieved. Braden subscale components, turning frequency, and nutritional status are the strongest predictors. This prediction task concerns injury occurrence during admission, not adverse drug events.",
+      "topic_hint": "XGBoost, EHR, pressure injury prediction, nursing assessment",
+      "methodology_hint": "XGBoost, Braden scale features, AUROC 0.81, pressure injury — not adverse drug events",
+      "claimed_contribution": "XGBoost pressure injury risk predictor from nursing EHR data, AUROC 0.81."
     },
     {
       "id": "p009",
-      "title": "Reinforcement Learning for Atari Game Playing",
-      "abstract": "We train a deep Q-network agent to achieve superhuman performance on 57 Atari games using only raw pixel inputs and game scores. Our agent achieves median normalised performance of 490% versus human experts, improving on prior DQN and PPO baselines.",
-      "topic_hint": "reinforcement learning, Atari, game playing",
-      "methodology_hint": "DQN, PPO, pixel input, Atari benchmark",
-      "claimed_contribution": "DQN agent achieving 490% median normalised performance on 57 Atari games."
+      "title": "Zero-Shot Adverse Drug Event Extraction Using Large Language Models",
+      "abstract": "Annotated corpora for rare adverse drug events are scarce. We evaluate GPT-4 and Llama-2 in zero-shot and few-shot settings for extracting adverse drug event mentions from pharmacovigilance case reports, discharge summaries, and FDA drug labels. GPT-4 achieves F1 0.67 zero-shot, outperforming previous supervised models on low-frequency event types despite seeing no training examples. Prompt engineering choices substantially affect performance.",
+      "topic_hint": "LLMs, zero-shot, adverse drug events, pharmacovigilance, GPT-4, few-shot",
+      "methodology_hint": "GPT-4, Llama-2, zero-shot ADE extraction, F1 0.67, pharmacovigilance case reports",
+      "claimed_contribution": "GPT-4 zero-shot ADE extraction F1 0.67, outperforming supervised models on rare events."
     },
     {
       "id": "p010",
-      "title": "Low-Power Video Codec Design for Mobile Streaming",
-      "abstract": "We present an H.266-compatible video codec architecture optimised for real-time encoding on mobile SoCs. Our design uses adaptive quantisation and hardware-accelerated motion estimation to achieve 4K30 encoding at under 500 mW, enabling battery-efficient video streaming.",
-      "topic_hint": "video compression, codec design, mobile hardware",
-      "methodology_hint": "H.266, adaptive quantisation, hardware acceleration, power benchmarking",
-      "claimed_contribution": "H.266-compatible mobile codec achieving 4K30 encoding under 500 mW."
+      "title": "Representation Learning for Single-Cell RNA Sequencing Batch Correction",
+      "abstract": "Integrating single-cell RNA-seq data across experimental batches is a fundamental challenge in computational biology. We develop a variational autoencoder with batch-aware latent space disentanglement, trained on 1.8 million cells from 24 studies. Downstream clustering and trajectory analysis are substantially improved after correction. This is a computational genomics work with no clinical text component or adverse event extraction.",
+      "topic_hint": "VAE, scRNA-seq, batch correction, representation learning, computational genomics",
+      "methodology_hint": "variational autoencoder, batch-aware latent space, 1.8M cells, genomics — no clinical NLP",
+      "claimed_contribution": "VAE for scRNA-seq batch correction improving clustering and trajectory analysis, no clinical NLP."
     }
   ],
   "ground_truth": {
     "labels": {
       "p001": "RELEVANT",
-      "p002": "RELEVANT",
+      "p002": "NOT_RELEVANT",
       "p003": "RELEVANT",
-      "p004": "RELEVANT",
+      "p004": "NOT_RELEVANT",
       "p005": "RELEVANT",
       "p006": "NOT_RELEVANT",
-      "p007": "NOT_RELEVANT",
+      "p007": "RELEVANT",
       "p008": "NOT_RELEVANT",
-      "p009": "NOT_RELEVANT",
+      "p009": "RELEVANT",
       "p010": "NOT_RELEVANT"
     }
   }

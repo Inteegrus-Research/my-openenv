@@ -1,87 +1,87 @@
 {
   "task_id": "task2",
   "instance_id": "instance_004",
-  "task_description": "Screen each abstract for relevance to machine learning applications in drug discovery and molecular biology, and rate each paper's methodological quality using the rubric below.\n\nRelevance: RELEVANT if the paper directly applies ML methods to a drug discovery, molecular property prediction, or target identification problem. NOT_RELEVANT otherwise.\n\nQuality rubric:\n  1 = No methodology described.\n  2 = Methodology mentioned but vague; no metrics or baselines provided.\n  3 = Methodology described with evaluation metrics and dataset details.\n  4 = Methodology described with reproducible details, ablation studies, and baseline comparisons.",
+  "task_description": "Screen each abstract for relevance to machine learning for genomics and multi-omics data integration in biomedical research. Rate methodological quality.\n\nRelevance: RELEVANT if the paper applies ML to genomic, transcriptomic, proteomic, epigenomic, or multi-omics data to answer a biomedical question. NOT_RELEVANT if the analysis uses non-omics data, if ML is applied to a non-biomedical problem, or if the paper is purely a clinical or imaging study without omics data.\n\nQuality rubric:\n  1 = No methodology or purely conceptual.\n  2 = Approach mentioned; metrics absent or too vague to evaluate.\n  3 = Metrics and dataset described; single or no baseline.\n  4 = Rigorous evaluation, multiple baselines, external datasets, and code/data release.",
   "papers": [
     {
       "id": "p001",
-      "title": "Message-Passing Neural Network for Molecular Solubility Prediction",
-      "abstract": "We implement a message-passing neural network (MPNN) trained on the ESOL dataset of 1,128 small molecules to predict aqueous solubility. The model achieves RMSE of 0.52 log mol/L on a held-out test set, outperforming random forest, SVM, and two published GNN baselines. Ablation studies confirm that edge features encoding bond type and ring membership provide the largest performance gain.",
-      "topic_hint": "MPNN, molecular solubility, ESOL, graph neural network, drug discovery",
-      "methodology_hint": "MPNN, ESOL dataset, RMSE 0.52, RF/SVM/GNN baselines, ablation of edge features",
-      "claimed_contribution": "MPNN for molecular solubility with RMSE 0.52, confirmed by ablation against four baselines."
+      "title": "Integrating Multi-Omics with GNN for Cancer Driver Gene Discovery",
+      "abstract": "Identifying cancer driver genes requires integrating heterogeneous biological evidence. We construct multi-omics graphs incorporating somatic mutations, copy number alterations, methylation, and RNA expression from 9,000 TCGA samples across 33 cancer types and train a heterogeneous GNN. The model identifies known driver genes with precision 0.81 and recall 0.76 at a 5% FDR threshold. Comparison against MOGONET, IntegrATE, and random forest baselines is provided.",
+      "topic_hint": "multi-omics, GNN, cancer driver genes, TCGA, heterogeneous graph",
+      "methodology_hint": "heterogeneous GNN, TCGA 9k samples, precision 0.81, recall 0.76, 3 baselines, FDR control",
+      "claimed_contribution": "Heterogeneous GNN for cancer driver gene discovery from multi-omics, precision 0.81, 3 baselines."
     },
     {
       "id": "p002",
-      "title": "Deep Learning for Drug Discovery: Opportunities and Challenges",
-      "abstract": "Machine learning has the potential to transform drug discovery by accelerating virtual screening, target identification, and lead optimisation. This perspective discusses recent successes and outstanding challenges including data scarcity, distribution shift, and interpretability. No new model is proposed and no empirical evaluation is presented.",
-      "topic_hint": "perspective, drug discovery, deep learning, challenges, review",
-      "methodology_hint": "perspective article, no empirical model, no metrics, no dataset",
-      "claimed_contribution": "Perspective on opportunities and challenges for deep learning in drug discovery."
+      "title": "Machine Learning Shows Promise for Genomic Medicine — A Perspective",
+      "abstract": "ML and genomics are natural partners. High-throughput sequencing generates data volumes that only ML can fully exploit. This perspective discusses future directions for ML in GWAS interpretation, polygenic risk scoring, and functional variant annotation. No new model or empirical analysis is presented.",
+      "topic_hint": "perspective, ML, genomics, GWAS, polygenic risk",
+      "methodology_hint": "perspective, no model, no data, no metrics",
+      "claimed_contribution": "Perspective on ML opportunities in genomic medicine."
     },
     {
       "id": "p003",
-      "title": "Transformer Pre-training on SMILES for Multi-Task Molecular Property Prediction",
-      "abstract": "We pre-train a transformer on 100 million SMILES strings from PubChem using masked language modelling and fine-tune on 12 molecular property prediction tasks from the MoleculeNet benchmark. The pre-trained model achieves state-of-the-art AUC on 9 of 12 tasks and improves data efficiency by 10x in low-label regimes. We release model weights, pre-training code, and a detailed reproducibility checklist.",
-      "topic_hint": "transformer, SMILES, molecular pre-training, MoleculeNet, multi-task property prediction",
-      "methodology_hint": "masked LM pre-training, 100M SMILES, MoleculeNet, AUC SOTA on 9/12 tasks, public code, reproducibility checklist",
-      "claimed_contribution": "SMILES transformer pre-training achieving SOTA on 9/12 MoleculeNet tasks with 10x label efficiency."
+      "title": "Variational Autoencoder for Latent Representation of Single-Cell Transcriptomics",
+      "abstract": "We train a scVI-based variational autoencoder on 2.3 million single-cell RNA-seq profiles from 14 tissue types to learn batch-corrected cell-type embeddings. Downstream cell-type clustering achieves adjusted Rand index 0.89 versus expert annotations. The representations transfer to novel tissues not seen during training. Code is released with comprehensive tutorials and reproducibility scripts.",
+      "topic_hint": "VAE, scVI, single-cell RNA-seq, batch correction, cell-type clustering",
+      "methodology_hint": "scVI VAE, 2.3M cells, ARI 0.89, transfer to novel tissues, public code and tutorials",
+      "claimed_contribution": "scVI VAE for scRNA-seq batch correction and clustering, ARI 0.89, code released."
     },
     {
       "id": "p004",
-      "title": "Statistical Methods for Ecological Niche Modelling Under Climate Change",
-      "abstract": "We apply maximum entropy and boosted regression tree methods to species occurrence records and bioclimatic variables to project habitat suitability shifts under IPCC RCP 4.5 and 8.5 scenarios. Projected range contractions exceed 40% for 23 endemic species by 2100. No machine learning for drug discovery or biomedical problem is involved.",
-      "topic_hint": "ecological niche modelling, species distribution, climate change, MaxEnt",
-      "methodology_hint": "MaxEnt, boosted regression trees, bioclimatic variables, range projection, ecology",
-      "claimed_contribution": "Habitat suitability projections for endemic species under two climate change scenarios to 2100."
+      "title": "Clinical Trial Enrolment Prediction Using Hospital Administrative Data",
+      "abstract": "Identifying eligible patients for clinical trials is labour-intensive. We train a logistic regression model on structured administrative EHR data to predict trial eligibility from diagnosis codes and demographics. Precision 0.71 at recall 0.80 is achieved for a specific oncology trial. No genomic or omics data is used.",
+      "topic_hint": "logistic regression, clinical trial enrolment, EHR, administrative data",
+      "methodology_hint": "logistic regression, EHR codes, precision/recall — administrative data not omics",
+      "claimed_contribution": "LR for trial eligibility prediction from EHR codes, precision 0.71, no omics data."
     },
     {
       "id": "p005",
-      "title": "Equivariant Graph Neural Network for Binding Affinity Prediction",
-      "abstract": "We develop an SE(3)-equivariant GNN that encodes protein-ligand complexes using 3D atomic coordinates and predicts binding free energies. Trained on PDBbind v2020, the model achieves Pearson r=0.83 and Spearman r=0.81 on the CASF-2016 benchmark, outperforming SchNet, DimeNet, and AutoDock-Vina baselines. We provide an ablation study of equivariance and 3D feature contributions.",
-      "topic_hint": "equivariant GNN, protein-ligand binding, PDBbind, CASF-2016, binding affinity",
-      "methodology_hint": "SE(3)-equivariant GNN, PDBbind v2020, Pearson 0.83, CASF-2016, DimeNet/SchNet/AutoDock baselines, ablation",
-      "claimed_contribution": "SE(3)-equivariant GNN for binding affinity with Pearson 0.83 on CASF-2016 and equivariance ablation."
+      "title": "Sparse Autoencoder for Proteomics Biomarker Discovery in Early Parkinson's Disease",
+      "abstract": "We apply a sparse autoencoder to plasma proteomic profiles from 480 early Parkinson's patients and 480 controls in the PPMI cohort. The latent bottleneck identifies 31 proteins associated with synaptic vesicle trafficking and mitochondrial function as candidate biomarkers. A logistic regression trained on the sparse features achieves AUC 0.82. No multi-baseline or external cohort comparison is included.",
+      "topic_hint": "sparse autoencoder, proteomics, Parkinson's disease, PPMI, biomarker discovery",
+      "methodology_hint": "sparse autoencoder, PPMI proteomics, AUC 0.82, LR on features — no external validation",
+      "claimed_contribution": "Sparse autoencoder for PD proteomics biomarker discovery, AUC 0.82, single baseline."
     },
     {
       "id": "p006",
-      "title": "Machine Learning is Transforming Drug Discovery",
-      "abstract": "Machine learning approaches are increasingly applied to problems in drug discovery. We briefly survey virtual screening, generative chemistry, and ADMET prediction. This review article does not present a new method or empirical evaluation.",
-      "topic_hint": "survey, drug discovery, virtual screening, generative chemistry, review",
-      "methodology_hint": "review article, no new model, no dataset, no metrics reported",
-      "claimed_contribution": "Brief survey of ML applications in virtual screening, generative chemistry, and ADMET prediction."
+      "title": "Deep Learning for Lung Nodule Detection in Low-Dose CT",
+      "abstract": "We train a 3D convolutional network on the LUNA16 dataset to detect pulmonary nodules in low-dose CT scans. Sensitivity 0.96 at 1 false positive per scan is achieved. The model involves CT imaging and disease detection; no genomic, transcriptomic, or multi-omics data is used.",
+      "topic_hint": "CNN, lung nodule detection, LUNA16, low-dose CT",
+      "methodology_hint": "3D CNN, LUNA16, sensitivity 0.96, CT imaging — no omics data",
+      "claimed_contribution": "3D CNN for lung nodule detection, sensitivity 0.96, LUNA16 benchmark, no omics."
     },
     {
       "id": "p007",
-      "title": "Variational Autoencoder for De Novo Drug-Like Molecule Generation",
-      "abstract": "We train a SMILES-based variational autoencoder on 250,000 ChEMBL molecules to generate novel drug-like compounds via latent space interpolation. The model achieves 94% chemical validity, 85% uniqueness, and 62% novelty on 10,000 generated samples evaluated against GuacaMol benchmarks. Bayesian optimisation in the latent space produces molecules with predicted LogP improvements of 1.8 units over seed compounds.",
-      "topic_hint": "VAE, de novo molecule generation, SMILES, ChEMBL, GuacaMol, drug design",
-      "methodology_hint": "SMILES VAE, ChEMBL 250k, validity 94%, GuacaMol evaluation, Bayesian latent optimisation",
-      "claimed_contribution": "SMILES VAE generating drug-like molecules with 94% validity and 1.8-unit LogP improvement via latent optimisation."
+      "title": "Attention Mechanism for Functional Genomics: Predicting Enhancer Activity from DNA Sequence",
+      "abstract": "Predicting enhancer activity from DNA sequence alone is a key genomics challenge. We train a dilated convolutional attention network on ENCODE DNase-seq and ChIP-seq data from 218 cell types to predict regulatory activity. Pearson r=0.81 averaged across cell types is achieved. We compare against Basset, DeepBind, and a gradient boosting baseline using k-mer features.",
+      "topic_hint": "attention network, functional genomics, enhancer prediction, ENCODE, DNA sequence",
+      "methodology_hint": "dilated convolutional attention, ENCODE 218 cell types, Pearson 0.81, Basset/DeepBind/GB baselines",
+      "claimed_contribution": "Attention network for enhancer activity prediction, Pearson 0.81, 3 baselines on ENCODE data."
     },
     {
       "id": "p008",
-      "title": "Federated Learning for Privacy-Preserving Training Across Pharmaceutical Sites",
-      "abstract": "Machine learning for drug discovery requires large proprietary datasets. We apply federated learning to train ADMET property prediction models across four pharmaceutical company sites without sharing chemical structures. The federated model matches centralised training AUC on three ADMET endpoints while satisfying data governance requirements.",
-      "topic_hint": "federated learning, ADMET, drug discovery, privacy, pharmaceutical",
-      "methodology_hint": "federated learning, ADMET endpoints, four pharma sites, AUC comparison to centralised training",
-      "claimed_contribution": "Federated ADMET predictor matching centralised AUC across four pharmaceutical sites."
+      "title": "Transformer for Predicting Chromatin Accessibility from DNA Sequence",
+      "abstract": "Enformer-style transformers can capture long-range regulatory interactions. We train a large transformer on 200 kb genomic windows to predict ATAC-seq peak signals across 131 cell types. Pearson r=0.88 on held-out chromosomes is achieved. Ablation confirms that long-range context beyond 10 kb contributes substantially. Code and pre-trained weights are publicly released.",
+      "topic_hint": "transformer, ATAC-seq, chromatin accessibility, DNA sequence, Enformer",
+      "methodology_hint": "large transformer, 131 cell types, Pearson 0.88, ablation of context length, public code",
+      "claimed_contribution": "Transformer for chromatin accessibility from DNA, Pearson 0.88, long-range ablation, code released."
     },
     {
       "id": "p009",
-      "title": "Recurrent Neural Network for Antibiotic Activity Prediction Against Resistant Pathogens",
-      "abstract": "We train a character-level RNN on SMILES representations of antibiotics to predict activity against six drug-resistant bacterial pathogens. The model achieves AUC 0.88 on a held-out test set and identifies three novel scaffold classes not represented in the training data. We note that no wet-lab validation is presented; results are in-silico predictions only.",
-      "topic_hint": "RNN, antibiotic activity, drug-resistant bacteria, SMILES, antimicrobial ML",
-      "methodology_hint": "character-level RNN, SMILES, AUC 0.88, six pathogens, in-silico only no wet-lab validation",
-      "claimed_contribution": "Character-level RNN predicting antibiotic activity against resistant pathogens with AUC 0.88."
+      "title": "Predictive Coding for Clinical Deterioration Using Wearable Physiological Data",
+      "abstract": "Early warning for clinical deterioration in hospital wards requires continuous monitoring. We train a predictive coding network on continuous SpO2, HR, and respiratory rate waveforms from 28,000 ward patients. AUROC 0.87 for deterioration events is achieved. No genomic or omics data is used; the signals are physiological waveforms from wearable devices.",
+      "topic_hint": "predictive coding, wearable, clinical deterioration, physiological monitoring",
+      "methodology_hint": "predictive coding, wearable waveforms, AUROC 0.87 — physiological not omics",
+      "claimed_contribution": "Predictive coding for ward deterioration detection AUROC 0.87 from wearables, no omics."
     },
     {
       "id": "p010",
-      "title": "Photovoltaic Efficiency Prediction Using Ensemble Machine Learning on Material Descriptors",
-      "abstract": "We apply gradient boosting and random forest models to predict power conversion efficiency of organic photovoltaic materials from quantum chemical descriptors computed on 8,500 donor-acceptor pairs. Models achieve R-squared of 0.87 on a held-out test set. No biomedical application is presented.",
-      "topic_hint": "gradient boosting, photovoltaic efficiency, organic materials, quantum chemistry, materials science",
-      "methodology_hint": "gradient boosting, random forest, R-squared 0.87, donor-acceptor descriptors, materials science",
-      "claimed_contribution": "Ensemble ML for organic photovoltaic efficiency prediction with R-squared 0.87 from quantum descriptors."
+      "title": "Graph Variational Autoencoder for Multi-Omics Integration and Disease Subtyping",
+      "abstract": "Integrating genomic, epigenomic, and transcriptomic data enables richer disease subtyping. We develop a graph VAE that encodes sample-level multi-omics similarity graphs and predicts cancer subtypes. Applied to TCGA breast and kidney cancer cohorts, the model identifies clinically distinct subtypes with significantly different survival outcomes (log-rank p<0.001). Comparisons against iCluster+, MOFA, and SNF are provided alongside code release.",
+      "topic_hint": "graph VAE, multi-omics, disease subtyping, TCGA, iCluster",
+      "methodology_hint": "graph VAE, TCGA breast/kidney, log-rank survival, iCluster/MOFA/SNF baselines, code released",
+      "claimed_contribution": "Graph VAE for multi-omics disease subtyping, survival p<0.001, 3 integration baselines, code released."
     }
   ],
   "ground_truth": {
@@ -94,20 +94,20 @@
       "p006": "NOT_RELEVANT",
       "p007": "RELEVANT",
       "p008": "RELEVANT",
-      "p009": "RELEVANT",
-      "p010": "NOT_RELEVANT"
+      "p009": "NOT_RELEVANT",
+      "p010": "RELEVANT"
     },
     "quality_scores": {
       "p001": 4,
       "p002": 1,
       "p003": 4,
-      "p004": 3,
-      "p005": 4,
-      "p006": 1,
-      "p007": 3,
-      "p008": 3,
-      "p009": 2,
-      "p010": 3
+      "p004": 2,
+      "p005": 2,
+      "p006": 3,
+      "p007": 4,
+      "p008": 4,
+      "p009": 3,
+      "p010": 4
     }
   }
 }

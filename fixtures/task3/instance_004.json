@@ -2,127 +2,127 @@
   "task_id": "task3",
   "instance_id": "instance_004",
   "budget": 15,
-  "task_description": "Screen each abstract for a systematic review on ML methods for automated cancer diagnosis and tumour detection. INCLUDE a paper only if it presents or evaluates an ML system that directly performs automated cancer diagnosis, tumour detection, or malignancy classification from patient data (imaging, pathology, omics, or clinical data). Papers about cancer prognosis, treatment selection, drug discovery, radiation planning, or general oncology informatics should be EXCLUDE.",
+  "task_description": "Screen each abstract for a systematic review on ML methods for predicting maternal or neonatal adverse outcomes during pregnancy or childbirth. INCLUDE a paper only if it presents or evaluates an ML model that predicts a complication of pregnancy, labour, or the neonatal period (e.g., preeclampsia, preterm birth, fetal distress, neonatal sepsis, stillbirth). Papers about postpartum outcomes beyond 28 days, fertility, gynaecological cancer, or reproductive genetics should be EXCLUDE.",
   "papers": [
     {
       "id": "p001",
-      "title": "Deep Learning for Automated Malignancy Grading in Prostate Histopathology",
-      "abstract": "We train a MIL-based convolutional network on 10,616 whole-slide prostate biopsies to predict Gleason grading group, achieving quadratic weighted kappa of 0.90 versus 0.87 for a panel of pathologists. The model passes the American Board of Pathology proficiency test and improves grading agreement in a multi-site prospective reader study. Code and model weights are publicly available.",
-      "topic_hint": "MIL, prostate pathology, Gleason grading, whole-slide image, cancer diagnosis",
-      "methodology_hint": "MIL-CNN, 10616 WSIs, kappa 0.90, pathologist comparison, prospective reader study, public code",
-      "claimed_contribution": "MIL-CNN prostate Gleason grader matching pathologist panel with kappa 0.90 in prospective study."
+      "title": "Gradient Boosting for Preeclampsia Risk Prediction in the First Trimester from Maternal Biomarkers",
+      "abstract": "Early identification of preeclampsia risk enables preventive low-dose aspirin therapy. We train a gradient boosting model on 12,000 singleton pregnancies using first-trimester blood pressure, uterine artery Doppler, PAPP-A, PlGF, and maternal history. AUC 0.91 for severe preeclampsia before 34 weeks is achieved, outperforming the FMF combined algorithm and logistic regression. External validation on two independent cohorts confirms generalisability.",
+      "topic_hint": "gradient boosting, preeclampsia, first trimester, biomarkers, Doppler",
+      "methodology_hint": "gradient boosting, 12k pregnancies, AUC 0.91, FMF algorithm comparison, two external validations",
+      "claimed_contribution": "Gradient boosting for first-trimester preeclampsia prediction AUC 0.91, outperforming FMF algorithm."
     },
     {
       "id": "p002",
-      "title": "Reinforcement Learning for Personalised Radiotherapy Dose Fractionation",
-      "abstract": "Machine learning for cancer clinical decision support has significant clinical potential. We apply reinforcement learning to optimise dose fractionation schedules for stereotactic body radiotherapy, minimising tumour control probability loss while constraining organ-at-risk dose. Retrospective validation on 180 lung cancer cases shows 12% improvement in therapeutic ratio. This is a treatment planning system.",
-      "topic_hint": "reinforcement learning, radiotherapy, dose fractionation, treatment planning",
-      "methodology_hint": "RL, dose fractionation, 180 lung cancer cases, therapeutic ratio, treatment planning not diagnosis",
-      "claimed_contribution": "RL dose fractionation optimiser improving therapeutic ratio 12% for lung SBRT treatment planning."
+      "title": "Deep Learning for Automated Fetal Biometry Measurement from Ultrasound Scans",
+      "abstract": "Accurate fetal biometry supports gestational age estimation and growth monitoring. We train a U-Net-based system on 48,000 obstetric ultrasound frames to automate measurement of biparietal diameter, head circumference, abdominal circumference, and femur length. Mean absolute error 1.8 mm is achieved. This is a measurement automation tool; it does not predict pregnancy complications or adverse outcomes.",
+      "topic_hint": "U-Net, fetal biometry, ultrasound, measurement automation",
+      "methodology_hint": "U-Net, 48k ultrasound frames, MAE 1.8 mm — measurement not outcome prediction",
+      "claimed_contribution": "U-Net for automated fetal biometry, MAE 1.8 mm, not outcome prediction."
     },
     {
       "id": "p003",
-      "title": "Vision Transformer for Melanoma Detection in Dermoscopy Images",
-      "abstract": "We fine-tune a ViT-B/16 on 33,000 dermoscopy images for melanoma versus benign lesion binary classification. The model achieves AUC 0.97 on the ISIC 2020 test set, outperforming EfficientNet and ResNet-50 baselines. We report sensitivity at 90% specificity and provide a comprehensive failure-case analysis across skin tone subgroups.",
-      "topic_hint": "ViT, melanoma, dermoscopy, ISIC 2020, skin cancer detection",
-      "methodology_hint": "ViT-B/16, 33k dermoscopy, ISIC 2020, AUC 0.97, EfficientNet/ResNet baselines, subgroup analysis",
-      "claimed_contribution": "ViT melanoma detector with AUC 0.97 on ISIC 2020 and failure analysis across skin tone subgroups."
+      "title": "LSTM for Intrapartum Fetal Hypoxia Detection from Cardiotocography",
+      "abstract": "Fetal hypoxia during labour is detectable from CTG patterns but CTG interpretation has poor inter-observer agreement. We train an LSTM on 1,800 CTG recordings from the CTU-UHB dataset to predict intrapartum fetal acidosis within 30 minutes of delivery. Sensitivity 0.81 at specificity 0.82 is achieved, substantially outperforming visual FIGO criteria and a frequency-domain SVM baseline.",
+      "topic_hint": "LSTM, CTG, cardiotocography, fetal hypoxia, intrapartum",
+      "methodology_hint": "LSTM, CTU-UHB 1800 CTGs, sensitivity 0.81, FIGO criteria and SVM baselines",
+      "claimed_contribution": "LSTM for intrapartum fetal acidosis prediction from CTG, sensitivity 0.81, outperforming FIGO criteria."
     },
     {
       "id": "p004",
-      "title": "Survival Analysis with Deep Learning for Glioblastoma Prognosis from MRI",
-      "abstract": "Machine learning clinical decision support for neuro-oncology is an active field. We train a deep survival model on multi-parametric MRI features from 420 glioblastoma patients to predict overall survival, achieving C-index 0.72 versus 0.61 for MGMT methylation status alone. This is a prognostic tool; no diagnostic classification is performed.",
-      "topic_hint": "survival analysis, deep learning, glioblastoma, MRI, prognosis",
-      "methodology_hint": "deep survival model, multi-parametric MRI, C-index 0.72, prognosis not diagnosis",
-      "claimed_contribution": "Deep survival model for glioblastoma OS prediction from MRI with C-index 0.72."
+      "title": "ML for Predicting Endometriosis Severity and Infertility Treatment Response",
+      "abstract": "Endometriosis affects fertility and its severity predicts IVF success. We train a support vector machine on laparoscopic findings, AMH levels, and patient history from 800 endometriosis patients to predict IVF treatment outcome. AUC 0.74 is achieved. This work concerns infertility treatment and reproductive outcomes beyond the 28-day neonatal period.",
+      "topic_hint": "SVM, endometriosis, IVF, infertility, treatment response",
+      "methodology_hint": "SVM, IVF outcome, 800 endometriosis patients — infertility treatment not pregnancy complication",
+      "claimed_contribution": "SVM for IVF outcome prediction in endometriosis, AUC 0.74, infertility not pregnancy complication."
     },
     {
       "id": "p005",
-      "title": "3D CNN for Pulmonary Nodule Malignancy Classification in CT Scans",
-      "abstract": "We train a 3D convolutional neural network on 1,400 pulmonary nodules from the LIDC-IDRI dataset to classify malignancy risk at five levels. The model achieves AUC 0.93, outperforming 2D slice-level CNN and radiomic feature baselines. Class activation maps confirm the network attends to spiculation and lobulation consistent with radiological criteria.",
-      "topic_hint": "3D CNN, pulmonary nodule, LIDC-IDRI, malignancy classification, lung CT",
-      "methodology_hint": "3D CNN, LIDC-IDRI, AUC 0.93, 2D CNN and radiomic baselines, class activation maps",
-      "claimed_contribution": "3D CNN for pulmonary nodule malignancy with AUC 0.93, outperforming 2D and radiomic baselines."
+      "title": "Random Forest for Predicting Spontaneous Preterm Birth from Cervical Length and Biomarkers",
+      "abstract": "Preterm birth affects 10% of pregnancies globally. We train a random forest on second-trimester cervical length, fetal fibronectin, progesterone levels, and prior obstetric history from 4,600 singleton pregnancies to predict spontaneous preterm birth before 34 weeks. AUC 0.81 is achieved. Comparison against cervical length threshold alone, fetal fibronectin alone, and a logistic regression baseline is provided.",
+      "topic_hint": "random forest, preterm birth, cervical length, fetal fibronectin, second trimester",
+      "methodology_hint": "random forest, 4600 pregnancies, AUC 0.81, 3 comparison methods",
+      "claimed_contribution": "Random forest for preterm birth prediction AUC 0.81, 3 clinical and statistical comparisons."
     },
     {
       "id": "p006",
-      "title": "Bayesian Network for Cancer Drug Response Prediction from Gene Expression",
-      "abstract": "Cancer drug response prediction is a key challenge in oncology ML. We build a Bayesian network trained on CCLE and GDSC drug sensitivity data to predict IC50 values for 265 compounds across 900 cell lines from RNA-seq features. The model achieves Pearson r=0.73 and informs drug selection for precision oncology trials. This predicts treatment response, not cancer presence.",
-      "topic_hint": "Bayesian network, drug response, CCLE, GDSC, IC50, treatment selection",
-      "methodology_hint": "Bayesian network, CCLE+GDSC, Pearson 0.73, 265 drugs, 900 cell lines, treatment not diagnosis",
-      "claimed_contribution": "Bayesian network predicting IC50 drug response from gene expression with Pearson 0.73."
+      "title": "CNN for Automated Ovarian Follicle Counting in Fertility Ultrasound",
+      "abstract": "Antral follicle count guides ovarian stimulation protocols in IVF. We develop a CNN to automate follicle counting from transvaginal ultrasound. Mean absolute error 1.9 follicles per scan is achieved. This work supports fertility treatment planning; it does not predict pregnancy or neonatal outcomes.",
+      "topic_hint": "CNN, follicle counting, ultrasound, IVF, fertility",
+      "methodology_hint": "CNN, follicle counting, fertility ultrasound — IVF planning not pregnancy outcome prediction",
+      "claimed_contribution": "CNN for automated follicle counting, MAE 1.9, fertility planning not pregnancy outcome."
     },
     {
       "id": "p007",
-      "title": "Graph Neural Network for Colorectal Cancer Histopathology Tile Classification",
-      "abstract": "We represent H&E histopathology tiles as tissue graphs and train a graph neural network to classify colorectal cancer tissue into nine classes (tumour, stroma, lymphocytes, mucosa, and others). Trained on 100,000 tiles from the CRC-VAL-HE-7K benchmark, the model achieves macro-F1 of 0.93, outperforming CNN and attention-pooling baselines. We provide a detailed per-class confusion matrix and a computational pathology deployment guide.",
-      "topic_hint": "GNN, colorectal cancer, H&E histopathology, tissue classification, CRC benchmark",
-      "methodology_hint": "tissue GNN, CRC-VAL-HE-7K, macro-F1 0.93, CNN and attention-pool baselines, deployment guide",
-      "claimed_contribution": "Tissue graph GNN for 9-class colorectal pathology classification with macro-F1 0.93."
+      "title": "Transformer for Predicting Neonatal Hyperbilirubinaemia Requiring Phototherapy",
+      "abstract": "Neonatal jaundice requiring phototherapy is common and potentially serious. We train a transformer on neonatal EHR features at birth — gestational age, birth weight, blood group, feeding type, and first bilirubin — from 28,000 neonates to predict phototherapy need within 72 hours. AUROC 0.88 is achieved, outperforming the BiliTool nomogram and a logistic regression baseline.",
+      "topic_hint": "transformer, neonatal jaundice, hyperbilirubinaemia, phototherapy prediction",
+      "methodology_hint": "transformer, 28k neonates, AUROC 0.88, BiliTool and LR baselines",
+      "claimed_contribution": "Transformer for neonatal hyperbilirubinaemia prediction AUROC 0.88, outperforming BiliTool."
     },
     {
       "id": "p008",
-      "title": "Machine Learning for Cancer Incidence Prediction in Population Registries",
-      "abstract": "Machine learning has broad applications in oncology informatics. We apply XGBoost to national cancer registry data and demographic variables to forecast age-standardised incidence rates for 15 cancer types over a 10-year horizon. Mean absolute percentage error is 4.2%. This is an epidemiological forecasting model, not a diagnostic tool.",
-      "topic_hint": "XGBoost, cancer incidence, population registry, epidemiology, forecasting",
-      "methodology_hint": "XGBoost, cancer registry, MAPE 4.2%, 15 cancer types, epidemiological forecasting not diagnosis",
-      "claimed_contribution": "XGBoost for 10-year cancer incidence forecasting across 15 cancer types with MAPE 4.2%."
+      "title": "Graph Neural Network for Placental Gene Expression Patterns in Adverse Pregnancy Outcomes",
+      "abstract": "Placental transcriptomics carries information about pregnancy complications. We construct gene co-expression networks from placental RNA-seq of 320 term and preterm deliveries and apply a GNN to classify delivery type. AUC 0.80 is achieved. This is a transcriptomic classification study; the model requires post-delivery placental tissue and cannot predict outcomes prospectively during pregnancy.",
+      "topic_hint": "GNN, placental transcriptomics, RNA-seq, pregnancy outcomes, gene expression",
+      "methodology_hint": "GNN, placental RNA-seq, AUC 0.80 — post-delivery tissue not prospective outcome prediction",
+      "claimed_contribution": "GNN for classifying delivery type from placental transcriptomics, AUC 0.80, post-delivery analysis."
     },
     {
       "id": "p009",
-      "title": "Convolutional Neural Network for Breast Cancer Detection in Digital Mammography",
-      "abstract": "We develop a CNN trained on 70,000 mammography screening exams from three screening programmes to detect breast cancer. The model achieves AUC 0.93 and reduces radiologist false-positive rate by 37% in a reader study without changing sensitivity. Subgroup analysis confirms consistent performance across age groups, breast density categories, and scanner vendors.",
-      "topic_hint": "CNN, mammography, breast cancer detection, screening, reader study",
-      "methodology_hint": "CNN, 70k mammograms, AUC 0.93, 37% FP reduction, reader study, subgroup analysis across density/vendor",
-      "claimed_contribution": "CNN mammography reader assistant reducing false positives 37% while maintaining sensitivity in reader study."
+      "title": "XGBoost for Predicting Emergency Caesarean Section During Labour Using Intrapartum EHR",
+      "abstract": "Unplanned caesarean section is associated with maternal and neonatal morbidity. We train XGBoost on intrapartum EHR features — labour progress, CTG features, maternal demographics, and analgesia use — from 35,000 labours to predict emergency caesarean section. AUROC 0.79 is achieved. An external validation on a different hospital system confirms generalisability.",
+      "topic_hint": "XGBoost, caesarean section, intrapartum EHR, labour outcome prediction",
+      "methodology_hint": "XGBoost, 35k labours, AUROC 0.79, external validation",
+      "claimed_contribution": "XGBoost for emergency caesarean prediction AUROC 0.79, external validation."
     },
     {
       "id": "p010",
-      "title": "Optimal Transport for Aligning Multi-Site Proteomics Data in Batch Correction",
-      "abstract": "We apply optimal transport to align protein abundance distributions across 12 multi-centre proteomics studies, removing technical batch effects while preserving biological signal. Downstream cancer biomarker analysis recovers 94% of previously validated markers with no increase in false discovery rate. No diagnostic model is developed.",
-      "topic_hint": "optimal transport, batch correction, proteomics, multi-site, biomarker analysis",
-      "methodology_hint": "optimal transport, 12 proteomics sites, batch correction, biomarker recovery, no diagnostic model",
-      "claimed_contribution": "Optimal transport batch correction for multi-site proteomics recovering 94% of validated cancer biomarkers."
+      "title": "Precision Medicine for Cervical Cancer Staging Using Deep Learning on MRI",
+      "abstract": "Accurate cervical cancer staging guides treatment planning. We train a 3D convolutional network on pelvic MRI from 480 cervical cancer patients to classify FIGO stage. Accuracy 0.84 is achieved. This is a gynaecological cancer classification task; it does not predict maternal or neonatal outcomes during pregnancy.",
+      "topic_hint": "CNN, cervical cancer, MRI, FIGO staging, gynaecological oncology",
+      "methodology_hint": "3D CNN, pelvic MRI, cervical cancer staging — gynaecological cancer not pregnancy outcomes",
+      "claimed_contribution": "3D CNN for cervical cancer FIGO staging, accuracy 0.84, gynaecological oncology not pregnancy."
     },
     {
       "id": "p011",
-      "title": "Attention-Based CNN for Thyroid Nodule Malignancy Classification from Ultrasound",
-      "abstract": "We train an attention-gated CNN on 8,200 thyroid ultrasound images to classify nodule malignancy as benign or malignant. The model achieves AUC 0.91, sensitivity 0.88, and specificity 0.87 on a prospective test cohort of 1,500 patients, outperforming four radiologist reviewers and TIRADS score. Attention maps localise suspicious calcification and vascular patterns.",
-      "topic_hint": "attention CNN, thyroid ultrasound, malignancy classification, TIRADS, nodule detection",
-      "methodology_hint": "attention CNN, 8200 ultrasound images, AUC 0.91, TIRADS and radiologist comparison, prospective cohort",
-      "claimed_contribution": "Attention CNN for thyroid malignancy with AUC 0.91 outperforming radiologists and TIRADS in prospective cohort."
+      "title": "LSTM for Early Detection of Neonatal Sepsis from Continuous Monitoring Streams",
+      "abstract": "Neonatal sepsis is a leading cause of neonatal mortality. We train an LSTM on continuous heart rate variability, respiratory rate, and SpO2 monitoring streams from 1,400 neonatal ICU admissions to detect sepsis onset 8 hours before clinical recognition. AUROC 0.87 is achieved, outperforming the NEOMOD score and a single-vital-sign threshold baseline.",
+      "topic_hint": "LSTM, neonatal sepsis, NICU, monitoring streams, early detection",
+      "methodology_hint": "LSTM, 1400 NICU admissions, AUROC 0.87, NEOMOD and threshold baselines",
+      "claimed_contribution": "LSTM for neonatal sepsis early detection AUROC 0.87, NICU monitoring streams."
     },
     {
       "id": "p012",
-      "title": "Natural Language Processing for Automated Tumour Board Documentation",
-      "abstract": "Machine learning for cancer clinical decision support includes administrative applications. We develop an NLP pipeline to automatically extract structured data fields from multidisciplinary tumour board meeting transcriptions, including diagnosis, stage, and recommended treatment. Extraction accuracy is 0.91 F1. This is a documentation automation tool, not a diagnostic model.",
-      "topic_hint": "NLP, tumour board, documentation, information extraction, clinical admin",
-      "methodology_hint": "NLP extraction, tumour board transcripts, F1 0.91, documentation automation, not diagnosis",
-      "claimed_contribution": "NLP pipeline for automated tumour board documentation extraction with F1 0.91."
+      "title": "Bayesian Network for Modelling Risk Factors of Stillbirth in Low-Income Countries",
+      "abstract": "Stillbirth rates in low-income countries are disproportionately high. We apply a Bayesian network to population-level obstetric data from 82,000 pregnancies in three sub-Saharan African cohorts to identify modifiable risk factors for stillbirth. The model identifies antenatal care access, malaria, and anaemia as primary causal risk factors. Prospective stillbirth risk prediction during ongoing pregnancy is not performed; this is a causal risk factor analysis.",
+      "topic_hint": "Bayesian network, stillbirth, risk factors, sub-Saharan Africa, causal analysis",
+      "methodology_hint": "Bayesian network, 82k pregnancies, causal risk factors — risk factor analysis not prospective prediction",
+      "claimed_contribution": "Bayesian network for stillbirth risk factor identification, causal analysis not prediction."
     },
     {
       "id": "p013",
-      "title": "Multi-Modal Fusion of CT and PET for Automated Lymphoma Staging",
-      "abstract": "We develop a multi-modal neural network that fuses CT and PET imaging for automated Ann Arbor lymphoma staging in 620 Hodgkin lymphoma patients. The model achieves staging accuracy of 0.84 and AUC 0.91 for stage III-IV identification, outperforming CT-only and PET-only baselines. Clinical staging concordance is validated by two nuclear medicine specialists.",
-      "topic_hint": "multi-modal fusion, CT, PET, lymphoma staging, Hodgkin, cancer classification",
-      "methodology_hint": "CT+PET fusion, 620 Hodgkin patients, accuracy 0.84, AUC 0.91, CT-only/PET-only baselines, specialist validation",
-      "claimed_contribution": "Multi-modal CT+PET fusion for lymphoma staging accuracy 0.84 with nuclear medicine specialist validation."
+      "title": "Deep Learning for Predicting Gestational Hypertension Onset from Routine Antenatal Data",
+      "abstract": "Gestational hypertension is a precursor to preeclampsia affecting 5% of pregnancies. We train a deep neural network on routine antenatal visit data — blood pressure trajectories, urine protein dipstick, weight gain, and oedema — from 18,000 pregnancies to predict gestational hypertension onset before 36 weeks. AUROC 0.83 is achieved. Only logistic regression is compared.",
+      "topic_hint": "deep learning, gestational hypertension, antenatal data, blood pressure, pregnancy",
+      "methodology_hint": "DNN, 18k pregnancies, AUROC 0.83, gestational hypertension — only LR comparison",
+      "claimed_contribution": "DNN for gestational hypertension onset prediction AUROC 0.83, single logistic regression comparison."
     },
     {
       "id": "p014",
-      "title": "CRISPR Screen Analysis Using Sparse Bayesian Methods for Cancer Target Identification",
-      "abstract": "We develop a sparse Bayesian regression model for analysing genome-wide CRISPR knockout screens to identify essential cancer-specific genes. Applied to 200 cancer cell lines from DepMap, the model identifies 47 pan-cancer essential genes with posterior probability >0.95, outperforming MAGeCK and BAGEL2 baselines in recall at controlled FDR. This is a target identification system, not a diagnostic tool.",
-      "topic_hint": "CRISPR screen, sparse Bayesian, DepMap, cancer target identification, essential genes",
-      "methodology_hint": "sparse Bayesian, DepMap 200 cell lines, 47 essential genes, MAGeCK/BAGEL2 baselines, target identification",
-      "claimed_contribution": "Sparse Bayesian CRISPR screen analysis identifying 47 pan-cancer essential genes with controlled FDR."
+      "title": "Ensemble ML for Postpartum Haemorrhage Risk Prediction at Time of Delivery",
+      "abstract": "Postpartum haemorrhage is the leading cause of maternal mortality worldwide. We train an ensemble of XGBoost and logistic regression on intrapartum EHR features from 62,000 deliveries to predict PPH requiring transfusion. AUROC 0.81 is achieved with external validation on a different country's maternity database. PPH occurs within 24 hours of delivery, within the peripartum period.",
+      "topic_hint": "ensemble ML, postpartum haemorrhage, maternal mortality, delivery risk",
+      "methodology_hint": "XGBoost + LR ensemble, 62k deliveries, AUROC 0.81, external validation",
+      "claimed_contribution": "Ensemble ML for PPH prediction AUROC 0.81, external validation."
     },
     {
       "id": "p015",
-      "title": "ResNet Ensemble for Cervical Cancer Screening from Cytology Slide Images",
-      "abstract": "We train a ResNet-50 ensemble on 250,000 cervical cytology slide images from the SIPaKMeD and Cervix93 benchmarks to classify normal, dysplastic, and malignant cells. The ensemble achieves macro-F1 of 0.90 and AUC 0.96, outperforming individual ResNet and VGG baselines. Per-cell predictions are aggregated at the slide level to match cytopathologist reporting conventions.",
-      "topic_hint": "ResNet ensemble, cervical cytology, cervical cancer screening, SIPaKMeD, cell classification",
-      "methodology_hint": "ResNet-50 ensemble, 250k cytology images, SIPaKMeD+Cervix93, macro-F1 0.90, AUC 0.96, VGG baseline",
-      "claimed_contribution": "ResNet ensemble for cervical cytology classification with macro-F1 0.90 and slide-level reporting."
+      "title": "Genomic Prediction of Polygenic Risk Scores for Gestational Diabetes in South Asian Women",
+      "abstract": "South Asian ancestry confers elevated gestational diabetes risk. We compute polygenic risk scores from SNP arrays in 3,800 South Asian women and combine with clinical variables in a logistic regression to predict gestational diabetes. This is a genomic prediction study; no real-time antenatal monitoring model or clinical risk tool is developed for labour or neonatal outcomes.",
+      "topic_hint": "polygenic risk score, gestational diabetes, SNP array, South Asian, genomics",
+      "methodology_hint": "PRS + LR, SNP arrays, gestational diabetes — genomic prediction not labour or neonatal outcome",
+      "claimed_contribution": "PRS for gestational diabetes prediction in South Asian women, genomic not clinical monitoring."
     }
   ],
   "ground_truth": {
@@ -140,8 +140,8 @@
       "p011": "INCLUDE",
       "p012": "EXCLUDE",
       "p013": "INCLUDE",
-      "p014": "EXCLUDE",
-      "p015": "INCLUDE"
+      "p014": "INCLUDE",
+      "p015": "EXCLUDE"
     }
   }
 }
