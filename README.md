@@ -1,179 +1,308 @@
+
 # OpenEnv-PaperBench
 
-**Environment ID:** `paper_review_env_v1`  
-**Domain:** Research paper screening / review  
-**Submission type:** OpenEnv Round 1 — solo
+OpenEnv-PaperBench is a sequential, budget-constrained research paper screening environment for agent evaluation.
 
----
+An agent acts like a program committee member or systematic-review screener. It reads a batch of synthetic paper abstracts, makes screening decisions under a fixed review budget, and is scored by deterministic graders.
 
-## Overview
+It is a structured decision-making task based on a real workflow people already do.
 
-OpenEnv-PaperBench is a sequential budget-constrained literature screening environment. An AI agent acts as a constrained reviewer: given a batch of synthetic research paper abstracts and a fixed step budget, it must assign relevance labels, quality scores, and/or ranked justifications before the budget runs out.
+## What this project contains
 
-The environment presents four tasks of increasing difficulty, from binary relevance classification to ranked shortlisting with justification under a structural budget deficit. All grading is deterministic and rule-based — no LLM is used in evaluation.
+- 4 progressively harder tasks
+- Typed Pydantic models for actions and observations
+- A deterministic OpenEnv-compatible server
+- A baseline `inference.py`
+- Docker deployment for Hugging Face Spaces
+- Deterministic, rule-based graders
+- Full local validation support
 
----
+## Task overview
 
-## Tasks
+### Task 1 — Binary relevance screening
+Label each paper as:
 
-| Task | Objective | Budget | Papers | Grader |
-|------|-----------|--------|--------|--------|
-| task1 | Binary relevance (RELEVANT / NOT_RELEVANT) | 12 | 10 | Binary F1 |
-| task2 | Relevance + quality score (1–4) | 14 | 10 | 0.6×F1 + 0.4×quality_acc |
-| task3 | Adversarial screening (INCLUDE / EXCLUDE / DEFER) | 15 | 15 | 0.85×F1 + 0.15×efficiency |
-| task4 | Ranked top-5 with justification | 18 | 20 | 0.5×nDCG@5 + 0.35×F1 + 0.15×justification |
+- `RELEVANT`
+- `NOT_RELEVANT`
 
----
+This is the easiest task. The agent only needs to decide whether the paper matches the topic.
 
-## Action Schema
+### Task 2 — Relevance + quality scoring
+Each paper gets:
 
-All tasks use a single unified action type:
+- a relevance label
+- a quality score from `1` to `4`
+
+This task checks whether the agent can judge both topic fit and methodological strength.
+
+### Task 3 — Adversarial batch screening
+Each paper is labeled as:
+
+- `INCLUDE`
+- `EXCLUDE`
+- `DEFER`
+
+This task introduces red-herring papers and budget pressure.
+
+### Task 4 — Ranking and justification under budget pressure
+The agent must produce a ranked top-5 shortlist.
+
+`INCLUDE` decisions require:
+
+- `rank` from `1` to `5`
+- a short justification
+
+This is the hardest task and the closest to a real screening workflow.
+
+## Environment design
+
+The environment exposes the standard OpenEnv-style flow:
+
+- `reset()`
+- `step()`
+- `state()`
+
+Each episode has:
+
+- a fixed task
+- a fixed paper batch
+- a fixed step budget
+- deterministic scoring
+
+The environment is API-first. It is meant to be driven by code, not by a browser UI.
+
+## API endpoints
+
+### `GET /health`
+Returns a simple liveness check.
+
+Expected response:
+
+```json
+{"status":"ok","env":"paper_review_env_v1"}
+```
+
+### `GET /tasks`
+
+Lists the available tasks.
+
+### `POST /reset`
+
+Starts a new episode.
+
+Required body:
 
 ```json
 {
-  "action_type": "review",
-  "paper_id": "p001",
-  "label": "RELEVANT",
-  "quality_score": 3,
-  "rank": 1,
-  "justification": "Strong diagnostic ML model with evaluation baselines."
+  "task_id": "task1",
+  "instance_id": "instance_001"
 }
 ```
 
-Or to end the episode early:
+### `POST /step`
+
+Advances the episode by one action.
+
+Required body:
 
 ```json
-{"action_type": "submit"}
+{
+  "session_id": "...",
+  "action": { ... }
+}
 ```
 
-Field requirements by task:
-- **task1**: `label` required (RELEVANT / NOT_RELEVANT)
-- **task2**: `label` + `quality_score` (1–4) required
-- **task3**: `label` required (INCLUDE / EXCLUDE / DEFER)
-- **task4**: `label` required; INCLUDE also requires `rank` (1–5) and `justification` (≤200 chars)
+## Action schema
 
----
+The environment uses one unified action schema.
 
-## Running the Server Locally
+Supported fields include:
 
-```bash
-# Install server dependencies
-pip install -r requirements.txt
+* `action_type`
+* `paper_id`
+* `label`
+* `quality_score`
+* `rank`
+* `justification`
 
-# Start the server
-uvicorn server.app:app --host 0.0.0.0 --port 7860
+The exact validation rules depend on the active task.
 
-# Verify health
-curl http://localhost:7860/health
-# {"status":"ok","env":"paper_review_env_v1"}
+## Observation schema
 
-# List tasks
-curl http://localhost:7860/tasks
+Each observation includes:
 
-# Start an episode
-curl -X POST http://localhost:7860/reset \
-  -H "Content-Type: application/json" \
-  -d '{"task_id":"task1","instance_id":"instance_001"}'
+* `task_id`
+* `task_description`
+* `step`
+* `budget_remaining`
+* `papers`
+* `decisions_so_far`
+* `episode_complete`
+* `final_score`
+* `error`
 
-# Take a step (use session_id from reset response)
-curl -X POST http://localhost:7860/step \
-  -H "Content-Type: application/json" \
-  -d '{"session_id":"<id>","action":{"action_type":"review","paper_id":"p001","label":"RELEVANT"}}'
-```
-
----
-
-## Running with Docker
-
-```bash
-docker build -t paperbench .
-docker run -p 7860:7860 paperbench
-```
-
----
-
-## Running the Baseline
-
-```bash
-# Install inference dependencies
-pip install -r requirements-inference.txt
-
-# Set required environment variables
-export API_BASE_URL="https://api.openai.com/v1"
-export MODEL_NAME="gpt-4o-mini"
-export HF_TOKEN="<your-api-key>"
-export ENV_BASE_URL="http://localhost:7860"  # or HF Space URL
-
-# Run
-python inference.py
-```
-
-Expected stdout format:
-
-```
-[START] task_id=task1 episode=1
-[STEP] step=1 action={"action_type":"review","paper_id":"p001","label":"RELEVANT"} reward=null
-[STEP] step=2 action={"action_type":"review","paper_id":"p002","label":"NOT_RELEVANT"} reward=null
-...
-[END] task_id=task1 episode=1 final_score=0.8000
-[START] task_id=task2 episode=1
-...
-```
-
----
-
-## Running Tests
-
-```bash
-# Install test dependencies (requires pydantic, pytest)
-pip install -r requirements.txt pytest
-
-# Run all tests
-pytest tests/ -v
-```
-
----
-
-## Repository Structure
-
-```
-openenv-paperbench/
-├── openenv.yaml              # OpenEnv manifest
-├── Dockerfile                # Container for HF Space
-├── requirements.txt          # Server deps only
-├── requirements-inference.txt
-├── inference.py              # Baseline agent
-├── env/
-│   ├── environment.py        # PaperReviewEnv: reset/step/state
-│   ├── models.py             # Pydantic models
-│   ├── reward.py             # Grade dispatcher
-│   └── utils.py             # Constants and helpers
-├── tasks/
-│   ├── task_base.py          # Abstract base + fixture loader
-│   ├── task1.py … task4.py   # Per-task config + validation
-├── graders/
-│   └── graders.py            # Four deterministic graders
-├── fixtures/
-│   └── task{1-4}/instance_00{1-5}.json  # 20 fixtures total
-├── server/
-│   ├── app.py                # FastAPI: /health /tasks /reset /step
-│   └── session.py            # In-memory session store
-├── scripts/
-│   └── validate_fixtures.py  # Dev-only fixture health check
-└── tests/
-    ├── test_env.py
-    └── test_graders.py
-```
-
----
+The observation is intentionally flat and easy to serialize.
 
 ## Scoring
 
-All scores are in [0.0, 1.0]. Graders are pure functions with static fixture ground truth — no LLM is ever called during evaluation.
+All scores are deterministic and normalized to `[0.0, 1.0]`.
 
-| Degenerate strategy | task1 | task2 | task3 | task4 |
-|--------------------|-------|-------|-------|-------|
-| All positive       | ~0.67 | ~0.67 | ~0.59 | ~0.14 |
-| All negative       | 0.00  | ~0.13 | 0.00  | 0.00  |
-| Empty episode      | 0.00  | ~0.13 | 0.00  | 0.00  |
-| Perfect agent      | 1.00  | 1.00  | 0.85  | ~1.00 |
+### Task 1
+
+Binary F1 score on relevance labels.
+
+### Task 2
+
+`0.6 × relevance F1 + 0.4 × quality accuracy`
+
+### Task 3
+
+`0.85 × F1 + 0.15 × budget efficiency`
+
+### Task 4
+
+`0.50 × nDCG@5 + 0.35 × F1 + 0.15 × justification validity`
+
+## Local baseline scores
+
+These are the current local baseline results from `inference.py` on the included fixtures.
+
+| Task   | Score |
+| ------ | ----: |
+| Task 1 |  0.67 |
+| Task 2 |  0.68 |
+| Task 3 |  0.54 |
+| Task 4 |  0.87 |
+| Mean   |  0.68 |
+
+These numbers are useful for local verification.
+
+## Project structure
+
+```text
+openenv-paperbench/
+├── Dockerfile
+├── README.md
+├── openenv.yaml
+├── pyproject.toml
+├── uv.lock
+├── inference.py
+├── env/
+├── tasks/
+├── graders/
+├── fixtures/
+└── server/
+```
+
+## Requirements
+
+* Python 3.10+
+* Docker
+* Hugging Face account for Space deployment
+* OpenAI-compatible API access for the optional LLM baseline path
+
+## Environment variables
+
+### For `inference.py`
+
+* `API_BASE_URL`
+* `MODEL_NAME`
+* `HF_TOKEN`
+* `ENV_BASE_URL`
+* `BENCHMARK`
+* `TASK_IDS`
+* `INSTANCE_ID`
+
+Example:
+
+```bash
+API_BASE_URL=https://router.huggingface.co/v1
+MODEL_NAME=Qwen/Qwen2.5-7B-Instruct
+HF_TOKEN=your_token_here
+ENV_BASE_URL=http://127.0.0.1:7860
+BENCHMARK=paper_review_env_v1
+TASK_IDS=task1,task2,task3,task4
+INSTANCE_ID=instance_001
+```
+
+## Run locally
+
+### 1. Sync dependencies
+
+```bash
+uv sync
+```
+
+### 2. Start the server
+
+```bash
+uv run uvicorn server.app:app --host 0.0.0.0 --port 7860
+```
+
+### 3. Run the baseline
+
+```bash
+uv run python inference.py
+```
+
+## Docker
+
+Build the image:
+
+```bash
+docker build -t paperbench .
+```
+
+Run it:
+
+```bash
+docker run -p 7860:7860 paperbench
+```
+
+Then test:
+
+```bash
+curl http://localhost:7860/health
+```
+
+## Hugging Face Spaces
+
+This repository is designed to run as a Docker Space.
+
+Use:
+
+* **SDK**: Docker
+* **Port**: `7860`
+* **License**: Apache 2.0
+
+The Space should respond to `/health`, `/reset`, and `/step`.
+
+## Validation
+
+Before submission, run:
+
+```bash
+openenv validate
+```
+
+And also check:
+
+```bash
+python scripts/validate_fixtures.py
+pytest
+docker build -t paperbench .
+```
+
+## Notes
+
+* The root path `/` is not meant to be a webpage. A `404` at `/` is normal.
+* The environment is API-only.
+* The graders are deterministic.
+* The fixture set is synthetic but designed to model realistic paper screening behavior.
+* The baseline is intentionally simple. The environment is the real submission.
+
+## License
+
+Apache 2.0
+
+
