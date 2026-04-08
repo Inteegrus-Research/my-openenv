@@ -26,8 +26,8 @@ app = FastAPI(
 # ── Request / response bodies ─────────────────────────────────────────────────
 
 class ResetRequest(BaseModel):
-    task_id: str
-    instance_id: str = "instance_001"
+    task_id: Optional[str] = None
+    instance_id: Optional[str] = None
 
 
 class StepRequest(BaseModel):
@@ -80,20 +80,24 @@ def list_tasks():
     return _TASK_DESCRIPTORS
 
 
+import traceback
+
 @app.post("/reset")
-def reset(req: ResetRequest):
-    """
-    Start a new episode for the requested task.
-    Returns the initial Observation and a session_id for subsequent /step calls.
-    """
+def reset(req: Optional[ResetRequest] = None):
     from env.environment import PaperReviewEnv
-    from env.models import PaperAction
+    import traceback
 
     env = PaperReviewEnv()
+
+    task_id = req.task_id if req and req.task_id else "task1"
+    instance_id = req.instance_id if req and req.instance_id else "instance_001"
+
     try:
-        obs = env.reset(req.task_id, req.instance_id)
-    except (ValueError, FileNotFoundError) as exc:
-        raise HTTPException(status_code=400, detail=str(exc))
+        obs = env.reset(task_id, instance_id)
+    except Exception as exc:
+        print("RESET ERROR:")
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(exc))
 
     session_id = session_store.create(env)
     return {"session_id": session_id, "observation": obs.model_dump()}
@@ -143,3 +147,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
