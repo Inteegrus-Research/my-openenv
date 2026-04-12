@@ -1,0 +1,200 @@
+{
+  "task_description": "Rank candidate patents by novelty risk and provide a quality score from 1 to 4 for each review decision.",
+  "budget": 24,
+  "query_patent": {
+    "id": "patent_05964",
+    "title": "Patent Publication 05964",
+    "abstract": "Disclosed herein is a device for finger and grip strength exercise. The finger strengthening device comprises a molded shape with ledges and cavity&#39;s suitable for gripping by a human hand with a connector ring or u-bolt mounted therein whereby connector ring can be attached to resistance training device.",
+    "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application claims the benefit of provisional patent Ser. No. 61/491,290, filed 2011 May 30 by the present inventor. \n     \n    \n     BACKGROUND \n       [0002]    This application relates to grip and finger strength, particularly to methods to build finger and grip strength \n       PRIOR ART \n       [0003]    The following is a tabulation of some prior art that presently appears relevant: \n         [0000]    \n       \n         \n               \n             \n               \n               \n               \n               \n            ",
+    "cpc": "C"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_11427",
+      "title": "Patent Publication 11427",
+      "abstract": "An exercise device and method of use is provided. The exercise device includes an elongated elastic element having a first end and a second end. The elongated elastic element is stretchable along its length. The exercise device further includes a pulley system comprising a pulley having a channel along its outer circumference through which the elongated elastic element runs. An engagement mechanism removably anchors the pulley to a fixed point while allowing the pulley to rotate as the elongated elastic element passes through the channel.",
+      "description": "FIELD OF THE INVENTION \n     The present invention relates to an exercise device and method of use and, more particularly, to an exercise device for knee strengthening. \n     BACKGROUND OF THE INVENTION \n     Within the fields of medical care and devices, there exists an important unmet medical need for a simple yet effective knee muscle strengthening device. Such strengthening may act to prevent surgery for those who have injured their knee. The universally accepted method for strengthening the knee involves the strengthening of the vastus medialis muscle, whose weakness is responsible for 99",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06438",
+      "title": "Patent Publication 06438",
+      "abstract": "A substituted pyrazine having the formula ##STR1## is useful for treating and preventing swine dysentery. It may be administered to swine in an effective but non-toxic amount in the form of the drug per se, or a feed composition. Such feeds may be made with the aid of premixes containing the said compound.",
+      "description": "DESCRIPTION \n     This invention relates to the treatment and prevention of swine dysentery, and to products for use therein. \n     Swine dysentery (also known as vibrionic dysentery, bloody scours, or hemorrhagic dysentery) is an enteric disease primarily characterised by muco-hemorrhagig diarrhea with lesions usually restricted to the large intestine. The disease is worldwide and is a major disease problem among swine producers all over the world. \n     The earlier consensus was the Vibrio coli was the primary causative agent. Recent evidence suggests, however, that a spirochete, Treponema h",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_11266",
+      "title": "Patent Publication 11266",
+      "abstract": "A glove with enhanced gripping capabilities that makes maintaining a grip for a user, less taxing and less fatiguing for the user&#39;s hand and forearm muscles. More particularly, a grip-enhancing glove, and method for maintaining a grip, which enables a user to maintain a prolonged grip without incurring undesirable effects.",
+      "description": "BACKGROUND \n     1. Field of Invention \n     The present invention relates to a glove with enhanced gripping capabilities that makes maintaining a grip for a user, less taxing and less fatiguing for the user&#39;s hand and forearm muscles. More particularly, the present invention entails a grip-enhancing glove and a method for maintaining a grip that enables a user to maintain a prolonged grip without incurring undesirable effects, as described herein. \n     2. Background and Related Art \n     Many sports and other activities require a participant to maintain a prolonged grip around a generall",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_01962",
+      "title": "Patent Publication 01962",
+      "abstract": "The invention includes dosage formulations, dosage forms and related methods for providing oral dosage forms of low solubility active ingredients such as coenzyme Q1O. The present invention includes a Self-Microemulsifying Drug Delivery System (SMEDDS) in the form of a self-microemulsifying mixture that comprises a combination of a hydrophilic surfactant and a lipophilic co-surfactant (forming a surfactant pair). The preferred surfactant pair comprises a hydrophilic surfactant and a lipophilic co-surfactant with respective HLB (Hydrophile-Lipophile Balance) values of more than 12 and less than 8 respectively. The systems also contain at least one lipophilic solvent. The formulations exhibited excellent dissolution properties and storage stability.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS  \n       [0001]     None.  \n       FIELD OF THE INVENTION  \n       [0002]     The present invention regards methods and formulations related to dosage forms of coenzyme Q10 and similar low solubility active ingredients.  \n       BACKGROUND OF THE INVENTION  \n       [0003]     Coenzyme Q10 is a lipophilic (i.e. hydrophobic) pharmaceutical or nutrient substance with very low solubility in water (practically insoluble in water). Formulations of coenzyme Q10, e.g. for oral administration, are therefore mainly based on the use of oils or similar excipients as",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_12807",
+      "title": "Patent Publication 12807",
+      "abstract": "A dishwasher provided with a parallelepiped housing with an opening in a forward wall and a sealing gasket mounted on the lower surface of its top wall and a drawer-like washing compartment having upper margins and moveable relative to the housing along rails mounted at an inclination on the side walls in the interior of the housing between a first position outside the housing and a second position within the housing in which the upper margins engage the sealing gasket.",
+      "description": "BACKGROUND OF THE INVENTION  \n       [0001]     1. Field of the Invention  \n         [0002]     The invention, in general, relates to a dishwasher and, more particularly, to a dishwasher of the kind provided with a parallelepiped housing with an opening in one of its front surfaces and a drawer-like washing compartment which is horizontally movable through the opening into and out of the housing and which has an upwardly facing opening for placing and removing dishes.  \n         [0003]     The margins of the side walls of the washing compartment extend parallel to the upper surface of the hous",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_07721",
+      "title": "Patent Publication 07721",
+      "abstract": "A device which facilitates the user&#39;s grasp and ability to lift a weight when the hand is oriented in a palm down position. The invention comprises a grip member which the user grasps in an overhand fashion. Also provided is a rest member which is adapted to support, and distribute, a load on the back of the user&#39;s hand. A structure is provided which allows the grip member, as it is grasped by the user and the device is lifted in an upward direction, to move towards the rest member until the back of the user&#39;s hand firmly contacts the rest member. Once the back of the user&#39;s hand is contacting the rest member, the back of the hand is providing the support for the load, rather than the thumb and the fingers, but yet the grasp of the fingers and thumb keep the device in the proper position.",
+      "description": "BACKGROUND \n     1. The Field of the Invention \n     The present invention generally relates to devices used to allow the human hand to grasp an object, such as a cylindrical bar, in a palms down position, also referred to as an overhand position, with little fatigue. More particularly, the present invention relates to devices for providing a suitable grip on lifting apparatus used for weight training. \n     2. The Background Art \n     Increasing numbers of health conscious individuals are actively participating in weight training. The phrase weight training generally refers to the use of resi",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06986",
+      "title": "Patent Publication 06986",
+      "abstract": "A glove useful for mixed martial arts fighting has padded knuckles for the four non-opposed fingers, with the lower half of each of the fingers not enclosed. The palm of the glove is open, and the thumb is not covered. The glove has an inner pair of attachment straps closable across each other over the wrist, and installed over the attachment straps is a closable outer support or stability strap that wraps around the wrist. Both the attachment straps and the support strap are preferably closable through use of a hook and loop fastening means such as Velcro\u00ae.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application claims priority to U.S. Provisional Patent Application Ser. No. 61/171,765 filed Apr. 22, 2009 and Ser. No. 61/185,145 filed Jun. 8, 2009, the entirety of which are incorporated by reference herein. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to gloves and, more specifically, to gloves for utilization in mixed martial arts fighting. \n     2. The Prior Art \n     Gloves used in hand-to-hand combat have been known for millennia. For example, during Roman times, gladia",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06484",
+      "title": "Patent Publication 06484",
+      "abstract": "A finger grip for providing protection to the fingertip or finger and also enhancing the grip of the user, the finger grip having a flexible resilient sheath having a first open end and a second closed tip end, the finger grip being formed of a predetermined length for encapsulating the fingertip or the finger, the finger grip being perforated or imperforate and capable of being coated with an adhesive or anti-bacterial, depending upon the intended use.",
+      "description": "RELATED APPLICATIONS \n       [0001]    Applicant claims the benefit of provisional application Ser. No. 61/464,393, filed Mar. 3, 2011. \n     \n    \n     BACKGROUND OF THE INVENTION \n       [0002]    1. Field of the Invention \n         [0003]    The present invention relates to finger grips, and more particularly, the invention relates to finger grips providing easily applied protective sheaths encompassing the terminal phalanx or fingertips and/or fingers, the finger grips providing a firm grip for sports and for occupations that require fingertip or finger protection, yet require firm grippin",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_13517",
+      "title": "Patent Publication 13517",
+      "abstract": "A stent for implanting in the body to hold open a blood vessel includes cells with facing loops and the curved flexible links disposed and adapted to cooperate so that, when unexpanded, the stent can flex as it is moved through curved blood vessels to a site where it is to be expanded and so that, when the stent is expanded in a curved vessel, at that site, as compared to each other, cells on the outside of the curve are open in length, but narrow in width as compared to cells on the inside of the curve which are short in length but increased in width to result in a more constant stent cell area between the inside and the outside of the curve than would otherwise occur causing the stent, when coated with a medicine, to apply a more even dose to the inside wall of the lumen, avoiding the possibility that a toxic dose is supplied at one area while a less than effective dose is applied to another area.",
+      "description": "RELATED APPLICATIONS  \n       [0001]     This application is a continuation of Ser. No. 10/644,465 filed Aug. 20, 2003, which is a continuation of Ser. No. 09/337,629 filed Jun. 21, 1999, which is a continuation of Ser. No. 09/026,099 filed Feb. 19, 1998 (now U.S. Pat. No. 5,972,018), which is a continuation of Ser. No. 08/881,594 filed Jun. 24, 1997 (now U.S. Pat. No. 5,843,120), which is a continuation of Ser. No. 08/782,467 filed Jan. 10, 1997, now abandoned, which is a continuation of Ser. No. 08/457,354, filed May 31, 1995 (now U.S. Pat. No. 5,733,303), which is a continuation of Ser. No.",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_05319",
+      "title": "Patent Publication 05319",
+      "abstract": "The present invention discloses an interactive game method with sports injury protection, comprising: providing a remote pointing device for a user to swing; and triggering a safety mechanism in one or more of the following conditions: (1) when a user swings the remote pointing device drastically; (2) when a count of swings exceeds a first threshold; and (3) when a count of swings in a predetermined time period exceeds a second threshold.",
+      "description": "FIELD OF THE INVENTION \n     The present invention relates to an interactive game method and an interactive game system with a function to protect a user from sports injury. \n     DESCRIPTION OF THE RELATED ART \n     Interactive game systems functioning in response to the 3-dimensional (3D) actions of a user have become very popular, such as the famous Wii game by Nintendo. In such games, a user holds a remote pointing device provided by the interactive game system, and interacts (e.g., to hit a ball or to swing) with the plot displayed on a screen. The interactive game system displays corresp",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_04929",
+      "title": "Patent Publication 04929",
+      "abstract": "An improved actuator handle for a surgical instrument that can be used in endoscopic surgery with the emphasis on applying hemostatic clips. The instrument receives a longitudinal input from the actuator handle and translates the input into relative component motion to apply the hemostatic clips. The improved handle is fabricated primarily from a reusable, engineering resin having exceptional resistance to degradation by steam sterilization. Other improvements to the actuator handle include a drive stem mechanism of unitary construction that can be removed from the actuator handle as an assembled unit to facilitate sterilization. The actuator handle is provided with a quick release mechanism to facilitate the removal and replacement of the drive stem mechanism. The improved actuator handle also features a ratchet mechanism that enables the user to incrementally adjust the longitudinal input force that is transmitted to the surgical instrument and includes a switch for selective operati",
+      "description": "This is a continuation of Provisional patent application Ser. No. 60/000,025, file Jun. 8, 1995, entitled Improved Handle for Surgical Clip Applicator Systems, by David L. Foshee, Stephen Dawes, Jason R. Durkin and Angela S. Phillips. \n    \n    \n     This is a continuation of Provisional patent application Ser. No. 60/000,025, file Jun. 8, 1995, entitled Improved Handle for Surgical Clip Applicator Systems, by David L. Foshee, Stephen Dawes, Jason R. Durkin and Angela S. Phillips. \n     FIELD OF INVENTION \n     This invention relates to surgical instruments and more particularly to vessel liga",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_04442",
+      "title": "Patent Publication 04442",
+      "abstract": "An exercise device including a pair of hollow cylindrical rollers interconnected so as to be maintained in generally line rolling engagement whereby upon the rollers being rotated by the hand of the person the person&#39;s fingers, thumb and hand are exercised, and if squeezed more tightly during rotation, the rollers also impart exercise to the wrist and forearm.",
+      "description": "EXERCISE DEVICE \n     This invention relates generally to an exercise device and more particularly relates to an exercise device for the hand, fingers and thumb of a person and, depending on manner of use, also for the wrist and forearm of a person. \n     Numerous hand and finger exercise and training devices are known to the prior art. U.S. Pat. No. 3,779,548, entitled FINGER-TRAINING APPARATUS, patented Dec. 18, 1973, discloses finger-training apparatus which is complex and expensive to manufacture due to the requirement of having to manufacture numerous separate parts and due to the attenda",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_04969",
+      "title": "Patent Publication 04969",
+      "abstract": "A new and distinct cultivar of  Doritaenopsis  plant named \u2018SOGO F1548\u2019, comprises its flowers of flamboyant red overlaid toward base and the red labellum, freely flowering habit, upright, freely branching and sturdy flowering stems, and the excellent postproduction longevity.",
+      "description": "FIELD OF THE INVENTION \n   Botanical classification/cultivar designation:  Doritaenopsis Orchid  cultivar SOGO F1548. \n   BACKGROUND OF THE INVENTION \n   The present invention comprises a new and distinct cultivar of  Doritaenopsis Orchid , a bigeneric hybrid of  DoirtisxPhalaenopsis  of the family Orchidaceae, and hereinafter referred to a cultivar name, SOGO F1548. The genus  Doritaenopsis  is a member of the family Orchidaceae. \n     Doritaenopsis  comprise a group of bigeneric hybrids generally intermediate in character between the parent genera, which are suitable for cultivation in the h",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_11038",
+      "title": "Patent Publication 11038",
+      "abstract": "A walking aid retention device for releasably maintaining a walking aid in a generally vertical position and being configured to be attached to a suitable rigid structure. The walking aid retention device further includes a base portion with a pair of fingers extending therefrom designed to receive thereinto a suitable rigid support structure. Contiguous with the base and extending opposite the finger are a pair of arms. Attached to the base is a coil spring that biases the fingers towards each other. Perpendicularly mounted to the base is a resilient clamp having two legs that is rotatable and is configured to receive a walking aid thereinto.",
+      "description": "PRIORITY UNDER 35 U.S.C. \u00a7119(e) &amp; 37 C.F.R. \u00a71.78  \n       [0001]     This nonprovisional application claims priority based upon the following prior U.S. provisional patent application entitled: Cane Clip, Application No.: 60/665,247, filed Mar. 25, 2005, in the names of Terry D. Beasley and Betty Beasley, which is hereby incorporated by reference for all purposes. \n     \n    \n     FIELD OF THE INVENTION  \n       [0002]     The present invention relates to a walking aid retention device, more specifically but not by way of limitation, a device attachable to a walking aid, such as a cane o",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_10973",
+      "title": "Patent Publication 10973",
+      "abstract": "A conveying method and a conveyor for carrying out the method is disclosed for manually moving plant stock around in a greenhouse. The method utilizes an elongated rectangular conveyor with rounded corners and handholds at each end and having the proper mix of rigid and pliable characteristics to allow pulling the conveyor from one bench across an aisle bridged by a stationary conveyor to an adjacent bench or along the length of a bench.",
+      "description": "FIELD OF THE INVENTION \n     This invention relates to a method for transporting plants in greenhouses using a novel conveyor device, and particularly, to an improved hand-operated conveyor system and method of using it for transporting plants across the surface of benches or between adjacent benches in order to move the plants to a new location or to provide them more space as they grow. Benches are long and aisles are narrow in a typical greenhouse to maximize growing space for plants. The present invention makes it possible to easily transport potted plants or flats across adjoining benches",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_08565",
+      "title": "Patent Publication 08565",
+      "abstract": "A lamp dispenses a volatile material, such as an insecticide, from a burnable coil. There is a flame source mounted on a base, a chimney, a coil support, and a burnable coil supported on the coil support above the flame. The flame provides light, heats the coil to some extent, and provides convection for dispersal of the volatile. A kit for replacing the candle and coil consumed during use is also disclosed, as are methods of use of such lamps.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     Not applicable. \n     STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH/DEVELOPMENT \n     Not applicable. \n     BACKGROUND OF THE INVENTION \n     This invention relates to dispensers for volatile materials such as insect control agents, scents and the like. In particular, the invention relates to dispensers that simultaneously dispense a volatile from a burnable coil and provide illumination. \n     There are a number of known dispensers for volatile ingredients that provide the additional feature of lighting the surrounding area. For example, U.S. P",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_09361",
+      "title": "Patent Publication 09361",
+      "abstract": "A jewelry fastening aid assists a user in readily and securely joining disparate flexible ends of bracelets about the user&#39;s own wrist. The device provides a substantial improvement over related articles attempting to serve a related need but which are limited in application to slip-clasps. A rotatable and pivotable clamping assembly enables hands-free engagement with spring-clamp clasps, and holds spring clamp-clasps securely in an open position by engaging and retaining a tensioned opening-lever in an open position while simultaneously locking a spring-clamp body relative to the clamping assembly.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS  \n       [0001]     This application is based on and claims priority to U.S. Provisional Patent App. Ser. No. 60/723,691 filed Oct. 5, 2005, and U.S. Provisional Patent App. Ser. No. 60/762,810 filed Jan.27, 2006, the contents of each of which are herein fully incorporated by reference. \n     \n    \n     BACKGROUND OF THE INVENTION  \n       [0002]     1. Field of the Invention  \n         [0003]     The present invention relates to a hand held fastening aid for disengagingly coupling male and female members of a fastening unit. More specifically, the prese",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_08868",
+      "title": "Patent Publication 08868",
+      "abstract": "A device for promoting reflective neuromuscular training. The device is a moderately compressible member having a planar lower surface and an incongruent upper surface. When used in proprioceptive rehabilitation, the device stimulates sensory pathways to improve balance and neuromuscular responses.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS  \n       [0001]     This application claims benefit from U.S. Provisional Patent Application Ser. No. 60/566,259, filed Apr. 29, 2004, and also U.S. Provisional Patent Application Ser. No. 60/604,639, filed Aug. 26, 2004, which applications are incorporated herein by reference. \n     \n    \n     BACKGROUND OF THE INVENTION  \n       [0002]     1. Field of the Invention  \n         [0003]     This invention relates generally to the therapeutic devices and, in particular, to a device which promotes reflective neuromuscular training.  \n         [0004]     2. D",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_12234",
+      "title": "Patent Publication 12234",
+      "abstract": "An improved glove that significantly enhances the ability of the user to grip and manipulate a variety of differently configured objects and particularly to grip and manipulate objects between the thumb and the index finger. The improved glove exhibits a multiplicity of elastomeric gripping dots on the palm side of the glove and on both sides of the thumb portion of the glove to enable the user to securely grip and manipulate various types of articles.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This is a Divisional Application of U.S. Ser. No. 11/209,272 filed on Aug. 22, 2005, which is a Continuation-In-Part of U.S. Ser. No. 11/187,092 (now issued as U.S. Pat. No. 7,229,670). \n     \n    \n     STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH OR DEVELOPMENT \n       [0002]    Not applicable \n       INCORPORATION-BY-REFERENCE OF MATERIAL SUBMITTED ON A COMPACT DISC \n       [0003]    Not applicable \n       BACKGROUND OF THE INVENTION \n       [0004]    1. Field of the Invention \n         [0005]    The present invention relates gene",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_12308",
+      "title": "Patent Publication 12308",
+      "abstract": "The present invention relates to a portable strength training device which can be adapted to various sports and can be utilized in almost any location. More, specifically present invention is a weighted elongated tubular member which includes connectors for attachment of various balls and/or sporting equipment. The training device is adjustable through the use of various sized hollow tubes of different lengths and/or diameters which allow for the addition of one or more types of weight material within the hollow lumen. Various different sports objects, such as balls, golf club handles, tennis racket handles, baseball bats and the like can be secured to one of the distal ends of the hollow tubes. Clips hooks or the like may be secured to the opposite distal end of the tube for anchoring the device.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n     This is a national stage filing in accordance with 35 U.S.C. \u00a7371 of PCT/US2012/036115, filed May 2, 2012, which claims the benefit of the priority of U.S. Provisional Patent Application No. 61/481,537, filed May 2, 2011, entitled, \u201cStrength Training Aid\u201d, the contents of which are incorporated herein in their entirety. \n    \n    \n     FIELD OF THE INVENTION \n     The present invention relates to the field of strength training devices, and in particular to a device that develops strength in the forearms, upper arms and shoulders. The present invent",
+      "cpc": "D"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_06484",
+      "patent_04442",
+      "patent_08868",
+      "patent_07721",
+      "patent_09361",
+      "patent_12234",
+      "patent_11266",
+      "patent_11038",
+      "patent_12308",
+      "patent_06986",
+      "patent_11427",
+      "patent_04929",
+      "patent_13517",
+      "patent_05319",
+      "patent_12807",
+      "patent_08565",
+      "patent_10973",
+      "patent_01962",
+      "patent_04969",
+      "patent_06438"
+    ],
+    "relevance_scores": {
+      "patent_11427": 0.5986403122677008,
+      "patent_06438": 0.01,
+      "patent_11266": 0.8506906046914954,
+      "patent_01962": 0.17543884889084946,
+      "patent_12807": 0.27173909587993367,
+      "patent_07721": 0.8720768110764479,
+      "patent_06986": 0.8311316316923505,
+      "patent_06484": 0.9899999851170553,
+      "patent_13517": 0.31126128998673525,
+      "patent_05319": 0.2896370766509079,
+      "patent_04929": 0.5638783458876598,
+      "patent_04442": 0.9816927175353808,
+      "patent_04969": 0.08555454365558708,
+      "patent_11038": 0.8368927660261637,
+      "patent_10973": 0.1772310864726614,
+      "patent_08565": 0.2645879761144175,
+      "patent_09361": 0.8552187689879585,
+      "patent_08868": 0.8922037007731333,
+      "patent_12234": 0.8510316030959543,
+      "patent_12308": 0.8329106072394417
+    },
+    "novelty_score": 0.4738502205982885
+  }
+}

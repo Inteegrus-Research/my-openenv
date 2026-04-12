@@ -1,0 +1,200 @@
+{
+  "task_description": "Produce a ranked top-5 prior-art shortlist with justification strings for INCLUDE decisions. This is the hardest task.",
+  "budget": 32,
+  "query_patent": {
+    "id": "patent_01199",
+    "title": "Patent Publication 01199",
+    "abstract": "A control and actuation system is provided for a molding machine for producing expanded-grain cakes. The system includes a control unit, a temperature-regulated heating system, multiple motors operated by the control unit for separately actuating mechanical functions, multiple sensors for providing grain level and mechanism positional data to the control unit, control inputs for programming and otherwise providing input to the control unit, and a display device allowing the control unit to provide operational status information. The control unit regulates the thermal energy input to the mold, the molding cycle frequency, and the size of the grain charge. Several interrupts are used to ensure conformance to the control parameters and to enhance operator safety.",
+    "description": "CROSS-REFERENCE TO RELATED APPLICATION \n     This application is related to patent application Ser. No. 13/014,257 which was filed on Jan. 26, 2011, now U.S. Pat. No. 8,287,263, and is incorporated herein by reference in its entirety. The related patent claims priority of Republic of Korea Patent Application No. 10-2010-0051387, which was filed on May 31, 2010, and is incorporated herein by reference in its entirety. \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates generally to a control and actuation system for a baking-in-a-mold apparatus ",
+    "cpc": "G"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_13001",
+      "title": "Patent Publication 13001",
+      "abstract": "A compact machine for cleaning floors includes a solution tank and dispensing system for dispensing solution onto the surface to be cleaned, a deck assembly for guiding dirty solution to a recovery pickup point, a mechanically operated pump for collecting the dirty solution from the recovery pickup point, and a recovery tank for receiving the collected fluid.",
+      "description": "[0001]    This U.S. Non-Provisional patent application is Continuation of and claims the benefit of priority to U.S. patent application Ser. No. 13/961,673, filed Aug. 7, 2013, which claims the benefit of priority from U.S. Provisional Patent Application Ser. No. 61/680,635, filed Aug. 7, 2012, and U.S. Provisional Patent Application Ser. No. 61/752,230, filed Jan. 14, 2013, the entire disclosures of which are hereby incorporated by reference in their entireties. \n     \n    \n     FIELD \n       [0002]    The present disclosure is directed to floor cleaning tools having a mechanically operated p",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_09765",
+      "title": "Patent Publication 09765",
+      "abstract": "A compression hypodermic syringe is disclosed wherein two leaves are hinged together. One leaf contains a receptacle for a collapsible capsule which contains a pre-measured dose of medication. The second leaf has a structure that acts as a plunger when the second leaf is folded over the first leaf. A double ended hypodermic needle is provided that has one end that pierces a membrane on the collapsible capsule and a second end that is exposed for insertion into a patient when the two leaves are folded together.",
+      "description": "BACKGROUND OF THE INVENTION  \n       [0001]     1. Field of the Invention  \n         [0002]     The present invention relates to a compact hypodermic syringe for injecting a pre-measured dose under adverse conditions. More particularly, the invention relates to a syringe wherein the doses are pre-loaded compressible capsules having the opening sealed by adhesive label. More particularly, the syringe is a foldable fully disposable device which after use is folded to enclose the hypodermic syringe safely.  \n         [0003]     2. Related Art  \n         [0004]     Due to the recent advent of the ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_04880",
+      "title": "Patent Publication 04880",
+      "abstract": "An article of furniture includes: a frame structure; and at least one planar woven web mounted to the frame structure, and including a plurality of artificial rattan strips that are interlaced with each other and that are heat sealable, and a plurality of guide tracks provided in the planar woven web. The planar woven web is fastened to the frame structure along the guide tracks.",
+      "description": "BACKGROUND OF THE INVENTION \n       [0001]    1. Field of the Invention \n         [0002]    This invention relates to an article of furniture, more particularly to an article of furniture having a plurality of artificial rattan strips. \n         [0003]    2. Description of the Related Art \n         [0004]    Rattan furniture can be classified into natural rattan furniture and imitation rattan furniture. The natural rattan furniture has disadvantages, such as poor resistance to high temperatures, and susceptibility to cracking, deforming and color fading. The appearance and texture of the imita",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_08720",
+      "title": "Patent Publication 08720",
+      "abstract": "A control and motor arrangement in accordance with the present invention includes a motor configured to generate a locomotive force for propelling the model train. The control and motor arrangement further includes a command control interface configured to receive commands from a command control unit wherein the commands correspond to a desired speed. The control and motor arrangement still further includes a plurality of detectors configured to detect speed information of the motor, and a process control arrangement configured to receive the speed information from the sensors. The process control arrangement is further configured and arranged to generate a plurality of motor control signals based on the speed information for controlling the speed of said motor. The control and motor arrangement yet still further includes a motor control arrangement configured to cause power to be applied to the motor at different times in response to the motor control signals.",
+      "description": "RELATED APPLICATION DATA \n   This patent application is a continuation of U.S. patent application Ser. No. 11/430,331, filed May 8, 2006 now U.S. Pat. No. 7,298,103, which is a continuation of U.S. application Ser. No. 10/894,233, filed Jul. 19, 2004, issued as U.S. Pat. No. 7,211,976 on Feb. 3, 2005, which is a continuation of U.S. application Ser. No. 09/702,466, filed Oct. 31, 2000, issued as U.S. Pat. No. 6,765,356 on Jul. 20, 2004, which is a continuation-in-part of U.S. application Ser. No. 09/1 85,558, filed Nov. 4,1998, now abandoned. \n\n\n   FIELD OF THE INVENTION \n   The present invent",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_04252",
+      "title": "Patent Publication 04252",
+      "abstract": "A food processor has a container, a working piece for processing food material in the container, and a motor assembly for driving the working piece. The motor assembly includes an electric motor and a speed reduction gear unit connected between the motor and the working piece. The speed reduction gear unit includes a damper for isolating the motor from vibrations from the working piece.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n       [0001]    This non-provisional patent application claims priority under 35 U.S.C. \u00a7119(a) from Patent Application No. 201110289057.4 filed in The People&#39;s Republic of China on Sep. 26, 2011. \n     \n    \n     FIELD OF THE INVENTION \n       [0002]    This invention relates to a food processor and in particular, to a motor assembly for the food processor. \n       BACKGROUND OF THE INVENTION \n       [0003]    US2003/0145737A1 discloses a bread maker which includes a casing, a mixing rod, a baking oven, a bread making chamber unit, and an electric",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_10857",
+      "title": "Patent Publication 10857",
+      "abstract": "An inhalation therapy enclosure includes a base with end walls joined by a rear wall. A cover having two panels joined perpendicularly is hinged to the top of the rear wall. When lowered, the cover forms an enclosure with the end wall, rear wall and base. Latches secure the cover to the base. A port in one end wall allows introduction of nebulized medication or anesthesia while a port of equal size in the opposing end wall allows exhaust from the enclosure.",
+      "description": "BACKGROUND OF THE INVENTION \n   This invention pertains to inhalation therapy enclosures for small animals. \n   In the practice of veterinary medicine, the treatment of diseased or injured animals encompasses administration of medications by injection or by mouth, as well as by inhalation of nebulized medications. Current methods for respiratory therapy through administration of nebulized medications consist of use of a mask held over the nose and mouth of the animal, or by forcing the animal into a closed chamber into which nebulized medication is introduced. Typically, the chamber is an open",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_02100",
+      "title": "Patent Publication 02100",
+      "abstract": "Herein is disclosed a probe, including a first electrode disposed at least partially on the probe surface, a second electrode disposed at least partially on the probe surface, a first conductor electrically coupled to the first electrode, a second conductor electrically coupled to the second electrode, and a reactive element electrically coupling the first conductor and the second conductor.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a continuation of U.S. patent application Ser. No. 10/123,534, which claims benefit of priority to U.S. Provisional Patent Application Ser. No. 60/283,725, filed Apr. 13, 2001. The aforementioned applications are incorporated herein in their entireties by this reference. \n     \n    \n     GOVERNMENT GRANTS \n       [0002]    This invention was made, in part, with government support under grant numbers RO1 HL 57483 and RO1 HL61672 from the National Institutes of Health. The United States government has certain rights to",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_13746",
+      "title": "Patent Publication 13746",
+      "abstract": "This invention concerns a composition for topical use containing as an active ingredient triethyl citrate either pure or in combination with synergists, and the pharmaceutical or cosmetic use of the composition, on its own or in association with an antibiotic, at least in the treatment of cutaneous pathologies directly or indirectly affected by bacterial infections.",
+      "description": "FIELD OF THE INVENTION  \n       [0001]     This invention concerns a new composition for cosmetic or pharmaceutical purposes, for external use, to be applied either on the cutis, whether integral or damaged, or on the mucous membrane, in order to improve all cutaneous pathologies both directly and indirectly affected by bacterial infections, such as for example superficial primary pyodermia and impetigo vulgaris and other common dermatitis infections, such as for example atopic dermatitis and the various forms of eczema.  \n       STATE OF THE ART  \n       [0002]     Antibiotic therapy for topi",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_07763",
+      "title": "Patent Publication 07763",
+      "abstract": "An apparatus for manufacturing a capsule by using vegetable gelatin is provided. Heating units are installed in a gelatin feeding line, which feeds gelatin in the form of a sheet, and a molding line to feed the gelatin in a predetermined temperature. The molded capsule is conveyed through a conveyer so that the molded capsule is stably dried and cured and a temperature of the conveyer is adjusted to control a temperature of the capsule. A length of the drying line is maximally increased within a narrow space, so that a film of the capsule made of the vegetable gelatin is gradually cured and dried without abrupt temperature variation, thereby preventing crack from occurring in the capsule, and preventing bonding parts of the capsule from being torn to improve the commercial value of the capsule.",
+      "description": "PRIORITY \n       [0001]    This application claims the benefit under 35 U.S.C. \u00a7119(a) of a Korean patent application filed on May 18, 2011 in the Korean Intellectual Property Office and assigned Serial No. 10-2011-0047038, and of a Korean patent application filed on May 8, 2012 in the Korean Intellectual Property Office and assigned Serial No. 10-2012-0048463, the entire disclosures of which are hereby incorporated by reference. \n       BACKGROUND OF THE INVENTION \n       [0002]    1. Field of the Invention \n         [0003]    The present invention relates to an apparatus for manufacturing a ",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_00845",
+      "title": "Patent Publication 00845",
+      "abstract": "A dish washing machine capable of improving spatial utilization of a washing tub through the enlargement of the washing tub. The dish washing machine includes a washing tub, a sump mounted in the washing tub to receive and pump wash water, a sump housing forming an external appearance of the sump, a washing impeller to pump wash water from the sump housing, a drainage channel disposed at an inner edge of the sump housing, a pump motor surrounded by the drainage pump to drive the washing impeller, and a pump motor receiving part to receive the pump motor. The pump motor receiving part protrudes above the drainage channel.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application claims the benefit of Korean Patent Application No. 10-2006-0065596, filed on Jul. 12, 2006 in the Korean Intellectual Property Office, the disclosure of which is incorporated herein by reference. \n       BACKGROUND OF THE INVENTION \n       [0002]    1. Field of the Invention \n         [0003]    The present invention relates to a dish washing machine. More particularly, to a dish washing machine capable of improving spatial utilization of a washing tub through the enlargement of the washing tub. \n         [0004]    2. D",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_13632",
+      "title": "Patent Publication 13632",
+      "abstract": "A harvesting machine capable of automatic adjustment, comprising a plurality of acoustic material flow sensors, a control system, a processor, and application software, wherein the plurality of acoustic material flow sensors are mounted internal to the harvesting machine at points of crop material flow and are capable of sensing an amount of crop material passing by them, wherein the control system is capable of adjusting a plurality of internal elements of the harvesting machine, wherein the software is hosted on the processor, and the processor is operatively coupled to the control system and the acoustic material flow sensors, wherein the software uses information sensed by the acoustic material flow sensors to determine if the internal elements of the harvesting machine are set for optimal machine performance, and the software sends commands to the internal elements of the harvesting machine in order to improve the machine performance.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n     This patent application claims the benefit of U.S. Provisional Patent Application No. 62/049,616, filed Sep. 12, 2014 and entitled \u201cMETHOD AND SYSTEM FOR COMBINE AUTOMATION,\u201d and is a continuation-in-part of and claims priority in U.S. patent application Ser. No. 13/843,029, filed Mar. 15, 2013 and entitled \u201cVEHICLE CONTROL AND GATEWAY MODULE,\u201d which is a continuation-in-part of and claims priority in U.S. patent application Ser. No. 13/046,549, filed Mar. 11, 2011, now U.S. Pat. No. 8,950,260, issued Feb. 10, 2015 and entitled \u201cAIR SEEDER MONITORI",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_09154",
+      "title": "Patent Publication 09154",
+      "abstract": "Compounds that may be used for the treatment or prevention of a condition associated with T-cell proliferation or that is mediated by pro-inflammatory cytokines are of formula (1) \n     \n       \n                 \n         \n             \n             \n         \n       \n     \n     or a salt thereof.",
+      "description": "FIELD OF THE INVENTION \n       [0001]    This invention relates to the use of buproprion metabolites for the treatment of inflammatory disorders. \n       BACKGROUND OF THE INVENTION \n       [0002]    Immune-driven inflammatory events are a significant cause of many chronic inflammatory diseases where prolonged inflammation causes tissue destruction and results in extensive damage and eventual failure of the effected organ. The cause of these diseases is unknown, so they are often called autoimmune, as they appear to originate from an individual&#39;s immune system turning on itself. Conditions",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_09036",
+      "title": "Patent Publication 09036",
+      "abstract": "A programmable slow-cooker appliance, in which a user sets a time and temperature for cooking a food item. A programmable controller prevents the unit from being used solely as a \u201ckeep warm\u201d appliance, and a unique design allows cooling of the controller during cooking.",
+      "description": "This application is a continuation of application Ser. No. 09/802,174, filed Mar. 8, 2001, (pending), which is hereby incorporated by reference herein. \n     This application claims priority to Provisional Application No. 60/189,443, filed Mar. 15, 2000, and to Provisional Application No. 60/196,273, filed Apr. 5, 2000. \n     This application also claims priority to U.S. patent application Ser. No. 09/802,174, filed Mar. 8, 2001, now U.S. Pat. No. 6,573,483 the entirety of which is incorporated herein. \n    \n    \n     BACKGROUND OF THE INVENTION \n     Time and convenience are in short supply f",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_08930",
+      "title": "Patent Publication 08930",
+      "abstract": "An improved mounting arrangement for a knife to a disc for use on a rotary disc cutter that eliminates the need for a threaded connector and the associated nut is disclosed. It also provides a positive retention method on the top side of the disc. In addition, it provides a method of removing the knife from the disc without the use of wrenches, simply requiring a tool for prying, such as a screw driver. A further feature is a low profile retainer does not need to be protected by a wear protector.",
+      "description": "STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH OR DEVELOPMENT \n     Not Applicable \n     FIELD OF THE INVENTION \n     The present invention relates to a pivotal mounting arrangement for mounting a knife to a rotary disc, which makes replacement, or reorientation of the blade possible using only common tools. \n     BACKGROUND OF THE INVENTION \n     Knives used on rotary disc mowers contact the crop material at high speeds, in order to cut effectively. This results in inherent dulling and wear. At times these knives contact other objects such as the ground, rocks etc. causing additional wear. ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_09488",
+      "title": "Patent Publication 09488",
+      "abstract": "A vacuum cleaner that includes: a suction hose; and a cleaner main body including: a main body portion, a suction motor that is configured to generate suction force, a dust container that includes (i) a storage space to collect dust and (ii) a suction port through which dust is collected from the suction hose into the storage space, and a cover member (i) that is configured to rotate, about an axis that is outside of a plane of the cover member, between a first position and a second position, (ii) that covers, based on the cover member being located at the first position, at least a portion of the dust container, and (iii) that includes a coupling unit that couples the suction hose to the suction port, wherein, based on the cover member being located at the first position, the coupling unit aligns with the suction port is disclosed.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application claims priority under 35 U.S.C. \u00a7119 to Korean Patent Application No. 10-2016-0024022, filed in Korea on Feb. 29, 2016, and Korean Patent Application No. 10-2016-0036277, filed in Korea on Mar. 25, 2016, and Korean Patent Application No. 10-2016-0184161, filed in Korea on Dec. 30, 2016, the entire contents of which are incorporated by reference herein. \n       TECHNICAL FIELD \n       [0002]    This application is related to technologies related to a vacuum cleaner. \n       BACKGROUND \n       [0003]    Generally, a vacuu",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_13123",
+      "title": "Patent Publication 13123",
+      "abstract": "An apparatus for collecting and recovering medical data which allows a number of different patients to be identified by an ID card or an ID label and has a plurality of keyboard printing units which receive medical data from the particular patient and includes a memory which receives the individual medical data relative to the individual patient identified by the patient&#39;s number and the examination number and includes a system for transferring the data in usual form to an output unit after the necessary data has been recorded in the memory. The apparatus further includes a control unit for controlling the input and output units as well as the memory unit and includes error correcting systems.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates in general to medical data accumulating and recording systems and in particular to a novel recording and storage system. \n     2. Description of the Prior Art \n     Prior to this invention, overall diagnosis systems for automated multiphasic health testing systems generally utilized general purpose electronic computers for processing the data. However, the medical data which can be obtained from the results of physical examinations and diagnosis of physicians received from a number of examination facilitie",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_14801",
+      "title": "Patent Publication 14801",
+      "abstract": "An improvement in miniature toy football games in which figures representing players and goal-keepers move alternately along paths or trails provided on the surface of a plate which represents the playing field. The players and goal-keepers can be moved, as desired, by an operator pressing corresponding control keys arranged on a control panel. The surface of the playing field has an arrangement of undulations and cavities for guiding the ball towards the foot of a player. The players and goal-keepers are mounted on electromagnetic actuators in the form of a hollow magnet coil horizontally mounted on a frame. The coil has a sliding core linked to a lever arm for producing alternate movement of the players. The actuator is mounted under a slot guiding the movement of the players.",
+      "description": "BACKGROUND OF THE INVENTION \n     The present invention relates to an improvement of the miniature football game toy disclosed in the Chilean Pat. No. 26.924 and the Argentinian Pat. No. 190750. In the improved toy of this invention, the &#34;players&#34; are selectively activated at will by the operators participating in the game. The &#34;players&#34; are activated through the touching of a respective key or button located on a control panel. The operators do not waste any physical effort moving the players and are thus able to concentrate their mental ability and ingenuity on producing a fa",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_01858",
+      "title": "Patent Publication 01858",
+      "abstract": "A method and apparatus for providing an adjustable length surgical implant is provided, wherein the surgical implant is readily adjustable by a surgeon using a surgical tool sized for use with the surgical implant. Adjustment of the surgical implant further requires a small incision through the skin prior to the adjustment of the length of the implant, such that the potential for infection is greatly reduces and the associated trauma of surgery is lessened for the patient.",
+      "description": "RELATED APPLICATIONS \n     The present invention relates to U.S. patent application Ser. No. 11/050,137 entitled \u201cAdjustable Length Implant\u201d, filed on Feb. 2, 2005. \n     FIELD OF THE INVENTION \n     The present invention generally relates to an adjustable surgical implant of varying length, and more specifically related to a variable length adjustable surgical implant for use in scoliosis correction. \n     BACKGROUND OF THE INVENTION \n     With the advent of biocompatible materials, the use of surgical implants in the correction of physical disorders has grown to become commonplace. These imp",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_14896",
+      "title": "Patent Publication 14896",
+      "abstract": "A compact machine for cleaning floors includes a solution tank and dispensing system for dispensing solution onto the surface to be cleaned, a deck assembly for guiding dirty solution to a recovery pickup point, a mechanically operated pump for collecting the dirty solution from the recovery pickup point, and a recovery tank for receiving the collected fluid.",
+      "description": "[0001]    This U.S. Non-Provisional patent application is Continuation of and claims the benefit of priority to U.S. patent application Ser. No. 13/961,673, filed Aug. 7, 2013, which claims the benefit of priority from U.S. Provisional Patent Application Ser. No. 61/680,635, filed Aug. 7, 2012, and U.S. Provisional Patent Application Ser. No. 61/752,230, filed Jan. 14, 2013, the entire disclosures of which are hereby incorporated by reference in their entireties. \n     \n    \n     FIELD \n       [0002]    The present disclosure is directed to floor cleaning tools having a mechanically operated p",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_02547",
+      "title": "Patent Publication 02547",
+      "abstract": "An automatic breadmaking apparatus adapted to automatically carry out breadmaking operations from kneading to baking includes a housing, a container receivable in the housing into which breadmaking ingredients are fed, a stirrer for stirring the breadmaking ingredients fed in the container, a stirring control section for controlling an operation of the stirrer, a temperature control section for controlling temperature in the container, and a central control section for controlling the stirring control section and the temperature control section in accordance with a breadmaking sequence using rice flour.",
+      "description": "CROSS-REFERENCES TO RELATED APPLICATIONS  \n         [0001]    This application is related to Japanese applications Nos. 2003-31429 and 2003-335008, filed on Feb. 7, 2003 and Sep. 26, 2003, respectively, whose priorities are claimed under 35 USC \u00a7 119, and the disclosures of which are incorporated by reference in their entirety.  \n         BACKGROUND OF THE INVENTION  \n         [0002]    1. Field of the Invention  \n           [0003]    The present invention relates to an automatic breadmaking apparatus and a method of making bread, particularly to an automatic apparatus and a method for making ",
+      "cpc": "F"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_09036",
+      "patent_04252",
+      "patent_13632",
+      "patent_07763",
+      "patent_08720",
+      "patent_09488",
+      "patent_00845",
+      "patent_13001",
+      "patent_14896",
+      "patent_02547",
+      "patent_02100",
+      "patent_01858",
+      "patent_13123",
+      "patent_04880",
+      "patent_14801",
+      "patent_13746",
+      "patent_09154",
+      "patent_08930",
+      "patent_09765",
+      "patent_10857"
+    ],
+    "relevance_scores": {
+      "patent_13001": 0.8541046326367647,
+      "patent_09765": 0.06385424021233074,
+      "patent_04880": 0.30173186576599953,
+      "patent_08720": 0.8681951620162026,
+      "patent_04252": 0.9252468556821598,
+      "patent_10857": 0.01,
+      "patent_02100": 0.5401450990690467,
+      "patent_13746": 0.2350863592070992,
+      "patent_07763": 0.9133499725048766,
+      "patent_00845": 0.8585314123942325,
+      "patent_13632": 0.9249704442100519,
+      "patent_09154": 0.17321704706338176,
+      "patent_09036": 0.9899999819485598,
+      "patent_08930": 0.1537249544175507,
+      "patent_09488": 0.8625147932896696,
+      "patent_13123": 0.3470226762938888,
+      "patent_14801": 0.2800608943273352,
+      "patent_01858": 0.3489318414013556,
+      "patent_14896": 0.8541046326367647,
+      "patent_02547": 0.8486286943489257
+    },
+    "novelty_score": 0.1588012411602877
+  }
+}

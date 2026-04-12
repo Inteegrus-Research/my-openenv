@@ -1,0 +1,200 @@
+{
+  "task_description": "Rank candidate patents by novelty risk and provide a quality score from 1 to 4 for each review decision.",
+  "budget": 24,
+  "query_patent": {
+    "id": "patent_06750",
+    "title": "Patent Publication 06750",
+    "abstract": "Vacuum cleaner with a magnetic pick-up mechanism includes a housing having a front wall and a vacuum opening situated rearward of the front wall, one or more receptacles on the front wall, one or more magnets arranged in the receptacle(s) and a bumper attached to the housing and extending across the front wall and over the magnet(s). Each magnet attracts metallic objects during use of the vacuum cleaner so that the metallic objects do not enter into the vacuum opening and damage to the interior parts of the vacuum cleaner housing is prevented.",
+    "description": "FIELD OF THE INVENTION  \n       [0001]     The present invention relates to a vacuum cleaner including a magnetic pick-up mechanism capable of picking up metallic objects in floor coverings, such as rugs and carpets, to prevent such metallic objects from entering the vacuum cleaner housing.  \n       BACKGROUND OF THE INVENTION  \n       [0002]     In the vacuum cleaner art, it is known that it is desirable to prevent entry of metallic objects, such as paper clips, pins and staples, into the vacuum cleaner housing to prevent damage to interior parts of the housing such as the motor. Various atta",
+    "cpc": "H"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_02909",
+      "title": "Patent Publication 02909",
+      "abstract": "A ship-on garment hanger having shielding means at each end of the hanger body to prevent dislodgement of a garment from the hanger by downwardly and inwardly directed dislodging forces, the hanger and the front and rear jaws of the clamp assemblies at the ends of the hanger body being formed integrally in one piece so that the hanger is ideally suited for production by the chain molding technique and consists of only three separate parts including two spring clips.",
+      "description": "This invention pertains generally to garment hangers and more specifically to a garment hanger adapted to be employed as a shipping hanger for garment-on-hanger use, said garment hanger having (1) a hanger body assembly in which the hanger body and the front and rear halves of the clamp assembly located at each end portion of the hanger body comprise a single manufactured part so that, when a biasing means is added to each clamp assembly, the body assembly consists of only three parts, and (2) means for precluding dislodgement of a garment from its hanger by dislodgement forces encountered dur",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_12449",
+      "title": "Patent Publication 12449",
+      "abstract": "The present invention relates to a duster brush assembly for a vacuum cleaner. The duster brush assembly includes a duster brush fixedly disposed at the air flow entrance of a hollow tubular member operatively connected to the vacuum cleaner. A hollow tubular member is telescopically mounted on a suction tube which is in communication with the vacuum cleaner. To clean the duster brush the hollow tubular member is moved forward over the duster brush is removed by vacuum into the vacuum cleaner.",
+      "description": "FIELD OF THE INVENTION  \n       [0001]     The present invention relates to a dust cleaning member for vacuum cleaners.  \n       BACKGROUND OF THE INVENTION  \n       [0002]     Vacuum cleaners generally are either full-sized models or hand-held models. Generally all vacuum cleaners include a vacuum source, a power unit, and a cleaning nozzle with a cleaning orifice.  \n         [0003]     Various attachments, such as extension wands, crevice tools, upholstery tools and dust brushes adapted to mate with the cleaning orifices in order to provide more effective dirt and dust pick-up are known. The",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_10968",
+      "title": "Patent Publication 10968",
+      "abstract": "The present invention relates to tetraaza phenalen-3-one compounds which inhibit poly (ADP-ribose) polymerase (PARP) and are useful in the chemosensitization of cancer therapeutics. The induction of peripheral neuropathy is a common side-effect of many of the conventional and newer chemotherapies. The present invention further provides means to reliably prevent or cure chemotherapy-induced neuropathy. The invention also relates to the use of the disclosed PARP inhibitor compounds in enhancing the efficacy of chemotherapeutic agents such as temozolomide. The invention also relates to the use of the disclosed PARP inhibitor compounds to radio sensitize tumor cells to ionizing radiation. The invention also relates to the use of the disclosed PARP inhibitor compounds for treatment of cancers with DNA repair defects.",
+      "description": "[0001]    This application claims the benefit of U.S. Provisional Application No. 60/977,115, filed Oct. 3, 2007, the entire contents of which are hereby incorporated by reference. \n     \n    \n     FIELD OF THE INVENTION \n       [0002]    The present invention relates to tetraaza phenalen-3-one compounds which inhibit poly (ADP-ribose) polymerase (PARP). \n       BACKGROUND \n       [0003]    The present invention relates to inhibitors of the nuclear enzyme poly(adenosine 5\u2032-diphospho-ribose) polymerase [\u201cpoly(ADP-ribose) polymerase\u201d or \u201cPARP\u201d, which is also referred to as ADPRT (NAD:protein (AD",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_10169",
+      "title": "Patent Publication 10169",
+      "abstract": "A vacuum system for a building, in particular, a building with multiple dwellings. There is a fan to develop suction mounted in a compartment having a dust inlet and a dust outlet. A motor drives the fan. The motor has a drive shaft to extend into the fan compartment. There is a dust collection head communicating with the inlet. A dust disposal pipe connected to the outlet extends to a remote dust receptacle. There is a vent for the dust receptacle to prevent dust being fed back into the atmosphere. The system can operate satisfactorily without a filter. It draws dust in from a point between the source of the dust and the dust receptacle so that suction is not applied through the contents of the dust receptacle.",
+      "description": "FIELD OF THE INVENTION \n     This invention relates to a vacuum system for a building. The invention finds particular application in multiple-unit buildings such as town houses, condominiums and office buildings. \n     DESCRIPTION OF THE PRIOR ART \n     The traditional vacuum cleaner comprises a motor to drive a fan to develop suction. Typically the motor is also used to drive a rotating brush by a belt drive from a drive shaft of the motor. The vacuum cleaner is moved across a surface. The brush agitates the dust, which is drawn upwardly by the fan, into a filter bag that is an integral part ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_10521",
+      "title": "Patent Publication 10521",
+      "abstract": "The present invention is a modified single use hand-operated injector device consisting of a plunger, a base, a snap means for resisting plunger movement and an injection means for injecting parenteral medication through a skin surface of a patient. The improvement comprises a check valve seated in a cannula and a widened receptacle area within a high pressure barrel through which the cannula passes. When the check-valve plug expels upon increase in pressure, into the widened receptacle area the parenteral medication efficiently flows around the plug and into the subcutaneous tissue of the patient.",
+      "description": "RELATED APPLICATION \n     This application is a continuation-in-part of application Ser. No. 09/392,293, filed Sep. 8, 1999, now U.S. Pat. No. 6,102,896. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates generally to disposable injector devices and more specifically it concerns a check valve modification to isolate pressure upon administration of medicament through a patient&#39;s skin. \n     2. Description of the Prior Art \n     In general, a number of problems and risks have been associated with the parenteral injection for at least a ce",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_08866",
+      "title": "Patent Publication 08866",
+      "abstract": "The disclosed systems and methods provide for a mirror box therapy system as a therapeutic tool for treating patients having one healthy and one unhealthy limb. This can include stroke patients or those whom otherwise have full or partial paralysis. Also suitable patients include amputees with phantom limb pain or those with intact legs whom have unilateral chronic lower extremity pain. The system is designed to be used with patients in the short sit position or long sit position and can be alternated between each position including switching between left side and right side limb treatment. The methods of treatment with the disclosed system are designed to provide for positive visual feedback and induce brain plasticity with the improvement of neural connections leading to pain and/or motor rehabilitation of the impaired limb.",
+      "description": "FIELD OF THE INVENTION \n     The present disclosure pertains to systems and methods for rehabilitating a patient diagnosed or experiencing neurologic chronic pain, phantom limb pain, or a lack of motor skills. More specifically, the teachings herein are directed to rehabilitating phantom limb pain or a lack of motor skills observed with amputees and stroke patients. \n     BACKGROUND OF THE DISCLOSURE \n     Mirror visual feedback therapy was initially used with unilateral upper extremity amputees for phantom limb pain and has progressed to treat patients with other pain syndromes. Mirror therap",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_00439",
+      "title": "Patent Publication 00439",
+      "abstract": "A vacuum cleaner includes a suction inlet provided at a main body and a cover hinge-coupled to the main body to cover a dust collection chamber included in the main body. A locking unit is disposed around the suction inlet in order to releasably lock the cover. Further, the vacuum cleaner may include a pivot link for rotatably connecting the cover and the main body. With the pivot link, the cover and the main body are rotatable about two different hinge axes.",
+      "description": "FIELD OF THE INVENTION \n   The present invention relates to a vacuum cleaner; and, more particularly, to a cover locking/releasing structure and a cover hinge-coupling structure of a vacuum cleaner wherein a suction inlet is formed at a main body thereof. \n   BACKGROUND OF THE INVENTION \n   In general, a vacuum cleaner suctions dust particles on a floor by using a suction force of a fan rotated by a motor installed inside the vacuum cleaner, entraps the dust particles in a dust bag disposed in front of the fan while releasing dust-free air to the outside of the vacuum cleaner. \n     FIG. 1  sh",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_11381",
+      "title": "Patent Publication 11381",
+      "abstract": "A fluid flow control valve comprises (a) a high pressure region adapted to contain a fluid at its supercritical or nearcritical temperature and pressure conditions and connected via an orifice to a low pressure region, (b) a seat adjacent the orifice, (c) a sealing element positionable against the seat to form a seal between the high pressure region and the low pressure region, and (d) an electrically and/or electronically controlled actuator operable to move the sealing element against and/or away from the seat to allow control of fluid flow from the high pressure region to the low pressure region. In a specific embodiment, the high pressure region contains a fluid at its supercritical or nearcritical temperature and pressure conditions. The valve may be used, for example, to provide very low flow rates, for example, for supercritical fluid chromatography, supercritical fluid extraction, critical point drying, supercritical fluid cleaning, and supercritical fluid separation methods. I",
+      "description": "RELATED APPLICATIONS \n       [0001]    The present application claims priority under 35 U.S.C. \u00a7119 of U.S. Application Ser. No. 61/151,393 filed Feb. 10, 2009. \n     \n    \n     STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH AND DEVELOPMENT \n       [0002]    The present invention was partially made with Government support under grant R44HL066830 awarded by the US National Heart Lung and Blood Institute, National Institutes of Health. The Government has certain rights in the invention. \n     \n    \n     FIELD OF THE INVENTION \n       [0003]    The present invention relates to methods and appar",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_12336",
+      "title": "Patent Publication 12336",
+      "abstract": "The present invention relates to a vacuum cleaner, and more particularly, to a bagless vacuum cleaner. The vacuum cleaner ( 1 ) comprises a dust separating device ( 5 ), provided with a dust outlet ( 29 ), for separating dust from an incoming air flow, and a dust collecting container ( 7 ) being arranged at the dust separating device for receiving dust via the dust outlet from the dust separating device. The dust separating device comprises a first part ( 5   a ) and a second part ( 5   b ) being releasably connectable to each other, wherein the second part ( 5   b ) of the dust separating device is arranged to be movable in the dust collecting container ( 7 ) after being released from the first part ( 5   a ) of the dust separating device for compressing dust received in the dust collecting container.",
+      "description": "TECHNICAL FIELD \n       [0001]    The present invention relates to a vacuum cleaner, and more particularly, to a bagless vacuum cleaner. The invention is intended for use particularly but not exclusively in a bagless vacuum cleaner comprising one or more dust separating steps wherein the dust separation takes place in one or more cyclone separation units. \n       BACKGROUND OF THE INVENTION \n       [0002]    Generally, a vacuum cleaner includes a suction nozzle for sucking air and dust while the suction nozzle moves along a surface, a main body with a motor and a fan for generating air suction",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_09716",
+      "title": "Patent Publication 09716",
+      "abstract": "Disclosed is an exfoliating composition and method for removing dead skin cells from the surface of human skin. The composition is a physiologically effective amount of ground up cucumber or cucumber extract in a suitable carrier. The carrier can be water, alcohol, or mixtures thereof. The method is to administer a physiologically effective amount of the composition to an individual seeking to exfoliate skin. The composition is rubbed into the skin, and loosens dead cells, which are then physically removed from the surface of the skin.",
+      "description": "[0001]    This application is a Divisional of Ser. No. 12/317,679, filed Dec. 29, 2008, assigned to Examiner Melenia Lee McCormick, Art Unit 1655. \n     \n    \n     BACKGROUND OF THE INVENTION \n       [0002]    (a) Field of the Invention \n         [0003]    This invention relates to a composition and method for exfoliating skin on a human being. More particularly, it relates to a composition containing a cucumber extract, that is dissolved in or otherwise incorporated into a suitable carrier, and to a method of exfoliating skin from the human body which involves rubbing a ground up cucumber or ",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_05614",
+      "title": "Patent Publication 05614",
+      "abstract": "A vacuum cleaner comprises a rigid dirt receptacle  14  having an outlet at one end, through which the collected dirt and dust can be emptied, a flap  16  for closing the outlet, and an actuator  58  for moving the flap  16  between a closed position and an open position, the actuator  58  being operable to control the position of the flap  16  between the open and closed positions.  \n     A location is provided at a partially opened position of the flap  16 , at which position fine dirt and dust can be emptied through the restricted outlet in a controlled manner. The restricted size of the outlet retains any coarse and fibrous dirt inside the receptacle  14 . Once the fine dirt has been emptied, the flap  16  can be moved to its fully open position to allow the coarse dirt and fibrous matter to be emptied from the receptacle  14  separately from the fine dust.",
+      "description": "BACKGROUND OF THE INVENTION  \n       [0001]     1. Field of the Invention  \n         [0002]     This invention relates to a vacuum cleaner.  \n         [0003]     2. Related Background Art  \n         [0004]     Vacuum cleaners conventionally comprise a permeable dust bag, which filters and retains the dirt and dust drawn into the vacuum cleaner by the induced air flow. Nowadays, it has become popular to provide vacuum cleaners, in which the separated dirt and dust is collected in a rigid dirt receptacle that can be emptied and re-used. Such so-called bagless cleaners alleviate the need to purch",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_11526",
+      "title": "Patent Publication 11526",
+      "abstract": "The present invention relates to priming solutions used during cardiopulmonary bypass procedures. In particular, the present invention relates to a cardiopulmonary bypass priming solution comprising a balanced salt solution and a combination of oncotic and non-oncotic dextran molecules. The present invention also relates to the use of the priming solution in a cardiopulmonary bypass method, a method of maintaining oncotic pressure in a patient during a cardiopulmonary bypass procedure, and a combination of cardiopulmonary bypass priming solution and cardiopulmonary bypass apparatus.",
+      "description": "FIELD OF INVENTION \n     The present invention relates to priming solutions used during cardiopulmonary bypass procedures. \n     BACKGROUND TO THE INVENTION \n     The first successful cardiopulmonary bypass procedure was performed in 1953 by John Gibbon at the Thomas Jefferson University Hospital in Philadelphia. Today, hundreds of thousands of procedures are performed worldwide every year. \n     Priming solutions for cardiopulmonary bypass (CPB), also known as extra corporeal circulation (ECC), are used to fill up sections of a bypass circuit, such as the tubing, the pump and the reservoir. T",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_05020",
+      "title": "Patent Publication 05020",
+      "abstract": "This invention relates to a therapeutic combination of anti-cancer compounds which comprises a) a VEGFR-2 inhibitor, and b) a substance that binds to the epidermal growth factor receptor (EGFR) and blocks the ability of epidermal growth factor (EGF) to initiate receptor activities which results in tumor growth inhibition, and optionally at least one pharmaceutically acceptable carrier for simultaneous, separate or sequential use.",
+      "description": "RELATED APPLICATION  \n       [0001]     This application claims priority benefit under Title 35 \u00a7 119(e) of U.S. provisional Application No. 60/680,692, filed on May 13, 2005, the contents of which are herein incorporated by reference. \n     \n    \n     FIELD OF THE INVENTION  \n       [0002]     This invention relates to a combination of anti-cancer compounds which comprises a) a Vascular Endothelial Growth Factor-2 (VEGFR-2) Inhibitor, and b) an epidermal growth factor receptor (EGFR) antibody, and optionally at least one pharmaceutically acceptable carrier for simultaneous, separate or sequen",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_12929",
+      "title": "Patent Publication 12929",
+      "abstract": "The present invention provides a holder for storing accessories on a wet/dry vacuum. The holder securely attaches to the vacuum and readily detaches therefrom. The detachable holder may be detached with the accessories. While an operator dumps debris out of the drum of the vacuum, detaching the holder prevents the accessories from being inadvertently spilled out of or discarded from the holder. The detachable accessory holder fully secures to a bracket attached to the vacuum. The secure attachment prevents the holder from falling off or tipping on the vacuum. To attach the holder to the bracket and vacuum, grooves on the holder are set on to an axle of the vacuum. As the holder is pivoted about the axle, tabs and a latch on the holder engage slots and a step on the bracket. To remove the holder, the operator presses on the latch and lifts the holder from the bracket and the appliance.",
+      "description": "BACKGROUND OF INVENTION  \n         [0001]    1. Field of the Invention  \n           [0002]    The present invention relates generally to a detachable holder for storing tools or accessories on an appliance and, more particularly to a holder storing accessories on a wet/dry vacuum and being securably attachable to and readily detachable from the vacuum.  \n           [0003]    2. Description of the Related Art  \n           [0004]    Vacuums may include holders for storing accessories, such as brushes, crevice tools, extension wands, end fitting, etc. In some examples, the holders are permanently",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_07386",
+      "title": "Patent Publication 07386",
+      "abstract": "A tool for a surface treating appliance, such as a vacuum cleaner, includes a housing having a suction opening. An agitator, such as a brush bar, is rotatably located in the suction opening of the housing. The interior of such a tool can get blocked due to large objects being drawn in through the suction opening, or else by threads and fibers becoming tangled in the brush bar. The brush bar may be removed through the suction opening for replacement or repair. A portion of the housing may also be removable to clear the way for the user to access a narrow opening in the neck of the tool which may be prone to blockage.",
+      "description": "REFERENCE TO RELATED APPLICATIONS \n     This application is a national stage application under 35 USC 371 of International Application No. PCT/GB2005/001564, filed Apr. 25, 2005, which claims the priority of United Kingdom Application No. 0410699.3, filed May 13, 2004, the contents of both of which prior applications are incorporated herein by reference. \n     FIELD OF THE INVENTION \n     The invention relates to a tool for a surface treating appliance, such as a vacuum cleaner. \n     BACKGROUND OF THE INVENTION \n     Vacuum cleaners are typically of the upright or cylinder type. Cylinder clea",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_05560",
+      "title": "Patent Publication 05560",
+      "abstract": "A vacuum dustpan, including a vacuum unit with interior ducting terminating in marginal nozzles extending along the bottom periphery of a housing, with multidirectional rollers supporting the vacuum unit, and a separate charging nest for charging operations.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The invention relates to vacuum suction devices and more particularly to a cordless vacuum dustpan which automatically gathers and collects dust and debris swept to it. \n     2. Description of the Prior Art \n     It has long been the practice in cleaning non-carpeted surfaces by using a broom or a vacuum cleaner. Brooms are typically manipulated to sweep the dirt across the surface of a hard finish or non-carpeted floor to be swept into a shovel-shaped dustpan. This practice has always had the shortcoming of requiring some degre",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_05840",
+      "title": "Patent Publication 05840",
+      "abstract": "A vacuum assisted scraper draws air from both in front of and behind the scraper blade to collect dust and debris as the scraper is used. The scraper keeps the work area clean and prevents dust buildup from hindering the use of the scraper.",
+      "description": "BACKGROUND OF THE INVENTION \n       [0001]    1. The Field of the Invention \n         [0002]    The present invention relates to a hand held scraper which utilizes suction from a vacuum to remove dust and debris generated while scraping. \n         [0003]    2. State of the Art \n         [0004]    Hand-held scrapers are often used for removal of material from a surface. For example, scrapers may be used to remove material to shape a surface, to remove glue or foreign substances from a surface, to clean a surface, etc. Scrapers typically have a handle and a metal blade which is held roughly perp",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_11337",
+      "title": "Patent Publication 11337",
+      "abstract": "A dental implant having an external thread configuration and/or a structure which facilitates a single step dental implant/prosthesis installation or which significantly reduces healing time between surgeries. The invention also relates to a method for installing such a dental implant.",
+      "description": "[0001]    This is a continuation-in-part of U.S. application Ser. No. 09/175,007, filed Oct. 19, 1998. \n     \n    \n     \n       BACKGROUND OF THE INVENTION  \n         [0002]    1. Field of the Invention The present invention relates generally to a dental implant, and more particularly to a dental implant with a thread design and structure which provides for dramatically improved loading to thereby facilitate an immediate load implant or an implant with dramatically reduced healing time. The present invention also relates to a method of installing the above identified implant.  \n           [000",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_12349",
+      "title": "Patent Publication 12349",
+      "abstract": "A spinal therapy device comprising an elastomeric sleeve having an opening at each end, a pair of spherical objects held together within said sleeve, means to substantially close one end of the sleeve and means to releasably close the other end of the sleeve.",
+      "description": "FIELD OF THE INVENTION  \n       [0001]    The invention relates to a device used for the purpose of muscular and spinal therapy. \n       BACKGROUND OF THE INVENTION  \n       [0002]    Placing pressure on both the right and left of the spine, while relaxed and without pressure directly on the spine itself has been known to give relief to patients with certain back problems. However, applying pressure in this manner has only been achieved by another person pressing on the patient&#39;s back while the patient lies face down, or by placing spherical objects, which are fixedly held together, under ",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_01888",
+      "title": "Patent Publication 01888",
+      "abstract": "A cleaner for cleaning a surface is provided comprising a main body and a brush assembly for engaging the surface being cleaned. An engaging member on the main body or brush assembly and a retaining portion on the other main body or brush assembly. The engaging member and retaining portion are releasably connected to each other such that the engaging member or retaining portion is accessible for engagement by a user to disengage the engaging member from the retaining portion.",
+      "description": "BACKGROUND OF THE INVENTION  \n         [0001]    1. Field of the Invention  \n           [0002]    The present invention relates to a cleaner such as a carpet cleaning device having a powered brush assembly. More particularly, the present application pertains to such a brush assembly that can be easily removed from the nozzle of a carpet extractor.  \n           [0003]    2. Background Information  \n           [0004]    It is known in the prior art to provide a carpet extractor having powered brushes to assist in scrubbing of the surface being cleaned. The brush assembly is generally affixed to ",
+      "cpc": "A"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_05560",
+      "patent_00439",
+      "patent_05614",
+      "patent_07386",
+      "patent_10169",
+      "patent_05840",
+      "patent_12929",
+      "patent_12449",
+      "patent_12336",
+      "patent_01888",
+      "patent_10521",
+      "patent_12349",
+      "patent_09716",
+      "patent_02909",
+      "patent_11526",
+      "patent_11337",
+      "patent_11381",
+      "patent_05020",
+      "patent_10968",
+      "patent_08866"
+    ],
+    "relevance_scores": {
+      "patent_02909": 0.3749797688179508,
+      "patent_12449": 0.9077470395077548,
+      "patent_10968": 0.03970923007636039,
+      "patent_10169": 0.9387181228959863,
+      "patent_10521": 0.5025022638871771,
+      "patent_08866": 0.01,
+      "patent_00439": 0.9721330146993604,
+      "patent_11381": 0.1741137893177818,
+      "patent_12336": 0.8947116758423744,
+      "patent_09716": 0.4028160418211879,
+      "patent_05614": 0.9566073343291117,
+      "patent_11526": 0.3734002815806226,
+      "patent_05020": 0.16536442995121262,
+      "patent_12929": 0.9147345056191658,
+      "patent_07386": 0.9492456786953622,
+      "patent_05560": 0.9899999830373994,
+      "patent_05840": 0.9198348473224581,
+      "patent_11337": 0.3309854796379031,
+      "patent_12349": 0.4180954304658446,
+      "patent_01888": 0.8883254810331377
+    },
+    "novelty_score": 0.7987553539322546
+  }
+}

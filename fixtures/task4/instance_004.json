@@ -1,0 +1,200 @@
+{
+  "task_description": "Produce a ranked top-5 prior-art shortlist with justification strings for INCLUDE decisions. This is the hardest task.",
+  "budget": 32,
+  "query_patent": {
+    "id": "patent_01846",
+    "title": "Patent Publication 01846",
+    "abstract": "A device for detecting a state of imminent cardiac arrhythmia, relative to a normal state for a heart, in response to activity in nerve signals conveying information from the autonomic nerve system to the heart, contains a sensor body for sensing neural activity, a comparator with a threshold value forming a condition for the presence of an arrhythmia, the comparator emitting an arrhythmia-indicating output signal depending on whether neural activity meets the condition, and the sensor body being placeable in an extracardiac position for at least one of the sympathetic and vagus nerves. The sensor body directly senses activity in the nerve at that location in direct contact with the nerve. An implanted blood pressure sensing cuff also can be provided which generates signals indicative of blood pressure which can be evaluated in combination with the nerve signals for identifying the state of imminent cardiac arrhythmia.",
+    "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention is directed to a method and apparatus for detecting a state of imminent cardiac arrhythmia, wherein detection of the state of imminent arrhythmia is made by using nerve signals from the autonomic nerves innervating the heart, and for administering appropriate anti-arrhythmia therapy upon detection of the state of imminent cardiac arrhythmia. \n     2. Description of the Prior Art \n     In the control of a device for heart therapy, such as a pacemaker, it is known to use signals providing a measure of the bod",
+    "cpc": "D"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_14403",
+      "title": "Patent Publication 14403",
+      "abstract": "Methods for treating mammals for neurointoxication are provided comprising treating the mammal with a xenon-containing gas. Methods of providing neuroprotection in mammals are also disclosed comprising administering therapeutically effective amounts of xenon, preferably in combination with pharmaceutically acceptable carriers, diluents or excipients.",
+      "description": "This application is a 371 of PCT/EP00/02025, filed Mar. 8, 2000, which claims priority to Germany 199 10 986.9, filed Mar. 11, 1999. \n    \n    \n     FIELD OF THE INVENTION \n     The present invention relates to the use of xenon for treating neurointoxications. More particularly, the present invention relates to a use of xenon in which the neurointoxication is caused by a neurotransmitter excess. \n     BACKGROUND OF THE INVENTION \n     The uncontrolled release of neurotransmitters, particularly glutamate, noradrenalin and dopamine, is responsible for many acute and chronic intoxications of the ",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_08247",
+      "title": "Patent Publication 08247",
+      "abstract": "The present disclosure relates to medical packaging for the accommodation of medical supplies. The medical packaging discussed herein has a plurality of panels, including a first panel, a second panel, and a third panel, that are releasably secured together to establish a first sterile environment between the first panel and the second panel for the retention of a first medical supply, and a second sterile environment between the second panel and the third panel for the retention of a second medical supply. The panels are configured for relative movement such that movement of the first panel relative to the second panel reveals the first medical supply without compromising the second sterile environment, and movement of the second panel relative to the third panel reveals the second medical supply. The panels are arranged for sequential separation in accordance with the steps of the procedure in which the medical supplies are employed.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a continuation application of and claims the benefit of priority under 35 U.S.C. \u00a7120 to pending U.S. patent application Ser. No. 12/569,047, filed on Sep. 29, 2009, which claims the benefit of, and priority to, U.S. Provisional Patent Application No. 61/100,796, filed on Sep. 29, 2008, the entire contents of each application incorporated by reference herein in its entirety for all purposes. \n     \n    \n     BACKGROUND \n       [0002]    1. Technical Field \n         [0003]    The present disclosure relates generally t",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_07531",
+      "title": "Patent Publication 07531",
+      "abstract": "An improved implantable pacemaker/defibrillator device in which a first and relatively simplistic technique is employed to detect an abnormal heart rhythm and a second more precise algorithm is utilized for the more difficult problem of confirming the arrythmia. Since the complex, higher power consuming device is utilized only for confirmation, overall power consumption is minimized. Optionally, the precise algorithm may be utilized periodically to adjust the sensitivity of the detection circuitry.",
+      "description": "This is a continuation-in-part of copending application Ser. No. 07/851,624 filed on Mar. 16, 1992, now abandoned. \n    \n    \n     TECHNICAL FIELD OF THE INVENTION \n     This invention relates to arrythmia reverting devices and, more particularly, to an improved method and apparatus for detecting an arrhythmia and providing electrical therapy to shock the heart back to normal sinus rhythm. \n     DESCRIPTION OF THE PRIOR ART \n     Many advances have recently been made in implantable pacemaker/defibrillator devices which allow these devices to recognize an abnormally functioning heart and to pro",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_02433",
+      "title": "Patent Publication 02433",
+      "abstract": "The invention is targeted at the process of separating gas, such as air, from a liquid path. Specifically, the invention provides a means to remove gas from a dynamic liquid path, manage the removed gas and liquid path. The invention provides a means to remove gas from a dynamic liquid path using the buoyant property of gas in a less buoyant liquid, having ingress and egress ports for liquid and gas flow, and separate points of egress for liquid and trapped gas and integral liquid channels.",
+      "description": "This application is a non-provisional application claiming priority to provisional U.S. Patent Application No. 60/459,981 filed Apr. 4, 2003. \n    \n    \n     BACKGROUND OF THE INVENTION \n     The invention relates to an apparatus and method for the process of separating gas from a liquid path. \n     Perfusion circuits used to perfuse organs, tissues or the like (hereinafter generally referred to as organs) should be free of agents that can create emboli. These emboli are often comprised of gases such as air. Typically emboli range in volume between 1 ml and 0.01 ml but are not limited to these",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_07212",
+      "title": "Patent Publication 07212",
+      "abstract": "The invention relates to water dispersible extract preparations derived from water soluble components of Labiatae family plant material, including plant material hay and previously extracted or spent hay, which possesses beneficial oral care properties, methods of their manufacturing and application of the preparations in oral care products.",
+      "description": "FIELD OF THE INVENTION  \n       [0001]     Water dispersible extract preparations derived from water soluble components of Labiatae family plant material, including plant material hay and previously extracted or spent hay, which possess beneficial oral care properties, the methods of their manufacture and application of the preparations in oral care products.  \n       BACKGROUND OF THE INVENTION  \n       [0002]     The botanical family known as Labiatae is commonly referred to as the mint family. Labiatae herbs include such genera as  Salvia  (sage),  Rosmarinus  (rosemary),  Mentha  (mint),  ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_10555",
+      "title": "Patent Publication 10555",
+      "abstract": "An aripiprazole formulation is provided which includes the antipsychotic agent aripiprazole in the form of an inclusion complex in a \u03b2-cyclodextrin, preferably, sulfobutyl ether \u03b2-cyclodextrin (SBECD), which in the form of an injectable produces reversible generally minimal to mild irritation at the intramuscular injection site. A method for minimizing or reducing irritation caused by aripiprazole at an intramuscular injection site and a method for treating schizophrenia employing the above formulation are also provided.",
+      "description": "FIELD OF THE INVENTION  \n         [0001]    The present invention relates to an aripiprazole inclusion complex with a substituted \u03b2-cyclodextrin, an aripiprazole formulation which includes aripiprazole in the form of the above inclusion complex, an injectable formulation which contains the above complex of aripiprazole, a method for reducing irritation normally caused by aripiprazole at an intramuscular injection site employing the above injectable formulation and a method for treating schizophrenia employing the above formulation.  \n         BACKGROUND OF THE INVENTION  \n         [0002]    U.",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_02992",
+      "title": "Patent Publication 02992",
+      "abstract": "A method and apparatus for sensing in vivo blood pressure proportional to the left ventricular pressure for detecting ventricular tachyarrhythmias or the cardiovascular status in congestive heart failure, and/or for adjusting the rate of a pacemaker. A lead with a pressure sensor near its distal end is placed transvenously through the coronary sinus and located in the coronary vein. When in place, a bulge or an inflatable balloon proximal to the pressure sensor may be used to acutely occlude the coronary vein until the sensor fibroses in. The balloon may be reinflated prior to pressure measurements. The pressure that is sensed in that location is proportional to the left ventricular pressure. Values representing the left ventricular pulse, systolic and diastolic pressures, as well as the differentiated rate of change (i.e., dP/dt), gross rate of change (\u0394P/\u0394t) and mean or average of such pressure values are all or selectively developed by software algorithms and implemented in micropro",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to a method and apparatus for deriving pressure signals relative to the blood pressure within the left ventricle of a patient&#39;s heart and employing those signals to control pacing rate of a pacemaker in response to the physiologic needs of the cardiovascular system and/or to confirm the existence of a pathologic tachyarrhythmia and trigger the delivery of an appropriate therapy, such as anti-tachyarrhythmia pacing, cardioversion or defibrillation. \n     2. Description of the Prior Art \n     Adva",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_08245",
+      "title": "Patent Publication 08245",
+      "abstract": "The backrest of a chair comprises an inner low rigidity flexible back-receiving portion and an outer high-rigidity side frame spaced from the back-receiving portion via a slit. The backrest is integrally molded by synthetic resin, thereby shortening manufacturing process and reducing its cost. Comfort of a sitting person is also attained.",
+      "description": "BACKGROUND OF THE INVENTION  \n         [0001]    The present invention relates to the backrest of a chair in which a back-receiving portion is integrally molded with a frame.  \n           [0002]    In a conventional backrest of a chair, to the upper end of a metal back rod which extends from the lower portion of a seat upwards and rearwards, a back plate made of material different from that of the back rod is generally connected directly or indirectly via another material frame.  \n           [0003]    However, in the prior art, the back rod is made of material different from those of the frame",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_08017",
+      "title": "Patent Publication 08017",
+      "abstract": "A device for sensing heart and breathing rates in a single transducer and having electronic and filtering circuits to process the electrical signal generated by the transducer. The transducer is an electromagnetic sensor constructed to enhance sensitivity in the vertical direction of vibration produced on a conventional bed by the action of patient&#39;s heart beat and breathing functions and achieves sufficient sensitivity with no physical coupling between the patient resting in bed and the sensor placed on the bed away from the patient. The electronic circuits integrates the electrical energy generated by the sensor that pertains to cardiac and breathing information and sets off an alarm when pre-set circuits of these functions have been surpassed. The device has applications in monitoring SID Syndrome and non-ambulatory patients.",
+      "description": "The present application is a continuation of co-pending patent application Ser. No. 715,591, filed Mar. 25, 1985, now U.S. Pat. No. 4,657,025. \n    \n    \n     BACKGROUND OF THE INVENTION \n     This invention relates to an instrument for generating an alarm when a resting patient&#39;s heart rate or respiratory rate varies from previously established values. This device is useful in monitoring patients with fluctuating heart and respiratory rates which may be indicative of potential life threatening emergencies, such as Sudden Infant Death Syndrome (SIDS), nocturnal apnea, suffocation, and cert",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_10646",
+      "title": "Patent Publication 10646",
+      "abstract": "The disclosure herein pertains to the field of flowable herbicides and process and materials for their preparation. In particular, flowable 2-haloacetanilides, e.g., propachlor and mixtures of 2-haloacetanilides with triazines, e.g., atrazine are disclosed.",
+      "description": "This is a continuation, of application Ser. No. 102,182 filed Dec. 10, 1979, now abandoned, which is turn is a Continuation-in-Part of our co-pending application Ser. No. 957,125, filed Nov. 3, 1978, now abandoned, for Flowable Herbicides. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The invention herein pertains to the field of flowable herbicides, materials and processes for preparation thereof. In particular, flowable herbicides comprising acetanilides, e.g., propachlor, and mixtures thereof with triazines, e.g., atrazine, and appropriate emulsifying/sus",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_00821",
+      "title": "Patent Publication 00821",
+      "abstract": "A method for processing a signal characteristic of cardiac activity in the atrium (A) and/or ventricle (V) of a heart (H) and for evaluating this signal with a view to obtaining a control signal for a cardiac pacemaker and/or defibrillator (3) can be carried out by: receiving a time dependent signal from at least one intracardial signal sensor (1, 2) in the atrium and/or ventricle; feeding the signal picked up by each signal sensor (1, 2) to a read and evaluation circuit (6) with a threshold characteristic; comparing the signals with a detection threshold; evaluating the result of the comparison to obtain an indication as to the presence of normal sinus-type cardiac activity or fibrillations; and producing the control signal, which characterizes the comparison result. The signal from the at least one sensor (1, 2) is fed to a first input stage (8, 11) which has a first adjustable detection threshold (TS(A), TS(V) that is constant in time and to a second input stage (9, 10) which has a ",
+      "description": "BACKGROUND OF THE INVENTION \n     The invention relates to a method for receiving signals characteristic of cardiac activities in the atrium and/or ventricle of a heart and for evaluating the signals to obtain a control signal for a heart pacemaker and/or defibrillator. The invention also relates to a device for performing the method. \n     Implantable heart pacemakers and defibrillators have an input stage connected to an intracardial electrode for receiving and amplifying intracardially picked-up cardiac activity potentials and an evaluation unit for evaluating them and deriving control sign",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_10948",
+      "title": "Patent Publication 10948",
+      "abstract": "Pyridinecarboxamide derivatives, preparation methods, and a pharmaceutical uses thereof are provided. In particular, pyridinecarboxamide derivatives represented by general formula (I), wherein the substituents of the formula (I) are defined in the specification are provided. Also provided are a preparation method for the pyridinecarboxamide derivatives of formula (I), a pharmaceutical composition containing the pyridinecarboxamide derivatives, and uses of the pyridinecarboxamide derivatives as therapeutic agents, especially as inhibitors of the Renal Outer Medullary Potassium channel (ROMK) and in the preparation of medicaments for treating and/or preventing hypertension and heart failure.",
+      "description": "FIELD OF THE INVENTION \n       [0001]    The present invention relates to pyridinecarboxamide derivatives, a preparation method thereof and a pharmaceutical composition containing the same, as well as their use as therapeutic agents, especially as inhibitors of the Renal Outer Medullary Potassium channel (ROMK), and in the preparation of medicaments for the treatment and/or prevention of disorders resulting from excessive salt and water retention, including hypertension and heart failure. \n       BACKGROUND OF THE INVENTION \n       [0002]    Increasing renal salt reabsorption can cause a risk ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_04028",
+      "title": "Patent Publication 04028",
+      "abstract": "A device for canceling unwanted excitation waves in an excitable tissue, particularly those causing cardiac tachyarrhythmias, which comprises circuitry for generating a unidirectional Device-Generated Excitation Wave (DGEW) in the tissue. The device comprises first and second stimulation electrodes, each fed by a power supply, which generate current impulses having magnitudes respectively lower and higher than the threshold level of the excitable tissue. The positions and activation timing of the electrodes are set so that the two impulses interact with each other only in one desired direction and every impulse except the desired DGEW decays. A method is also provided for suppressing malignant cardiac arrhythmias, caused by an unwanted excitation wave, which comprises generating in two different locations of the myocardium two excitation impulses having magnitudes respectively lower and higher than the threshold level of the excitable tissue, determining the distance between said locat",
+      "description": "FIELD OF THE INVENTION \n     The present invention relates to a device for controlling the electrical activity of the heart. More particularly, the invention relates to a device and a method for the cessation and/or prevention of malignant cardiac arrhythmias. \n     BACKGROUND OF THE INVENTION \n     Sudden cardiac death is heralded by the abrupt loss of consciousness within a short period of time (usually not more than one hour) after the onset of acute symptoms. Estimates indicate nearly 400,000 sudden cardiac deaths annually for the USA only. Malignant cardiac arrhythmias such as Ventricular",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_05016",
+      "title": "Patent Publication 05016",
+      "abstract": "A method for detecting cardiac arrhythmias which includes the steps of detecting a patient&#39;s cardiac activity, counting the number of intervals which satisfy a first selected criterion, and producing a sinus interval history count indicative of the number of such intervals which are counted, making a preliminary diagnosis of tachyarrhythmia upon detecting that the cardiac activity satisfies a second selected criterion, and, making a final diagnosis of tachyarrhythmia if the sinus interval history count is less than a selected maximum sinus interval history count, and otherwise, inhibiting a final diagnosis of tachyarrhythmia. In an alternative embodiment, the method for detecting cardiac arrhythmias includes the steps of detecting a patient&#39;s cardiac activity, counting the number of intervals which satisfy a first selected criterion, and producing a sinus interval history count indicative of the number of such intervals which are counted, making a preliminary diagnosis of tachy",
+      "description": "BACKGROUND OF THE INVENTION \n     The present invention relates generally to the field of cardiac therapy devices, particularly implantable cardioverter-defibrillators (ICDs), and more particularly, to a novel tachyarrhythmia detection (diagnostic) algorithm which can be employed in such devices for discriminating between ventricular and supraventricular tachyarrhythmias. \n     Implantable cardioverter defibrillators (ICDs) are highly sophisticated medical devices which are surgically implanted (abdominally or pectorally) in a patient to monitor the cardiac activity of the patient&#39;s heart,",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_12982",
+      "title": "Patent Publication 12982",
+      "abstract": "An article of footwear including an outsole, an upper attached to the outsole and a heel portion attached to the outsole and movably connected to the upper. The heel portion is movable between a support position, where the heel portion is substantially transverse to the outsole, and a mule position, where the heel portion is substantially parallel to the outsole. A cushioning heel pad is attached to an outer surface of the heel portion, where the heel pad has a designated thickness and contacts and supports a user&#39;s heel when the heel portion is in the mule position.",
+      "description": "BACKGROUND OF THE INVENTION \n     A mule is a type of shoe that typically has a closed toe and is backless or has no strap around the heel. These types of shoes are designed for a foot to easily slide into or out of the shoe. Such shoes are desirable because the slip-on style is convenient as it takes a short time to put the shoes on with no buckles or shoelaces to tie, and mules can be worn with any style of dress from casual to formal. \n     Mule-type shoes, however, are not typically worn for activities, such as sports, that involve running, jumping, climbing and quick starting and stopping",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_09941",
+      "title": "Patent Publication 09941",
+      "abstract": "A method of detecting cardiac interval signals in cardiologic devices comprises the following method steps: \n     time-resolved detection of cardiac events which are representative of the cardiac intervals; \n     determination of the respective cardiac interval values between two successive cardiac events; \n     statistical evaluation of a certain number of successive cardiac interval values; and \n     individual comparison of the certain number of cardiac interval values with each other such that individual cardiac interval values which deviate significantly from cardiac interval values that occur there-before and there-after are recognized as faulty measurements and corrected.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The invention relates to a method of detecting cardiac interval signals in cardiologic devices, in particular of detecting tachycardiac arrhythmias, comprising the following method steps: time-resolved detection of cardiac events which are representative of the cardiac interval; determination of the respective cardiac interval between two successive cardiac events; statistical evaluation of a certain number of successive cardiac interval values. \n     2. Background Art \n     From relevant technical devices, for instance cardiac ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_08756",
+      "title": "Patent Publication 08756",
+      "abstract": "An implantable dual chamber stimulation device provides a novel detection scheme for automatically detecting atrial capture and performing an atrial pacing threshold assessment. The stimulation device preferably waits until the patient is at or near rest and monitors the patient&#39;s P-wave activity to determine an detection window where a next P-wave is expected to occur. The stimulation device then delivers an atrial pulse prior to the next detection window, and monitors the window to determine whether a P-wave occurs therein. If a P-wave does not occur, then atrial capture is present, while occurrence of a P-wave indicates absence of atrial capture. If atrial capture is absent, the stimulation device automatically determines an appropriate atrial pacing threshold by monitoring the detection window while adjusting the stimulation pulse energy level. Advantageously, the present invention further employs a \u201cbottom-up\u201d adjusting scheme which starts at a low energy level, below the expe",
+      "description": "FIELD OF THE INVENTION \n     The present invention relates in general to implantable cardiac stimulation devices, including bradycardia and anti-tachycardia stimulation devices, defibrillators, cardioverters and combinations thereof that are capable of measuring physiological data and parametric data pertaining to implantable medical devices. More particularly, this invention relates to a system and method for automating detection of atrial capture and determination of an atrial pacing threshold in an implantable cardiac stimulation device. \n     BACKGROUND OF THE INVENTION \n     Implantable c",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_06882",
+      "title": "Patent Publication 06882",
+      "abstract": "A method and apparatus to detect irregular heart activity and estimate heart rate. In one embodiment, the heart rate estimation apparatus includes a group of six RR storage structures that receives an input of six successive RR interval values. The apparatus also includes a probability engine coupled to the group of RR storage structures, the probability engine is operable to calculate and output a mean value of the six RR interval values and a median value of the mean value and the six RR interval. In one embodiment, the apparatus carries out a method including the acts of determining a plurality of interval values between successive R waves; determining a mean of a group of six interval values; determining a median interval value for a group including the group of six interval values and the mean of the group of six interval values; and determining a running average of interval values between successive R waves using the median interval value.",
+      "description": "RELATED APPLICATIONS \n   The present application is a continuation of U.S. patent application Ser. No. 09/750,846 filed Dec. 28, 2000, now U.S. Pat. No. 6,490,479 and is hereby incorporated by reference herein. \n\n\n   BACKGROUND OF THE INVENTION \n   The present invention relates to methods and devices used to detect irregularities in the beating of an animal heart, generally known as \u201carrhythmias.\u201d More particularly, the invention relates to a method and an apparatus to detect atrial fibrillation (\u201cAF\u201d). \n   As is well known in the medical field, the contraction of an animal heart is controlled",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_09543",
+      "title": "Patent Publication 09543",
+      "abstract": "An item of wearing apparel, such as a shoe or boot, particularly for downhill or cross-country skiing, having a foot support zone, a sole, and an upper which may be tightened, in which the shoe or boot has a heating assembly located proximate the sole. The heating assembly includes a heating device such as a burner for producing heat, a plate for diffusion of the heat, the plate being located proximate the foot support zone, a source of fuel, a supply circuit for feeding fuel to the heating device, and a valve for regulating the feeding of fuel to the heating device. The energy supply is automatically turned off when the upper of the shoe or boot is loosened.",
+      "description": "This application is a is a continuation-in-part of application Ser. No. 07/409,457, filed Sept. 19, 1989, the subject matter of which is hereby incorporated by reference. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to a downhill or cross-country ski shoe or boot equipped with an energy source supplying an energy consuming device, such as a heating device. \n     2. Description of Background Information \n     Ski shoes or boots are known which are intended to improve the comfort of the wearer by means of the incorporation of hea",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_13308",
+      "title": "Patent Publication 13308",
+      "abstract": "A method for determining and/or monitoring quantities, in particular cardiovascular quantities, relating to a patient&#39;s condition, and an apparatus for measuring an amplitude of a cardiac pressure signal are disclosed. The amplitude of the pressure signal may be detected with the aid of a pressure sensor of a blood treatment apparatus, and its magnitude may be corrected by the contribution of the blood pump of the blood treatment apparatus so as to determine the amplitude of the cardiac pressure signal of the patient. The value of the amplitude of the pressure signal thus determined may subsequently be evaluated.",
+      "description": "FIELD OF THE INVENTION \n       [0001]    The present invention concerns a method for determining and/or monitoring a physical condition of a patient and an apparatus for carrying out the method of the present invention. It furthermore concerns an apparatus for determining and/or monitoring a physical condition, in particular at least one cardiovascular quantity, of a patient and a treatment apparatus including the apparatus for determining and/or monitoring the physical condition. \n       BACKGROUND \n       [0002]    In practice, suitable quantities are determined and evaluated for the purpose",
+      "cpc": "H"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_00821",
+      "patent_09941",
+      "patent_02992",
+      "patent_05016",
+      "patent_04028",
+      "patent_07531",
+      "patent_13308",
+      "patent_08017",
+      "patent_06882",
+      "patent_08756",
+      "patent_02433",
+      "patent_10948",
+      "patent_10555",
+      "patent_14403",
+      "patent_09543",
+      "patent_08247",
+      "patent_08245",
+      "patent_10646",
+      "patent_07212",
+      "patent_12982"
+    ],
+    "relevance_scores": {
+      "patent_14403": 0.3891713812721511,
+      "patent_08247": 0.2675761688192209,
+      "patent_07531": 0.9475039285576702,
+      "patent_02433": 0.42943081025612634,
+      "patent_07212": 0.13340717421744475,
+      "patent_10555": 0.3924404627293124,
+      "patent_02992": 0.9728607692467461,
+      "patent_08245": 0.21133139206908286,
+      "patent_08017": 0.9316241089569692,
+      "patent_10646": 0.19315164584136074,
+      "patent_00821": 0.9899999850687848,
+      "patent_10948": 0.42121741274549596,
+      "patent_04028": 0.9577980308917594,
+      "patent_05016": 0.9673956428839513,
+      "patent_12982": 0.01,
+      "patent_09941": 0.9802236671468039,
+      "patent_08756": 0.9213581296676078,
+      "patent_06882": 0.9250646757651468,
+      "patent_09543": 0.353340219370588,
+      "patent_13308": 0.9427475741195969
+    },
+    "novelty_score": 0.4259657981760536
+  }
+}

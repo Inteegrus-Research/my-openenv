@@ -1,0 +1,200 @@
+{
+  "task_description": "Produce a ranked top-5 prior-art shortlist with justification strings for INCLUDE decisions. This is the hardest task.",
+  "budget": 32,
+  "query_patent": {
+    "id": "patent_07618",
+    "title": "Patent Publication 07618",
+    "abstract": "For improving the taste and dispersibility of cocoa and for obtaining alkalized cocoa to which is imparted red coloration for obtaining a wide range of colors in shades of red and brown, cocoa meal or liquor and an alkalizing agent in aqueous phase are mixed and heated in an enclosed vessel under a pressure of from above 1 atmosphere to 3 atmospheres at a temperature below 110\u00b0 C. without evaporation of water while introducing an oxygen-containing gas into the vessel during at least a part of the mixing and heating for maintaining the excess pressure. After the cocoa is alkalized, water is evaporated from it.",
+    "description": "BACKGROUND OF THE INVENTION \n     This invention relates to a process for alkalizing cocoa in the aqueous phase to improve its colour, taste and dispersibility and to enable a wide range of colours to be obtained therefrom. \n     FR-PS No. 2 445 698 already describes a process for solubilizing (or alkalizing) cocoa. To explain the process according to this Patent in more detail, the various phases involved in the production of soluble cocoa need to be specified: after cleaning and sorting, the raw nibs are crushed and degermed, the product obtained representing the meal. \n     This meal is the",
+    "cpc": "H"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_01579",
+      "title": "Patent Publication 01579",
+      "abstract": "A wearable garment that converts into a sleeping bag for insulating a user from environmental elements. The garment comprises a hooded jacket having two side portions covering a user&#39;s chest, a rear portion covering a user&#39;s back, two arm portions and a jacket hood. A lower pouch is removably secured at the bottom of the jacket and folds up to lie flat against the interior of the rear portion and jacket hood. This lower pouch is a recess contoured to fit the shape of a human lower body and having two feet shaped recesses at the bottom. By contouring the lower body enclosure to fit the shape of the legs and feet, excess air space is eliminated and overall insulation is improved. In this way the device provides a user with an easy to carry, non-cumbersome sleeping bag that protects the user from the outdoors and cold environments.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATION \n       [0001]    This application claims the benefit of U.S. Provisional Application No. 61/475,274 filed on Apr. 14, 2011, entitled \u201cTurtle Shelter.\u201d \n     \n    \n     BACKGROUND OF THE INVENTION \n       [0002]    1. Field of the Invention \n         [0003]    The present invention relates to an outdoor sports accessory. More specifically it relates to a jacket that converts into a sleeping bag. The sleeping bag is stored along the interior of the rear portion of the jacket for easy transport and can be easily unfolded and extended when a user is ready to",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_12671",
+      "title": "Patent Publication 12671",
+      "abstract": "This invention relates to a coloring agent which is soluble and stable in low pH aqueous food systems. The food colorant, Food, Drug and Cosmetic Red No. 3, which contains a carboxylic group, is predominantly in the unionized form below pH 4.5 and is, therefore, at a concentration required for red coloring virtually insoluble. Red No. 3 is rendered soluble by mixing it with water and a hydrophilic surfactant selected from the group consisting of polyoxyethylene (20) sorbitan monostearate, polyoxyethylene (20) sorbitan tristearate and polyoxyethylene (20) sorbitan monooleate and mixtures thereof. The resulting mixture is added directly to an aqueous foodstuff or after first fixing it on or in a carrier.",
+      "description": "BACKGROUND OF THE INVENTION \n     The preservation, protection and maintenance of color in foods and beverages are frequently difficult. Natural pigments either originally contained in the food or added thereto may well deteriorate because of exposure to light, air or extremes of temperature or because they interact with constituents in the product. These changes may occur readily or over long periods of time, and may result in fading, darkening or change in hue, any of which can affect acceptability. \n     When foods do not contain natural or inherent color of sufficient quality or stability,",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_05743",
+      "title": "Patent Publication 05743",
+      "abstract": "The invention is of a Shotgun hiker, a mechanical football hiker that propels the football five yards in a consistent direction and manner in order to allow football teams to practice the shotgun offense without the use of a trained team member to hike the football.",
+      "description": "BACKGROUND OF THE INVENTION  \n       [0001]     1. Field of the Invention  \n         [0002]     The present invention relates to mechanical football hikers.  \n         [0003]     2. Background Information  \n         [0004]     Football is a national passion, and where there are football games, there are football practices. Football practice seasons and football practice sessions are typically regulated by league rules in order to ensure consistency and fairness. These rules, for instance, may limit the amount of time a team can practice or limit the length of the practice season a team can req",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_11823",
+      "title": "Patent Publication 11823",
+      "abstract": "A holder assembly for use with a flexible liner is provided having a holder with a longitudinal slot and a plunger. The plunger has a disk and a positioner joined to the disk. The positioner engages the longitudinal slot to mount the disk slidably in the holder. The plunger is readily adapted for assembly and disassembly with the holder.",
+      "description": "BACKGROUND OF THE INVENTION  \n         [0001]    1. Field of the Invention  \n           [0002]    The present invention relates to a holder assembly for dispensing baby formula and the like. More particularly, this invention relates to a holder assembly that includes a holder for use with a disposable liner or sac, and a sliding member removably secured to the holder for expelling air from the liner.  \n           [0003]    2. Description of the Prior Art  \n           [0004]    Reusable baby bottles or hard bottles, such as made of glass or plastic, have been commonly used to feed babies formul",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_05702",
+      "title": "Patent Publication 05702",
+      "abstract": "A thermal conditioning system for heating and cooling cylindrical containers includes a container heating apparatus with an enclosed heating chamber, transport mechanism for movement of the containers through the heating chamber, a cooling apparatus positioned below the heating chamber, and conveyor systems for introducing containers into the heating chamber and form removing the containers from the cooling apparatus after they have passed through the system.",
+      "description": "BACKGROUND OF THE INVENTION \n   In the food processing and canning industry there has long been a requirement for heating and cooling the canned product. Various types of equipment have long existed for such thermal conditioning of containers, such as cans. Exemplary of such equipment is that shown in U.S. Pat. No. 1,445,196 to Berry and in U.S. Pat. No. 2,043,310 to Thompson. In such prior art equipment are passed along a first helical path within a heating chamber and are then moved to a separate cooling chamber along side the heating chamber. While this equipment performs its designed funct",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_00535",
+      "title": "Patent Publication 00535",
+      "abstract": "A browning composition is prepared by mixing an oil phase containing an emulsifier with an aqueous phase containing a colorant under shear conditions to form a dispersion of the aqueous phase in the oil phase.",
+      "description": "This is a continuation-in-part of U.S. Ser. No. 608,511 filed Nov. 5, 1990, now U.S. Pat. No. 5,139,800. \n    \n    \n     BACKGROUND OF THE INVENTION \n     The present invention relates to a process for preparing a food browning composition. The composition may be used to brown foods cooked either by microwave radiation or by conventional means. \n     When foods are prepared quickly, particularly in those cases wherein the food is either cooked by microwave radiation or warmed for short period of time in a conventional oven or by other means, the surface of the food lacks the brown color and of",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_12690",
+      "title": "Patent Publication 12690",
+      "abstract": "A method whereby a low frequency, randomly varying magnetic field is generated by a device such that it interacts with the earth&#39;s geomagnetic field to eliminate rodents and similar pests both above and below ground which inhabit an area surrounding the device. The method is not limited to, but may comprise an electro-magnetic system that energizes and de-energizes one or more of a plurality of electric coils according to a predetermined sequence, thereby generating a specific low frequency magnetic field over a defined zone of influence. This magnetic field modulates and interacts with the earth&#39;s natural magnetic field (the geomagnetic field) thus inducing remanent defensive instinct responses in rodents and similar pests residing within the zone of influence. The effect, of the method, is to interfere with the pest&#39;s primitive survival and navigational instincts necessary for survival. When these primary instincts are interfered with in this manner, the pest becomes seve",
+      "description": "CROSS REFERENCE TO RELATED APPLICATION \n     This is a continuation-in-part of co-pending application Ser. No. 873,043 filed on June 3, 1986 now abandoned which is a continuation of Ser. No. 526,359 now abandoned, filed Aug. 25, 1983. \n    \n    \n     BACKGROUND OF THE DISCLOSURE \n     The present invention relates generally to rodent control devices and, more specifically, to a device for the generation of a low frequency randomly varying magnetic field to control and eradicate rodents and the like. \n     This invention describes a totally new and useful method for the control of rodents and o",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_08134",
+      "title": "Patent Publication 08134",
+      "abstract": "A process and apparatus are disclosed to form fine patternation and alphanumeric characters of colored cocoa butter in a flush chocolate surface. The apparatus provides a printing sheet defining shallow indentations wherein cocoa butter patternation is deposited by screen printing without disfiguration, and an associated mold plate defining cavities to cast chocolate over the printing sheet indentations. The process comprises the steps of (1) screen printing colored cocoa butter in appropriate pattern on the surface of the printing plate indentations; (2) aging the configured cocoa butter; (3) aligning the mold matrices in adjacency with the printing sheet indentations; (4) filling the mold matrices with thermally plasticized settable chocolate; (5) aging the molded chocolate until set; and (6) removing the molded chocolate structure and embedded patternation for further disposition. The process produces well defined embedded patterns on smaller chocolate structures.",
+      "description": "BACKGROUND OF INVENTION \n     A. Related Applications \n     There are no applications related hereto heretofore filed in this or any foreign country. \n     B. Field of Invention \n     Our invention relates generally to creation of fine patternation in chocolate surfaces and more particularly to offset printing a colored cocoa butter pattern on a printing sheet and thereafter embedding it in a molded chocolate surface. \n     C. Background and Description of Prior Art \n     Semi-solid sweet chocolate has been a desired comestible product, especially in the Northern temperate regions of the world",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_09895",
+      "title": "Patent Publication 09895",
+      "abstract": "The present invention relates to a method for preparing the color of a dental restoration using a spectrophotometer and a unique color system for porcelain dental restorations which enables a dentist or technician to manipulate the various color components of the porcelain, hue, chroma, value, and translucency, independently. Color component deltas between consecutive colors in the powder sets are equidistant, with the difference in values being linear in color space. This enables simplified, exact matching of a specified color component value. The method comprises illuminating an abutting tooth with light, gathering reflected light, converting the gathered light to analog signals, correct for ambient light interference, translucency effects (if necessary) and varying illumination, using the result to obtain accurate color component values, and employing those values to chose and, where necessary, mix the appropriate powers to obtain the correct color porcelain for the desired dental r",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application claims priority to U.S. Provisional Application Ser. No. 60/062,369, filed Oct. 15, 1997, and to U.S. Provisional Application No. 60/062,343, filed Oct. 15, 1997, which are incorporated herein by reference. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention generally relates to dental porcelain restorations and methods of manufacture thereof. In particular, this invention relates to a color dental porcelain system and a method of use of the system for accurately matching the color of a ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_05506",
+      "title": "Patent Publication 05506",
+      "abstract": "The present invention relates to a process for chocolate crumb manufacture and to chocolate crumb and confectionery products made using the process. The process comprises: a) providing a milk and sugar mixture or mixing together, milk and sugar so as to form a mixture; b) evaporating liquid from the mixture; c) adding cocoa mass/liquor to the mixture during and/or after step (a) and/or (b); d) subjecting the mixture to conditions effective to bring about sugar crystallisation in the mixtune; e) drying the mixture at a temperature in the range of 50 to 95\u00b0 C. for 35 to 200 minutes so as to form chocolate crumb; and f) cooling the chocolate crumb by subjecting it to a temperature which is less than the drying temperature. The drying parameters employed in the process result in superior flavour and texture development of the chocolate crumb.",
+      "description": "TECHNICAL FIELD OF THE INVENTION \n       [0001]    The present invention relates to a process for chocolate crumb manufacture. In particular, the present invention relates to a process for the manufacture of chocolate crumb whereby the drying parameters employed result in superior flavour and texture development. \n       BACKGROUND TO THE INVENTION \n       [0002]    The use of chocolate crumb in the manufacture of milk chocolate is well known in the chocolate industry. In particular, the low water content, and the presence of sugar and cocoa (which contains antioxidants) ensure that chocolate ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_01313",
+      "title": "Patent Publication 01313",
+      "abstract": "A composition suitable for mammalian oral ingestion in a mammal having GI tract inflammation comprising an anti-diarrhea effective amount of glutamine, fermentable fiber(s), antioxidant(s), and omega-3 fatty acid(s).",
+      "description": "BACKGROUND OF THE INVENTION \n     Maintaining the well being of the GI tract of a mammal is a very desirable goal. Particularly annoying are inflammatory conditions of the GI tract. Some of the signs of inflammation of the GI tract include acute or chronic diarrhea, soft stools, blood in stool, vomiting, poor nutrient digestion and absorption, weight loss and poor appetite. Diseases such as gastritis, enteritis, colitis, inflammatory bowel disease, ulcers, certain types of cancer and other conditions are known to have GI inflammation as a main component. \n     We have found that a mixture of c",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_12227",
+      "title": "Patent Publication 12227",
+      "abstract": "A method for producing a highly alkaline drink, comprising the steps of forming a heat-proof clay mass, applying a muddy clay to the clay mass, allowing the mud-covered clay mass to dry, heating the muddy clay mass at a temperature of not lower than 750\u00b0 C., placing charcoal or wood into contact with the heating clay mass so that at least part of the charcoal or wood is incinerated, submerging the heated clay mass in the water in a vessel before the heated clay mass cools down below 500\u00b0 C., and removing the clay mass and floating matter from the water.",
+      "description": "This is a continuation-in-part of application Ser. No. 788,246, filed Oct. 17, 1985, now abandoned. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to methods for producing health drinks from clay, and more particularly, to methods for producing highly alkaline drinks for improving and keeping health, wherein the material is obtained from clay. \n     2. Description of Prior Art \n     Generally various kinds of health foods and drink are becoming popular, and available in the market. In the case of an alkaline drink it is obtained ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_04687",
+      "title": "Patent Publication 04687",
+      "abstract": "An I.V. flush syringe assembly includes a barrel having an inside surface defining a chamber for retaining fluid, an open proximal end and a distal end including a distal wall with an elongate tip extending distally therefrom having a passageway therethrough in fluid communication with the chamber. A plunger having an elongate body portion and a stopper slidably positioned in fluid-tight engagement with the inside surface of the barrel is provided. Anti-reflux structure in said barrel is provided for controlling stopper deflection when fluid has been delivered from the chamber and the stopper is in contact with structure on the distal wall.",
+      "description": "BACKGROUND OF THE INVENTION  \n       [0001]     The present invention relates to syringe assemblies and particularly to syringe assemblies for use in I.V. flush procedures.  \n         [0002]     An I.V. catheter is a commonly used therapeutic device. Many patients, in accordance with their therapy, have an I.V. catheter connected to a vein ready for use in various procedures or in fluid communication with an I.V. system for infusing liquids and medication. Many I.V. sets have I.V. ports which are in fluid communication with a catheter and allow access for the purpose of injecting medication in",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_14445",
+      "title": "Patent Publication 14445",
+      "abstract": "In accordance with the present invention, it has been discovered that the addition of lutein compounds to thermally processed nutritionals brightens the nutritional resulting in a more appealing color. Thermally processed liquid and powder nutritionals typically present brown and gray hues in the final color, which negatively impact the overall appeal of the nutritional. The inventors have discovered that the lutein compounds eliminate the gray and brown hues without imparting the relatively strong yellow color typically associated with lutein compounds. Additionally, the nutritionals possess long term color stability.",
+      "description": "TECHNICAL FIELD \n     The instant invention relates to the use of lutein compounds as brightening agents in thermally processed nutritional formulas. \n     BACKGROUND OF THE INVENTION \n     Historically, man has used color as an indication of the safety and quality of harvested fruits, vegetables and other foods. Present day customers expect processed foods to be colored attractively and with shades that are typical of their flavor variety. The first perception of a food product is its appearance and this leads to an expectation that is compatible with that which is seen. So strong is the expe",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_00624",
+      "title": "Patent Publication 00624",
+      "abstract": "A system for initiating and using a three-dimensional object as a controlling device when interfacing with a computer system used for interactive video game play is provided. One example system includes an interface for receiving data from a capturing device of a three-dimensional space and storage coupled with computer system. The computer system provides data to a screen and receiving user input to obtain geometric parameters of the three-dimensional object and assign actions to be performed with the three-dimensional object when moved or placed in positions in front of the capture device during interactive video game play. The geometric parameters and the assigned actions being saved to a database on the storage for access during interactive video game play or future interactive sessions.",
+      "description": "CLAIM OF PRIORITY \n     This application is a Continuation application claiming priority from Divisional application Ser. No. 13/933,388, filed on Jul. 2, 2013, which claims priority from U.S. patent application Ser. No. 12/335,505, filed on Dec. 15, 2008, now issued as U.S. Pat. No. 8,542,902, which claims priority from Provisional Application No. 61/014,427, entitled \u201cD YNAMIC THREE-DIMENSIONAL OBJECT MAPPING FOR USER-DEFINED CONTROL DEVICE \u201d, filed on Dec. 17, 2007, which are herein incorporated by reference. \n    \n    \n     BACKGROUND OF THE INVENTION \n     Description of the Related Art \n",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_05825",
+      "title": "Patent Publication 05825",
+      "abstract": "The invention provides novel means and methods for manipulating cocoa and milk ingredients, for example, to produce edible oil-in-water suspensions. In one embodiment, cocoa products are used to produce a gel network formed by cocoa starches and/or proteins. The suspension is formed with milk proteins and cocoa solids and also comprises crystallized cocoa butter as a dispersed component, and water or skim milk as the continuous phase or aqueous phase. The compositions, products, and ingredients possible according to the invention provide novel methods and components for low or reduced calorie or sugar free chocolate products or ingredients having the same cocoa content as conventional chocolate and/or falling within the standard of identity for chocolate products. In addition, the production and packaging options for chocolate products are expanded by the use of the invention as the viscosity of the chocolate product or ingredient can be varied easily without specific reliance on cocoa",
+      "description": "FIELD OF THE INVENTION AND INTRODUCTION  \n       [0001]     The invention relates to novel methods for manipulating protein and polysaccharide/starch components of food products or ingredients, and in particular cocoa-containing products, as a food ingredient and as a final food product. In one aspect, the invention encompasses a chocolate composition comprising a gel network formed by cocoa starches and/or proteins, or milk proteins and cocoa solids, and also comprising crystallized cocoa butter as a dispersed component, and water or milk or skim milk as the continuous phase or aqueous phase ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_07108",
+      "title": "Patent Publication 07108",
+      "abstract": "The present invention is a bicycle cleaning tool having a rigid bar, a flexible toothed tapered curved prong with a pointed end, and a brush with a curved brush face. The rigid bar knocks clumps of dirt from a bicycle component. The toothed prong pries into generally inaccessible areas to bite into and dig out dirt. The brush end brushes away minute particles and conforms to a number of curved surfaces on a bicycle.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to bicycle tools and more particularly to bicycle cleaning tools. \n     2. Description of the Prior Art \n     A bicycle by its very nature collects dirt. The various components of a bicycle that are susceptible to dirt include the free wheel, the front and rear derailleurs, idler and jockey wheels, the chain, sprockets, chain rings, caliper rings, hubs, rims, peddles, and the tire tread. In particular, dirt and grit may hinder the chain from riding directly on the sprockets, thereby increasing the c",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_04351",
+      "title": "Patent Publication 04351",
+      "abstract": "An injection device comprising a support stock that supports a syringe having a plunger and a needle. The plunger is movable in an axial direction to force liquid from the syringe through the needle. A safety valve prevents flow of liquid from the syringe to the needle. A stabilizing sight is provided, for application against skin during an injection. The stabilizing sight is mounted on the device for movement relative to the device such that when the device is pressed against the skin the needle moves from a retracted position relative to the stabilizing sight to an advanced position relative to the stabilizing sight to penetrate the skin. The stabilizing sight is interconnected with the safety valve in such a way that when the needle is in that advanced position the safety valve is moved to an open position and when the needle is in that retracted position the safety valve is in a closed position.",
+      "description": "FIELD OF THE INVENTION \n     The invention comprises an injection device for medical and veterinary use, having a single-use stabilizing sight which actuates a means serving as a safety valve at the level of the needle. \n     This apparatus is intended to perform intradermic, subcutaneous or intramuscular injections for medical or veterinary use, and more particularly in mesotherapy, hydropuncture, vaccinations or allergological tests. \n     1. The Known Prior Art \n     The state of the art may be defined by French patent 2,524,321, of the same author. This patent describes a &#34;manual or me",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_00204",
+      "title": "Patent Publication 00204",
+      "abstract": "The present invention relates to a novel method for conching chocolate, whereby a chocolate mass is submitted to a conching method that comprises the following steps: \u2014a dry conching step performed at a temperature of between 50\u00b0 C. and 70\u00b0 C., \u2014and subsequent a wet conching step performed at a temperature of between 60\u00b0 C. and 110\u00b0 C., more in particular at a temperature between 60\u00b0 C. and 90\u00b0 C., wherein the dry conching temperature and the wet conching temperature are comprised within the range(s) defined by the graph of FIG.  13  (see shaded or hatched regions). Most preferably the dry conching step is performed at about 60\u00b0 C. and the wet conching step at about 60\u00b0 C. or about 90\u00b0 C. Advantageously, this adapted conching process conserves and even increases the antioxidant activity of a chocolate, in particular a dark chocolate. Consequently, the present invention further relates to a method of conserving and/or increasing the antioxidant activity of chocolate and to chocolates pr",
+      "description": "FIELD OF THE INVENTION \n       [0001]    The present invention relates to a process for improving the antioxidant activity of chocolate, in a natural way and without the need to add any antioxidant components to the chocolate mass. \n         [0002]    The invention further relates to a novel method for conching and preparing chocolate, as well as to any chocolate prepared according to a method of the invention. \n       BACKGROUND OF THE INVENTION \n       [0003]    In the art processes have been described to maintain the antioxidant content of cocoa. \n         [0004]    As an example, U.S. Pat.",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_13970",
+      "title": "Patent Publication 13970",
+      "abstract": "The present invention relates to the problems of remineralization without demineralization of dental enamel by applying to the teeth a composition which is present in two phases which do not react with one another until introduced into the oral cavity. One phase contains at least one water-soluble calcium compound and the other contains at least one water-soluble inorganic phosphate and at least one water-soluble fluorine compound. In this way the ions which effect remineralization can be absorbed by the dental enamel and their subsequent reaction causes rehardening of demineralized areas in the dental enamel.",
+      "description": "This application is a division of application Ser. No. 465,875, filed Jun. 6, 1995, now U.S. Pat. No. 5,605,675. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates to processes and compositions which are useful to rapidly remineralize subsurface dental enamel. More specifically, this invention relates to salt solutions, such as calcium and phosphate salt solutions, which are applied to lesions in dental enamel resulting in remineralization of subsurface dental enamel and/or mineralizing tubules in dentin thereby counteracting caries and/or ",
+      "cpc": "A"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_12227",
+      "patent_05825",
+      "patent_12671",
+      "patent_05506",
+      "patent_00204",
+      "patent_14445",
+      "patent_08134",
+      "patent_09895",
+      "patent_00535",
+      "patent_13970",
+      "patent_05702",
+      "patent_04351",
+      "patent_04687",
+      "patent_07108",
+      "patent_00624",
+      "patent_01313",
+      "patent_12690",
+      "patent_11823",
+      "patent_01579",
+      "patent_05743"
+    ],
+    "relevance_scores": {
+      "patent_01579": 0.06176196998329219,
+      "patent_12671": 0.9628881626639837,
+      "patent_05743": 0.01,
+      "patent_11823": 0.13001635224866548,
+      "patent_05702": 0.4366755652406843,
+      "patent_00535": 0.8572236402815911,
+      "patent_12690": 0.1680539623878203,
+      "patent_08134": 0.8765115258616102,
+      "patent_09895": 0.863204823204152,
+      "patent_05506": 0.9404152445176132,
+      "patent_01313": 0.18613721084551463,
+      "patent_12227": 0.9899999831716253,
+      "patent_04687": 0.23119688069467423,
+      "patent_14445": 0.8791923255493482,
+      "patent_00624": 0.190591953356948,
+      "patent_05825": 0.9767301425756134,
+      "patent_07108": 0.20243291262350369,
+      "patent_04351": 0.3049553831016665,
+      "patent_00204": 0.8841131349138704,
+      "patent_13970": 0.847595069221967
+    },
+    "novelty_score": 0.4412127898949788
+  }
+}

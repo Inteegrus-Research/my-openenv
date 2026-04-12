@@ -1,0 +1,200 @@
+{
+  "task_description": "Screen candidate patents for relevance to the query patent. Mark the strongest prior-art candidates as RELEVANT and the rest as NOT_RELEVANT.",
+  "budget": 20,
+  "query_patent": {
+    "id": "patent_03880",
+    "title": "Patent Publication 03880",
+    "abstract": "A grilling station for simultaneously grilling a variety of foods. The station includes a plurality of grilling ovens. Each of the grilling ovens has a housing with an opening for loading food into that housing. A first grilling unit is mounted in each housing for supporting food. A second grilling unit is mounted in each housing positionable above each respective first grilling unit and being vertically moveable in relation to the respective first grilling unit. The first and second grilling units in each of the housings connected to a respective control assembly to determine selectively the length of time energy is supplied to the grilling units providing selective separate grilling times in each of the housings.",
+    "description": "CROSS-REFERENCE TO RELATED APPLICATION  \n       [0001]    This application is a continuation-in-part of U.S. patent application Serial No. 60/442,622, filed Jan. 27, 2003, entitled \u201cGrilling Oven\u201d. \n     \n    \n     \n       BACKGROUND OF THE INVENTION  \n         [0002]    This invention relates to an improved grilling station having a plurality of identical improved grilling ovens particularly adapted for use in a food preparation environment, such as, a commercial restaurant or the like.  \n           [0003]    A problem frequently encountered in the operation of a commercial food preparation f",
+    "cpc": "G"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_04530",
+      "title": "Patent Publication 04530",
+      "abstract": "Detoxified cobra venom and its constituent neurotoxins have been reported to have potent antiviral activity. Others have reported that snake venoms were generally immune stimulants. Recent research has revealed more specific details on the effects of detoxified venoms and isolated alpha-neurotoxins on cells of the immune system. Exposure of the immune cells to these detoxified proteins yields a strong response in the innate immune reaction that represents the immune systems initial response to infectious agents. Of particular relevance is the marked increase in the expression of genes associated with the production of gamma interferon, a potent antiviral agent and regulator of the immune response. The ability to induce this strong innate response has significant application to those with weakened immune systems where their ability to fight infection has been compromised. It also has the potential application to act as a method to protect individuals from contagious infectious agents as",
+      "description": "BACKGROUND OF THE INVENTION \n       [0001]    1. Field of the Invention \n         [0002]    The present invention relates to a class of proteins, and a method for stimulating the immune system, especially to the prevention and treatment of diseases such as viral, bacterial and parasitic infections through the stimulation of the innate immune system reaction. The composition is comprised of a modified elapid venoms containing anticholinergic alpha-neurotoxins. \n         [0003]    2. Description of the Prior Art \n         [0004]    Sanders et al. had commenced investigating the application of mo",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_02827",
+      "title": "Patent Publication 02827",
+      "abstract": "A method for processing audio signals in particular for a therapy of subjective tinnitus with an individual tinnitus frequency. The method includes: providing a first audio signal, determining a blocking range in the frequency spectrum of the first audio signal with a predefinable frequency width, creating a second audio signal from the first audio signal using a filter, and determining an auditory energy of the first audio signal or the second audio signal within at least one predefined therapeutically applicable frequency range and specifying an evaluation parameter for the second audio signal.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n     The present application is a continuation application and claims priority benefit under 35 USC \u00a7120 to PCT/EP2013/003042, filed on Oct. 10, 2013, which is a PCT application of and claims priority benefit to German Patent Application No. 10 2012 220 620.5 filed on Nov. 13, 2012, the entireties of each of which are incorporated by reference herein. \n    \n    \n     FIELD \n     The invention relates to a method for processing audio signals for a therapy of subjective tinnitus with an individual tinnitus frequency. The invention also relates to a comput",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_04218",
+      "title": "Patent Publication 04218",
+      "abstract": "A highly compact oven for preparing barbecued foods on a commercial basis includes a cabinet having a vertical partition wall that divides its interior into an oven chamber and an equipment compartment, and doors which provide access to the oven chamber. In addition, the oven has a rotisserie for supporting foods in the upper portion of the oven chamber opposite one of the doors, and this rotisserie is turned by a motor in the equipment compartment. A cylindrical firebox in which wood is burned is located in the lower portion of the oven chamber opposite another of the doors to provide the heat required for cooking the food and the smoke for imparting the barbecue flavor to that food. Food on the rotisserie is shielded from the firebox by a baffle wall which extends across the oven chamber, yet has its margins spaced from the front and back walls, so that heated air and smoke circulate freely between the region of the firebox and the region of the rotisserie. Moreover, the firebox is e",
+      "description": "RELATED APPLICATION \n     This application is a continuation-in-part of application Ser. No. 488,180 of Michael L. Robertson, filed Apr. 25, 1983 now U.S. Pat. No. 4,510,854, and entitled COMPACT BARBECUE OVEN. Application Ser. No. 488,180 is incorporated into this application by reference. \n    \n    \n     BACKGROUND OF THE INVENTION \n     This invention relates in general to ovens for cooking food, and more particularly to a compact barbecue oven. \n     Barbecued foods have traditionally been prepared over open fires, and while this procedure may be acceptable for an occasional back yard barb",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_10319",
+      "title": "Patent Publication 10319",
+      "abstract": "A barbecue or outdoor grill or cooking assembly structured from a plurality of interlocking and cooperative components which are readily assembled and disassembled at a given site so as to allow the subject assembly to be easily installed and removed from a given location. The plurality of components define a substantially enclosed interior in which a grill assembly is adjustably positioned such that the grill portion thereof may be raised or lowered relative to a platform designed to support a fire bed or other heat generating source so as to regulate the heat applied to the food being cooked which is positioned on the adjustable grill portion of the grill assembly.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates to a barbecue or like cooking assembly made of heavy duty construction, but being specifically capable of being assembled or disassembled at a given outdoor location so as to facilitate initial installation and or transport the barbecue assembly between desired sites. \n     2. Description of the Prior Art \n     Outdoor cooking, more commonly known as barbecuing or the like, has enjoyed increased popularity in recent years. Typically, the facilities used to accomplish such outdoor cooking are known as barbe",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_00838",
+      "title": "Patent Publication 00838",
+      "abstract": "An apparatus for simultaneously grilling food from above and below is provided having upper and lower grilling surfaces of gas fired tubes. The upper grill is hinged to lift up and provide access to the food and is vertically adjustable to accommodate variations in thickness of the item being cooked. The upper and lower grills are supported on a frame having a supply of combustion gases and induced draft exhaust system.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates generally to cooking apparatus for grilling food and in particular to an apparatus with dual grills which simultaneously cook food from the top and bottom. Each of the grills comprise an array of gas fired tubes forming level cooking surface. \n     2. Prior Art \n     An example of a gas fired grill or broiler may be found in Potts, U.S. Pat. No. 1,294,159. The grill has a rack of tubes arranged to form a planar cooking surface. Combustion gases enter an intake manifold at one end of the tubes and exit an e",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_04037",
+      "title": "Patent Publication 04037",
+      "abstract": "A vertically extending, cylindrical toaster having a plurality of modules which may be integrally joined together in a single housing or may be separably stacked one upon the other. Each module comprises at least one individual heating unit having a horizontally oriented aperture opening into the unit. Each heating unit is separated from its vertical neighbors by a heat insulating layer and includes a food receiving grill, an upper heating element located above the grill, a lower heating element located below the grill, and a removable tray below the lower heating element for catching crumbs or other food particles which fall from the grill. The grill may also be movable and/or removable for easy access to the food thereon or for cleaning. Master controls for all the modules and individual controls for each separate module are contemplated to provide versatile control of the cooking processes.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATION \n     This application claims the benefit of my prior U.S. Provisional Application Ser. No. 60/094,569, filed Jul. 29, 1998. \n    \n    \n     BACKGROUND \n     1. Field of the Invention \n     The present invention relates to a countertop kitchen appliance which occupies a minimum of kitchen counter space, i.e., has a small footprint, while increasing serving capacity over currently used similar appliances. \n     2. Description of Related Art \n     Toasters and toaster ovens are not new to the art. One common type of conventional toaster comprises two or fou",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_10046",
+      "title": "Patent Publication 10046",
+      "abstract": "In a method for detecting a physiological signal at least one ventilation parameter is measured. The device for detecting a physiological signal has at least one sensor for measuring a ventilation parameter and a control unit for the ventilation pressure. A device for monitoring at least one ventilation parameter while respiratory gas is being supplied to a patient is provided with a sensing device for detecting the behavior of the ventilation parameter as a function of time.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to a method for detecting a physiological signal, in which at least one ventilation parameter is measured and analyzed to control a ventilation pressure. \n     The invention also concerns a device for detecting a physiological signal, which has a sensor for measuring a ventilation parameter and a control unit for producing a ventilation pressure. \n     The invention further concerns a device for monitoring at least one ventilation parameter while respiratory gas is being supplied to a patient, which",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_13814",
+      "title": "Patent Publication 13814",
+      "abstract": "A device and method for heating a food product are disclosed. The device contains a support member for supporting a food product in a first position and a second position, a heating mechanism associated with the support member and positioned to heat the support member when the support member is in the first position and in the second position, and another heating mechanism positioned to heat the food product when the food product is in the second position.",
+      "description": "FIELD \n       [0001]    The present application relates to an apparatus for the manufacture of flat bread and a method of making such flat bread using a device of the type described herein. \n       BACKGROUND \n       [0002]    Flat bread is a bread of Middle Eastern origin dating back a number of centuries. In general, flat bread is relatively thin bread having a generally rounded or oval shape. It may be used as a wrapper to enclose other food making up the meal. \n         [0003]    Brick ovens have been traditionally used for the production of food substances including pizza, flat breads, tr",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_09432",
+      "title": "Patent Publication 09432",
+      "abstract": "A multipartite item of jewelry particularly useful as a finger ring formed of a plurality of sections which are flexibly connected to each other in order to form a closed series of curves with the sections being constructed with a circular configuration.",
+      "description": "The present invention relates generally to items of jewelry and more particularly to a multipartite or composite piece of jewelry which is particularly useful as a finger ring. \n     Jewelry items made in composite or multipartite form in the shape of a ring, particularly composite finger rings are known in the art with the rings being closed in themselves and combined in the position of use to form a joint piece of jewelry. Examples of such prior art items are disclosed in German Offenlegungsschrift No. 19 12 690 and U.S. Pat. No. 1,327,606. However, in rings of a known construction, each ind",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_04988",
+      "title": "Patent Publication 04988",
+      "abstract": "This invention refers to a spinning food grill characterized because it is mainly constituted by a base upon which an electric engine is mounted, which moves a main shaft which is held in a vertical position by a post that is placed parallel to it. This main shaft is held by oarlocks located over crossbars that are perpendicular to a post. The oarlocks allow the main shaft to spin freely; additionally it is provided with a height regulator which allows the modification of the height of a circular grill located in the upper extreme of such main shaft. In such way, the distance of the circular grill is controlled, allowing it to come near or move away from the heat source, in this case ignited charcoal, to roast foods. Also, this grill is accompanied by a pair of frames that allow its use in open spaces such as gardens or patios.",
+      "description": "TECHNICAL FIELD \n       [0001]    This invention has its technical field in mechanics, more precisely in those devices or mechanisms known as grills, which use ignited charcoal to roast food portions, mainly meats and different kinds of animal species. \n       OBJECT OF THE INVENTION \n       [0002]    To provide a grill that allows to move away or distance in a controlled fashion the grill surface with relation to the heat source, a second objective is that such grill counts with different temperature zones for different roasting points. Finally, as a third objective, this grill shall exhibit ",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_11511",
+      "title": "Patent Publication 11511",
+      "abstract": "Fabry disease is a rare (incidence approximately 1 in 20,000) X-linked inborn error of glycolipid metabolism caused by a deficiency of the lysosomal enzyme, \u03b1-galactosidase A, that leads to early death in affected males due to occlusive disease of the heart, kidney, and brain. The present invention provides a modified alpha-Galactosidase A enzyme derivative with improved stability and catalytic properties. As a result of the present invention, an effective therapeutic effect is achieved with a lower dose of enzyme infused to the patients.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application claims priority to U.S. Provisional Application No. 62/207,856 filed Aug. 20, 2015, and Provisional Application No. 62/207,849 filed Aug. 20, 2015, the contents of which are incorporated herein by reference in their entirety. \n     \n    \n     BACKGROUND OF THE INVENTION \n       [0002]    Fabry disease is a rare (incidence approximately 1 in 20,000) X-linked inborn error of glycolipid metabolism caused by a deficiency of the lysosomal enzyme, \u03b1-galactosidase A, that leads to early death in affected males due to occlusive",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_03882",
+      "title": "Patent Publication 03882",
+      "abstract": "A collapsible charcoal grill has two frames pivoted together at one end. One frame is retained in a vertical position by struts and the other frame has folding support means. A broiling grill has hooks at one end for engagement over one of a number of spaced horizontal rods on the second frame and legs at that same end engage a lower horizontal rod to support the broiling grill in cantilever fashion over the other frame which is designed to support a receptacle for burning charcoal.",
+      "description": "FIELD OF THE INVENTION \n     This invention relates to barbeque grills and more particularly to a collapsible barbeque grill. \n     BACKGROUND OF THE INVENTION \n     The present invention bears a certain similarity to charcoal grills known as &#34;hibachis&#34; wherein a heavy cast iron receptacle is provided for receiving charcoal, and at one side of the receptacle are heavy upstanding members having vertically spaced notches for receiving the end of a grill and support it in cantilever fashion at a selected distance above the charcoal. The problem with such grills is that they are heavy and ",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_07868",
+      "title": "Patent Publication 07868",
+      "abstract": "A grill assembly that may be assembled and disassembled without the use of tools is disclosed. The grill assembly has a housing having a front wall, a rear wall and opposing side walls. The front and rear walls are removably connected to each of the side walls. The housing also has a top surface and a bottom surface and a grilling surface across generally the top surface of the housing. There is also a base which receives the bottom surface of the housing. The base is provided with a knee wall that retains the housing in place in the assembly. The base is provided with a reservoir adapted to receive water for reducing the risk of fire due to burning grease, fat or other flammable material.",
+      "description": "FIELD OF THE INVENTION \n   The present invention relates to improvements in cooking devices, particularly in the area of portable grilling apparatus especially grilling apparatus that can be readily dismantled without the necessity of tools and which can store in a compact form. \n   DESCRIPTION OF THE PRIOR ART \n   The grilling of food products is a familiar way of preparing meals particularly during the warmer months of the year. Even though there have been some concerns as to possible health risks to foods prepared in this manner, the popularity of grilling is at an all time high. Traditiona",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_08838",
+      "title": "Patent Publication 08838",
+      "abstract": "The present invention relates to a device and a method for cleaning and sterilizing a filling valve of a beverage filling system for filling a container with a filling product. The device includes a cap for closing a filling product outlet of the filling valve during the cleaning and sterilization, and a valve for opening and closing the through-opening. The cap has a through-opening for discharging sterilization medium during the sterilization. The valve includes a shape-memory material for switching the valve between an open and closed position at a predetermined temperature.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a national stage of International Application No. PCT/EP2016/051335, filed Jan. 22, 2016, which claims priority from German Patent Application No. 10 2015 100 893.9 filed on Jan. 22, 2015 in the German Patent and Trademark Office, the disclosures of which are incorporated herein by reference in their entirety. \n     \n    \n     BACKGROUND \n     Technical Field \n       [0002]    The present invention relates to a device and a method for cleaning and sterilizing a filling valve of a beverage filling system for filling a",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_13964",
+      "title": "Patent Publication 13964",
+      "abstract": "A barbeque grill assembly ( 10 ) including a grill plate ( 12 ) and a cooking insert ( 14 ). The grill plate ( 12 ) has a substantially planar first cooking surface ( 26 ) with an opening ( 28 ) therein. The cooking insert ( 14 ) is adapted for releasable engagement with the opening ( 28 ) and has a substantially planar second cooking surface ( 42 ). The first cooking surface ( 26 ) and the second cooking surface ( 42 ) are non-parallel with respect to each other.",
+      "description": "RELATED APPLICATION \n       [0001]    This application claims priority to Australian Provisional Application No. 2007905189, filed on Sep. 21, 2007, said priority application being fully incorporated herein by reference. \n       FIELD OF THE INVENTION \n       [0002]    The present invention relates to a barbeque grill assembly, a barbeque grill plate and a barbeque kit. The invention has been primarily developed for use with a gas barbeque and will be described hereinafter with reference to this application, \n       BACKGROUND OF THE INVENTION \n       [0003]    Barbeques with grill plates that",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_10991",
+      "title": "Patent Publication 10991",
+      "abstract": "An oven for cooking foods includes a housing having a front, a back, a top, a bottom and opposing first and second sides. The oven further includes a vessel for holding solid fuel for cooking. A fire chamber in the housing is adapted for holding the solid fuel vessel. The housing includes a first movable closure at a location on the front of the housing mounted for opening and closing at a location to permit selective access to the solid fuel vessel in the fire chamber. A cooking chamber in the housing is adapted for holding food to be cooked by the oven. The housing further includes a second movable closure on the front of the housing mounted for opening and closing at a location to permit access to the cooking chamber.",
+      "description": "FIELD OF THE INVENTION \n     The present invention generally relates to a barbeque oven having a space conscious design and a burner mounted for increasing efficiency of the oven. \n     BACKGROUND OF THE INVENTION \n     Space in a commercial kitchen is at a premium. Thus, it is desirable to use the vertical space by making ovens tall in relation to their width and/or depth. A tall oven, however, restricts the location and arrangement of its components. \n     One type of oven that may be vertically oriented is a barbecue oven. However, there are other ovens which are not used for barbeque cooki",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_10743",
+      "title": "Patent Publication 10743",
+      "abstract": "A portable barbecue cooking apparatus is provided, the apparatus comprising a base; a fire bowl having a topside opening, and the fire bowl is mounted on the base, and the topside opening of the fire bowl is situated above the base; a grill situated within the fire bowl and is moveable within the fire bowl; and at least one shelf is pivotally attached to the base, and the shelf is foldable inwardly towards the topside opening of the fire bowl during a stowage position and extendable outwardly away from the topside opening of the fire bowl during a usage position.",
+      "description": "RELATED APPLICATION \n     This application is a continuation application of U.S. application Ser. No. 12/283,481, entitled \u201cBarbecue Cooking Apparatus With Folding Shelves\u201d which was filed on Sep. 12, 2008, which is a continuation application of U.S. application Ser. No. 11/224,837, entitled \u201cBarbecue Grill With Folding Shelf\u201d which was filed on Sep. 14, 2005 and issued as U.S. Pat. No. 7,438,071; and which is a continuation application of U.S. application Ser. No. 11/098,721, entitled \u201cBarbecue Grill and Support Frame Assembly\u201d which was filed on Apr. 4, 2005 and issued as U.S. Pat. No. 6,976",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_12133",
+      "title": "Patent Publication 12133",
+      "abstract": "Oral hygiene formulations incorporating N.sup.\u03b1,N G  -diacyl derivatives of arginine, or the pharmaceutically acceptable salts thereof, optionally in combination with fluoride compounds, are effective in combatting microorganisms, inhibiting acid production and reducing dental caries.",
+      "description": "FIELD OF THE INVENTION \n     The present invention relates to compositions of matter having utility in maintaining oral health. It also relates to methods of making such compositions, and the incorporation of same into pharmaceutically suitable vehicles for use in oral health care. More particularly, the invention relates to diacyl derivatives of arginine, optionally in combination with fluoride compounds, and their utility in maintaining oral health. \n     BACKGROUND OF THE INVENTION \n     It has been shown that tooth decay and dental disease can be attributed to bacteria forming plaque about",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_11896",
+      "title": "Patent Publication 11896",
+      "abstract": "The bladder includes two sidewall portions which are disposed opposite one another. Along a majority of the perimeter, the first and second sidewalls are joined together so as to form a body defining a containment area which is substantially enclosed by the sidewalls. One portion of each of the two sidewalls is not joined with the opposing sidewall so as to form a bladder with an opening along one portion thereof. In accordance with one aspect of the invention, the sidewalls of the bladder form a body, and a neck which extends beyond the unattached portions of the sidewalls. An opening is formed in a neck which extends from the body. The neck is open at opposing ends to thereby provide a conduit for placing fluids into the containment area of the body. To close the conduit formed by the neck portion, the neck portion is rolled toward the body. The rolled neck portion seals the opening closed and prevents liquid in the containment area from escaping out of the neck.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to a roll top bladder for use in sports. More specifically, the present invention relates to a bladder which is configured for holding in a backpack or sport pack which holds liquids for consumption during sporting activities while providing a unique method for accessing the interior of the bladder. \n     2. State of the Art \n     In recent years there has been a tremendous increase in the popularity of many outdoor sporting activities such as bicycling (on-road or mountain biking), hiking, rock cli",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_09018",
+      "title": "Patent Publication 09018",
+      "abstract": "A method for improving the growth response in poultry comprising administering to said poultry a growth-promoting amount of at least one pyridine-2-thione-N-oxide compound selected from the group consisting of \n     (a) a metallic salt of pyridine-2-thione-N-oxide; \n     (b) 2,2&#39;-dithiobispyridine-1,1&#39;-dioxide; and \n     (c) adducts of 2,2&#39;-dithiobispyridine-1,1&#39;-dioxide, the adducts having the formula \n     \n       (C.sub.5 H.sub.4 NOS).sub.2 MY.sub.t \n     \n      wherein M is an alkaline earth metal selected from the group consisting of calcium, magnesium, barium and strontium, Y is an anion selected from the group consisting of halides, sulfates, nitrates, chlorates and acetates, and t is either 1 or 2.",
+      "description": "RELATED U.S. PATENT APPLICATION \n     This is a continuation-in-part patent application Ser. No. 532,883 filed by the same inventors on Sept. 16, 1983, now abandoned. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates to the use of selected pyridine-2-thione-N-oxide compounds as growth promoters in poultry. \n     2. Description of the Prior Art \n     It has been found in recent years that poultry will gain more weight and gain it faster when various classes of compounds such as vitamins, minerals, estrogens, antibiotics, and tranquilizers a",
+      "cpc": "A"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_00838",
+      "patent_04037",
+      "patent_07868",
+      "patent_04218",
+      "patent_04988",
+      "patent_10743",
+      "patent_10991",
+      "patent_13964",
+      "patent_10319",
+      "patent_03882",
+      "patent_13814",
+      "patent_08838",
+      "patent_09018",
+      "patent_02827",
+      "patent_10046",
+      "patent_11896",
+      "patent_12133",
+      "patent_09432",
+      "patent_04530",
+      "patent_11511"
+    ],
+    "relevance_scores": {
+      "patent_04530": 0.038994613849977926,
+      "patent_02827": 0.38534605819438544,
+      "patent_04218": 0.9402329960788405,
+      "patent_10319": 0.8956103934155296,
+      "patent_00838": 0.9899999859997897,
+      "patent_04037": 0.9759756726902586,
+      "patent_10046": 0.37121109316048984,
+      "patent_13814": 0.6481650158425477,
+      "patent_09432": 0.2861125737215948,
+      "patent_04988": 0.9365048841348642,
+      "patent_11511": 0.01,
+      "patent_03882": 0.8938637484361365,
+      "patent_07868": 0.959114552917851,
+      "patent_08838": 0.4470161611929759,
+      "patent_13964": 0.91468596628708,
+      "patent_10991": 0.9169730189338827,
+      "patent_10743": 0.9247420884588209,
+      "patent_12133": 0.33259439238704974,
+      "patent_11896": 0.36860360113091184,
+      "patent_09018": 0.41602445739385907
+    },
+    "novelty_score": 0.4004209028038863
+  }
+}

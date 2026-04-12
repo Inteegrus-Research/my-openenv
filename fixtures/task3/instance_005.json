@@ -1,0 +1,200 @@
+{
+  "task_description": "Decide whether each candidate should be INCLUDED, EXCLUDED, or DEFERRED. DEFER counts as EXCLUDE at grading time.",
+  "budget": 28,
+  "query_patent": {
+    "id": "patent_07006",
+    "title": "Patent Publication 07006",
+    "abstract": "A simply-constructed miniature level device in which a small ball bearing, a visual indicator of a level condition of the device, is maintained between two races, that is, arcuate slots formed in opposing panels which are spaced-apart by opposing leg portions extending between the panels. A sleeve member disposed between the panels allows for the level to be supplied with a key-chain or key ring.",
+    "description": "BACKGROUND OF THE INVENTION \n     The present invention relates to a leveling instrument for measuring the horizontal level of surfaces. \n     There is a general need for a simple and easy-to-use level measuring device that can be carried in one&#39;s pocket continually and conveniently and that can be used at will and at any time when the need to know the level of a surface presents itself. In such instances a handy and miniature level measuring device might be used to measure the level of a table or an object on the table, or to measure the level of a picture being hung on a wall, or any oth",
+    "cpc": "D"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_00222",
+      "title": "Patent Publication 00222",
+      "abstract": "A mathematical board game for 2 to 8 players, invented primarily for beginners and individuals struggling with the four basic formats of mathematics. The banker is allocated by use of a spinner, players then determine who moves first, by use of this spinner, and in which of the four formats they will play, these are: Subtraction, Multiplication, Addition and Division. Players then move by taking four steps. (1) Taking a question card out of the appropriate question bag; (2) Working out the relevant sum; (3) Looking up the answer on the correlating Answer Value Chart, which converts the answer of the mathematical sum to a given value, which is a number; (4) Moving that number of spaces on the board and receiving that amount of money from the bank. The board&#39;s defined numbered travel path is from 1 to 144 spaces. Some spaces are marked with various symbols, which require various actions that affect the players. Players move their playing piece horizontally from left to right, right t",
+      "description": "FIELD OF THE INVENTION \n     This present invention pertains to a mathematical board game for 2-8 players. Its primary aim is to facilitate knowledge of the four basic formats of mathematics, concentrating on these mainly. They are: subtraction, multiplication, addition and division. \n     DESCRIPTION OF THE PRIOR ART \n     Many amazingly ingenious board games prevail in the prior art, all fulfilling a need in their own niche. One area amongst others no prior art addresses, are the feelings of inadequacy\u2014embarrassment, of those young or old alike, who are mathematically-challenged. I am aware ",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_02939",
+      "title": "Patent Publication 02939",
+      "abstract": "An automated lane surface measuring device comprising a controller for operating a drive mechanism for propelling the measuring apparatus and one or more sensors operated by the controller to measure topographical parameters of the bowling lane surface. In one embodiment the apparatus measures bowling lane surface elevation by measuring bowling lane height with respect to the measuring apparatus in selectable increments along the surface of the bowling lane. The measuring apparatus may also measure crosswise tilt along the width of a bowling lane in selectable increments. The measuring apparatus may also measure lengthwise tilt of the length of the lane surface in selectable increments.",
+      "description": "COMPUTER PROGRAM LISTING APPENDIX  \n         [0001]    A computer program listing appendix containing the source codes of two computer programs that may be used in conjunction with the present invention is incorporated herein by reference and appended hereto as one (1) original compact disk, and an identical copy thereof, containing a total of fifteen (15) files as follows:  \n           [0002]    Directory of D:\\Laptop  \n                                       Filename   Size/Type   Modified                   Anamolil.txt   \u20022KB   Feb. 20, 2002 9:32 AM           Text Document       Chart3D.txt ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_10150",
+      "title": "Patent Publication 10150",
+      "abstract": "A surgical stapling or fastening instrument for applying surgical fasteners to tissue having an adjustable closure mechanism to linearly approximate the distance between the jaw members of the instrument. The adjustable closure mechanism consists of a retaining mechanism and a linkage structure which is actuable to linearly urge the jaw members towards each other. A coupling arrangement is also provided which permits firing of the staples or fasteners only when the jaw members are approximated a predetermined distance towards each other.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATION \n     This is a continuation of application Ser. No. 08/155,714, filed Nov. 22, 1993, which is a continuation of application Ser. No. 07/906,766, filed Jun. 30, 1992, which is a continuation-in-part of application Ser. No. 07/779,505, filed Oct. 18, 1991, all abandoned. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to surgical instruments for applying surgical fasteners or staples to body tissue, and more particularly to an apparatus for applying surgical fasteners having adjustable mechani",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_02175",
+      "title": "Patent Publication 02175",
+      "abstract": "Presented is an elastically resilient collar for application to a pet, such as a cat or dog, for the control of fleas and other insect pests that might infest the animal. Structurally, in one aspect, the collar comprises a helically wound member forming an elongated void within which is deposited an appropriate medicament for killing insect pests. In another aspect, the helically wound structure may itself be formed from a synthetic resinous material having embedded therein the insect killing medicament.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention. \n     This invention relates to devices for killing insects, and particularly to collar-like devices such as are used on domestic pets such as dogs and cats for killing insects such as fleas and ticks. \n     2. Description of the Prior Art. \n     The broad concept of attaching to or suspending from a wide variety of animals and fouls devices bearing insect killing medicaments is an old concept. Thus, U.S. Pat. No. 1,203,590 discloses a split tubular band for application about the leg of poultry for the purpose of killing the lice wit",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_10022",
+      "title": "Patent Publication 10022",
+      "abstract": "The object of the present invention is a device for measuring skinfold thickness digitally instrumented for reading the thickness of skin folds and possessing wireless data communication capability with a remote station (for example, a personal computer) in which is installed a software application integrating a database. \n     The developed device utilizes working principles distinct from those available in the market, in particular uses a constant force actuator ( 11 ) integrated in the device handle ( 12 A), whose primary function is to impose a constant contact pressure between the end tip faces ( 1 A and  1 B) and the skinfold under measurement. Another characteristic is related to the increase of the opening limit of the end tips ( 1 A and  1 B) by using a large center distance for the jaws pivot axes, jointly with a cam for compensating the change in the force arm length, the constant force actuator and the orientation mechanism of the clamping faces of the end tips, whereby the",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application is a \u00a7371 national stage of PCT International Application No. PCT/IB2010/055701, filed Dec. 9, 2010, claiming priority of Portuguese Patent Application No. 105187, filed Jul. 2, 2010, the contents of each of which are hereby incorporated by reference in their entirety. \n     The object of the present invention is a device for measuring skinfold thickness digitally instrumented for reading the said thickness and presenting the measured values in a display that can have tactile capabilities for interaction with the operator. \n     Th",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_11310",
+      "title": "Patent Publication 11310",
+      "abstract": "This device is a handheld, battery-operated instrument that utilizes light beams to project visible lines for increasing the accuracy in determining angles. A linear potentiometer is incorporated at the pivot point between the two diodes and measures a voltage change based on the angle between the arms of the device.",
+      "description": "CROSS-REFERENCE TO RELATED PATENT APPLICATIONS \n   This patent application claims priority based on provisional application U.S. Ser. No. 60/360,122, filed on Feb. 28, 2002. \n\n\n   FIELD OF THE INVENTION \n   An apparatus for measuring the angle between two rays, wherein the apparatus comprises a light source for generating a first light beam and a second light beam, a means for aligning these light beams to determine an angle to be measured. \n   BACKGROUND OF THE INVENTION \n   A goniometer is a device for measuring or setting angles. Prior art goniometers have utilized a number of principles to",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_02504",
+      "title": "Patent Publication 02504",
+      "abstract": "A measuring device has one or more vessels with an adjustable capacity. The vessel is made of a flexible material with a peripheral hinge. The peripheral hinge enables the vessel to be reconfigured from one configuration having a first holding capacity to a second configuration having a different holding capacity.",
+      "description": "BACKGROUND OF THE INVENTION \n       [0001]    The present invention relates to a measuring device such as a spoon as might be used in the kitchen to measure ingredients for cooking and might equally be applicable to the oral administration of medicines. More particularly, although not exclusively, the invention relates to a measuring device having alternatively selectable capacities. \n         [0002]    Known measuring spoons comprise a bowl or vessel having a handle extending therefrom. The vessel is of fixed capacity. Examples of kitchen spoon sizes are \u201cteaspoon\u201d, \u201cdesert spoon\u201d and \u201ctables",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_06413",
+      "title": "Patent Publication 06413",
+      "abstract": "Improved footwear is disclosed, including an improved foot gripping member and footwear having a resilient and angled or curved sole. The improvements are particularly well adapted for footwear made for beach, street, home, sports, or general casual wear. The various features of the disclosed footwear may be utilized alone, or in combination with each other, in order to improve the comfort and improve the attachment to the footwear to the foot.",
+      "description": "TECHNICAL FIELD \n       [0001]    This document relates to footwear, and particularly to casual footwear, including sandals, \u201cflip-flops,\u201d athletic shoes, slippers, open-heeled footwear, and the like. Concepts and designs are proposed that improve the attachment of the footwear to the foot as well as related concepts and designs to improve footwear comfort, safety, efficiency, fit, convenience, and walking or running characteristics. \n       BACKGROUND \n       [0002]    Presently, a popular design for a casual sandal is typically called a \u201cflip flop.\u201d It normally comprises a sole made of plast",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_07588",
+      "title": "Patent Publication 07588",
+      "abstract": "A floor stand for a relatively small medical device. The floor stand stabilizes and/or levels the medical device when the device is on the floor. When the device is being carried or moved, the floor stand is completely underneath the device, so as to minimize the possibility of the stand coming into contact with an exterior person or item. Also, a method of stabilizing and/or leveling a small medical device.",
+      "description": "FIELD OF THE INVENTION  \n       [0001]     The present invention relates generally to components, systems, and methods for stabilizing a medical device in a proper position. More particularly, the present invention relates to such components, systems, methods that may be used to maintain a medical device in a level position.  \n       BACKGROUND OF THE INVENTION  \n       [0002]     Some medical devices will only operate properly if they are maintained in a substantially level position. In addition, it is generally undesirable for a medical device to tip over, as such tipping could break or othe",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_13639",
+      "title": "Patent Publication 13639",
+      "abstract": "An improved leveling device for adjusting the height of a substrate with a leveling device located between the floor and the bottom of the piece of furniture. The leveling device is comprised by a threaded stud which resides in a propel nut. The threaded stud is comprised by a first end, an end cap, and a second end, a leveling surface. The leveling device is inserted into a bore in the bottom of the piece of furniture. The propel nut of the leveling device grips the bore and holds the leveling device in the bore. The oversized end cap with respect to the threaded stud and the propel nut in combination with the bore of the substrate is resistably movable and exerts a force against the bore in the substrate to counter forces exerted against the leveler by the floor when dragging the furniture.",
+      "description": "FIELD OF THE INVENTION \n   The invention is in the field of leveling devices. \n   BACKGROUND OF THE INVENTION \n   The related art leveling devices have the deficiency of poor drag and drop performance. Simply put, the related art is susceptible to damage caused by the moment created by applying a force to the foot of the leveler by moving the support structure (i.e. furniture). Support within a furniture leg via a propel nut, for example, counteracts torque applied to the foot of a leveling device. Longer propel nuts may be used to provide better support as the foot is coupled to the propel nu",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_05674",
+      "title": "Patent Publication 05674",
+      "abstract": "An analyte measurement system is provided that can issue an alert or an alarm to a user when a measurement falls within a particular predetermined range. The system can also include a reminder for the user to perform additional tests at a predetermined time period after a measurement that falls within a predetermined range. Various visual, audible and physical alerts, alarms and reminders are disclosed. Methods associated with the use of the analyte measurement system are also covered.",
+      "description": "FIELD OF THE INVENTION \n       [0001]    The present invention relates to medical devices for monitoring analytes in a living body, such as monitoring glucose levels in people with diabetes. More particularly, the invention relates to providing meter users with test reminder capabilities. \n       BACKGROUND OF THE INVENTION \n       [0002]    In recent years, people with diabetes have typically measured their blood glucose level by lancing a finger tip or other body location to draw blood, applying the blood to a disposable test strip in a hand-held meter and allowing the meter and strip to per",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_09349",
+      "title": "Patent Publication 09349",
+      "abstract": "The present invention provides for an ECG electrode system that includes the use of electrodes adapted to attach to the body via suction. The invention includes a lightweight and compact air pump in combination with air connection hoses, a lightweight air distribution unit, associated electrode tubes, and respective electrodes adapted to be positioned by the Venturi principle, and corresponding electrical leads and recorders/monitors. The electrode leads can each be positioned within respective air connections hoses, e.g., in a manner that is concentric or coaxial with the axis of the connection hoses, in order to both protect the leads themselves and facilitate their positioning.",
+      "description": "FIELD OF THE INVENTION \n   The present invention generally relates to physiological monitoring electrode systems, also known as electrocardiographs, and to components, including electrodes, for use in such systems. \n   BACKGROUND OF THE INVENTION \n   Considerable progress has been made in understanding how electrical signals are generated and used within the body. This progress has led to the ability to monitor various medical conditions by means of transferring electrical energy from the body of a patient. This transfer of electrical energy can be accomplished with electrode systems, which us",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_12082",
+      "title": "Patent Publication 12082",
+      "abstract": "The invention relates to a levelling device, which includes a top part and a lower part where there in the top part is included a spindle, which includes a thread and an external cylindrical surface and a sleeve with at least one internal stop surface and that the spindle includes at least one stop surface. According to an exemplary aspect of the invention, it is achieved that it is possible to manufacture a levelling device where the sleeve, as a result of the stop surface on the sleeve and the stop surface on the spindle, cannot be screwed so high up that parts of the thread on the spindle are exposed.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a U.S. national stage of International Appl. No. PCT/DK2015/050085 filed 9 Apr. 2015, which claimed priority to Danish Appl. No. PA 2014 00290 filed 27 May 2014, which applications are all incorporated herein by reference in their entireties. \n     \n    \n     TECHNICAL FIELD \n       [0002]    The invention relates to a levelling device for levelling and support of items, such as machines, which levelling device includes a top part for fastening in an item such as a machine and a lower part for contact against a base ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_04162",
+      "title": "Patent Publication 04162",
+      "abstract": "An oval-tracked exercise apparatus is provided which includes a main frame having a pair of connecting arms in a hinge joint with a traverse support. The traverse support is coupled with a mechanical system in a pivotal connection with a pair of planks. A resisting rotating mechanism is attached to an opposing end of the respective plank. Besides, an adjusting assembly is provided for adjusting the height of the traverse support. The resisting rotating mechanism formed by a flywheel, a belt wheel or a resistance mechanism includes a continually bent crank and is rotatably mounted on side walls of a base of the resisting rotating mechanism. Accordingly, both handles are synchronically movable with respective planks for simulating a climbing action and an oval exercise track. Moreover, a simulation of a movement on uphill, downhill and flat surfaces can be achieved. Furthermore, a reduction of the distance between both planks is also attainable.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Fields of the Invention \n     The invention relates to an oval-tracked exercise apparatus, and more particularly, to an apparatus in which both handles is synchronically movable with respective planks for simulating a climbing action and an oval exercise track. Moreover, a simulation of a movement on uphill, downhill and flat surfaces can be achieved as well. Furthermore, a reduction of the distance between both planks is attainable. \n     2. Description of the Related Art \n     People work for what they need. Meanwhile, they realize how important their hea",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_14240",
+      "title": "Patent Publication 14240",
+      "abstract": "This invention describes the simultaneous or sequential administration of therapeutic or diagnostic agents using different devices in combination with a chemical formulation that incorporates or uses vasomodulatory chemical agents as part of the drug delivery vehicle. Methods include the addition of various vasodilatory and vasoconstrictive agents to enhance the systemic or localized tissue delivery of therapeutic or diagnostic agents delivered into a body through the use of an apparatus or device.",
+      "description": "FIELD OF THE INVENTION  \n       [0001]     This invention relates to the transdermal delivery of therapeutic or diagnostic substances using apparatus or devices to assist in the delivery, including iontophoresis, sonophoresis, syringes and needles and micro-needle devices. In particular, this invention describes the enhanced delivery profiles for drug substances when these agents are formulated to include a vasomodulatory chemical agent with the intent to induce either a vasodilatory or vasoconstrictive response in the area of tissue that has been exposed to the drug application (e.g., injecti",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_12806",
+      "title": "Patent Publication 12806",
+      "abstract": "An apparatus for level control in a fluid tank is provided, wherein the fluid tank is designed to accommodate a supply of a fluid. The apparatus comprises at least one conveying line through which the fluid can flow and which has at least one control opening which is hydraulically connected to the fluid tank. The control opening is designed to at least largely prevent fluid flowing out of the conveying line and into the fluid tank when at least one minimum level in the fluid tank is exceeded, and wherein the control opening is further designed to allow fluid to flow out of the conveying line nd into the fluid tank when the at least one minimum level in the fluid tank is undershot.",
+      "description": "[0001]    This nonprovisional application claims priority under 35 U.S.C. \u00a7 119(a) to German Patent Application No. 102008022960.1, which was filed in Germany on May 9, 2008, and which is herein incorporated by reference. \n       BACKGROUND OF THE INVENTION \n       [0002]    1. Field of the Invention \n         [0003]    The invention relates to an apparatus and to a method for level control in a fluid tank. Apparatuses and methods of this kind can be used, in particular, in cleaning appliances for cleaning washware. For example, the apparatus and the method can be used in dishwashers for dishe",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_05540",
+      "title": "Patent Publication 05540",
+      "abstract": "A catheter position indicator for use with leveling devices adapted for use in hemodynamic monitoring. The indicator includes a radio transparent sheet material containing a plurality of spaced apart radio opaque material portions. Also included is a means for fastening the sheet material to a human body. An X-ray may be taken so that the location of a catheter may be determined in relation to the radio opaque portions of the radio transparent sheet material. Once the location of the catheter is determined a simple bubble level device may be utilized to bring a hemodynamic transducer assembly into level with the inserted catheter.",
+      "description": "BACKGROUND OF THE INVENTION \n     The present invention is directed generally to a method and apparatus for locating a catheter and more particularly to a method and apparatus for locating the position of a catheter so that a transducer assembly may be brought into the same horizontal plane as the catheter. \n     Physiological fluid pressure data is helpful in assessing the health of individuals. For example, intracranial pressure, intrauterine pressure, left atrial pressure, pulmonary artery pressure, and central venous pressure assist health care providers in prescribing and providing health",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_11707",
+      "title": "Patent Publication 11707",
+      "abstract": "A mechanism for locking a catheter to a port comprises an elongate body defining a flow passage, a port end of the elongate body adapted for attachment to a port, a collet end of the elongate body opposite the port end being biased toward an open configuration in which an in inner diameter of the collet end is sized to receive therein an end of a catheter to be coupled to the port and a tightening device mounted to the elongate body for movement relative thereto between a first position in which the collet end is released to the open configuration and a second position in which the collet end is constricted to a closed configuration in which the inner diameter of the collet end grips the end of the catheter to retain the end of the catheter therewithin.",
+      "description": "BACKGROUND OF THE INVENTION  \n       [0001]     Catheters are often used to form semi-permanent paths into the body so that fluids may be introduced to and removed from the body without repeatedly inserting needles or tubes. For example, a central port catheter is generally used to access the vascular system with a subcutaneous portion of the catheters tunneled from a location of the central port to a remote vessel access location. Thus, the location of the central port may be selected to maximize ease of access, and patient comfort, etc., while the target vessel is accessed at a desired remot",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_08908",
+      "title": "Patent Publication 08908",
+      "abstract": "A multi-element occlusion device (10, 20, 30, 40) provides an improvement over existing systems by increasing the occupation of a vascular lumen. The device (10, 20, 30) comprises an anchoring element (12, 22, 32), a lead element (14, 24, 34) and at least one fiber (16, 26, 36) attaching said elements. The elements and fibers produce a cumulative occlusive effect greater than the sum of the individual elements. When placed in the blood stream, the anchoring element (12, 22, 32) lodges against the vessel wail and the lead dement (14, 24, 34) is carded to a position distal thereto. In another embodiment, an &#34;umbrella&#34; of support members extend from the lead element. A fabric web extends between these support members. The umbrella intravascular device expands upon its exit from the catheter. The fabric web produces complete occlusion of the vessel without the need for thrombosis to form between the elements. With the use of multi-element deployment, the device decreases the risk o",
+      "description": "The present application is a continuation-in-part of co-pending application Ser. No. 07/939,296, filed on Sep. 2, 1992, now U.S. Pat. No. 5,443,478, and entitled &#34;Multi-Element Intravascular Occlusion Device.&#34; \n    \n    \n     FIELD OF THE INVENTION \n     This invention relates to devices for placement within blood vessels for the purpose of permanent occupancy at a controlled location in the blood vessel by the device. The most frequent current use of such devices is vaso-occlusion by metallic coils delivered through a catheter to the site of occlusion. \n     BACKGROUND OF THE INVENTIO",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_01906",
+      "title": "Patent Publication 01906",
+      "abstract": "An artificial eye comprises a transparent cup-shaped body member having a substantially concave inner surface and a substantially convex outer surface. The body member includes a pupil portion at the center, a substantially annular iris portion abutting the peripheral edge of the pupil portion for defining a boundary between the pupil portion and the iris portion, and at least one groove formed in the concave inner surface of the iris portion of the body member. The grooves are visible through the iris portion for reflecting light through the body member.",
+      "description": "BACKGROUND \n     This invention relates generally to artificial eyes, and more particularly to an artificial eye for use in taxidermy and a method for manufacturing the eye. \n     An artificial animal eye used in taxidermy is typically made from an eyepiece blank formed from transparent glass, crystal, plastic or other glass-like substrate. The conventional eyepiece blank used in taxidermy is semi-spherical and has a concave inner surface and a convex outer surface. Glass eyepieces are typically hand painted by artisans using variously colored glazes or vitreous glass enamels. Color is applied",
+      "cpc": "F"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_13639",
+      "patent_12082",
+      "patent_02504",
+      "patent_07588",
+      "patent_11310",
+      "patent_02939",
+      "patent_05674",
+      "patent_10022",
+      "patent_05540",
+      "patent_12806",
+      "patent_10150",
+      "patent_04162",
+      "patent_08908",
+      "patent_09349",
+      "patent_00222",
+      "patent_14240",
+      "patent_02175",
+      "patent_01906",
+      "patent_11707",
+      "patent_06413"
+    ],
+    "relevance_scores": {
+      "patent_00222": 0.28101643415916794,
+      "patent_02939": 0.7052554168274666,
+      "patent_10150": 0.49123262955454366,
+      "patent_02175": 0.19171372165984843,
+      "patent_10022": 0.7001741421047822,
+      "patent_11310": 0.746502262365495,
+      "patent_02504": 0.8502267176151488,
+      "patent_06413": 0.01,
+      "patent_07588": 0.7668018121079672,
+      "patent_13639": 0.9899999806043629,
+      "patent_05674": 0.7006098649093643,
+      "patent_09349": 0.2924156317447901,
+      "patent_12082": 0.983378473744388,
+      "patent_04162": 0.45531052709325914,
+      "patent_14240": 0.25847168075848687,
+      "patent_12806": 0.6811433792501552,
+      "patent_05540": 0.6835339009145619,
+      "patent_11707": 0.16782804259974896,
+      "patent_08908": 0.41768096696090123,
+      "patent_01906": 0.184109035019675
+    },
+    "novelty_score": 0.34898228409106374
+  }
+}

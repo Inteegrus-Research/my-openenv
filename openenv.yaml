@@ -1,0 +1,138 @@
+env_id: priorart_bench_v1
+name: PriorArtBench
+version: "1.0.0"
+description: >
+  A patent prior-art reasoning environment where an agent acts like a patent
+  examiner. Each episode presents a query patent and a large pool of candidate
+  prior-art patents. The agent must screen, rank, and justify decisions under a
+  fixed budget.
+
+domain: patent_analysis
+language: en
+modality: text
+
+interface:
+  type: http
+  reset_endpoint: /reset
+  step_endpoint: /step
+  health_endpoint: /health
+  tasks_endpoint: /tasks
+
+tasks:
+  - task_id: task1
+    name: Prior-art relevance screening
+    description: >
+      Screen candidate patents for relevance to the query patent. Mark the
+      strongest prior-art candidates as RELEVANT and the rest as NOT_RELEVANT.
+    budget: 20
+    paper_count: 80
+    grader: binary_f1
+    difficulty: medium
+
+  - task_id: task2
+    name: Novelty-risk ranking
+    description: >
+      Rank candidate patents by novelty risk and provide a quality score from 1
+      to 4 for each review decision.
+    budget: 24
+    paper_count: 80
+    grader: weighted_f1_quality
+    difficulty: hard
+
+  - task_id: task3
+    name: Claim-to-evidence mapping
+    description: >
+      Decide whether each candidate should be INCLUDED, EXCLUDED, or DEFERRED.
+      DEFER counts as EXCLUDE at grading time.
+    budget: 28
+    paper_count: 80
+    grader: f1_budget_efficiency
+    difficulty: hard
+
+  - task_id: task4
+    name: Final examiner decision
+    description: >
+      Produce a ranked top-5 prior-art shortlist with justification strings for
+      INCLUDE decisions. This is the hardest task.
+    budget: 32
+    paper_count: 80
+    grader: ndcg_f1_justification
+    difficulty: very_hard
+
+action_schema:
+  type: object
+  properties:
+    action_type:
+      type: string
+      enum: [review, submit]
+    paper_id:
+      type: string
+      description: Required when action_type is review.
+    label:
+      type: string
+      description: Task-specific label value.
+    quality_score:
+      type: integer
+      minimum: 1
+      maximum: 4
+      description: Used in task2.
+    rank:
+      type: integer
+      minimum: 1
+      maximum: 5
+      description: Required for INCLUDE decisions in task4.
+    justification:
+      type: string
+      maxLength: 200
+      description: Required for INCLUDE decisions in task4.
+
+observation_schema:
+  type: object
+  properties:
+    task_id:
+      type: string
+    task_description:
+      type: string
+    step:
+      type: integer
+    budget_remaining:
+      type: integer
+    query_patent:
+      type: object
+    candidate_patents:
+      type: array
+      items:
+        type: object
+    decisions_so_far:
+      type: object
+    episode_complete:
+      type: boolean
+    final_score:
+      type: number
+      minimum: 0.01
+      maximum: 0.99
+      nullable: true
+    error:
+      type: string
+      nullable: true
+
+reward:
+  type: per_step_and_end_of_episode
+  range: [-0.1, 1.0]
+  deterministic: true
+  grading: rule_based
+
+baseline:
+  script: inference.py
+  requires:
+    - API_BASE_URL
+    - MODEL_NAME
+    - HF_TOKEN
+    - ENV_BASE_URL
+  log_format: "[START]/[STEP]/[END]"
+
+deployment:
+  platform: huggingface_spaces
+  sdk: docker
+  port: 7860
+  health_check: GET /health

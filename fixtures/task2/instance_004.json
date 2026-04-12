@@ -1,0 +1,200 @@
+{
+  "task_description": "Rank candidate patents by novelty risk and provide a quality score from 1 to 4 for each review decision.",
+  "budget": 24,
+  "query_patent": {
+    "id": "patent_13546",
+    "title": "Patent Publication 13546",
+    "abstract": "The rongeur has a frame with a medial horizontal channel in one portion and a stationary handle at the other portion. A carriage is slidably engaged in the channel. A movable handle is attached at a fulcrum arm at the bottom front of the frame. A two-piece shaft extends from an integral cover &amp; barrel secured to the carriage. The shaft has a stationary lower half, and an upper half that reciprocates on the stationary half to open and close the bite area at the tip of the shaft in response to the surgeon gripping the handles. The shaft halves are held together by a slidable joint. The cover &amp; barrel with the extended shaft can be cocked open to remove the shaft. The tip of the shaft has a closable bite area and is used to remove tissue or to take a biopsy. The tip can be rotated to various angles after pressing a release lever. Also, the shaft can be quickly removed and replaced with another shaft having a different tip. During normal use, the tension spring maintains the carria",
+    "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n     This is a continuation-in-part of utility patent application Ser. No. 07/608,659 filed on Nov. 2, 1990, which is now abandoned. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     Medical and laboratory equipment: fixed apparatus for equipment; instrument or tool for medical or laboratory use; surgical forceps. Surgery: surgical instruments; orthopedic cutting instrument; rongeur resector or nipper; gouge forceps, and instrument for removing tiny fragments of bone; forceps having jaws biased to open or closed position.",
+    "cpc": "C"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_00800",
+      "title": "Patent Publication 00800",
+      "abstract": "Among the fewer than 10 proteins primarily secreted by the species  Lactobacillus plantarum , there is one of 30 kDa that contains an internal fragment without cleavage sites for the most important intestinal proteases and characterized by having a serine and threonine content of at least 50%. The genetic information encoded in this fragment, designated ST peptide, has been used for producing and purifying said peptide, thus making it possible to conduct various tests in vitro. \n     To summarize, the ST peptide is considered to promote the process of immunologic ignorance of our gastrointestinal immune system toward the commensal bacteria of our gastrointestinal tract, thus favoring the mechanisms of oral tolerance. Therefore the ST peptide could be used in immunotherapy, especially in the context of certain autoimmune diseases and certain inflammatory diseases.",
+      "description": "[0001]    The present invention, which describes the use of a peptide secreted by a  lactobacillus  in human immunotherapy, relates both to the food technology sector and to medicine. It relates to the amino acid sequence (ST peptide) that could be used in immunotherapy of certain inflammatory diseases, such as inflammatory bowel disease (IBD; divided into Crohn&#39;s disease, ulcerative colitis and pouchitis) and in other pathologies where oral tolerance is compromised (as in the case of celiac disease with respect to dietary gluten). The route of administration could be inclusion in a functi",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_08990",
+      "title": "Patent Publication 08990",
+      "abstract": "An oscillatory bed for a person operates to shift the person&#39;s weight in order to eliminate problems associated with convalescence. The bed has a main support frame which receives a cradle frame that is pivotally driven through a cycle about a pivot axis between opposite angular orientations. The cradle frame has side rails, and a support panel has longitudinal side edges fastened along the side rails so that it depends downwardly in an arcuate curvature therebetween. The support panel is constructed of a deformable sheet of stiff, resilient material so that the portion thereof that underlies the person during shifting remains somewhat flat as weight is shifted between the right and left sides of the body. The cradle frame is preferably mounted by trunnions, and a drive wheel is connected to one of the trunnions to be driven by a reversible motor though a gear box and, if desired, a clutch. Limit switches reverse the motor and back-up limit switches are used. The drive is key actua",
+      "description": "FIELD OF INVENTION \n     The present invention generally relates to beds, but more specifically relates to patient and convalescent beds for the care of persons who have restricted mobility and have limited abilities of movement. In particular, the present invention is directed to patient and convalescent beds which oscillate about a longitudinal axis. \n     BACKGROUND OF THE INVENTION \n     There has been a long felt need for improved patient care apparatus in the form of a convalescent bed which helps alleviate various physical and medical problems associated with persons who are confined to",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_08978",
+      "title": "Patent Publication 08978",
+      "abstract": "A functional ornamentation manufactured from a stamped metal plate which is twisted by a specified number of degrees to result in a shape that allows for unique reactions to flowing fluids such as air and water. Due to the shape and twist of the device, the device will spin along with the flowing fluid or when pulled through that fluid, such that it retains a straight trajectory. In a preferred embodiment, such as part of a fishing lure, the ornamentation is connected to a ball bearing swivel which allows for near frictionless rotation. The lure when drawn through the water travels in a straight path, rather than an arced path of the prior art. This results in a more natural travel path producing greater flash and rotation for attacking fish.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATION \n       [0001]    This application claims priority in U.S. Provisional Patent Application No. 62/289,544, filed Feb. 1, 2016, which is incorporated herein by reference. \n     \n    \n     BACKGROUND OF THE INVENTION \n       [0002]    1. Field of the Invention \n         [0003]    The present invention relates generally to a functional ornamentation and method for use and manufacture thereof, and more specifically to a twisted metal ornamentation with functional features for fishing lures, jewelry, and general decoration. \n         [0004]    2. Description of",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_06330",
+      "title": "Patent Publication 06330",
+      "abstract": "A medical instrument includes an elongated shaft, a plurality of implements mounted to the shaft, and an actuator coupled to produce relative movement between the implements. At least one of the implements is detachable from the shaft and the actuator and from another one of the implements. The actuator includes a distal portion with an inclined slot. One of the implements is detachably coupled to the slot such that movement of the actuator causes the relative movement between the implements. A coupler including an opening for receiving the actuator is mounted to a handle for rotation relative to the handle.",
+      "description": "This application is a divisional of U.S. application Ser. No. 08/796,984, filed Feb. 7, 1997, now U.S. Pat. No. 5,893,874. \n    \n    \n     BACKGROUND OF THE INVENTION \n     The invention relates to a surgical instrument, particularly to a surgical instrument for use during arthroscopic surgery. \n     Arthroscopic instruments generally have an actuating assembly attached to a handle with an end effector having at least one movable implement located at the distal end of the actuating assembly. Arthroscopic instruments are known which have an actuating assembly that is removable from a handle. It",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_04302",
+      "title": "Patent Publication 04302",
+      "abstract": "For producing a skin opening for minimally invasive surgery an instrument is employed, comprising a grip ( 10 ) and a puncture awl ( 16 ). The puncture awl ( 16 ) is provided on the distal end of a grip ( 10 ), which distal end forms a stop surface ( 12 ), which limits the penetration depth of the puncture awl ( 16 ).",
+      "description": "PRIORITY CLAIM \n       [0001]    Priority is claimed of and to U.S. patent application Ser. No. 11/743,543, filed May 2, 2007, and German Application Serial No. 10 2006 020 595.2, filed on May 2, 2006, which are hereby incorporated herein by reference in their entirety. \n       BACKGROUND OF THE INVENTION \n       [0002]    1. Field of the Invention \n         [0003]    The invention concerns an instrument for producing a skin opening for minimally invasive surgery, an instrument set for producing access for minimally invasive surgery, as well as a process for producing an access for minimally i",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_10447",
+      "title": "Patent Publication 10447",
+      "abstract": "A locking system for attaching a first workpiece to a bone or second workpiece. A countersink in the first workpiece has an opening for receiving a screw having a threaded first end, an opposite top head end, and a collar. The collar has external threads which engage complimentary threads in the counter sink. The collar is sized to allow the screw head to rotate within a smooth concave cavity in the collar while at the same time retaining the screw within the collar. Once the screw is threaded into the bone (or second workpiece), the collar retains the screw securely in the first workpiece.",
+      "description": "This application is a continuation-in-part application based upon PCT Application Ser. No. PCT/US01/29915, filed Sep. 25, 2001, which claims priority to U.S. patent Ser. No. 09/746,750, filed Dec. 21, 2000, now U.S. Pat. No. 6,402,755, issued Jun. 11, 2002. \n\n\n   BACKGROUND OF THE INVENTION \n   The present invention relates to a medical appliance, and, more particularly, to a medical appliance for bridging and stabilizing spaced apart bone segments. Even more specifically, the present invention relates to a bone screw locking system for use with a medical appliance. \n   While the present inven",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_04870",
+      "title": "Patent Publication 04870",
+      "abstract": "A surgical stapling and severing instrument particularly suited to endoscopic procedures incorporates a handle that produces separate closing and firing motions to actuate an end effector. In particular, the handle produces multiple firing strokes in order to reduce the required amount of force required to fire (i.e., staple and sever) the end effector. A linked transmission reduces the required handle longitudinal length, yet achieves a rigid, strong configuration when straightened for firing. A traction biased firing mechanism avoids binding in driving this straightened linked rack. The instrument further has a manually actuatable retraction system that does not require the use of additional springs or other mechanisms to generate retraction forces which must be overcome when generating the forces necessary to fire the device. In various embodiments, the retraction system provides a visual indication to the surgeon as to how far firing has progressed.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n   The present application is related to commonly-owned U.S. patent application Ser. No. 11/729,013, to Chad P. Boudreaux and Christopher J. Schall, filed Mar. 28, 2007, entitled \u201cSurgical Stapling and Cutting Instrument With Side Mounted Refraction Member\u201d, the disclosure of which is hereby incorporated by reference in its entirety. \n   FIELD OF THE INVENTION \n   The present invention relates in general to endoscopic surgical instruments including, but not limited to, surgical stapler instruments that are capable of applying lines of staples to tissue ",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_14763",
+      "title": "Patent Publication 14763",
+      "abstract": "A motorized drill is mounted in the handle of a Kerrison Rongeur System utilized by a surgeon to perform surgical procedures on a patient, includes mechanism for moving the rotating drill toward the fixed upstanding foot mounted at the remote end of the pistol-shaped handle for removing bone which is located between the upstanding foot and the drill bit. In another embodiment, the drill is removably fixed in the handle and the foot moves relative to the drill bit. In either embodiment a trigger operated by the surgeon actuates the foot/drill and the trigger is biased to maximize the space between the foot and the drill bit. The foot shape and dimension can be modified for perfecting given surgical procedures. In one embodiment the drill motor releasing mechanism includes a pinion gear and rack performing the additional function of releasing the motor locked in position in the handle.",
+      "description": "TECHNICAL FIELD  \n         [0001]    This invention relates to Kerrison-like Rongeur systems and particularly to a Kerrison-like Rongeur system that has been modified to include a powered cutting end (hereinafter referred to as a PKS system).  \n         BACKGROUND OF THE INVENTION  \n         [0002]    As is well known in medical technology, the Kerrison Rongeur system is utilized in certain types of spinal operations where it is necessary to cut bone near the spinal column. For example, in a laminectomy procedure it may be necessary to trim away some of the bone that may be in close proximity ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_14706",
+      "title": "Patent Publication 14706",
+      "abstract": "A cap is formed of a metallized fabric capable of being fabricated with conventional cut and sew techniques into a baseball style cap and serviceable both as a head covering and as a means for shielding the head of the wearer and attenuating selected electric field, electromagnetic field or other radio frequencies which, unless shielded and attenuated, would pass through the cap and provide a cause of concern for the wearer of the cap.",
+      "description": "FIELD OF INVENTION \n     The invention relates to head covers and particularly to a head cover in the form of a cap. More specifically, the invention is directed to a cap fabricated in such a manner that when worn on a person&#39;s head, the head is shielded from selected forms of radiation. \n     BACKGROUND OF INVENTION \n     Caps, hats and other forms of head covers, are typically made of some kind of fabric selected primarily for its ability to shield the wearer&#39;s head from the rays of the sun, from cold weather or from moisture. A very popular kind of cap is referred to by many as a &#",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_02087",
+      "title": "Patent Publication 02087",
+      "abstract": "The UV-stable solid transdermal therapeutic system (TTS) with UV absorber for photosensitive active pharmaceutical ingredients has a backing layer ( 1 ), at least one active ingredient-containing matrix ( 2 ), and a detachable protective film ( 3 ). Optionally an adhesive layer ( 4 ) and a separating layer ( 5 ) are introduced between the backing layer ( 1 ) and the at least one active ingredient-containing matrix ( 2 ). At least one hydroxyphenyltriazine compound acting as UV absorber is embedded in the backing layer ( 1 ), in the active it matrix ( 2 ), or in the adhesive layer ( 4 ). The TTS according to the invention achieves high stability at low concentrations of UV absorber, preferably 0.5 to 3% (m/m), so as to reduce or avoid skin irritation.",
+      "description": "CROSS-REFERENCE \n       [0001]    The invention described and claimed hereinbelow is also described in U.S. Provisional Patent Application 60/676,788, filed May 2, 2005, and also in European Patent Application No. 05009579.3, also filed May 2, 2005. The aforesaid US Provisional Patent Application, whose subject matter is incorporated here by reference, provides the basis for a claim of priority of invention under 35 U.S.C. 119 (e). \n     \n    \n     BACKGROUND OF THE INVENTION \n       [0002]    The invention is a solid transdermal therapeutic system with UV absorber. The UV-stable transdermal t",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_04953",
+      "title": "Patent Publication 04953",
+      "abstract": "A polyaxial orthopedic device for use with rod implant apparatus includes a screw having a curvate head, a two-piece interlocking coupling element which mounts about the curvate head, and a rod receiving cylindrical body member having a tapered socket into which both the screw and the interlocking coupling element are securely nested. The interlocking coupling element includes a socket portion which is slotted and tapered so that when it is radially compressed by being driven downwardly into the tapered socket in the cylindrical body it crush locks to the screw. The securing of the rod in the body member provides the necessary downward force onto the socket portion through a contact force on the top of the cap portion. Prior to the rod being inserted, therefore, the screw head remains polyaxially free with respect to the coupling element and the body. In a preferred embodiment, the cap portion and the socket portion are formed and coupled in such a way that when the cap portion is comp",
+      "description": "CROSS-REFERENCE TO PRIOR APPLICATION \n     This application is a continuation-in-part of prior application U.S. Ser. No. 08/663,383, entitled \u201cA Polyaxial Pedicle Screw\u201d, filed Jun. 13, 1996, now U.S. Pat. No. 5,669,911 and which, in turn, was a continuation-in-part of Ser. No. 08/421,087, filed Apr. 13,1995, now issued U.S. Pat. No. 5,520,690, entitled \u201cAn Anterior Spinal Polyaxial Locking Screw Plate Assembly\u201d. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates generally to a polyaxial screw and coupling apparatus for use with orthopedic ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06654",
+      "title": "Patent Publication 06654",
+      "abstract": "A method of thickening a food product which substantially maintains the viscosity of food products when they are heated to elevated temperatures. The method comprises using specific methylcelluloses in combination with various food approved starches.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATION \n     This is a continuation-in-part of copending U.S. application Ser. No. 024,450, filed Mar. 11, 1987. \n    \n    \n     FIELD OF THE INVENTION \n     This invention relates to a method of thickening food compositions. Typically, the food products are thickened by the addition of starch. The improvement of this invention comprises the incorporation of methylcellulose into the starch and food product. \n     BACKGROUND OF THE INVENTION \n     Many food products are fluids that have historically been thickened with starches. Some examples of foods in this gro",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_02118",
+      "title": "Patent Publication 02118",
+      "abstract": "A new and distinct cultivar of  Hosta  named \u2018Stitch in Time\u2019, characterized by its wide yellow colored leaf margins and its unique gathering and stitching where the yellow leaf margin tissue meets the dark green center tissue.",
+      "description": "BACKGROUND OF THE INVENTION  \n       [0001]     The present invention relates to a new and distinct cultivar of  Hosta  plant, botanically known as  Hosta,  hereinafter referred to by the cultivar name \u2018Stitch in Time\u2019.  \n         [0002]     The new plant was discovered by the Inventor during the summer of 2003 as a non-induced, naturally occurring whole plant mutation of  Hosta  \u2018Summer Breeze\u2019 (not patented) at his nursery in Olathe, Kans., USA. Asexual propagation of the new cultivar by division in 2004 in Olathe, Kans. and by tissue culture in 2005 in Waseca, Minn. has shown the unique and",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_00749",
+      "title": "Patent Publication 00749",
+      "abstract": "A surgical assisting instrument and device having an elongated rectangular u-shaped body with fasteners extending outward therefrom. These fasteners can be of any number and mounted on the top or sides of the body. The body is affixed vertically on the long handle of a tenaculum or other similar elongated handles of surgical clasping instruments. This permits such surgical clasping devices to be anchored or braced onto a fixed surgical device to provide the surgeon with auxiliary clasping and holding assistance.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS  \n       [0001]    This application contains subject matter of my provisional application Serial No. 60/286,750 filed Apr. 26, 2001, entitled Attachable Surgical Accessory Instrument. \n     \n    \n     \n       BACKGROUND OF THE INVENTION  \n         [0002]    1. Field of Invention  \n           [0003]    The invention relates to surgical devices and more specifically to clasping and other similar instruments with elongated handles for use in attachment to rigid and supporting adjunct instrumentation. Such attachment allows for fewer hands and affords, a cla",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_04754",
+      "title": "Patent Publication 04754",
+      "abstract": "The present invention provides a surgical instrument for guiding a drill into bone, the surgical instrument comprising; an elongate body comprising a shaft having a handle towards its proximal end and a head towards its distal end, wherein the head comprises a mouth and jaw assembly, and the shaft comprises a lumen aligned with the longitudinal axis of the shaft and extending from the proximal end of the surgical instrument to the mouth of the shaft, wherein the lumen is suitable for receipt and passage of a drill, and the jaw assembly comprises a pair of opposed reciprocating arms.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATION \n       [0001]    This application claims priority to U.S. Patent Application Ser. No. 61/329,994, the disclosure of which is incorporated herein by reference in its entirety. \n     \n    \n     BACKGROUND \n       [0002]    1. Field of Technology \n         [0003]    The present invention concerns a surgical drill-guide. In particular, the present invention relates to a surgical guide for drilling an irregular-shaped body. \n         [0004]    2. Related Art \n         [0005]    The shoulder is a ball and socket joint made up of the clavicle, the scapula and t",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_14191",
+      "title": "Patent Publication 14191",
+      "abstract": "A foldable hanger assembly for mounting on a wall. The assembly includes an elongated housing to which is pivotally connected a hanger arm that is stored in the housing when not in use. The hanger arm is dropped to a horizontal position for supporting clothes hanger or the like and a brace is hingedly positioned at one end on the hanger arm and the opposite end thereof is slidably engaged with the housing at a point intermediate its length.",
+      "description": "This application is a continuation-in-part of application Ser. No. 779,719 filed Mar. 21, 1977. \n    \n    \n     BACKGROUND OF INVENTION \n     Various foldable hanger devices have been developed over the years for mounting on walls in order to support clothes which are hung on clothes hangers. Such devices are illustrated in U.S. Pat. Nos. 1,705,203, 2,626,714, 2,500,881, 2,672,241 and 3,941,250. \n     It will be noted from a consideration of these patents that the use thereof is severely limited insofar as their ability to hold clothes hangers. It will be noted, for example, that the devices d",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_05880",
+      "title": "Patent Publication 05880",
+      "abstract": "Described herein are systems, apparatus, and methods for precise placement and guidance of tools during a surgical procedure, particularly a spinal surgical procedure. The system features a portable robot arm with end effector for precise positioning of a surgical tool. The system requires only minimal training by surgeons/operators, is intuitive to use, and has a small footprint with significantly reduced obstruction of the operating table. The system works with existing, standard surgical tools, does not required increased surgical time or preparatory time, and safely provides the enhanced precision achievable by robotic-assisted systems.",
+      "description": "[0001]    The present application is a continuation of and claims priority to U.S. patent application Ser. No. 14/947,674, filed on Nov. 20, 2015 and titled \u201cApparatus and Systems for Precise Guidance of Surgical Tools\u201d (published as U.S. Patent Publication No. 2016-0081754), which is a continuation and claims priority to U.S. patent application Ser. No. 14/266,769, filed Apr. 30, 2014, titled \u201cApparatus and Systems for Precise Guidance of Surgical Tools\u201d (now issued as U.S. Pat. No. 9,283,048), which claims priority to U.S. Provisional Patent Application No. 61/887,273, titled \u201cApparatus, Sys",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_09450",
+      "title": "Patent Publication 09450",
+      "abstract": "A motorized toy capable of linear movement along a horizontal support surface. The toy includes a body, power supply, first and second wheels/gears coupled to the motor each of which is provided with a shaft. Each shaft has an extension angled away from its ends such that when activated, the wheels, being in contact with the horizontal support surface act to move the toy linearly while selective extensions contact the horizontal support surface causing the toy to wobble from side to side thus emulating the action of a lizard running.",
+      "description": "TECHNICAL FIELD \n       [0001]    The present invention is directed to a motorized toy which, because of its unique structural features, emulates the side-to-side wobble action imitating a running lizard. The toy is captivating not only for children but pets which find the action of the present toy intriguing. \n       BACKGROUND OF THE INVENTION \n       [0002]    There are almost a limitless number of motorized toys designed to captivate both children and animals. Like the present invention, such toys are often times configured to replicate the look of a familiar bug or animal and move either ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_03767",
+      "title": "Patent Publication 03767",
+      "abstract": "The present disclosure describes a surgical device with a body portion defining a longitudinal axis, a tool assembly including an anvil, a cartridge assembly housing a plurality of staples, a dynamic clamping member movable relative to the tool assembly to eject the staples, and an articulation and firing actuator extending at least partially through the body portion and the tool assembly. The tool assembly is pivotally attached to the body portion for movement from a position aligned with the longitudinal axis to a position oriented at an angle thereto. The articulation and firing actuator extends at least partially through the body portion and the tool assembly, is operably associated with the dynamic clamping member and the tool assembly, and is movable in relation thereto to selectively pivot the tool assembly relative to the body portion and move the dynamic clamping member relative to the tool assembly to eject the staples.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a divisional application of U.S. patent application Ser. No. 12/607,637, filed on Oct. 28, 2009, which is a divisional application of U.S. patent application Ser. No. 10/529,568, filed on Mar. 28, 2005, which issued as U.S. Pat. No. 7,617,961, which is a National Stage entry of PCT/US03/31653, filed on Oct. 6, 2003 under 35 U.S.C. \u00a7371(a), which claims the benefit of, and priority to, U.S. Provisional Patent Application Ser. No. 60/416,056, filed Oct. 4, 2002, now expired, the entire contents of each being incorporat",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_10622",
+      "title": "Patent Publication 10622",
+      "abstract": "The present disclosure relates to a device for positioning and/or orienting, in the body of a patient, a surgical tool carried by a tool-holder, including a platform capable of being placed on the body of the patient, an orientable carrier, at least one part of which is rigidly connected to the tool-holder, means for guiding the orientable carrier rotationally relative to the platform in two directions of a plane parallel to the platform, at least 2 pneumatic actuators which engage with the orientable carrier such that a variation in pressure of at least one of the pneumatic actuators causes the orientable carrier to rotate in the first direction and/or the second direction, in which the pneumatic actuators are volumes that can deform in a predetermined direction as a function of the internal pressure.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a National Phase entry of International Application No. PCT/EP2009/059767, filed on Jul. 28, 2009, which claims priority to French Application Serial No. 0855189, filed on Jul. 29, 2008, both of which are incorporated by reference herein. \n     \n    \n     FIELD OF THE INVENTION \n       [0002]    The present invention relates to a device for positioning a surgical tool in the body of a patient. \n       BACKGROUND OF THE INVENTION \n       [0003]    Scientific interest for the development of automated medical aid system",
+      "cpc": "H"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_10622",
+      "patent_14763",
+      "patent_10447",
+      "patent_00749",
+      "patent_06330",
+      "patent_05880",
+      "patent_04953",
+      "patent_04754",
+      "patent_03767",
+      "patent_04870",
+      "patent_04302",
+      "patent_08978",
+      "patent_08990",
+      "patent_09450",
+      "patent_14191",
+      "patent_02087",
+      "patent_14706",
+      "patent_06654",
+      "patent_00800",
+      "patent_02118"
+    ],
+    "relevance_scores": {
+      "patent_00800": 0.013952208632351706,
+      "patent_08990": 0.618537456463282,
+      "patent_08978": 0.664592816628236,
+      "patent_06330": 0.9396521688212279,
+      "patent_04302": 0.8084560835974092,
+      "patent_10447": 0.944785887677753,
+      "patent_04870": 0.9196026960548251,
+      "patent_14763": 0.9743414946867295,
+      "patent_14706": 0.25356336190524653,
+      "patent_02087": 0.35092173898816786,
+      "patent_04953": 0.925994300954575,
+      "patent_06654": 0.08154552546569616,
+      "patent_02118": 0.01,
+      "patent_00749": 0.9446700054485604,
+      "patent_04754": 0.9252220120043178,
+      "patent_14191": 0.5323831993738397,
+      "patent_05880": 0.9330575755871204,
+      "patent_09450": 0.609785528876813,
+      "patent_03767": 0.9205851673704469,
+      "patent_10622": 0.9899999836897551
+    },
+    "novelty_score": 0.2132007640400203
+  }
+}

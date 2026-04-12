@@ -1,0 +1,200 @@
+{
+  "task_description": "Decide whether each candidate should be INCLUDED, EXCLUDED, or DEFERRED. DEFER counts as EXCLUDE at grading time.",
+  "budget": 28,
+  "query_patent": {
+    "id": "patent_13759",
+    "title": "Patent Publication 13759",
+    "abstract": "A safety helmet which is worn by bicyclers and the like includes a compact disc player and earphones. Audio played by the compact disc player can be heard by a person wearing the helmet for entertainment. The entertainment offered by the helmet will encourage people to wear the helmet thus encouraging safety.",
+    "description": "BACKGROUND OF THE INVENTION  \n         [0001]    1. Field of the Invention  \n           [0002]    The present invention relates to the general art of wearing apparel, and to the particular field of protective wearing apparel and more specifically, to the field of headgear.  \n           [0003]    2. Discussion of the Related Art  \n           [0004]    More and more people are using bicycles, skateboards, skates, motorcycles, ATVs, rollerblades, and the like. More and more people are also riding horses and even jogging. The popularity of these modes of transportation is nearly unprecedented. How",
+    "cpc": "B"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_11883",
+      "title": "Patent Publication 11883",
+      "abstract": "A helmet for protection against non-motorized injuries comprises a number of arched segments with ventilation spaces between them, the arched segments being shaped to extend about and engage the skull. The helmet is constructed to cover the apical as well as the frontal, temporal and occipital basilar skull. The arched segments are convex on their outer surfaces, have flat, curved inner surfaces, and are made of a cushioning, impact absorbing material such as plastic foam. Reinforcing elements extend in longitudinal passages in the arched segments to provide resistance against forces which are only partly absorbed by the cushioning material. In an alternate embodiment, support straps extend over the apical skull, and an impact resistant helmet is worn over the apical skull.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to protective head pieces, particularly light weight helmets for non-motorized activities. \n     2. Brief Discussion of the Prior Art \n     There has long been a need for a lightweight, economical, comfortable, but very effective safety helmet for non-motorized sports enthusiasts. Non-motorized sports activities include bicycling, skiing, and hockey, for example. In these activities, the velocity of impact is less than in motorized vehicle activities, such as automobile travel, snow mobiles, and mot",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_00444",
+      "title": "Patent Publication 00444",
+      "abstract": "Protective helmet that includes a shell adapted to protect a user&#39;s head, an inner lining, and a headband having an adjusting device. The adjusting device includes two gripping members adapted to be manually moved towards or away from one another by the user in order to vary a size of the headband. This abstract is neither intended to define the invention disclosed in this specification nor intended to limit the scope of the invention in any way.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     The present application is a National Stage Application of International Application No. PCT/FR01/00265, filed Jan. 26, 2001. Further, the present application claims priority under 35 U.S.C. \u00a7 119 of French Patent Application No. 00 01094 filed on Jan. 28, 2000. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to a protective helmet, and more specifically a device for adjusting the helmet adapted to promote its positioning and adjusting as well as its fitting to the size of the user&#39",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_00382",
+      "title": "Patent Publication 00382",
+      "abstract": "A carrier for retaining an oxygen bottle said carrier comprising a flexible open-top container adapted for maintaining a close fitting relationship with an oxygen bottle, said container including an upper mouth portion made at least partially from a stiff material to enable an oxygen bottle to be loaded therein vertically; and a flexible upper bottle retaining portion, for preventing said bottle from falling out of said carrier.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATION  \n       [0001]    This application is a continuation in part application of U.S. patent application Ser. No. 10/037,207, filed Jan. 7, 2002, the entire contents of which are herein incorporated by reference. \n     \n    \n     \n       FIELD OF THE INVENTION  \n         [0002]    This invention relates generally to the field of oxygen bottle carrying apparatus, particularly for individuals who have difficulty breathing and, in particular, to an oxygen bottle carrier that can be attached for use to an orthopedic appliance, such as a walker or a wheelchair.  \n",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_13125",
+      "title": "Patent Publication 13125",
+      "abstract": "The present invention concerns a mechanism for adjusting the angle of an auxiliary support mounted on an auxiliary support mechanism. The mechanism may have a first member having a plurality of surfaces mounted on the end of an auxiliary support mechanism. The mechanism may also have a second member having a plurality of surfaces slideably enveloping said first member. The mechanism may still further have a third member movably connected to the auxiliary support mechanism as well as a spring member.",
+      "description": "BACKGROUND OF THE INVENTION \n     This invention relates to an auxiliary support mechanisms, such as those used to support the keyboard of a personal computer. The present invention permits the angle of the auxiliary work surface to be adjusted to improve the ergonomics of the work surface. \n     FIELD OF THE INVENTION \n     Personal Computers (PCs) have become ubiquitous in many industry and office environments. The input means most commonly used appears to be the keyboard. However, it is generally thought that use of a keyboard that is not positioned properly can lead to repetitive motion in",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_04107",
+      "title": "Patent Publication 04107",
+      "abstract": "People who wear a prosthesis currently have to use a bathing prosthesis if they wish to pursue water sports or take a shower or reach a body of water for recreational purposes and take active part in beach pursuits safely. However, these are usually taken off for swimming though this is very often not possible in the case of rocky shores or unsupervised beaches, quite apart from the unwelcome attention to which the person wearing the prosthesis is sometimes exposed in doing so. To solve this problem, a protective device for use for exterior prostheses is suggested, in which the protective device is a protective covering made from an at least semi-elastic, durable and damage resistant material being watertight or custom-designed sufficiently preventing a penetration of water into the inside of the protective covering and being dimensionally conformed to the shape of the body, and at least one end of which is furnished with a cuff or sleeve or collar like semi-elastic device that is dime",
+      "description": "FIELD OF THE INVENTION \n     The invention relates to a protective device for use for exterior prostheses, where the protective device is dimensionally conformed to the shape and size of the body or adapted to the contours of the anatomy of the person wearing the protective device, respectively. \n     BACKGROUND OF THE INVENTION \n     Exterior prostheses in the form of arm and leg prostheses are known in the art. They are made particularly from metals and/or carbon or other plastics and fibre materials. However, these materials do not lend themselves especially well to being worn when showerin",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_09195",
+      "title": "Patent Publication 09195",
+      "abstract": "A helmet having an outer shell and an inner shell placed within the outer shell. The inner shell attached to the outer shell by a plurality of elastomeric elements to isolate the inner shell from impacts and rotational forces applied to the outer shell.",
+      "description": "BACKGROUND \n       [0001]    1. Field of the Invention \n         [0002]    The present invention relates generally to helmets used as protective gear. \n         [0003]    2. Description of Related Art \n         [0004]    Helmets are well known in the art to be securely fashioned to a head and provide padding in an attempt to absorb impact. Most helmets are designed to prevent skull injury and most testing systems test for this ability. Recently the concept of brain injury separate from skull injury has come to light and helmets are not typically designed to prevent such injuries well. Current ",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_03845",
+      "title": "Patent Publication 03845",
+      "abstract": "A throwable pet toy bounces and creates an interest for a pet when impacting the ground or an object. The toy includes two domed structures, which are mounted on opposite sides of an aerodynamic base. The structures are in fluid communication with each other. A fascinator is mounted in one of the first and second domed structure to produce an interest for a pet when one of the domed structures impacts.",
+      "description": "RELATED APPLICATIONS \n   This application is a non-provisional counterpart to and claims priority to U.S. Ser. No. 60/653,385, filed on Feb. 16, 2005, which is now expired, which is hereby fully incorporated by reference. The present application is a continuation of and claims priority to U.S. Ser. No. 29,236,653, now U.S. Pat. No. D526,029, filed on Aug. 19, 2005, issued Aug. 1, 2007, which is hereby fully incorporated by reference. \n\n\n   BACKGROUND OF THE INVENTION \n   1. Field of the Invention \n   The invention relates generally to pet amusement and exercise equipment and, more particularly",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_00582",
+      "title": "Patent Publication 00582",
+      "abstract": "The present invention provides a head protection helmet comprising an impact resistant shell comprising:\n       a cavity for accommodating a user&#39;s head and   an array of crushable bodies having a hollow closed configuration, e.g. flutes in corrugated material  14,16,  the crushable bodies each having an axis that extends outwardly from the cavity to absorb impact forces exerted along the direction of the axis.",
+      "description": "TECHNICAL FIELD \n       [0001]    The present invention relates to a helmet. The helmet is primarily intended as a cycling helmet to provide head protection in the event of a cycling accident. However, it also finds application at any time when head protection is needed, for example ice skating, roller skating, skateboarding, caving, climbing, e.g. indoor climbing or mountain climbing, skiing, baseball, American football, ice hockey and head protection at work or when working at heights, e.g. in the construction industry. \n       Technical Background \n       [0002]    Most bicycle helmets avai",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_12421",
+      "title": "Patent Publication 12421",
+      "abstract": "A hockey stick comprising a shaft portion and a blade portion, the shaft portion including means having preformed stresses to induce a flexural resistance at about mid-span so as to create in the shaft portion induced stresses which are neutralized as stresses are further induced in the shaft portion at impact on the blade portion to thereby provide a stiffer and more rigid shaft portion.",
+      "description": "FIELD OF THE INVENTION \n       [0001]    The present invention relates to a hockey stick, which consists of a handle portion, or shaft, and a blade portion, or blade. \n       BACKGROUND OF THE INVENTION \n       [0002]    Up till now, all hockey stick shafts, either of solid or hollow construction, have been manufactured in a similar standard rectangular configuration. This standard rectangular configuration has been the standard shape, which is preferred by a majority of hockey players. These actual designs of rectangularity have various radiuses placed at the intersecting planes (horizontal a",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_06247",
+      "title": "Patent Publication 06247",
+      "abstract": "A method for expelling air out of mailpieces includes the steps of creating a stack of the mailpieces; cutting in at least some of the mailpieces; jogging the stack of mailpieces; and subjecting the stack of mailpieces to at least one compression/decompression cycle during the jogging step thereby expelling air out of the at least some of the mailpieces through their corresponding openings. A jogger system incorporates the structure for accomplishing the method.",
+      "description": "BACKGROUND OF THE INVENTION  \n         [0001]    The instant invention relates to systems for expelling powder materials from mailpieces, and more particularly to a jogger system that compresses mailpieces while performing a jogging function.  \n           [0002]    Recent events have led to the realization that unscrupulous individuals may attempt to use the postal delivery system as a vehicle for spreading terrorism. These individuals have, for example, contaminated mailpieces with biological agents (such as anthrax) and distributed such mailpieces to targeted locations via the postal service",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_07366",
+      "title": "Patent Publication 07366",
+      "abstract": "A helmet for protecting the head of a wearer during sporting activities, comprising a protective shell, vents formed in the protective shell, and a shutter plate positioned within the protective shell. The shutter plate has apertures conforming in dimension and position to the vent openings so that that the apertures are in substantial alignment with the vents when the shutter plate is in a first position. The shutter plate is selectively moveable so that the vents are opened or closed.",
+      "description": "FIELD OF THE INVENTION \n     The present invention relates to the field of protective apparel, and more particularly, to helmets for outdoor sporting activities. \n     BACKGROUND OF THE INVENTION \n     Helmets and other forms of protective headgear have become increasingly popular in recent years as users have become more aware and concerned about preventing head injuries while participating in individual and team sporting events. Numerous forms of special helmets have been developed for wear in a wide range of indoor and outdoor sporting activities. \n     While the helmets developed for some ",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_10999",
+      "title": "Patent Publication 10999",
+      "abstract": "An emergency safety helmet is provided in which the entire electrical circuitry is carried within the safety helmet for powering and controlling a strobe light thereon which projects light beams therefrom while freeing hands of a wearer of the safety helmet for doing other types of work.",
+      "description": "BACKGROUND OF THE INVENTION \n     The instant invention relates generally to protective helmets and more specifically it relates to an emergency safety helmet. \n     Numerous protective helmets have been provided in prior art that are adapted to carry illuminating devices, such as lamp assemblies and the like. For example, U.S. Pat. Nos. 1,749,998; 3,142,833 and 4,521,831 all are illustrative of such prior art. While these units may be suitable for the particular purpose to which they address, they would not be as suitable for the purposes of the present invention as heretofore described. \n   ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_08967",
+      "title": "Patent Publication 08967",
+      "abstract": "A helmet having an outer shell and an inner shell placed within the outer shell. The inner shell attached to the outer shell by a plurality of elastomeric elements to isolate the inner shell from impacts and rotational forces applied to the outer shell.",
+      "description": "BACKGROUND \n       [0001]    1. Field of the Invention \n         [0002]    The present invention relates generally to helmets used as protective gear. \n         [0003]    2. Description of Related Art \n         [0004]    Helmets are well known in the art to be securely fashioned to a head and provide padding in an attempt to absorb impact. Most helmets are designed to prevent skull injury and most testing systems test for this ability. Recently the concept of brain injury separate from skull injury has come to light and helmets are not typically designed to prevent such injuries well. Current ",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_09506",
+      "title": "Patent Publication 09506",
+      "abstract": "An improved headband provides adjustment to fit the shape and size of the wearer&#39;s head as well as stand-off from the inner surface of the helmet shell. When the wearer&#39;s head is fitted properly in the headband, the headband desirably resists displacement toward the helmet shell in all directions.",
+      "description": "RELATED APPLICATION  \n       [0001]     The present application claims priority to, and the benefits of, U.S. Ser. No. 60/662,063, filed Mar. 15, 2005, the entire disclosure of which is hereby incorporated by reference. \n     \n    \n     FIELD OF THE INVENTION  \n       [0002]     This invention relates to safety helmets, in particular a headband for adjusting and securing the helmet to a wearer&#39;s head.  \n       BACKGROUND OF THE INVENTION  \n       [0003]     Helmets for head protection are worn in a variety of environments and for various purposes. Protective helmets generally have a spheri",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_08573",
+      "title": "Patent Publication 08573",
+      "abstract": "A skin solution for transporting molecules with high molecular weight to the skin, and/or moisturizing the epidermal tissues of the skin, and/or alternating the membrane permeability of the skin, and/or softening any type of callus, corns, nail folds or dry skin and facilitating the removal of the same. A method for preparing the skin solution, the solution being sprayable to form tiny droplets to be readily absorbed by the skin.",
+      "description": "TECHNICAL FIELD \n       [0001]    The invention relates to a skin solution and related methods for preparing the same. With greater particularity the present invention relates to softening the skin and increasing the penetration of high molecular weight compounds at the site where the skin solution is applied. \n       BACKGROUND ART \n       [0002]    Topical therapy permits drug application to a specific disease site in high concentrations with little systemic influence. This can yield an efficient dosage which minimizes the potential of side effects. Although little quantitative data are avai",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_09001",
+      "title": "Patent Publication 09001",
+      "abstract": "The present invention relates to soap bars having improved lather. Specifically, by limiting amounts of myristic acid and keeping specifically defined ratios of sum of C 8 -C 10  fatty acids to C 12  fatty acid bars having substantially improved lather and unexpectedly obtained.",
+      "description": "BACKGROUND OF THE INVENTION \n       [0001]    Soap bars for cleansing, are typically prepared by saponification/neutralizing triglyceride/fatty acids. In this saponification process, various fats (e.g., tallow, palms and coconut oil blends) are saponified in the presence of alkali (typically NaOH) to yield alkaline salts of fatty acid (derived from the fatty acid chains forming the glyceride) and glycerol. Glycerol is then typically extracted with brine to yield dilute fatty acid soap solution containing soap and aqueous phase (e.g., 70% soap and 30% aqueous phase). The soap solution is then t",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_12606",
+      "title": "Patent Publication 12606",
+      "abstract": "A headband, cap, hat, or the like worn by a child, particularly an infant, includes an embedded sound-attenuation system to protect hearing against loud sounds that might startle, awaken, or injure a wearer. Shells formed of a comparatively soft and flexible elastomeric material are secured against the head of a user, each enclosing an ear in an air tight chamber, to close down the transmission paths available to sound waves. The shells are impervious to air, and flexible to conform to the head when secured by the headgear in which the shells are embedded. Each shell is provided with a rim, sufficiently flexible to deform and deflect into complete, sealed contact with the head.",
+      "description": "RELATED APPLICATIONS \n     This application is a continuation of U.S. patent application Ser. No. 12/351,352 filed Jan. 9, 2009, which claims the benefit of U.S. Provisional Patent Application Ser. No. 61/020,641 filed on Jan. 11, 2008. \n    \n    \n     BACKGROUND \n     1. The Field of the Invention \n     This invention relates to head gear and, more particularly, to novel systems and methods for earmuffs. \n     2. Background of the Prior Art \n     Adults who are exposed to dangerous levels of noise may wear hearing protection. Shooters, factory workers who operate noisy machinery, industrial w",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_00773",
+      "title": "Patent Publication 00773",
+      "abstract": "A mounting buckle for a safety helmet includes at least one mating member configured for attachment to a V-shaped strap having an apex, the apex of the strap being substantially flush with the abutment surface. This configuration channels the tension in the straps along continuous lines, rather than allowing the tension to dissipate in an intervening length of strap.",
+      "description": "RELATED APPLICATION \n   The present application claims priority to, and the benefits of, U.S. Provisional Application Ser. Nos. 60/765,144, filed Feb. 4, 2006, and 60/842,074, filed on Sep. 1, 2006, the entire disclosures of which are hereby incorporated by reference. \n\n\n   FIELD OF THE INVENTION \n   This invention relates generally to safety helmets and, in particular, to helmet straps and their adjustment. \n   BACKGROUND OF THE INVENTION \n   Helmets for head protection are worn in a variety of environments and for various purposes. Helmets are often secured to a wearer&#39;s head by a flexib",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_09444",
+      "title": "Patent Publication 09444",
+      "abstract": "The present invention includes methods for treatment and prophylaxis of eye disorders and injuries, particularly treatment and prophylaxis of ocular neovascularization and disorders, especially a vasculopathy that affects retinal or chorodial vessels. The methods of the invention in general comprise administration of a therapeutically effective amount of a compound that inhibits farnesyl-protein transferase to a subject suffering from or susceptible to ocular neovascularization or associated disorder.",
+      "description": "[0001]    The present application is a continuation of U.S. provisional application serial number 60/050,225, filed Jun. 19, 1997, incorporated herein by reference. \n     \n    \n     \n       BACKGROUND  \n         [0002]    1. Field of the Invention  \n           [0003]    The present invention relates to methods for treatment of ocular neovascularization and, more particularly, to use of one or more farnesyl-protein transferase inhibitor compounds to treat a subject suffering from or susceptible to ocular neovascularization or a disorder associated therewith.  \n           [0004]    2. Background",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_01861",
+      "title": "Patent Publication 01861",
+      "abstract": "The present invention provides a vent assembly suitable for use with a respiratory mask of the type used in CPAP treatment. In one embodiment the vent is made of a thin air permeable membrane. Generally, the membrane is thinner than 0.5 mm. The membrane can be made of a hydrophobic material such as polytetrafluoroethylene (PTFE). The membrane can also be fabricated from expanded PTFE. The expanded PTFE membrane is mounted on a polypropylene scrim. The pores of the membrane have a reference pore size of 10 to 15 microns. In an alternative embodiment, the vent assembly includes a vent constructed from stainless steel. In another embodiment the membrane has a superficial cross-sectional area of approximately 500 mm 2 . In another embodiment the vent assembly comprises a membrane attached to a vent frame, the vent assembly forming an insert which can be removably attached to a mask frame.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n     This application is a continuation of U.S. application Ser. No. 10/976,874, filed Nov. 1, 2004, now allowed, which is a continuation of U.S. application Ser. No. 10/377,110, filed Mar. 3, 2003, now U.S. Pat. No. 6,823,865, which is a continuation of U.S. application Ser. No. 09/570,907, filed May 15, 2000, now U.S. Pat. No. 6,581,594, each incorporated herein by reference in its entirety. \n    \n    \n     BACKGROUND OF INVENTION \n     1. Field of the Invention \n     The present invention relates to a respiratory mask and a vent for a respiratory mas",
+      "cpc": "G"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_07366",
+      "patent_11883",
+      "patent_09506",
+      "patent_00444",
+      "patent_00582",
+      "patent_00773",
+      "patent_09195",
+      "patent_08967",
+      "patent_12606",
+      "patent_10999",
+      "patent_04107",
+      "patent_12421",
+      "patent_13125",
+      "patent_00382",
+      "patent_06247",
+      "patent_03845",
+      "patent_01861",
+      "patent_08573",
+      "patent_09444",
+      "patent_09001"
+    ],
+    "relevance_scores": {
+      "patent_11883": 0.9459388825089907,
+      "patent_00444": 0.8784436059846144,
+      "patent_00382": 0.2928456498892279,
+      "patent_13125": 0.42575209943591874,
+      "patent_04107": 0.572952900134951,
+      "patent_09195": 0.8262497541334489,
+      "patent_03845": 0.22467241610869398,
+      "patent_00582": 0.8629325258645639,
+      "patent_12421": 0.48661580302945895,
+      "patent_06247": 0.2266240515978142,
+      "patent_07366": 0.9899999856431235,
+      "patent_10999": 0.8097503839090927,
+      "patent_08967": 0.8262497541334489,
+      "patent_09506": 0.9289030510616808,
+      "patent_08573": 0.11632423544191355,
+      "patent_09001": 0.01,
+      "patent_12606": 0.8115354502850401,
+      "patent_00773": 0.8400999352462718,
+      "patent_09444": 0.06276493831296714,
+      "patent_01861": 0.15137460419184087
+    },
+    "novelty_score": 0.8331887258060781
+  }
+}

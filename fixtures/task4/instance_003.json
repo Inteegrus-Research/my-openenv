@@ -1,0 +1,200 @@
+{
+  "task_description": "Produce a ranked top-5 prior-art shortlist with justification strings for INCLUDE decisions. This is the hardest task.",
+  "budget": 32,
+  "query_patent": {
+    "id": "patent_14291",
+    "title": "Patent Publication 14291",
+    "abstract": "An injection device for administering a liquid medicament includes a generally elongate housing, a syringe holder in which a syringe can be placed, said syringe containing a medication, a stop and a needle on the distal area thereof, a needle protection housing which is arranged so it can be moved axially on the housing and which protrudes at a certain distance from the distal end of the housing.",
+    "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a Continuation of International Patent Application No. PCT/CH2015/000028 filed Feb. 24, 2015, which claims priority to Swiss Patent Application No. 333/14 filed Mar. 6, 2014. The entire contents of each are incorporated herein by reference for any and all purposes. \n     \n    \n     BACKGROUND \n       [0002]    The invention is in the field of the injection devices for administering a liquid product, in particular a medicament. The invention relates to an injection device according to the preamble of claim  1 . \n     ",
+    "cpc": "E"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_08835",
+      "title": "Patent Publication 08835",
+      "abstract": "A plant protection apparatus includes a plurality of side panels. Each of the plurality of side panels includes a mesh portion and a width of each side panel is greater at a lower portion of the side panel than a width of each side panel at an upper portion of the side panel. A side portion of each side panel is operably connected to a side portion of another of the plurality of side panels thereby defining a boundaried area. A lid includes a mesh portion and a perimeter portion of the lid is operably connected to the upper portion of each side panel to yield a self-supporting plant enclosure.",
+      "description": "BACKGROUND \n       [0001]    The technical field generally to which this application and the within-described invention applies relates to the protection of young or otherwise vulnerable plants growing outdoors naturally or in a planned garden or landscaped setting. Such plants, especially when in the form or developmental phase as seedlings, sprouts, \u201cstarts,\u201d or as new transplants, are especially exposed to potential damage and destruction from various animals and insects, commonly referred to individually and/or collectively as \u201cgarden pests,\u201d and are likewise susceptible to damaging effect",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_14868",
+      "title": "Patent Publication 14868",
+      "abstract": "The present invention proposes a design to incorporate drug(s) in the hard capsule shells (body and cap) composition. Drug(s) in the cap and body of the capsule shell may be the same or may be different. Other drug(s) in the form of granules, beads etc. can be filled into the capsules as a core material. The drug(s) in the capsule core material may be the same as in the shell-composition or may be different. Thus, the same capsule may contain different drug(s) as the core material and in the shell. The key advantages of incorporation of drug in the capsule shell compositions are to minimize drug-drug interaction and to obtain a desired rate of release of the drug(s), mainly for potent ones. The concept can be applied to the hard gelatin, and hard non-gelatin capsules.",
+      "description": "RELATED APPLICATIONS \n       [0001]    This patent application claims the benefit of U.S. patent application Ser. No. 12/841,008 filed on Jul. 21, 2010 and titled, \u201cPhysically/molecularly distributed and/or chemically bound medicaments in empty, hard capsule shells\u201d. The current application is a Continuation application of the previous application U.S. patent application Ser. No. 12/841,008 filed on Jul. 21, 2010 and it seeks broader claim coverage. U.S. patent application Ser. No. 12/841,008 will be issued as a U.S. Pat. No. 8,728,521. U.S. patent application Ser. No. 12/841,008 is a continua",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_10375",
+      "title": "Patent Publication 10375",
+      "abstract": "Methods and arrangements for administration of liquids to a patient by a medical pump from any size and type of syringe to a patient through a flexible tube are disclosed. Contemplated herein are methods and arrangements which permit a reduction in size of devices commonly encountered heretofore while administering liquids with high precision. While the arrangements of the present invention are of a size conducive to portability, the arrangements may also be mated with a docking station in a stationary configuration. Such a stationary configuration is preferably mounted on an IV pole.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATION  \n       [0001]     This application claims priority from U.S. Provisional Patent Application Ser. No. 60/753,169, filed on Dec. 22, 2005, and entitled \u201cSyringe Pump\u201d the contents of which are hereby fully incorporated by reference. \n     \n    \n     FIELD OF THE INVENTION  \n       [0002]     The present invention relates generally to syringe pumps, which are useful for administration of liquids to a patient by a medical pump from any size and type of syringe to a patient through a flexible tube.  \n       BACKGROUND OF THE INVENTION  \n       [0003]     Syr",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06136",
+      "title": "Patent Publication 06136",
+      "abstract": "A passive heater including a carriage actuatable to move along a cooking surface and a cover. In one exemplary embodiment, the carriage may be positioned on a guide bar to direct movement of the carriage along the cooking surface. The cover may be connected to the carriage and positionable near the cooking surface. Advantageously, positioning the cover near the cooking surface provides for the retention of nearby heat. Thus, the top surface of a food item cooking on the cooking surface may be heated by placing the cover over the food item. In another exemplary embodiment, the cover has a lifted position and a lowered position. By moving the cover from the lifted position to the lowered position, the cover may contact the cooking surface to surround food cooking thereon. In another exemplary embodiment, the lowered positioned may be spaced upwardly from the cooking surface, allowing the cover to cap food thereon.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application claims the benefit under Title 35 U.S.C. \u00a7119(e) of U.S. Provisional Patent Application Ser. No. 60/884,269, entitled PASSIVE HEATER, filed on Jan. 10, 2007, the entire disclosure of which is expressly incorporated by reference herein. \n    \n    \n     BACKGROUND \n     1. Field of the Invention \n     The present invention relates to a passive heater, particularly to a passive heater for use in conjunction with a cooking surface. \n     2. Description of the Related Art \n     Numerous devices having heated cooking surfaces are utilize",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_00719",
+      "title": "Patent Publication 00719",
+      "abstract": "A vertebral body is selected for treatment. The vertebral body has a cortical wall enclosing a cancellous bone volume. The vertebral body has at least one cortical plate that is depressed due to fracture. At least one maximum dimension for the cancellous bone volume is ascertained. An expandable device is provided having an expanded configuration and an unexpanded configuration. The expandable device has a predefined dimension when substantially expanded that is less than the maximum dimension. The expandable device is introduced into the vertebral body through a percutaneous access path while in the unexpanded condition. The expandable device is expanded while disposed within the cancellous bone volume from the unexpanded configuration toward the expanded configuration to move the fractured cortical plate toward a desired anatomic position.",
+      "description": "RELATED APPLICATIONS \n       [0001]    This application is a divisional of co-pending application Ser. No. 11/199,715, filed Aug. 9, 2005, which is a divisional of application Ser. No. 10/747,547, filed 29 Dec. 2003, now U.S. Pat. No. 6,981,981, which is a divisional of application Ser. No. 10/411,573, filed Apr. 10, 2003, now abandoned, which is a divisional of application Ser. No. 10/200,674, filed Jul. 22, 2002, now U.S. Pat. No. 6,663,647, which is a divisional of Ser. No. 09/059,796, filed Apr. 13, 1998, now U.S. Pat. No. 6,423,083, which is a divisional of application Ser. No. 08/788,786",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_00697",
+      "title": "Patent Publication 00697",
+      "abstract": "The present invention relates to a syringe system that allows rapid conversion between a needle/syringe system and a needleless/syringe system and in doing so allows an operator to move seamlessly between both systems, while minimizing needle stick risk. In this way, an operator may rapidly access medication bottles requiring a needle puncture and access needleless tubing systems requiring a needleless interface.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATION \n       [0001]    This application claims priority to and the benefit of, Provisional Patent Application Ser. No. 60/923,777, filed on Apr. 17, 2007, the entire disclosure of which is hereby incorporated by reference herein. \n     \n    \n     TECHNICAL FIELD \n       [0002]    The present invention relates to a medical syringe for the withdrawal of medication from medication bottles and injection of medication into patients via medication tubing systems, and more particularly switching between a needle interface for withdrawal of medications from medication",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_12893",
+      "title": "Patent Publication 12893",
+      "abstract": "A device that is used in conjunction with a needle-based medication injection device (e.g. a prefilled syringe) that prevents needle stick injuries. The used needle is shielded by a needle guard that surrounds and extends beyond the needle tip. In a preferred embodiment, before the needle is inserted into the patient, the needle guard projects forward to substantially hide visibility of the needle for safety and to reduce patient anxiety.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATION \n       [0001]    The subject application is a continuation-in-part of application Ser. No. 12/859698 filed Aug. 19, 2010, which claims the benefit of provisional application Ser. No. 61/235,278 filed Aug. 19, 2009, which applications are incorporated herein by reference. \n     \n    \n     FIELD \n       [0002]    The following describes a device that is used in conjunction with a needle-based medication injection device (e.g. a prefilled syringe) that prevents needle stick injuries. The used needle is shielded by a cylindrical needle guard that surrounds a",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_00946",
+      "title": "Patent Publication 00946",
+      "abstract": "A smokeless pipe comprises a bowl ( 1 ), a shank ( 2 ), a stem ( 3 ) with a bit ( 4 ) and an air channel ( 5 ) inside of the pipe, which is used for placing a carrier of a nicotine-containing or flavoring agent ( 10 ) and a heating unit ( 7 ) connected to a power supply ( 8 ). According to the invention at least one of elements ( 7 ) of a heating unit is arranged in the stem ( 3 ) and is shifted to the bit ( 4 ). The invention ensures preservation of the health of a pipe smoker while fully simulating the process of smoking.",
+      "description": "TECHNICAL FIELD \n       [0001]    The invention refers to medicine and medical equipment and is used as a device helping to give up smoking. It can be used in circumstances when the full smoking is not possible, for example, on board a plane or in public places, where smoking is forbidden. Besides, the suggested device allows satisfying smoker&#39;s need in nicotine without tobacco burning and accompanying exhaustion of smoke and combustion materials, such as CO, acetone, arsenic benzopyrene, tar and so on hazardous for the smoker and people around him/her. \n       BACKGROUND ART \n       [0002",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_06636",
+      "title": "Patent Publication 06636",
+      "abstract": "A luggage article including first rollers and selectively deployable or nondeployable second rollers. The luggage article includes a handle that is movable between a retracted position and an extended position. The user can selectively deploy or not deploy the second rollers even when the handle is in the extended position. An improved detent device and also an improved caster system are also disclosed. Also, a wheeled panel mechanism by itself for use not only with luggage but also other articles such as carts, dollies and baby carriages, is disclosed.",
+      "description": "This application is a division of Ser. No. 09/623,341 filed on Dec. 14, 2000. \n    \n    \n     BACKGROUND OF THE INVENTION \n     The inventions disclosed herein concern improvements in wheeled luggage and associated devices. Conventionally, wheeled luggage includes one or more wheels integral with the frame of the luggage. A retractable or foldable handle is provided to allow the luggage to be pushed or pulled along the ground. This alleviates the need for the user to carry and thus support the entire weight of the luggage. \n     In order to provide further stability and support to the luggage,",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_03465",
+      "title": "Patent Publication 03465",
+      "abstract": "A pet bed for a caged enclosure includes a support bedding platform that is suspended by a pair of chain linkages from opposed walls of the enclosure and above the floor thereof so as to permit normal periodic cleaning of the floor and provide a dry bedding area for the pet. The linkages may be connected to a common wall for the compact stowing of the bedding platform during non-use.",
+      "description": "FIELD OF THE INVENTION \n     The present invention relates to pet enclosure areas and, in particular, to a pet bed for caged enclosures that is suspended for keeping the bed area above washable surfaces and stowed against a cage wall when not in use. \n     BACKGROUND OF THE INVENTION \n     Various independent bedding products are available to pet owner for providing a comfortable resting area for their pets. Generally, such products are disposed on the floor of the household and the areas therearound do not require frequent cleaning. When cleaning is required, the beds may be conveniently move",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_11913",
+      "title": "Patent Publication 11913",
+      "abstract": "An injection device having a distal end, and including a needle located inside the injection device in an initial position, wherein the needle is moveable to a puncturing position in which the needle projects from the distal end, an open region located distally relative to the needle in the initial position of the needle and having a dimension, a reduction piece moveable relative to the opening region whereby the dimension may be reduced and a holding member that latchingly connects to the reduction piece and a product container holder.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a continuation of U.S. application Ser. No. 13/305,358 filed Nov. 28, 2011, which is a continuation of International Patent Application No. PCT/EP2009/056690 filed May 29, 2009, the contents of which are hereby incorporated by reference. \n     \n    \n     BACKGROUND \n       [0002]    The present application relates to devices for injecting, delivering, administering, infusing or dispensing a substance, and to methods of making and using such devices. More particularly, it relates to an injection device for administeri",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_02382",
+      "title": "Patent Publication 02382",
+      "abstract": "According to the invention, an auto-injector for administering a dose of a liquid medicament (M) comprises of a substantially cylindrical housing arranged to contain a pre-filled syringe filled with the medicament (M), a needle shroud slibably arranged with respect to the housing and adapted to rest on the skin of a patient receiving an injection, a releasable drive means arranged within the housing that is capable of, upon release, translating the needle shroud in a proximal direction (P) towards a safe position (PS) and a rotating collar rotatably arranged within the housing. The needle shroud in the safe position (PS) surrounds the injection needle after the injection has been carried out. The rotating collar engages the needle shroud in a manner that forces the rotating collar to rotate within the housing when the needle shroud is translated in the proximal direction (P).",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n     The present application is a U.S. National Phase Application pursuant to 35 U.S.C. \u00a7371 of International Application No. PCT/EP2011/073502 filed Dec. 21, 2011, which claims priority to European Patent Application No. 10196067.2 filed Dec. 21, 2010, and U.S. Provisional Patent Application No. 61/432,255, filed Jan. 13, 2011. The entire disclosure contents of these applications are herewith incorporated by reference into the present application. \n    \n    \n     TECHNICAL FIELD \n     The invention relates to an auto-injector for administering a dose o",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_13367",
+      "title": "Patent Publication 13367",
+      "abstract": "The invention relates to an auto-injector for administering a dose of a liquid medicament, comprising:\n       an elongate housing arranged to contain a syringe with a hollow needle and a stopper for sealing the syringe and displacing the medicament, wherein the syringe is slidably arranged with respect to the housing,   spring means capable of, upon activation:   pushing the needle from a covered position inside the housing into an advanced position through the orifice and past the proximal end,   operating the syringe to supply the dose of medicament, and   retracting the syringe with the needle into the covered position after delivering the medicament,   activating means. The spring means is a single drive spring arranged to be grounded at a distal end in the housing for advancing the needle and for injecting the dose of medicament via a plunger. The drive spring has its ground in the housing switched to its proximal end for retracting the syringe. An interlock sleeve is telescoped i",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n       [0001]    The present application is a U.S. National Phase Application pursuant to 35 .S.C. \u00a7371 of International Application No. PCT/EP2011/060730 filed Jun. 27, 2011, which claims priority to European Patent Application No. 10167487.7 filed Jun. 28, 2010. The entire disclosure contents of these applications are herewith incorporated by reference into the present application. \n     \n    \n     FIELD OF INVENTION \n       [0002]    The invention relates to an auto-injector for administering a dose of a liquid medicament according to the preamble of",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_07992",
+      "title": "Patent Publication 07992",
+      "abstract": "This device is a compressible chamber designed to inject a liquid medication through a plurality of needles. It is a self-contained, rapidly deployed device that replaces a classic syringe. It consists of a shallow chamber that is closed on one end and sealed on the other with a sliding elastomeric seal. A rigid ring slides up into the chamber that has multiple small double-ended needles mounted through the periphery of the ring perpendicularly so as to be able to perforate the seal of the chamber with the proximal end and simultaneously penetrate the subcutaneous tissues with the distal end thus allowing medication to flow from the chamber into the tissues when pressure is applied to the top of the chamber. The needles are also imbedded in, or juxtapose to a ring of compressible dye-containing material that serves to conceal the needles and provide demarcation of the area injected.",
+      "description": "CROSS-REFERENCES TO RELATED APPLICATIONS \n       [0001]    This is the Non-provisional Divisional Application to application Ser. No. 13/744,344 filed Jan. 17, 2013. \n     \n    \n     STATEMENT AS TO RIGHTS TO INVENTIONS MADE UNDER FEDERALLY SPONSORED RESEARCH AND DEVELOPMENT \n       [0002]    None \n       FIELD OF THE INVENTION \n       [0003]    This device refers to the field of injection of an anesthetic into the subcutaneous tissues; more specifically it refers to the method of injecting medication subcutaneously in a manner that greatly reduces the pain and psychological anxiety of such in",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_00306",
+      "title": "Patent Publication 00306",
+      "abstract": "A method, apparatus, and system for cutting anatomic members, such as ligaments, in surgical procedures such as carpal tunnel release, plantar fasciotomy, gastroc release, cubital tunnel release, and tarsal tunnel release is disclosed. The apparatus includes a guide tool for guiding a knife and a scope during surgery which may be employed with a translating knife. Relevant features include a knife stop for preventing the knife from inadvertently raising out of the knife channel, indicia viewable to show the proper orientation for the guide tool, a self dilating tip and channel design on the guide tool, a cover piece and/or pivotable panel system for preventing ligaments and other anatomy from getting caught in the guide tool, a pivot pin and groove system for stabilizing the knife and also assuring that the knife blade is not inadvertently raised out of the channel, and a use indicator employable to prevent re-use of the device.",
+      "description": "[0001]    This application is a Continuation in Part Application to U.S. patent application Ser. No. 13/183,020 filed on Jul. 14, 2011, which claims the benefit of U.S. Provisional Application No. 61/364,128 filed on Jul. 14, 2010, both of which are fully incorporated herein by reference. \n     \n    \n     FIELD OF INVENTION \n       [0002]    The invention pertains to methods, apparatus, and systems for performing endoscopic ligament release surgery, such as carpal tunnel release, plantar fasciotomy, gastroc release, cubital tunnel release, and tarsal tunnel release surgery, and similar surgica",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_03480",
+      "title": "Patent Publication 03480",
+      "abstract": "An injection device includes a housing having a proximal end and a distal end, the housing defining a distal opening, and a first opening in a side of the housing and between the proximal and distal ends; a propellant disposed inside the housing and spaced from the distal end; and a movable member disposed inside the housing and between the distal end and the propellant, wherein the propellant is in fluid communication with the movable member and the first opening.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS  \n       [0001]    This application claims priority under 35 USC \u00a7119(e)(1) to U.S. Patent Application Ser. No. 60/174,876, filed on Jan. 7, 2000, and entitled \u201cInjection Device\u201d, the entire contents of which are hereby incorporated by reference. \n     \n    \n     \n       BACKGROUND  \n         [0002]    The invention relates to injection devices (e.g., injection devices including a needleless syringe), as well as components that can be used in injection devices.  \n           [0003]    Injection devices can be used for fluid injection into a body. Some inj",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_03290",
+      "title": "Patent Publication 03290",
+      "abstract": "The present disclosure relates to the use of a recombinant LAG-3 or derivatives thereof in order to boost a monocyte-mediated immune response, in particular to elicit an increase in the number of monocytes in blood. This finds use in the development of novel therapeutic agents for the treatment of an infectious disease or cancer.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a National Phase Entry of International Application No. PCT/IB2008/002653, filed on Oct. 3, 2008, which claims priority to European Application EP 07291214.0, filed on Oct. 5, 2007, both of which are incorporated by reference herein. \n     \n    \n     BACKGROUND \n       [0002]    1. Technical Field \n         [0003]    The present invention relates to the use of recombinant LAG-3 or derivatives thereof in order to boost a monocyte-mediated immune response. It enables an increase in monocyte numbers in blood. It finds m",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_11410",
+      "title": "Patent Publication 11410",
+      "abstract": "The invention relates to an auto-injector for administering a dose of a liquid medicament, comprising:\n       an elongate housing arranged to contain a syringe with a hollow needle and a stopper for sealing the syringe and displacing the medicament, the housing having a distal end and a proximal end with an orifice intended to be applied against an injection site, wherein the syringe is slidably arranged with respect to the housing,   spring means capable of, upon activation:   pushing the needle from a covered position inside the housing into an advanced position through the orifice and past the proximal end,   operating the syringe to supply the dose of medicament, and   retracting the syringe with the needle into the covered position after delivering the medicament,   activating means arranged to lock the spring means in a pressurized state prior to manual operation and capable of, upon manual operation, releasing the spring means for injection. The spring means is a single drive sp",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n       [0001]    The present application is a U.S. National Phase Application pursuant to 35 U.S.C. \u00a7371 of International Application No. PCT/EP2011/060504 filed Jun. 22, 2011, which claims priority to European Patent Application No. 10167480.2 filed Jun. 28, 2010 and U.S. Patent Application No. 61/413,799 filed Nov. 15, 2010. The entire disclosure contents of these applications are herewith incorporated by reference into the present application. \n     \n    \n     FIELD OF INVENTION \n       [0002]    The invention relates to an auto-injector for administ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_11203",
+      "title": "Patent Publication 11203",
+      "abstract": "An auto-injector for administering a dose of a liquid medicament (M) is presented comprising an elongate housing arranged to contain a syringe with a hollow needle and a stopper for sealing the syringe and displacing the medicament (M), the housing having a distal end (D) and a proximal end (P) with an orifice intended to be applied against an injection site, wherein the syringe is slidably arranged with respect to the housing. The auto-injector contains a spring means capable of, upon activation, pushing the needle from a covered position inside the housing into an advanced position through the orifice and past the proximal end (P), operating the syringe to supply the dose of medicament (M), and retracting the syringe with the needle into the covered position after delivering the medicament (M). There is also an activating means arranged to lock the spring means in a pressurized state prior to manual operation.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n       [0001]    The present application is a continuation of U.S. patent application Ser. No. 13/806,325, filed Dec. 21, 2012, which is a U.S. National Phase Application pursuant to 35 U.S.C. \u00a7371 of International Application No. PCT/EP2011/060507 filed Jun. 22, 2011, which claims priority to European Patent Application No. 10167495.0 filed Jun. 28, 2010, European Patent Application No. 10167500.7 filed Jun. 28, 2010, and European Patent Application No. 10187528.4 filed Oct. 14, 2010. The entire disclosure contents of these applications are herewith in",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_06757",
+      "title": "Patent Publication 06757",
+      "abstract": "An underwear construction having a trunk panel, an inner panel with an open edge for providing access through said inner panel, an outer panel having openings along opposed side edges, the outer panel overlying the inner panel, wherein the trunk panel, inner panel, and outer panel are joined to provide a wearer of said underwear selective unencumbered access to the penis through either of the openings in said outer panel and through the open edge of said inner panel.",
+      "description": "FIELD OF THE INVENTION  \n         [0001]    The present invention relates generally to male undergarments, and, more particularly, to an undergarment brief or shorts having a double fly construction.  \n         BACKGROUND OF THE INVENTION  \n         [0002]    Various forms of male undergarments have been developed over the ages. In particular, in more modern times, two types have become most widely known: underwear briefs, sometimes referred to as \u201cjockey shorts,\u201d and a loosely fitting shorts known as \u201cboxers.\u201d \n           [0003]    Men&#39;s briefs are generally constructed with one or more t",
+      "cpc": "H"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_11410",
+      "patent_13367",
+      "patent_11203",
+      "patent_11913",
+      "patent_03480",
+      "patent_02382",
+      "patent_00697",
+      "patent_07992",
+      "patent_12893",
+      "patent_10375",
+      "patent_14868",
+      "patent_00306",
+      "patent_00946",
+      "patent_06136",
+      "patent_06636",
+      "patent_03290",
+      "patent_08835",
+      "patent_03465",
+      "patent_06757",
+      "patent_00719"
+    ],
+    "relevance_scores": {
+      "patent_08835": 0.06639754635785436,
+      "patent_14868": 0.5074658509571639,
+      "patent_10375": 0.8564643165677149,
+      "patent_06136": 0.13103185610687934,
+      "patent_00719": 0.01,
+      "patent_00697": 0.9050508051340476,
+      "patent_12893": 0.8597896449401589,
+      "patent_00946": 0.24401327531506875,
+      "patent_06636": 0.11659973684072589,
+      "patent_03465": 0.03966350115250365,
+      "patent_11913": 0.9266462169035123,
+      "patent_02382": 0.9056825832666212,
+      "patent_13367": 0.9811030367610342,
+      "patent_07992": 0.8997458291502269,
+      "patent_00306": 0.2455554648641709,
+      "patent_03480": 0.9086206037614367,
+      "patent_03290": 0.08104311318408654,
+      "patent_11410": 0.9899999840345259,
+      "patent_11203": 0.951407561297257,
+      "patent_06757": 0.03492207240487842
+    },
+    "novelty_score": 0.44899236900831163
+  }
+}

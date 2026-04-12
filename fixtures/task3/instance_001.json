@@ -1,0 +1,200 @@
+{
+  "task_description": "Decide whether each candidate should be INCLUDED, EXCLUDED, or DEFERRED. DEFER counts as EXCLUDE at grading time.",
+  "budget": 28,
+  "query_patent": {
+    "id": "patent_13881",
+    "title": "Patent Publication 13881",
+    "abstract": "The invention comprises a fastener mountable on a brassiere strap, either removably or permanently. A brassiere strap mounted on the fasteners can be removably affixed to a location on the posterior strap assembly and a location on the anterior cups of a brassiere. Use of the fasteners permits adjustment of the brassiere straps into a plurality of different arrangements, depending upon the shape, outfit and activity of the wearer. The brassiere straps and fasteners can be made of transparent or translucent materials which may be color tinted so as to appear virtually invisible against the wearer&#39;s skin. The brassiere straps can also be removed from a brassiere altogether.",
+    "description": "BACKGROUND OF THE INVENTION  \n         [0001]    A wide variety of brassieres exist which are worn dependent upon the outfit, the shape, and the activity of the wearer. A brassiere is usually comprised of two cups situated on the front portion of the brassiere, for cradling the breasts of the wearer, attached to a backstrap assembly that comprises the back of the brassiere. The backstrap assembly can consist of either interlocking backstraps for posterior release and adjustment, or a single backstrap, either of which holds the brassiere in place. The cups are joined with a web of material, usi",
+    "cpc": "G"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_06618",
+      "title": "Patent Publication 06618",
+      "abstract": "Apparatus for treatment is provided, including one or more electrodes, configured to be applied to a site of a subject, and adverse cerebrovascular condition treatment functionality. The functionality comprises a control unit configured to drive the one or more electrodes to apply electrical stimulation to the site during a plurality of stimulation periods which includes at least first and last stimulation periods, set an inter-period interval between initiation of the first stimulation period and initiation of the last stimulation period to be at least 24 hours, and configure the stimulation during the first and last stimulation periods to induce at least one neuroprotective occurrence selected from the group consisting of: an increase in cerebral blood flow (CBF) of the subject, and a release of one or more neuroprotective substances. The site is selected from the group consisting of: a sphenopalatine ganglion (SPG), a greater palatine nerve, a lesser palatine nerve, a sphenopalatine",
+      "description": "CROSS-REFERENCES TO RELATED APPLICATIONS \n     The present application claims the benefit of U.S. Provisional Application 60/709,734, filed Aug. 19, 2005, entitled, \u201cStimulation for treating brain events and other conditions,\u201d which is assigned to the assignee of the present application and is incorporated herein by reference, including the appendices thereof. \n     The present application is related to a European patent application filed on even date herewith, entitled, \u201cStimulation for treating brain events and other conditions.\u201d \n    \n    \n     FIELD OF THE INVENTION \n     The present inven",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06345",
+      "title": "Patent Publication 06345",
+      "abstract": "A snare device for capturing an object or for cutting tissue in the body of a human or animal. The device employs at least one twisted loop of memory shaped material housed in and movable relative to a hollow member such as a catheter. The device and method of employment is particularly well adapted for retrieving objects from internal body cavities and cutting tissue therein.",
+      "description": "This application claims the benefit of U.S. Provisional Application No. 61/000,307 filed on Oct. 25, 2007 and incorporated herein in its entirety by reference. This invention claims prior The invention relates to a snare device for capturing an object and/or for cutting a tissue comprising at least one twisted loop of memory shaped material, the loop being housed in and movable relative to a hollow member, especially a catheter to be deployed and retracted into the hollow member, and to a method for retrieving an object from a human or animal body employing such a snare device and a method for",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_12754",
+      "title": "Patent Publication 12754",
+      "abstract": "System apparatus for determining the volume of a potable liquid ingested by a small laboratory animal over an extended period of time is provided with a liquid dispensing section that has a liquid delivery tube and sipping tube combination, that retains a drop/droplet of the potable liquid in a position accessible to the animal, and that replaces each drop/droplet of liquid ingested by the animal with a succeeding drop/droplet of liquid, counting the total number of drops/droplets ingested by the animal over an extended period of time.",
+      "description": "CROSS-REFERENCES \n     None. \n     FIELD OF THE INVENTION \n     This invention relates generally to monitoring of liquid intakes by a small animal, and particularly concerns both apparatus and methods that are usefull in connection with research operations requiring the detection and precision measurement of a liquid ingested by a small laboratory animal over an extended period of time. \n     BACKGROUND OF THE INVENTION \n     There are two well-known classical methods for measuring the volume of liquid ingested by a laboratory animal. The first such method counts animal licks of the liquid-dis",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_02670",
+      "title": "Patent Publication 02670",
+      "abstract": "The invention relates to an improved ice-cream scoop designed to alleviate strain on the operator&#39;s wrist, and to provide support and stability to the wrist. This improved scoop design significantly reduces the fatigue and discomfort associated with frequent and extended periods of use and lessens the potential for carpal tunnel syndrome. The scoop includes a hemispherical hollow bowl, handle, and forearm appendage connected to said bowl wherein said forearm appendage extends above the handle and conforms to the shape of an operator&#39;s forearm.",
+      "description": "FIELD OF THE INVENTION \n     The present invention relates generally to a manually-operated device for scooping and dispensing ice cream. More particularly, the invention concerns an improved ice-cream scoop designed to alleviate strain on the operator&#39;s wrist, reduce the fatigue and discomfort associated with frequent and extended periods of use, and lessen the potential for carpal tunnel syndrome. The scoop includes a hemispherical hollow bowl, handle and forearm appendage. \n     BACKGROUND OF THE INVENTION \n     Frozen edible substances, including ice cream, sherbet, sorbet, frozen yogu",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_06025",
+      "title": "Patent Publication 06025",
+      "abstract": "A game board apparatus comprising a central betting board and individual playing cards containing thereon a rectangular pathway for the movement of individual player tokens. The number of spaces an individual player may move his token on his card during his turn is established by chance by combining the values shown on the face of a standard playing card and dice. Chips, and script dollars are allocated to each player at the beginning of the game and the object is for one player to acquire all the chips and script money from all the rest of the players.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to game board apparatus which includes a central betting board and individual playing cards containing a pathway for tokens, movements of which tokens are established by chance through a combination of values showing on a standard deck of cards and playing dice. \n     2. Description of the Prior Art \n     Numerous game board apparatus exist comprising a single game board containing a rectangular course of travel for player pieces. These game boards necessarily require that all the game action take p",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_00361",
+      "title": "Patent Publication 00361",
+      "abstract": "A brassiere with floating cups which are independently positionable in relation to the brassiere body. Depending on the point of attachment to the brassiere, the floating brassiere cups control the support, position, cleavage, and separation of individual breasts. The floating cups are partially or fully detached from the brassiere at various selectable locations. It is not just rotational motion, but also lifting the breasts upward and toward the center of the chest. The brassiere has floating cups that apply rotational pressure to move the breasts closer together if rotated in one direction, and will move the breasts apart if rotated in the other direction. The cup positioning mechanism can be implemented by an adjustable clip, by integral hook and loop strips, buttons, ornamental clasps, straps, string ties, or other suitable devices.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application is related to, and claims the benefit of, the provisional patent application entitled \u201cApparatus And Method For Enhancing A Woman&#39;s Cleavage With A Floating and Sliding Cup Brassiere\u201d, filed Jul. 17, 2007, bearing U.S. Ser. No. 60/950,211 and naming Seka Kaytes, the named inventor herein, as sole inventor, the contents of which is specifically incorporated by reference herein in its entirety, and the provisional patent application entitled \u201cApparatus And Method For Enhancing A Woman&#39;s Cleavage With A Floating and Sliding Cu",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_09969",
+      "title": "Patent Publication 09969",
+      "abstract": "A fastener for closure in wearing apparel having adjacent edges with spaced opposed eyelets providing two elongate elastic elements each laced through eyes along one edge of the closure to form adjacent spaced loops with plural hook elements releasably joining opposed loops on each side of the closure. The fastener is particularly adapted for use in boots.",
+      "description": "BACKGROUND OF INVENTION \n     RELATED APPLICATIONS \n     There are no applications related hereto now filed in this or any foreign country. \n     FIELD OF INVENTION \n     This invention relates generally to fasteners for lace type closures and particularly opposed elastic laces releasably joined by plural hooks. \n     DESCRIPTION OF THE PRIOR ART \n     The common non-elastic fabric lace associated with plural opposed eyelets to releasably fasten together separated parts of wearing apparel to form closures, particularly in footwear and leggings, has inadequacies notwithstanding the extensive us",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_04944",
+      "title": "Patent Publication 04944",
+      "abstract": "A device for creating an ornamental cascade for use in an aquatic medium such as an aquarium. The device comprises an assembly of natural stones or ceramics, and means for generating a continuous flow of sand through and along the assembly to create the appearance of a cascade.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The invention relates to an improved structure for an ornamental cascade with a continuous circulation of sand, for use in an aquatic medium such as an aquarium. \n     2. The Prior Art \n     Structures of this kind are known from the prior art, namely U.S. Pat. Nos. 3,057,094, and 4,160,427. \n     SUMMARY OF THE INVENTION \n     The prior art structures fulfill their utilitarian and ornamental objective, but they have many drawbacks inherent to their building and to their composition. The present invention overcomes these drawbac",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_00237",
+      "title": "Patent Publication 00237",
+      "abstract": "There is provided a brassiere that includes a body having a pair of breast cups, a pair of stretchable panels each adjacent a separate breast cup and connected to a back of the brassiere, and a pair of stretchable sheaths secured along a lower portion of the breast cup and floating along the panel of the brassiere. Each panel is made of a stretchable material. The brassiere further includes a pair of underwires each positionable in one sheath. Preferably, the underwire is anatomically shaped so that the curve of the underwire is greater on the inner portion compared to the outer portion.",
+      "description": "This application claim the benefit of provisional application Ser. No. 60/203,034, filed May. 9, 2000. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to brassieres. More particularly, the present invention relates to a brassiere having underwire support, yet permits natural shaping and flexibility. \n     2. Description of the Prior Art \n     To be comfortable, a brassiere must combine both support for the wearer&#39;s breasts and freedom of movement for the wearer&#39;s body. \n     In order to give freedom of movement to the wear",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_14924",
+      "title": "Patent Publication 14924",
+      "abstract": "The invention relates to a brassiere ( 1 ) in which each substantially hemispherical cup ( 2 ) comprises, in the bottom portion thereof, a polycarbonate support ( 20 ) in the shape of a crescent that becomes wider toward the outside, which is thermoformed, and which is secured to the two layers of lace or gauze of the cup by means of a fabric shell adhered to the support and slightly projecting beyond same in order to enable sewing with the layers of lace or gauze along the bottom edge ( 4 ). The result is a light brassiere that provides the chest with an advantageous shape.",
+      "description": "TECHNICAL FIELD \n       [0001]    The present invention relates to a brassiere with cups having an improved support. \n       BACKGROUND \n       [0002]    The invention is more particularly focused on brassieres achieved with lightweight materials; in particular textiles materials with holes, such as gauze or lace. It is difficult to give these brassieres a shape that can impart the chest with a nice shape in as far as these materials are particularly light and do not keep their shape. Certainly, it can be provided in these brassieres rigid underwire, often metallic, which is inserted in the br",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_10452",
+      "title": "Patent Publication 10452",
+      "abstract": "The invention is directed to a wireless support system for a brassiere. The wireless support system comprises at least one centerfront support and two sideback supports which are composed of a material such as a polyester film. The two sideback supports may be attached to the centerfront support via a stabilizing ribbon or stitches. The brassiere of the present invention has the advantage of providing comfortable support that is form fitting.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n   This invention claims the benefit under 35 U.S.C. \u00a7 119(e) of U.S. Provisional Application No. 60/507,126 filed Oct. 1, 2003, which is herein incorporated by reference in its entirety. \n\n\n   FIELD OF THE INVENTION \n   This invention is directed to brassieres. More particularly, this invention is directed to a wireless support system for a brassiere or other breast supporting garments. \n   BACKGROUND OF THE INVENTION \n   Brassieres provide support and enhance the shape of breasts. Brassieres often have a device in the cups of the brassiere to provide ",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_02668",
+      "title": "Patent Publication 02668",
+      "abstract": "A brassiere shoulder strap connector is shaped so that the shoulder strap is positioned at a desired angle to better accommodate the anatomy of the wearer&#39;s shoulder. Preferably, the connector has a triangular shape.",
+      "description": "BACKGROUND OF THE INVENTION  \n       [0001]     1. Field of the Invention  \n         [0002]     The present invention generally relates to a connector for a brassiere. More particularly, the present invention relates to a shaped connector for connecting a brassiere shoulder strap preferably to a brassiere, preferably to a back panel of the brassiere.  \n         [0003]     2. Description of Related Art  \n         [0004]     The common problem with a shoulder strap of a brassiere is that the strap can be misaligned on a wearer&#39;s shoulder and, thus, will dig into the shoulder due to the conne",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_06623",
+      "title": "Patent Publication 06623",
+      "abstract": "A process for producing bean curd comprising the steps of cooling soybean milk and bittern individually to below the coagulating temperature of the milk, mixing the cooled milk and bittern together and filling the mixture into buckets, coagulating the mixture in the buckets by heating, and withdrawing the coagulated milk from the buckets and detwatering the coagulated milk to obtain formed bean curd. An apparatus for practicing the process comprises a mold box and a pressing closure each having in a required portion a multiplicity of holes not passing the coagulated milk therethrough but permitting the water contained in the coagulated milk to pass therethrough.",
+      "description": "This application is a continuation of application Ser. No. 328,387 filed Mar. 24, 1989, now abandoned. \n    \n    \n     BACKGROUND OF THE INVENTION \n     The present invention relates to a process and apparatus for producing bean curd of the type termed &#34;momen tofu&#34; which is bean curd conventionally prepared with use of &#34;momen&#34; or cotton cloth. \n     Conventionally, bean curd of the type mentioned is prepared by adding a coagulant to soybean milk at about 80\u00b0 C. with stirring to coagulate the milk and by dewatering the coagulated milk for forming. The coagulant used is bittern, ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_11446",
+      "title": "Patent Publication 11446",
+      "abstract": "A bra cup. The invention concerns a bra cup ( 10 ) comprising a first outer skin ( 12 ) and a second inner skin ( 14 ) which are assembled together in such a way as to form a generally hemispherical-shaped cup ( 10 ), characterised in that each skin ( 12, 14 ) has a generally convex shape, the inner skin ( 14 ) having a substantially shallower convexity than the outer skin ( 12 ), such that said skins ( 12, 14 ) together define a non-sealed recess ( 16 ) filled with air that increases the visual appearance of breast size.",
+      "description": "TECHNICAL FIELD \n       [0001]    The invention relates to a light brassiere cup for providing a called &lt;&lt;push-up&gt;&gt; effect. \n       BACKGROUND \n       [0002]    There are known numerous cups which are designed to make a brassiere with a called &lt;&lt;push-up&gt;&gt; effect, which allows visually increasing the size of the chest by one size or more. \n         [0003]    The document FR-A-2972905 describes and represents a structure of a brassiere cup which includes an outer layer and an inner layer which are glued together and which enclose therebetween a pocket containing a malleab",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_12879",
+      "title": "Patent Publication 12879",
+      "abstract": "An inflatable structure having a trampoline-type floor with an inflatable framework projecting upwardly therefrom and having netting panels extending between adjacent portions of said framework to prevent a child from inadvertently bouncing out of the structure, with at least one of said panels having releasable fastening means to allow opening of said one of said panels as a door.",
+      "description": "RELATED CASES \n     This application is a division of application Ser. No. 08/354 359 filed Dec. 13, 1994 now U.S. Pat. No. 5,462,505 which is a continuation-in-part of my patent application Ser. No. 08/134,093, filed Oct. 12, 1993 and now abandoned. \n    \n    \n     BACKGROUND \n     1. Field of the Invention \n     This invention relates to inflatable structures and is particularly directed to portable inflatable structures for indoor and outdoor use as exercise and play areas for children. \n     2. Prior Art \n     For several year, it has been known that numerous structures can be created by p",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_04960",
+      "title": "Patent Publication 04960",
+      "abstract": "A portable device which assists in the unrolling of large cylindrical hay bales on the ground. A pair of arms are pivoted between rigid straps which extend from the opposite ends of a cross bar. Rotatable spikes for penetrating opposite ends of the bale are mounted on the arms. Locking pins secure the arms in rigid perpendicular extension from the cross bar with the spikes embedded in the opposite ends of the bale. A flexible chain couples the cross bar with a towing vehicle which is driven forwardly to unroll the bale. The arms are foldable after removal of the locking pins to lie generally parallel to the cross bar for carrying and storage of the device.",
+      "description": "BACKGROUND AND SUMMARY OF THE INVENTION \n     This invention relates in general to the handling of large hay bales and more specifically to an improved device that is used to unroll bales on the ground. \n     The recent trend among farmers and ranchers toward the use of large cylindrical hay bales has been accompanied by attendant difficulties in handling of the hay. In particular, unrolling of the cylindrical bales on the ground in order to feed animals cannot practically be accomplished manually or with conventional hay handling equipment due to the large size and heavy weight of the bales. ",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_08250",
+      "title": "Patent Publication 08250",
+      "abstract": "The present invention is a fastener assembly that is readily attached to fabric material and the like, without need of sewing. One embodiment of the fastener assembly includes a pair of interlocking male and female members, each for placement upon an opposite side of the fabric material. A coupling, such as a button, cufflink, or snap fastener element, is affixed to one of the members, and a locking device permanently secures the male and female members on opposing sides of the fabric material. Another embodiment of the invention includes two pairs of interlocking male and female members, each having mating couplings configured to removably attach the pairs of members together.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to a fastener assembly for attachment to fabric material and the like. More specifically, the present invention relates to a fastener assembly that is easily and quickly attached to the fabric material, without use of threads. \n     2. Description of the Prior Art \n     Fastener assemblies for holding together two or more members are well known in the prior art. As seen in U.S. Pat. No. 589,525 issued to Cornelius Weygandt Garis on Sep. 7, 1897, one common utilization of these assemblies is to conne",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_10729",
+      "title": "Patent Publication 10729",
+      "abstract": "The purpose of the present invention is to improve the flavor of a fermented milk by employing a lactose degradation step and, further, adding a whey powder to a starting material to thereby control the balance between the sweetness and sourness of the fermented milk. A method for producing a fermented milk, said method comprising a step for adding a whey powder to a starting milk and a step for degrading lactose in the starting milk by a lactase. By use of the production method according to the present invention, a fermented milk, which can be appropriately taken without using a sweetener such as sucrose and has a novel flavor, can be obtained.",
+      "description": "TECHNICAL FIELD \n       [0001]    The present invention relates to a method for improving the flavor of fermented milk. \n       BACKGROUND ART \n       [0002]    Several methods for improving flavor and quality of food products such as fermented milk have been conventionally investigated. A method to solve problems of additives has been disclosed (Patent Document 1), in which release of flavors from food products is prevented and unusual taste and odor are masked by addition of whey protein, etc. In addition, in order to solve problems of texture, etc. caused by addition of a stabilizer, a meth",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_14683",
+      "title": "Patent Publication 14683",
+      "abstract": "A hanging arrangement which includes a hanger. The hanger has a central portion and two elongated hanger arms which extend away from the central portion. The central portion has an inner facing side which defines a space. The arms each hold shoulder straps of a brassiere in position against the arms so as to avoid relative movement of the shoulder straps where held with respect to the arms. The inner facing side has a portion at an elevation which is higher than where the shoulder straps of the brassiere are to be held against the arms. The arms each have a face which extends in a common plane. The faces each have a predetermined width so that if said faces are each projected through the space to intersect each other as would occur by further elongating the hanger arms toward each other, said portion of the inner facing side lies within said widths of the faces as projected. The space is adapted to accommodate a support member inserted therein so that the portion of the side rests agai",
+      "description": "DESCRIPTION OF THE PRIOR ART \n     The present invention is directed to hangers for holding brassieres and a display unit which supports a large number of the hangers and thereby the brassieres. \n     Retail stores which carry women&#39;s undergarments are generally known to provide stand alone display units which display a large number of brassieres on hangers. The typical hanger has two arms which extend horizontally away from each other and a hook extending vertically upward from between the arms. Each free end of the arm also has a hook which extends downward, on which is wrapped a shoulde",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_13973",
+      "title": "Patent Publication 13973",
+      "abstract": "A cover can be installed on an undergarment having a back strap and a pair of shoulder straps. The cover has a casing for covering the back strap. The casing is adapted to extend from one of the pair of shoulder straps to the other. An outer garment can be worn over the undergarment that is fitted with the cover.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to apparatus in the field of undergarments, and in particular, to a device for covering portions of an undergarment that might be exposed through an outer garment with a relatively open back. \n     2. Description of Related Art \n     Brassieres come in various styles. Many brassieres have a horizontal strap with releasable closures in the back or in the front which circles the chest of the wearer. \n     In  FIG. 1  outer garment  10  is a top with an open back  12  bordered at the neck with a cinch ",
+      "cpc": "B"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_00237",
+      "patent_13973",
+      "patent_02668",
+      "patent_14924",
+      "patent_10452",
+      "patent_14683",
+      "patent_00361",
+      "patent_08250",
+      "patent_11446",
+      "patent_09969",
+      "patent_04944",
+      "patent_06345",
+      "patent_04960",
+      "patent_02670",
+      "patent_06623",
+      "patent_12754",
+      "patent_10729",
+      "patent_12879",
+      "patent_06025",
+      "patent_06618"
+    ],
+    "relevance_scores": {
+      "patent_06618": 0.01,
+      "patent_06345": 0.4150523538050283,
+      "patent_12754": 0.12561129618179417,
+      "patent_02670": 0.3110476062761923,
+      "patent_06025": 0.07970783473972051,
+      "patent_00361": 0.8684618299146288,
+      "patent_09969": 0.799952687540309,
+      "patent_04944": 0.442716591841048,
+      "patent_00237": 0.9899999819472883,
+      "patent_14924": 0.9593927604696263,
+      "patent_10452": 0.920138383168954,
+      "patent_02668": 0.9609781763863063,
+      "patent_06623": 0.21064176041039814,
+      "patent_11446": 0.8001377639198861,
+      "patent_12879": 0.08074388585644056,
+      "patent_04960": 0.38011262340452107,
+      "patent_08250": 0.8045759385431644,
+      "patent_10729": 0.11951273356772521,
+      "patent_14683": 0.8941632361029412,
+      "patent_13973": 0.9840951846184075
+    },
+    "novelty_score": 0.5103841160280073
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "task_description": "Produce a ranked top-5 prior-art shortlist with justification strings for INCLUDE decisions. This is the hardest task.",
+  "budget": 32,
+  "query_patent": {
+    "id": "patent_03587",
+    "title": "Patent Publication 03587",
+    "abstract": "A reduced weight decontamination formulation that utilizes a solid peracid compound (sodium borate peracetate) and a cationic surfactant (dodecyltrimethylammonium chloride) that can be packaged with all water removed. This reduces the packaged weight of the decontamination formulation by \u02dc80% (as compared to the \u201call-liquid\u201d DF-200 formulation) and significantly lowers the logistics burden on the warfighter. Water (freshwater or saltwater) is added to the new decontamination formulation at the time of use from a local source.",
+    "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application is a Continuation-in-Part of U.S. patent application Ser. No. 12/124,191, entitled \u201cReduced Weight Decontamination Formulation for Neutralization of Chemical and Biological Warfare Agents\u201d, filed on May 21, 2008, which application is a Continuation-in-Part of U.S. patent application Ser. No. 10/251,569, filed on Sep. 20, 2002, now U.S. Pat. No. 7,390,432, and the specifications thereof are incorporated herein by reference. \n    \n    \n     FEDERALLY SPONSORED RESEARCH \n     The United States Government has rights in this invention p",
+    "cpc": "H"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_12706",
+      "title": "Patent Publication 12706",
+      "abstract": "In accordance with the present invention, novel formulations have been developed which are much more effective for the delivery of hydrophobic drugs to patients in need thereof than are prior art formulations. Invention formulations are capable of delivering more drug in shorter periods of time, with reduced side effects caused by the pharmaceutical carrier employed for delivery.",
+      "description": "RELATED APPLICATIONS  \n       [0001]    The present application is a continuation-in-part of U.S. Ser. No. 09/628,388, filed Aug. 1, 2000, now pending, which is a divisional of U.S. Ser. No 08/926,155, now issued as U.S. Pat. No. 6,096,331, which is a continuation-in-part of United States Ser., No 08/720,756, filed Oct. 1, 1996, now issued as U.S. Pat. No. 5,916,596, and U.S. Ser. No 08/485,448, filed Jun. 7, 1995, now U.S. Pat. No. 5,665,382, which is, in turn, a continuation-in-part of U.S. Ser. No 08/200,235, filed Feb. 22, 1994, now issued as U.S. Pat. No. 5,498,421, which is, in turn, a c",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_10431",
+      "title": "Patent Publication 10431",
+      "abstract": "Apparatus and methods for changing diapers are disclosed. In one embodiment, an apparatus includes a bag member partially enclosing an interior region and an outer surface having at least one first securing member formed thereon. A changing mat is operatively coupled to the outer surface and has at least one second securing member formed thereon. The changing mat is deployable between a closed position wherein the first and second securing members are engageable and the changing mat occupies a stowed position proximate to the outer surface of the bag member, and an open position wherein the changing mat is unfolded to provide an elongated changing surface. The bag member remains substantially unchanged during deployment of the changing mat between the open and closed positions.",
+      "description": "FIELD OF THE INVENTION  \n       [0001]     The present disclosure relates to diaper changing apparatus and methods, and more specifically, to apparatus having a removable changing mat operatively coupled to an outside surface of a diaper carrying bag.  \n       BACKGROUND OF THE INVENTION  \n       [0002]     Diapers are useful and ubiquitous products that occupy a prominent place in the lives of parents and care-givers in virtually every country around the world. Whether disposable or reusable, diapers are almost the exclusive choice of clothing for a variety of wearers, including, for example,",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_05734",
+      "title": "Patent Publication 05734",
+      "abstract": "A water purification apparatus comprising an injection molded floating non-toxic, biodegradable, and recyclable polymer planar structures that are easily stackable, shippable, and connectable to as many companion units as the user desires; such apparatus further comprising many receiving structures made to accommodate plants without inhibiting them so that the user may create a film of plants over a toxic body of liquid for bioremediation purposes.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATION \n     The document is a non-provisional patent application claiming priority to, and the benefit of, U.S. Provisional Patent Application Ser. No. 61/830,623; filed Jun. 3, 2013, also entitled \u201cPurification Apparatus, System, and Method\u201d, and U.S. patent application Ser. No. 14/295,263; filed Jun. 3, 2014; yet again, also entitled \u201cPurification Apparatus, System, and Method\u201d which claim priority to the provisional already mention and which are both herein incorporated by reference in their entirety for all purposes. \n    \n    \n     TECHNICAL FIELD \n     Th",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_06353",
+      "title": "Patent Publication 06353",
+      "abstract": "A steam oven includes a heating chamber or boiler in which steam is generated. Water fill and refill operations of the heating chamber are controller in attempt to account for water expansion and/or to enable substantially regular production of steam.",
+      "description": "TECHNICAL FIELD  \n       [0001]     The present application relates generally to steam ovens used to steam food products, and more particularly to a steam oven including a low pressure steam generator with a controlled fill process.  \n       BACKGROUND  \n       [0002]     Steam cookers have been successfully employed by restaurants, hospitals and other food service operations to prepare quickly and conveniently large quantities of food. Many such cookers are used in high volume situations. It is desirable to provide steamers with reduced maintenance requirements. It is also desirable to provid",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_11964",
+      "title": "Patent Publication 11964",
+      "abstract": "The present invention provides a compound having the formula                            \n     or a salt thereof which facilitates the delivery of active agents. Compositions and dosage unit forms comprising the compound of the present invention and at least one active agent, such as a peptide, mucopolysaccharide, carbohydrate, or a lipid, are also provided. Methods of administration and preparation of the compounds and compositions of the invention are provided as well.",
+      "description": "This is a continuation of application Ser. No. 09/305,506 filed May 5, 1999, which in turn is a continuation of application Ser. No. 08/798,031, filed Feb. 6, 1997, now U.S. Pat. No. 6,001,347, which in turn is a continuation of PCT/US96/04580, filed Apr. 1, 1996, published as WO 96/30036, which is a Continuation-In-Part of application Ser. No. 08/414,654, filed Mar. 31, 1995, now U.S. Pat. No. 5,650,386, and which claims benefit to application Ser. No. 60/003,111, filed Sep. 1, 1995, and application Ser. No. 60/017,902, filed Mar. 29, 1996. Each of these prior applications is hereby incorpora",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_13304",
+      "title": "Patent Publication 13304",
+      "abstract": "A chemical warfare (CW) agent decontamination system and method for decontaminated surfaces contaminated by CW agents. The system includes both solid particles and liquid solution in admixture such that the solid particles absorb the liquid decontamination material. The method of decontaminating surfaces contaminated with CW agents includes contacting the CW agent with a sufficient amount of a solid-particle sorbent for a sufficient time and under conditions which are sufficient to produce a reaction product having less toxicity than the CW agent. CW agents to be decontaminated include the nerve agents VX and G-type agents, and mustard agent HD. The system is non-toxic and has a reduced environmental impact as compared to the previously available decontamination systems and solutions.",
+      "description": "GOVERNMENT INTEREST \n     The invention described herein may be manufactured, licensed, and used by or for the U.S. Government. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention includes a chemical weapons (CW) agent decontaminating system comprising absorptive particles and a solution that will effectively degrade chemical warfare agents. The solution can be any decontamination solution that is compatible with the absorptive particles. \n     The decontamination system described in detail in this invention is an environmentally safe deconta",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_09662",
+      "title": "Patent Publication 09662",
+      "abstract": "The invention relates to perhexiline, or a pharmaceutically acceptable salt thereof, for use in the treatment of HfnEF, as well as to a method of treating HfnEF, which comprises administering to an animal in need thereof an effective amount of perhexiline, or a pharmaceutically acceptable salt thereof, to treat said HFnEF. The invention further relates to a treatment program for treating HFnEF, which involves the co-use or co-administration of perhexiline with one or more other compounds that are advantageous in treating HFnEF or the symptoms thereof.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application is a continuation-in-part of International Application No. PCT/GB2008/003913, filed Nov. 24, 2008, which claims the benefit of GB Application No. 0723100.4, filed Nov. 23, 2007, and the benefit of U.S. Application No. 60/990,933, filed Nov. 29, 2007, and this application is a continuation of International Application No. PCT/GB2009/050539, filed May 20, 2009, the entire contents of all of which are incorporated by reference herein. \n    \n    \n     FIELD OF THE INVENTION \n     The invention relates to treatment of heart failure with",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_11329",
+      "title": "Patent Publication 11329",
+      "abstract": "An intraocular lens (IOL) corrects vision disorders and prevents the formation of cataracts. The IOL can be inserted in the anterior or posterior chamber of the eye, or can be iris-fixated. The IOL can correct for myopia, hyperopia, presbyopia and/or astigmatism. Additionally, the IOL contains an ultraviolet radiation (UVR) blocker, that absorbs UVR in the 300-400 nm range. The absorption of the UVR allows the IOL to reduce or eliminate cataract formation.",
+      "description": "BACKGROUND OF THE INVENTION  \n         [0001]    1. Field of the Invention  \n           [0002]    This invention relates to intraocular lenses, and more particularly, to an intraocular refractive correction lens that corrects eyesight and contains an ultraviolet radiation (\u201cUVR\u201d) absorber that can reduce or eliminate cataract formation, and to a method of implanting an intraocular lens (\u201cIOL\u201d) to correct eyesight and reduce or eliminate cataract formation.  \n           [0003]    2. Description of the Related Art  \n           [0004]    The number one cause of blindness in the world is cataracts",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_00213",
+      "title": "Patent Publication 00213",
+      "abstract": "An alcohol-soluble, water-insoluble, disinfectant composition and a method of using the same for disinfecting and for providing a prolonged antimicrobial property to a variety of surfaces, including skin. The composition comprises an antimicrobial polymer that is capable of imparting an antimicrobial property to a surface without the use of a metal or metal-containing compound. The composition is applied to a surface and allowed to evaporate leaving a coating of antimicrobial polymer.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    The present application is a divisional application of, and claims the benefit of priority from, U.S. patent application Ser. No. 12/064,487, filed Feb. 22, 2008, which is a national phase entry of international patent application PCT/US2006/032954 (WO2007/024973) filed Aug. 22, 2006 which claims priority to U.S. Provisional Patent Application 60/806,196, filed Jun. 29, 2006 and U.S. Provisional Patent Application 60/710,128, filed Aug. 22, 2005. The entire disclosures of each of the aforementioned patent applications are hereby incorpo",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_03981",
+      "title": "Patent Publication 03981",
+      "abstract": "A method for generating hardness information of tissue subject to a varying pressure. The method comprises receiving signals from the tissue from a sensor for measuring the deformation of the tissue in a measuring plane defined by the sensor, which sensor, during a varying pressure exerted on the tissue, is moved along the tissue in a direction transverse to the measuring plane; identifying strain of the tissue from the resulting signals; and relating the strain to elasticity and/or hardness parameters of the tissue. The method may comprise the step of displaying elasticity and/or hardness parameters of a tissue surface or tissue volume part extending practically parallel to the direction of motion of the sensor.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATION \n       [0001]    This application is a continuation of PCT International Patent Application No. PCT/NL/02/00572, filed on Sep. 2, 2002, designating the United States of America, and published, in English, as PCT International Publication No. WO 03/017845 A1 on Mar. 6, 2003, the contents of the entirety of which is incorporated by this reference. \n     \n    \n     TECHNICAL FIELD \n       [0002]    This invention relates to a method for generating hardness information of tissue subject to a varying pressure. In particular, the method relates to a method for",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_14092",
+      "title": "Patent Publication 14092",
+      "abstract": "The disclosure of the present application includes topically administrable compositions and methods for treating wounds and inflammatory conditions of the skin in mammals. In an exemplary embodiment, the composition includes a therapeutic amount of antihistamine selected from the group consisting of a non-sedating antihistamine, a physiologically acceptable acid of a non-sedating antihistamine, a salt of a non-sedating antihistamine, an amide of a non-sedating antihistamine, and a combination of two or more of these; a therapeutic amount of creatine; a therapeutic amount of creatinine; and emu oil product selected from the group consisting of emu oil, a biologically active fraction of emu oil, and a combination of these. The combination of non-sedating antihistamine, creatine, and creatinine with emu oil has been found to produce a synergistic effect that is more effective in the treatment of skin wounds than the compounds used separately.",
+      "description": "PRIORITY \n       [0001]    This application is related to, claims the priority benefit of, and is a U.S. continuation application of, U.S. patent application Ser. No. 14/394,641, filed Oct. 15, 2014 and issued as U.S. Pat. No. 9,566,306 on Feb. 14, 2017, which is related to, and is a U.S. national phase application of, International Patent Application Serial No. PCT/US13/32728, filed Mar. 17, 2013, which is related to, and claims the priority benefit of, U.S. Provisional Patent Application Ser. No. 61/624,725, filed Apr. 16, 2012, and U.S. Provisional Patent Application Ser. No. 61/725,761, fi",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_01747",
+      "title": "Patent Publication 01747",
+      "abstract": "A hybrid optical system for photoplethysmographic measurements is disclosed. The system delivers light from a plurality of emitters to the tissue-under-test. A set of one or more of the emitters resides in close proximity to the sensor. A second set of one or more emitters resides at some distance from the sensor with the light from this second set of emitters being delivered to the sensor by a light pipe typically consisting of a fiber optic cable. This invention allows the photoplethysmographic instrument designer to use two or more different types of emitters in the same photoplethysmographic device while still generating a technically feasible and cost effective design.",
+      "description": "FIELD OF THE INVENTION  \n         [0001]    The present invention relates in general to systems for performing photoplethysmographic measurements of various blood analytes and other hemodynamic parameters.  \n         BACKGROUND OF THE INVENTION  \n         [0002]    In the science of photoplethysmography, light is used to illuminate or trans-illuminate tissue for the purpose of measuring blood analytes or other hemodynamic or tissue properties. In this monitoring modality, light is injected into living tissue and the light which is not absorbed by the tissues is detected a short distance from t",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_02116",
+      "title": "Patent Publication 02116",
+      "abstract": "A self-cleaning system for delivering sanitized water to a workstation has a boiler which produces heat-sanitized water and steam. A diverter valve permits a fluid delivery line of the system to convey either sanitized water or steam to a workstation. The steam serves to sanitize the delivery line and workstation and removes biofilms therefrom.",
+      "description": "RELATED APPLICATION \n     This application claims priority of U.S. Provisional Patent Application 60/265,060 filed Jan. 30, 2001 which is incorporated herein by reference. \n    \n    \n     FIELD OF THE INVENTION \n     This invention relates generally to systems and methods for delivering sanitized water and for decontaminating fluid delivery lines. More specifically, the invention relates to a system and method for providing a self-cleaning fluid delivery system. In specific embodiments, the invention is directed to a self-cleaning dental drilling and irrigation system. \n     BACKGROUND OF THE ",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_06290",
+      "title": "Patent Publication 06290",
+      "abstract": "A surgical gown in an improved folded arrangement, as well as methods and apparatus for producing same. Like prior art book-folds, the folded arrangement includes left and right hand pockets to facilitate aseptic donning by a medical professional. Unlike prior art book-folds, however, the folded arrangement of the invention employs a unique fold sequence particularly amenable to automated processing. Methods of the invention are directed to the specific fold sequences that can be utilized to produce the folded arrangement. Apparatus for producing the folded arrangement includes a number of operative sections functionally arranged in series.",
+      "description": "This is a division of application Ser. No. 08/827,920 filed Apr. 8, 1997 now U.S. Pat. No. 5,862,525. \n    \n    \n     BACKGROUND OF THE INVENTION \n     The present invention relates generally to the art of surgical gowns and the like folded for aseptic donning. More particularly, the invention relates to an improved folded surgical gown, as well as improved apparatus and methodology for producing same. \n     Generally, surgeons and other medical professionals will wear an overgarment during operating procedures both to enhance the sterile condition in the operating room and to protect the unde",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_13528",
+      "title": "Patent Publication 13528",
+      "abstract": "Preservative systems which may be incorporated into aqueous compositions for the wetting and re-wetting of contact lenses and especially silicone copolymer (gas-permeable) and soft contact lenses are provided. The preservative system includes trimethoprim, a salt of EDTA and sorbic acid or ascorbic acid as adjuvant bactericides. The use of preservatives which are known to cause eye irritation, such as thimerosal, benzalkonium chloride and chlorhexidine is eliminated. Wetting and re-wetting compositions which incorporate the preservative system and include thickening and wetting agents are also provided. The wetting and re-wetting solutions can be instilled directly into the eye during contact lens wearing periods and are especially useful for wetting silicone copolymer contact lenses. A method of wetting silicone copolymer lenses is also provided.",
+      "description": "RELATED APPLICATION \n     This is a division of application Ser. No. 537,245, filed Sept. 28, 1983, now U.S. Pat. No. 4,529,535, which is a continuation-in-part application of U.S. patent application Ser. No. 384,110, filed June 1, 1982, now abandoned, which is a continuation-in-part application of U.S. patent application Ser. No. 53,758, filed July 2, 1979, now abandoned. \n    \n    \n     BACKGROUND OF THE INVENTION \n     Just as there are marked differences in the structure and composition of hard contact lenses, cellulose acetate butyrate (CAB) and silicone copolymer gas-permeable contact le",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_10953",
+      "title": "Patent Publication 10953",
+      "abstract": "A permanently affixed and travelling selector pin, car and weight plate selection mechanism for use with physical fitness equipment is disclosed including a segmented track and/or cut out cavern within the plate body for the car to travel within in either vertically or horizontally in order to select a different weight plate or cumulatively, more or less weight for an exercise. The selector pin and car mechanism features a selector pin which is not removable from the car and is inserted through the car which is contained by the track and or plate body shape and into a throughbore in the weight plate in order to engage with the selector stem.",
+      "description": "PRIORITY OF INVENTION \n     The present invention is a continuation in part of patent application Ser. No. 14/076,461 filed Nov. 11, 2013, which is a continuation in part of patent application Ser. No. 13/653,852, filed Oct. 17, 2012. The present invention further incorporates by reference and claims priority to Provisional Application No. 61/629,443, Filed Nov. 18, 2011, Provisional Application No. 61/631,734, Filed Jan. 10, 2012, and Provisional Application No. 61/824,189, Filed May 16, 2013. \n    \n    \n     FIELD OF THE INVENTION \n     The present invention relates to a weightlifting system",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_00910",
+      "title": "Patent Publication 00910",
+      "abstract": "An odor filtering device for space dispensing a volatile oil by soaking a porous substrate with a malodor counteractant composition. The exposed surface of the substrate permits evaporation of malodor counteractant creating an internal vapor pressure differential which drives the counteractant from the interior of the substrate to the surface to replace the surface loss. Particular devices are formed and arranged to permit controlled release of the malodor counteractant over an extended period of time.",
+      "description": "BACKGROUND OF THE INVENTION \n     This invention relates generally to an odor control device and particularly to an odor filtering device comprising a substrate soaked with an essential oil malodor counteractant composition. \n     Methods and devices for odor control, such as, deodorizing and masking, are well known in the art. These methods and devices operate by masking or overpowering an unpleasant odor with other odors forming a different bouquet, or introduce a powerful pleasant smell which causes the malodor to be less noticeable. Other known devices contain surface active agents, such a",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_14777",
+      "title": "Patent Publication 14777",
+      "abstract": "A universal decontamination formulation and method is disclosed based on the in situ generation dioxirane(s) under non-corrosive neutral conditions for the neutralization of chemical and biological warfare (CBW) agents. The composition relates to the generation of dioxiranes by mixing a monopersulfate-containing compound in the presence of a ketone in water buffered with a carbonate-type buffer, producing a pH neutral formulation that provides effective reactivity towards CBW agents over a wide range of temperatures.",
+      "description": "FEDERAL RESEARCH STATEMENT  \n       [0001]     The U.S. Government has a paid-up license in this invention and the right in limited circumstances to require the patent owner to license others on reasonable terms as provided for by the terms of contract F0863798C6002 awarded by the United States Department of the Air Force, Air Training and Education Command. \n     \n    \n     FIELD OF THE INVENTION  \n       [0002]     The present invention relates to providing a universal decontaminating solution for the rapid neutralization of chemical and biological warfare (CBW) agents. More specifically, a ",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_10137",
+      "title": "Patent Publication 10137",
+      "abstract": "A method for reducing parasites in aquatic animals is provided. The method includes administering to the aquatic animal a compound comprising propyl propane thiosulfonate (PTSO) having the formula R\u2014SOa-S\u2014R, where R represents n-propyl group (\u2014CH 2 \u2014CH 2 \u2014CH 3 ) and a is 2 and also propyl propane thiosulfinate (PTS) having the formula R\u2014SOa-S\u2014R, where R represents n-propyl group (\u2014CH 2 \u2014CH 2 \u2014CH 3 ) and a is 1, so that a combination of PTS and PTSO is administered to the aquatic animal resulting in the reduction of a plurality of crustaceans infecting the aquatic animal in response to administering the combination of PTS and PTSO to the aquatic animal.",
+      "description": "CROSS-REFERENCE OF RELATED APPLICATIONS \n     This application is a Continuation-in-Part of U.S. patent application Ser. No. 14/043,160, filed on Oct. 1, 2013, now U.S. Pat. No. 9,271,947, which is incorporated herein by reference in its entirety. This application is related to European Patent Application No. EP13186923.2, filed Oct. 1, 2013, and also Patent Cooperation Treaty Application No. PCT/IB2014/002548, filed on Sep. 30, 2014, both are also incorporated herein by reference in their entirety. \n    \n    \n     BACKGROUND OF THE INVENTION \n     Field of the Invention \n     The present inve",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_12309",
+      "title": "Patent Publication 12309",
+      "abstract": "A doll with a lock of hair of adjustable length and a torso which has upper and lower portions which are rotatable relative to each other. The internal doll structure at the waist of the doll which permits the lock of hair to be adjustable in length, so as to simulate growing hair, is integral with the means at the waist which permits the torso portions to be rotatable relative to each other, e.g. the tube which holds the wound-up cord which displaces the lock of hair into the upper torso, also serves to hold the upper and lower torso portions together in slidable engagement.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The invention relates to growing hair dolls. \n     2. Description of the Prior Art \n     In the doll art, efforts to provide life-like features and appurtenances to the doll have been made for many years. Some of the many concepts and developments in this regard include crying or tearing dolls, wetting dolls, walking dolls, talking dolls, dolls that emit a sound when spanked or fondled, dolls with movable limbs or body members, dolls with interchangeable wigs, masks or costumes to simulate known personages or fictitious characte",
+      "cpc": "G"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_10137",
+      "patent_14777",
+      "patent_00213",
+      "patent_13304",
+      "patent_14092",
+      "patent_09662",
+      "patent_05734",
+      "patent_12706",
+      "patent_11964",
+      "patent_13528",
+      "patent_02116",
+      "patent_10953",
+      "patent_00910",
+      "patent_10431",
+      "patent_06290",
+      "patent_11329",
+      "patent_03981",
+      "patent_06353",
+      "patent_01747",
+      "patent_12309"
+    ],
+    "relevance_scores": {
+      "patent_12706": 0.9025148669143891,
+      "patent_10431": 0.35460816214660734,
+      "patent_05734": 0.9052410902319481,
+      "patent_06353": 0.14161879149097714,
+      "patent_11964": 0.8960939471327242,
+      "patent_13304": 0.9515800056544271,
+      "patent_09662": 0.9113803745724176,
+      "patent_11329": 0.2631138349489371,
+      "patent_00213": 0.9601247241485339,
+      "patent_03981": 0.2471150811180577,
+      "patent_14092": 0.9170773381442651,
+      "patent_01747": 0.0790954812577118,
+      "patent_02116": 0.7307813087028286,
+      "patent_06290": 0.3354296947579028,
+      "patent_13528": 0.8912290001688128,
+      "patent_10953": 0.4573210485145235,
+      "patent_00910": 0.4183743365597591,
+      "patent_14777": 0.9785022604653529,
+      "patent_10137": 0.9899999837403349,
+      "patent_12309": 0.01
+    },
+    "novelty_score": 0.7133027948408359
+  }
+}

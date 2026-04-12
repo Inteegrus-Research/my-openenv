@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "priorart-bench"
+version = "0.1.0"
+description = "PriorArtBench OpenEnv environment"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "pydantic>=2.0",
+  "openenv-core>=0.2.0",
+  "requests>=2.31.0",
+  "numpy>=1.24.0",
+  "openai>=1.30.0",
+]
+
+[project.scripts]
+server = "server.app:main"
+
+[tool.setuptools.packages.find]
+include = ["env*", "tasks*", "graders*", "server*"]
+exclude = ["tests*", "fixtures*", "scripts*"]

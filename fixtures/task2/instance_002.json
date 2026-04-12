@@ -1,0 +1,200 @@
+{
+  "task_description": "Rank candidate patents by novelty risk and provide a quality score from 1 to 4 for each review decision.",
+  "budget": 24,
+  "query_patent": {
+    "id": "patent_00749",
+    "title": "Patent Publication 00749",
+    "abstract": "A surgical assisting instrument and device having an elongated rectangular u-shaped body with fasteners extending outward therefrom. These fasteners can be of any number and mounted on the top or sides of the body. The body is affixed vertically on the long handle of a tenaculum or other similar elongated handles of surgical clasping instruments. This permits such surgical clasping devices to be anchored or braced onto a fixed surgical device to provide the surgeon with auxiliary clasping and holding assistance.",
+    "description": "CROSS REFERENCE TO RELATED APPLICATIONS  \n       [0001]    This application contains subject matter of my provisional application Serial No. 60/286,750 filed Apr. 26, 2001, entitled Attachable Surgical Accessory Instrument. \n     \n    \n     \n       BACKGROUND OF THE INVENTION  \n         [0002]    1. Field of Invention  \n           [0003]    The invention relates to surgical devices and more specifically to clasping and other similar instruments with elongated handles for use in attachment to rigid and supporting adjunct instrumentation. Such attachment allows for fewer hands and affords, a cla",
+    "cpc": "B"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_10622",
+      "title": "Patent Publication 10622",
+      "abstract": "The present disclosure relates to a device for positioning and/or orienting, in the body of a patient, a surgical tool carried by a tool-holder, including a platform capable of being placed on the body of the patient, an orientable carrier, at least one part of which is rigidly connected to the tool-holder, means for guiding the orientable carrier rotationally relative to the platform in two directions of a plane parallel to the platform, at least 2 pneumatic actuators which engage with the orientable carrier such that a variation in pressure of at least one of the pneumatic actuators causes the orientable carrier to rotate in the first direction and/or the second direction, in which the pneumatic actuators are volumes that can deform in a predetermined direction as a function of the internal pressure.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a National Phase entry of International Application No. PCT/EP2009/059767, filed on Jul. 28, 2009, which claims priority to French Application Serial No. 0855189, filed on Jul. 29, 2008, both of which are incorporated by reference herein. \n     \n    \n     FIELD OF THE INVENTION \n       [0002]    The present invention relates to a device for positioning a surgical tool in the body of a patient. \n       BACKGROUND OF THE INVENTION \n       [0003]    Scientific interest for the development of automated medical aid system",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06456",
+      "title": "Patent Publication 06456",
+      "abstract": "A surgical instrument suitable for use in an implant procedure is disclosed. A surgical instrument of the invention can be particularly advantageous for use in grasping, holding and placement of implants in an intervertebral disc space. In a typical embodiment, the surgical instrument has a grasping region to hold the implant, and an impact head for receiving a force in order to insert the implant.",
+      "description": "This application is a continuation of application Ser. No. 09/920,153, filed Aug. 1, 2001 now U.S. Pat. No. 6,585,749, which application(s) are incorporated herein by reference. \n    \n    \n     FIELD OF THE INVENTION \n     The present invention is directed to surgical instruments and procedures. In particular, the invention provides instruments and methods to facilitate surgical procedures involving grasping an implant or other item. In one embodiment, the invention is directed to an instrument that is particularly advantageous for holding an implant and facilitating placement of the implant b",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_10180",
+      "title": "Patent Publication 10180",
+      "abstract": "A femoral head trial adaptor for converting a shell trial to a head trial includes a barrel member having an outer surface and an inner surface defining a cavity for receiving a femoral neck trial. A circumferential flange portion is located on the outer surface of the barrel member. A resilient connecting member disposed on the circumferential flange has a nominal first diameter compressible to a smaller second diameter in response to a force and returnable to the first diameter in the absence of the force for securing the trial adaptor to a shell trial. The flange may be located at a predetermined position along the outer surface of the barrel member so as to simulate a neck trial of a given length.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATION \n     This application is a continuation-in-part of U.S. Ser. No. 08/652,764, filed May 23, 1996, now U.S. Pat. No. 5,800,556. \n    \n    \n     FIELD OF THE INVENTION \n     The present invention relates to an adaptor for converting a bipolar shell trial into a unipolar head trial. \n     BACKGROUND OF THE INVENTION \n     A successful hip replacement or arthroplasty procedure results, in part, from selection of prosthetic joint components that are dimensioned and positioned to closely approximate or replicate the geometry and functional characteristics of a ",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_00046",
+      "title": "Patent Publication 00046",
+      "abstract": "Apparatus and methods for performing a surgical anastomotic procedure are disclosed herein. Apparatus according to the present disclosure include at least one fastener including a first fastener portion having an anchoring leg portion, a second fastener portion including an anchoring leg portion, wherein the first and second fastener portions are operatively associated with one another to selectively fix the position of the first fastener portion relative to the second fastener portion.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     The present application is a Divisional Application claiming the benefit of and priority to U.S. patent application Ser. No. 12/629,185, filed Dec. 2, 2009, which is a Divisional Application claiming the benefit of and priority to U.S. patent application Ser. No. 10/516,434, filed on Nov. 30, 2004 (now U.S. Pat. No. 7,666,197), which is a U.S. National Stage Application filed under 35 U.S.C. \u00a7371(a) of International Application Serial No. PCT/US03/19516, filed on Jun. 19, 2003, which claims the benefit of and priority to U.S. Provisional Applicatio",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_05860",
+      "title": "Patent Publication 05860",
+      "abstract": "A dental patient chair has an adjustable headrest on a headrest carrier. The headrest is pivotably hinged around a transverse first axis on a bracing member which, in turn, is adjustable in the longitudinal direction in the backrest. In addition, the headrest is connected by a linkage which is pivotably connected on a second axis offset from the first axis so that movement of the linkage causes tilting of the headrest. The linkage is shifted as the headrest carrier is extended and contracted.",
+      "description": "BACKGROUND OF THE INVENTION \n     The present invention is directed to a dental patient chair having an adjustable headrest that is pivotably hinged to a bracing member around a first transverse axis and the bracing member is adjustable in a longitudinal direction of the backrest, the headrest is pivotably connected to a link at an offset second axis, so that the first transverse axis forms a lever arm together with the second axis and an application of either tensile or compressive forces by an adjustment arrangement to the link causes a pivoting of the headrest. \n     Taking ergonomic percep",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_10823",
+      "title": "Patent Publication 10823",
+      "abstract": "In a urinary drainage bag, a coupler for the outlet tube including a connector mounted on the discharge end of the outlet tube and defining a rigid extension thereof receivable within a bag-mounted housing. The connector includes spring arms having locking fingers releasably engagable behind a housing shoulder upon a seating of the connector body within the housing. The fingers are selectively released through a manual manipulation of the connector arms which provide for a positive handhold on the connector as the outlet tube is released.",
+      "description": "BACKGROUND OF THE INVENTION \n     Flexible urine drainage bags, conventionally formed of peripherally sealed vinyl sheets, incorporate, in most instances, an elongate elastomeric outlet tube with a proximal end communicating with the interior of the bag at a low point therein. The distal end of the outlet tube is normally slidably received within a closed-end housing affixed to the bag above the proximal end of the tube. \n     In order to slidably engage the free distal end of the tube within the housing, the tube is flexed, normally adjacent the bag-engaged proximal end thereof, to align the ",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_12699",
+      "title": "Patent Publication 12699",
+      "abstract": "A device for placing a surgical fastener, including an elongated shaft having a distal and proximal end and an interior surface extending longitudinally therein. The elongated shaft has at least a pair of channels extending longitudinally therein. The device includes at least one fastener located within the elongated shaft and in contact with the surface and a pushing mechanism. The fastener having a pair of bosses extending laterally therefrom, wherein each of the bosses resides in one of the pair of channels. The pushing mechanism moves proximally and distally within the elongated shaft. The device further includes a member within the elongated shaft cooperating with the pushing mechanism for moving the bosses away from each other as the fastener is advanced distally so as to close the fastener.",
+      "description": "FIELD OF THE INVENTION  \n         [0001]    This invention generally relates to surgical instruments; and more particularly, the invention relates to surgical devices for placing fasteners in tissue.  \n         BACKGROUND OF THE INVENTION  \n         [0002]    In recent years, there have been many advances in endoscopic and laparoscopic surgical procedures. In these procedures, a surgeon makes an incision at the desired location where the surgical procedure is to be performed. Typically, a trocar is then inserted into the incision made by the surgeon. By applying pressure against the proximal e",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_04176",
+      "title": "Patent Publication 04176",
+      "abstract": "A fly line leader made from a single length of monofilament line that is folded upon itself to provide at least four strand portions that are twisted together. The leader has a loop at each of opposite ends thereof provided by the single length of monofilament line with the result of no enlargement at the transition from the main portion of the leader to the loop. The monofilament line preferably is nylon with a cross-sectional diameter in the range of 0.1 mm to 0.5 mm. A simple twister mechanism is described whereby the fisherman can make his own leader matched to his own preferences by selection of line stiffness, line diameter, and degree of twisting.",
+      "description": "FIELD OF INVENTION \n     This invention relates generally to fly fishing and more particularly to a multi-strand, twisted, tapered, leader made from a single length of monofilament line as well as a method of making such leader and an apparatus for making the twisted leader. The strands of the leader are twisted together except for a minor portion at each of opposite ends thus providing a multi-strand, twisted, tapered, leader having integral therewith a loop at each of opposite ends thereof. \n     BACKGROUND OF INVENTION \n     Fly fishing is enjoyed by many and quality manufactured equipment ",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_05793",
+      "title": "Patent Publication 05793",
+      "abstract": "A telescoping cane with folding platform has a telescoping mechanism to adjust the height. A bottom portion of the cane is pivotally attached to a platform. The platform pivots upward into a parallel position with a shaft of the cane for a stowed position. In a deployed position, the platform is pivoted to a perpendicular position. The wider base of the platform assists a user in balancing his stance when using the cane. The pivoting assembly is further provided with a locking mechanism to maintain the platform in a deployed or stowed position. The cane is also equipped with a platen to assist with placement of user&#39;s foot upon the platform, which aids in stabilizing the cane when attempting to rise from a seated position.",
+      "description": "RELATED APPLICATIONS \n     The present invention was first described in and claims the benefit of U.S. Provisional Application No. 61/886,939, filed Oct. 4, 2013, the entire disclosures of which are incorporated herein by reference. \n    \n    \n     FIELD OF THE INVENTION \n     The present invention relates generally to an adjustable cane with a folding platform pivotally attached to a bottom thereof. \n     BACKGROUND OF THE INVENTION \n     For those that suffer from afflictions such as arthritis or other degenerative diseases, even the most trivial daily activity can become difficult, and some",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_11256",
+      "title": "Patent Publication 11256",
+      "abstract": "An eye refractive power measuring apparatus having a unit for projecting a plurality of index images onto the fundus of an eye to be examined, a unit for detecting the eye fundus reflected light beams of the index images correspondingly to each measuring meridian direction, a unit for operating the refractive power of the eye on the basis of the output of the detecting means, a unit for moving a fixation target for fixing the eye to be examined thereto or the projection system thereof in the direction of the optic axis, and a unit for controlling the movement speed of the fixation target or the projection system thereof on the basis of the degree of variation in the result of the measurement of the operated refractive power of the eye which results from the movement.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates to an eye refractive power measuring apparatus for alleviating the adjusting power of an eye to be examined and measuring the refractive power of the eye. \n     2. Description of the Prior Art \n     Generally, when the refractive power of an eye is to be measured, it is a rule to effect the measurement in a state in which the adjusting power of the eye to be examined is loosened. However, where a target image to which the examinee&#39;s line of sight is to be fixed is optically formed in a light-intercepti",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_02209",
+      "title": "Patent Publication 02209",
+      "abstract": "A folding, lightweight, portable, and rugged surgical operating platform apparatus that can be erected quickly under adverse conditions at any location and without tools other than the users hands and without the need to attach any loose pieces to form the unitary platform. As needed, the surgical platform will hold, support, elevate, move, and tilt a stretcher (or litter in military terms) bearing a wounded person and the portable surgical support equipment such as IV poles, surgical instrument trays, armboards, wrist restraints, leg stirrups, light poles, and other equipment that a surgeon needs to treat major injuries and save lives. In the folded position, the platform takes up limited, uniform space for ease of portability by a single individual. Different users have different applications and requirements for how the platform is supported using stationary supporting legs or wheels when rolling capability are required.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    The present application claims priority to and the benefit of the filing date of U.S. Provisional Patent Application Ser. No. 61/856,898 filed Jul. 22, 2013, which is incorporated herein by reference. \n     \n    \n     BACKGROUND OF THE INVENTION \n       [0002]    The present invention relates to an apparatus to be used in the provision of medical services, particularly surgical procedures within adverse field environments. \n         [0003]    When a person suffers a major injury, the immediate next hour is the \u201cGolden Hour\u201d in that the ",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_10150",
+      "title": "Patent Publication 10150",
+      "abstract": "A surgical stapling or fastening instrument for applying surgical fasteners to tissue having an adjustable closure mechanism to linearly approximate the distance between the jaw members of the instrument. The adjustable closure mechanism consists of a retaining mechanism and a linkage structure which is actuable to linearly urge the jaw members towards each other. A coupling arrangement is also provided which permits firing of the staples or fasteners only when the jaw members are approximated a predetermined distance towards each other.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATION \n     This is a continuation of application Ser. No. 08/155,714, filed Nov. 22, 1993, which is a continuation of application Ser. No. 07/906,766, filed Jun. 30, 1992, which is a continuation-in-part of application Ser. No. 07/779,505, filed Oct. 18, 1991, all abandoned. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to surgical instruments for applying surgical fasteners or staples to body tissue, and more particularly to an apparatus for applying surgical fasteners having adjustable mechani",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_06690",
+      "title": "Patent Publication 06690",
+      "abstract": "An instrument holder usable in a tray for holding surgical instruments includes a housing that pivots about an axis between a closed position adjacent the floor of the tray and an open position angularly spaced from the tray floor. The holder may include a releasable locking mechanism to prevent the holder from shifting from its open position.",
+      "description": "FIELD OF THE INVENTION \n   The invention disclosed herein relates to a tray for holding medical instruments such as surgical tools. \n   BACKGROUND OF THE INVENTION \n   Medical instruments such as surgical tools should be sterile when used in order to reduce unwanted infections. These sterilized instruments need to be readily accessible and within easy reach of the user when it is desired to use them. \n   SUMMARY OF THE INVENTION \n   The invention disclosed herein provides a holder for medical instrumentation. The holder includes a housing for the instrumentation that is pivotally shiftable abo",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_04438",
+      "title": "Patent Publication 04438",
+      "abstract": "Compositions are disclosed comprising a water insoluble microgel which when used as a coating for seeds provides protection for the seeds and may be used as a carrier for materials such as fertilizers, herbicides, pesticides, etc. The microgel does not dissolve when contacted with water, but the outer layer of the microgel swells and falls away, thereby dissrupting the coating, and continues until the coating is removed. An advantage of such a coating is that there is no dissolved material available to fill the pores of the seeds to thereby retard germination. The coating quickly disintegrates upon contact with water for releasing any carried substances and exposing the seeds to their natural environment.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates to coating plant seeds with a functional material which disintegrates after becoming wet to allow normal germination of the seeds. \n     2. Description of the Prior Art \n     It is known in the art to coat seeds with a functional material to provide protection against mechanical or environmental damage, and to use such coatings as a carrier for various materials such as, for example, fertilizer, pesticide, herbicide, etc. Such coatings have generally been of a water soluble material, so that the coating wo",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_02942",
+      "title": "Patent Publication 02942",
+      "abstract": "An instrument stand for supportingly receiving surgical instruments is provided. The instrument stand includes at least one of an instrument support and a stabilization support, a first stand section and a second stand section. The second stand section is positionally coupled to the first stand section by at least one of the instrument support and the stabilization support. Also, a surgical instrument organizer assembly for supportingly receiving surgical instruments is provided, and includes an instrument stand and at least one clamp positionably coupled to the instrument stand. Further, a method of using a surgical instrument organizer assembly is provided.",
+      "description": "PRIORITY CLAIM \n       [0001]    This application claims the benefit of the filing date of United States Provisional Patent Application Serial No. 60/830,435, filed Jul. 12, 2006, for \u201cSurgical Instrument Organization System,\u201d the contents of the entirety of which are incorporated herein by this reference. \n     \n     FIELD OF THE INVENTION \n       [0002]    The present invention relates generally to surgical instrument organization systems used in surgical settings to organize surgical instruments for reliable, rapid, ready access by medical personnel as needed during a surgical procedure and",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_04165",
+      "title": "Patent Publication 04165",
+      "abstract": "The present invention relates to a medical instrument for grasping an object, in particular a surgical needle holder, with two jaw parts arranged at a distal end of a shaft, at least one of the jaw parts being pivotable with respect to the other one of the jaw parts between a grasp state for grasping the object between the jaw parts and a release state for releasing the object, and with a latching mechanism comprising at least one latching element, wherein the latching element has an elongated opening to accommodate a connection pin for connecting the at least one pivotable jaw part with the latching element, and wherein the elongated opening is divided in several sections along its length by periodical projections, such that the at least one pivotable jaw part pivots stepwise from one stable latched position to another stable latched position.",
+      "description": "CLAIM OF PRIORITY \n       [0001]    The present invention claims priority from European Patent Application No. 11 165 696.3, filed May 11, 2011, of common title and inventorship herewith. \n       FIELD OF THE INVENTION \n       [0002]    The present invention relates to a medical instrument for grasping an object, in particular a surgical needle holder. \n       BACKGROUND OF THE INVENTION \n       [0003]    An instrument comprising a latching mechanism is known from EP 1 872 729 A1. \n         [0004]    In this instrument, a latching element is realized by an arc-shaped lever, which is attached w",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_07402",
+      "title": "Patent Publication 07402",
+      "abstract": "A novel suture anchor comprising (a) a coupling member having a first end portion and a reduced second end portion, and a shoulder formed at the junction of the first end portion and the reduced second end portion, (b) at least one barb, the barb having a first end and a second end and being curved in its normal unstressed state and being capable of being elastically deformed to a substantially straight configuration, the barb being attached to the coupling member so that the second end of the barb is substantially displaced from the coupling member when the barb is in its normal unstressed state but is capable of being aligned with the coupling member when the barb is deformed to a substantially straight length, and (c) attachment means for attaching one end of a suture to the suture anchor. The suture anchor is installed in a hole in bone using a suitable installation tool by aligning the second end of the barb with the coupling member, inserting the anchor in the hole, and then perm",
+      "description": "REFERENCE TO PENDING PATENT APPLICATION \n     This application is a continuation-in-part of pending U.S. patent application Ser. No. 132,940, filed Dec. 15, 1987, U.S. Pat. No. 4,879,743, by James E. Nicholson et al. \n     FIELD OF THE INVENTION \n     This invention relates to surgical devices in general, and more particularly to suture anchors of the sort adapted to anchor one end of a piece of conventional suture in bone, and installation tools for deploying the same. \n     BACKGROUND OF THE INVENTION \n     In copending U.S. Patent Application Ser. No. 051,367, filed 5/18/87 by Roland F. Gat",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06415",
+      "title": "Patent Publication 06415",
+      "abstract": "Method of and apparatus for killing microorganisms in a substance, characterized by the step of conjointly generating a magnetic field and an electrohydraulic discharge and subjecting every differential volume of the substance to the combined physical magnetic field and the electrohydraulic discharge of lethal intensity at least once. The physical magnetic field is at least of a sufficient intensity to contain and direct the electrohydraulic discharge and preferably, is itself of lethal intensity. The pulsed magnetic field and the electrohydraulic discharge are repeated at a frequency proportional to the rate of flow of the substance through a volumetric region into which the magnetic field is passed and within which the electrohydraulic discharge electrodes are located. Also discussed are preferred embodiments, in which the substance is a liquid-like substance, such as sewage, chemical waste, liquid mining material, etc.; and preferred apparatus; and preferred modes of operation such ",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates to a process for treating a substance containing microorganisms to render the microorganisms inactive. More particularly, this invention relates to process and apparatus for treating liquid-like substances such as sewage, chemical waste, liquid mining material, etc., to kill the microorganisms therein. \n     2. Description of the Prior Art \n     Numerous methods and apparatus are known in the prior art for treating materials to render inactive the microorganisms therein. In addition to the well known, but ",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_00835",
+      "title": "Patent Publication 00835",
+      "abstract": "The present invention relates to a method of providing enhanced resveratrol activity comprising: administering a therapeutically effective amount of 4-acetoxy-resveratrol for the treatment of and preventing physiological and pathophysiological conditions mediated by (1) sirtuins, (2) estrogen and anti-estrogen hormone actions and (3) chemical interventions important for male and female health, aging, anti-aging and age-related disorders.",
+      "description": "REFERENCE TO EARLIER FILED APPLICATION \n       [0001]    This application claims the benefit under 35 U.S.C. \u00a7119(e) of U.S. Provisional Patent Application No. 61/323,608, filed Apr. 13, 2010, and titled \u201cMETHODS FOR PROVIDING ENHANCED RESVERATROL ACTIVITY USING 4-ACETOXY-RESVERATROL,\u201d which is incorporated, in its entirety, by this reference. \n     \n    \n     FEDERALLY SPONSORED RESEARCH OR DEVELOPMENT \n       [0002]    This invention was made with Government support under Grant No. GM057275, awarded by the National Institute of Health (NIGMS) and Grant No. NR12004-01811, awarded by the U.S. ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06330",
+      "title": "Patent Publication 06330",
+      "abstract": "A medical instrument includes an elongated shaft, a plurality of implements mounted to the shaft, and an actuator coupled to produce relative movement between the implements. At least one of the implements is detachable from the shaft and the actuator and from another one of the implements. The actuator includes a distal portion with an inclined slot. One of the implements is detachably coupled to the slot such that movement of the actuator causes the relative movement between the implements. A coupler including an opening for receiving the actuator is mounted to a handle for rotation relative to the handle.",
+      "description": "This application is a divisional of U.S. application Ser. No. 08/796,984, filed Feb. 7, 1997, now U.S. Pat. No. 5,893,874. \n    \n    \n     BACKGROUND OF THE INVENTION \n     The invention relates to a surgical instrument, particularly to a surgical instrument for use during arthroscopic surgery. \n     Arthroscopic instruments generally have an actuating assembly attached to a handle with an end effector having at least one movable implement located at the distal end of the actuating assembly. Arthroscopic instruments are known which have an actuating assembly that is removable from a handle. It",
+      "cpc": "C"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_06456",
+      "patent_10150",
+      "patent_06330",
+      "patent_02209",
+      "patent_04165",
+      "patent_10622",
+      "patent_02942",
+      "patent_12699",
+      "patent_07402",
+      "patent_06690",
+      "patent_00046",
+      "patent_05860",
+      "patent_10180",
+      "patent_05793",
+      "patent_10823",
+      "patent_04176",
+      "patent_11256",
+      "patent_06415",
+      "patent_04438",
+      "patent_00835"
+    ],
+    "relevance_scores": {
+      "patent_10622": 0.926217731563161,
+      "patent_06456": 0.9899999854396433,
+      "patent_10180": 0.6300035587756883,
+      "patent_00046": 0.7337083781424492,
+      "patent_05860": 0.6366244131474241,
+      "patent_10823": 0.4363240631392688,
+      "patent_12699": 0.916534442394594,
+      "patent_04176": 0.31866944407465225,
+      "patent_05793": 0.5790044338408679,
+      "patent_11256": 0.24495716704463985,
+      "patent_02209": 0.9473210810951876,
+      "patent_10150": 0.9642185838529341,
+      "patent_06690": 0.9067726114545211,
+      "patent_04438": 0.0733953814102605,
+      "patent_02942": 0.921610236923102,
+      "patent_04165": 0.9467031613016819,
+      "patent_07402": 0.9072998393682216,
+      "patent_06415": 0.1836614979214689,
+      "patent_00835": 0.01,
+      "patent_06330": 0.9522630508594279
+    },
+    "novelty_score": 0.3929685134299181
+  }
+}

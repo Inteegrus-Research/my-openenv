@@ -1,0 +1,200 @@
+{
+  "task_description": "Screen candidate patents for relevance to the query patent. Mark the strongest prior-art candidates as RELEVANT and the rest as NOT_RELEVANT.",
+  "budget": 20,
+  "query_patent": {
+    "id": "patent_09036",
+    "title": "Patent Publication 09036",
+    "abstract": "A programmable slow-cooker appliance, in which a user sets a time and temperature for cooking a food item. A programmable controller prevents the unit from being used solely as a \u201ckeep warm\u201d appliance, and a unique design allows cooling of the controller during cooking.",
+    "description": "This application is a continuation of application Ser. No. 09/802,174, filed Mar. 8, 2001, (pending), which is hereby incorporated by reference herein. \n     This application claims priority to Provisional Application No. 60/189,443, filed Mar. 15, 2000, and to Provisional Application No. 60/196,273, filed Apr. 5, 2000. \n     This application also claims priority to U.S. patent application Ser. No. 09/802,174, filed Mar. 8, 2001, now U.S. Pat. No. 6,573,483 the entirety of which is incorporated herein. \n    \n    \n     BACKGROUND OF THE INVENTION \n     Time and convenience are in short supply f",
+    "cpc": "C"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_00918",
+      "title": "Patent Publication 00918",
+      "abstract": "Dual loin knife blade members, in the form of a Z-blade and two styles (tabbed and non-tabbed) of J-blades, for use with knife assemblies in loin pulling machines for pork processing operations. The Z-blade knife comprises a shelf portion of extended length, formed of two separately-shaped blade portions, to maximize to the allowable customer dimensional length specification for the meat shelf being cut, while not cutting into and exposing the red meat of the pork loin eye. The J-blade, of either the tabbed or non-tabbed style, includes lower sweeping radius blade portions allowing the J-blade to lie closely adjacent and generally conform to the profile of the underlying split conveyor belt bed shape. The profiles for the present Z-blades and J-blades permit substantially increased yield in pork loin processing operations, reduced subsequent hand-trimming labor, as well as extended blade wear. A method is also disclosed for manufacturing the Z-blades and J-blades, resulting in increase",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n   This application is a Continuation application of U.S. application Ser. No. 11/469,633 filed Sep. 1, 2006, which application is a Divisional application of U.S. application Ser. No. 10/900,843 filed Jul. 28, 2004 (now U.S. Pat. No. 7,118,471 issued Oct. 10, 2006). \n\n\n   TECHNICAL FIELD \n   This invention relates to knife blades used in the meat processing industry, more particularly to knife blades used in loin knife assemblies of automated loin puller apparatus to separate the loin portion from the belly and fatback portions in pork carcasses. \n   B",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_14477",
+      "title": "Patent Publication 14477",
+      "abstract": "A device and a process for the heating and humidification of gas, especially respiratory gas. Fluid from a fluid reservoir is supplied to a sprinkling type chamber where, for the purpose of humidification, it is moved through the gas. The point is that the fluid is heated by a temperature controlled heater to a preset temperature. In addition to the description of the device, a description of the process underlying the operation of the device is described.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     The present application is a continuation of U.S. patent application Ser. No. 10/531,058, now U.S. Pat. No. 7,975,687, which is the US national stage entry of PCT/EP2003/012140, having an international filing date of Oct. 31, 2003, and claiming priority to German Patent Application 102 51 134.9, filed Oct. 31, 2002, each incorporated by reference herein in its entirety. \n    \n    \n     STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH OR DEVELOPMENT \n     Not applicable. \n     NAMES OF THE PARTIES TO A JOINT RESEARCH AGREEMENT \n     Not applicable. ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_11814",
+      "title": "Patent Publication 11814",
+      "abstract": "An instrument for performing thorascopic repair of heart valves includes a shaft for extending through the chest cavity and into a heart chamber providing access to a valve needing repair. A movable tip on the shaft is operable to capture a valve leaflet and a needle is operable to penetrate a capture valve leaflet and draw the suture therethrough. The suture is thus fastened to the valve leaflet and the instrument is withdrawn from the heart chamber transporting the suture outside the heart chamber. The suture is anchored to the heart wall with proper tension as determined by observing valve operation with an ultrasonic imaging system.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application is a continuation application of U.S. patent application Ser. No. 12/709,220 filed Feb. 19, 2010, now U.S. Pat. No. 8,968,338, which is a divisional application of U.S. patent application Ser. No. 11/813,695, filed Jul. 11, 2007, now U.S. Pat. No. 8,465,500, which is a 371 of PCT/US06/01699 filed Jan. 19, 2006, which claims the benefit of U.S. Provisional Patent Application No. 60/645,677 filed Jan. 21, 2005. \n    \n    \n     BACKGROUND OF THE INVENTION \n     Various types of surgical procedures are currently performed to investigat",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_10943",
+      "title": "Patent Publication 10943",
+      "abstract": "An electric baking oven includes an open mesh vertically oriented baking basket to hold food while the food is baked in air by a programmed combination of radiant and convective and conductive energy transfer. An electrical programming control controls the energy from vertically oriented toaster heating elements located juxtaposed to the large vertical faces of the basket and from at least one elongated heating member located below the vertical baking basket with the axis of the elongated heating member oriented nominally horizontal and parallel to the longer horizontal axis of the vertically oriented baking basket.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS  \n       [0001]     This application is a division of application Ser. No. 10/428,143, filed Apr. 30, 2003, which is a division of application Ser. No. 09/917,996, filed Jul. 30, 2001, which is a continuation in part of application Ser. No. 09/569,841, filed May 12, 2000, now U.S. Pat. No. 6,267,044, which is based on provisional application, Ser. No. 60/133,914, filed May 13, 1999. \n     \n    \n     BACKGROUND OF INVENTION  \n       [0002]     Parent U.S. Pat. No. 6,267,044 describes a toaster which contains heating elements optimally designed and positio",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_04252",
+      "title": "Patent Publication 04252",
+      "abstract": "A food processor has a container, a working piece for processing food material in the container, and a motor assembly for driving the working piece. The motor assembly includes an electric motor and a speed reduction gear unit connected between the motor and the working piece. The speed reduction gear unit includes a damper for isolating the motor from vibrations from the working piece.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n       [0001]    This non-provisional patent application claims priority under 35 U.S.C. \u00a7119(a) from Patent Application No. 201110289057.4 filed in The People&#39;s Republic of China on Sep. 26, 2011. \n     \n    \n     FIELD OF THE INVENTION \n       [0002]    This invention relates to a food processor and in particular, to a motor assembly for the food processor. \n       BACKGROUND OF THE INVENTION \n       [0003]    US2003/0145737A1 discloses a bread maker which includes a casing, a mixing rod, a baking oven, a bread making chamber unit, and an electric",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_02895",
+      "title": "Patent Publication 02895",
+      "abstract": "An oven has a first conveyor, a first burner that directs heat toward the first conveyor from above the first conveyor, and a second burner directs heat toward the first conveyor from below the first conveyor. A method includes providing foodstuff on a conveyor, exposing the foodstuff to heat directed toward the foodstuff from above the conveyor, and exposing the foodstuff to heat directed toward the foodstuff from below the conveyor. Another oven has a first conveyor and first conveyor insulators that surround the first conveyor and define a first zone. Another method includes introducing foodstuff to a first conveyor belt within a first insulated zone, introducing heat into the first insulated zone, and retaining a portion of the heat within the first insulated zone. Another oven has an insulated cooking zone that closely envelopes a cooking path and an insulated oven zone that substantially envelopes the cooking zone.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a continuation of U.S. patent application Ser. No. 12/347,321 filed Dec. 31, 2008, by Souhel Khanania, entitled \u201cOven,\u201d which claims priority to U.S. Provisional Patent Application No. 61/018,830 which was filed on Jan. 3, 2008, which are incorporated by reference herein as if reproduced in their entirety. \n     \n    \n     STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH OR DEVELOPMENT \n       [0002]    Not applicable. \n       REFERENCE TO A MICROFICHE APPENDIX \n       [0003]    Not applicable. \n       BACKGROUND \n  ",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_02908",
+      "title": "Patent Publication 02908",
+      "abstract": "An improved outdoor cooking apparatus features a pot with multiple cooking inserts and burner frame that supports a burner element. One insert can be used for cooking an entire poultry carcass. Other inserts are perforated baskets that can be used to fry items.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n   Priority of U.S. Provisional Patent Application Ser. No. 60/479,198, filed Jun. 17, 2003, incorporated herein by reference, is hereby claimed. \n\n\n   STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH OR DEVELOPMENT \n   Not applicable \n   REFERENCE TO A \u201cMICROFICHE APPENDIX\u201d \n   Not applicable \n   BACKGROUND OF THE INVENTION \n   1. Field of the Invention \n   The present invention relates to outdoor cooking devices that are fueled with gaseous fuel (e.g. propane, butane) and more particularly to an improved outdoor cooking device that can be used in a nu",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_09878",
+      "title": "Patent Publication 09878",
+      "abstract": "An improved liquid dispensing device having particular utility as a surgical scrub and/or swab unit is characterized by a cartridge which is slidable in a rigid handle and rupturably by a spike when slid within the handle to a predetermined degree. Fluid from the ruptured cartridge flows from within the handle to within a sponge through apertures which permit free flow of the dispensed fluid. The handle may be provided with longitudinally-extending slots to facilitate compression of the handle and the cartridge disposed therein. A check valve may be included in the hollow spike passage to prevent back flow of liquid from the sponge and dispensing chamber into the cartridge.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application is a continuation-in-part application of U.S. patent application Ser. No. 241,486, filed Mar. 09, 1981 and entitled &#34;Improved Liquid Dispenser,&#34; now abandoned. \n    \n    \n     TECHNICAL FIELD \n     The present invention relates generally to liquid dispensers and applicators of the type wherein a premeasured supply of liquid is disposed in an applicator handle and selectively dispensed through the applicator. The invention has particular applicability in the field of aseptic surgery preparation as a pre-operative surgical sc",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_10142",
+      "title": "Patent Publication 10142",
+      "abstract": "A harvesting machine, a method for harvesting using the harvesting machine, a crop residue harvesting system for the harvesting machine, and an apparatus are provided. The arrangement described herein spreads crop residue over the ground. It uses sensors to monitor the amount of crop residue spread over the ground.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application, a continuation-in-part utility patent application, claims priority to co-pending utility patent application Ser. No. 12/062,846, which was filed on Apr. 4, 2008, and to provisional application Ser. No. 60/910,250 filed Apr. 5, 2007 and to provisional application Ser. No. 60/998,984 filed Oct. 15, 2007, from which application Ser. No. 60/910,250 also claimed priority, and all three of which prior applications are herein incorporated by reference in their entireties. \n     \n    \n     GRANT REFERENCE \n       [0002]    Thi",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_12658",
+      "title": "Patent Publication 12658",
+      "abstract": "A cooking system, including a product loader for dispensing uncooked food product; a broiler/oven having an inlet end, a cooking chamber, a discharge end, a motorized conveyor system for conveying food through said broiler from said inlet end to said discharge end, and heating elements for heating and cooking food products in said cooking chamber. Disposed proximate the discharge end is a temperature sensor system including temperature sensors for measuring the internal temperature of the cooked food product. Readings from the temperature sensor system are sent to a system controller to evaluate and qualify food product as sufficient or insufficiently cooked. A discharge control system sends disqualified food product to a discard bin and qualified food product to a product holding bin.",
+      "description": "CROSS REFERENCES TO RELATED APPLICATIONS \n       [0001]    The present application claims the benefit of U.S. Provisional Patent Application Ser. No. 62/237,444, filed 10/05/2015 (Oct. 5, 2015). \n     \n    \n     STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH OR DEVELOPMENT \n       [0002]    Not applicable. \n       THE NAMES OR PARTIES TO A JOINT RESEARCH AGREEMENT \n       [0003]    Not applicable. \n       INCORPORATION BY REFERENCE OF MATERIAL SUBMITTED ON A COMPACT DISC \n       [0004]    Not applicable. \n       BACKGROUND OF THE INVENTION \n       [0005]    Field of the Invention: The presen",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_01199",
+      "title": "Patent Publication 01199",
+      "abstract": "A control and actuation system is provided for a molding machine for producing expanded-grain cakes. The system includes a control unit, a temperature-regulated heating system, multiple motors operated by the control unit for separately actuating mechanical functions, multiple sensors for providing grain level and mechanism positional data to the control unit, control inputs for programming and otherwise providing input to the control unit, and a display device allowing the control unit to provide operational status information. The control unit regulates the thermal energy input to the mold, the molding cycle frequency, and the size of the grain charge. Several interrupts are used to ensure conformance to the control parameters and to enhance operator safety.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATION \n     This application is related to patent application Ser. No. 13/014,257 which was filed on Jan. 26, 2011, now U.S. Pat. No. 8,287,263, and is incorporated herein by reference in its entirety. The related patent claims priority of Republic of Korea Patent Application No. 10-2010-0051387, which was filed on May 31, 2010, and is incorporated herein by reference in its entirety. \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates generally to a control and actuation system for a baking-in-a-mold apparatus ",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_01554",
+      "title": "Patent Publication 01554",
+      "abstract": "A trailer has a frame having frame-members configured to support a container, at least a pair of traction devices rotatably mounted on the frame, and a tongue configured to be mounted on a transportation device or an implement being towed by a transportation device. The frame-members may have a three-point mount configured to support a container. The container may be configured to be interchangeable with another container. The container may be an element of a seeding apparatus, the seeding apparatus mountable on the frame-members of the frame. The trailer may have a steering mechanism for the traction devices, and may be convertible between steerable and non-steerable modes. The steering mechanism may be guidance controlled. A transverse distance between the traction devices may be adjustable and/or height of the frame in relation to the ground may be adjustable. The trailer provides greater flexibility of operation under a greater variety of conditions.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application claims the benefit of U.S. Patent Application 62/203,160 filed Aug. 10, 2015, the entire contents of which are hereby incorporated by reference. \n    \n    \n     FIELD \n     This application relates to trailers, in particular to trailers for towing behind an agricultural implement. \n     BACKGROUND \n     Agricultural carts for transporting containers containing solid or liquid inputs are known in the industry. Such carts are typically designed for one type of application, lacking flexibility in the type of input to be carried or the",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_02066",
+      "title": "Patent Publication 02066",
+      "abstract": "The invention relates to an apparatus for mincing and/or beating, comminuting, chopping, pulverizing, emulsifying, mixing, kneading, whisking and the like of materials, particularly edible materials, such as meat, starchy foods, fruit and vegetables which comprises a near-spherical container, at least one knife mounted for rotation within the container, coupled with safety features to prevent injuries to the operators.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application is a continuation-in-part of copending U.S. application Ser. No. 786,594 filed Apr. 11, 1977, now abandoned, claiming priority of French patent application 76 27771, filed Sept. 6, 1976 and filing date of the U.S. application and the priority under the Convention of the French application are claimed herefor for all subject matters common to them. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     An apparatus for treating edible materials the intended operation of which includes mincing, beating, mix",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_07902",
+      "title": "Patent Publication 07902",
+      "abstract": "A substitute bench used for practicing sports to help the coaching team members and the players team during trainings or during sports competitions. The substitute bench includes a base frame with transfer and transport wheels, seats, auxiliary furniture, leg cover, and retractable roof structure for coverage and for placing static graphic advertising and/or dynamic content.",
+      "description": "FIELD OF THE INVENTION \n       [0001]    This invention refers to a substitute bench, meaning the kind of bench used for practicing sports, to help the coaching team members and the players team during trainings or during the sports competition proper. \n       BACKGROUND OF THE INVENTION AND PROBLEMS TO BE SOLVED \n       [0002]    So far, substitute benches have been built on the basis of fixed structures located near the playing field, at the field&#39;s level or even below the field&#39;s level; that is to say, it was not possible to move substitute benches from their set location even if it",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_01970",
+      "title": "Patent Publication 01970",
+      "abstract": "Nitrile rubber compositions and articles of manufacture made therefrom are disclosed. The resulting articles of manufacture, including gloves have ultimate tensile strength and lower modulus which are soft but strong and can be economically manufactured.",
+      "description": "FIELD OF INVENTION \n       [0001]    The present invention relates to elastomeric materials, and more particularly relates to flexible nitrile gloves which have good strength and low elastic modulus at a predetermined of thickness. \n       BACKGROUND OF THE INVENTION \n       [0002]    Nitrile rubber is widely used to make variety of articles of manufacture at a reasonable price. Carboxylated nitrile has high strength and impermeability properties to certain solvents and oils. Compounding and curing the rubber with other components such as processing agents, pH control agents, accelerator agent",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_14867",
+      "title": "Patent Publication 14867",
+      "abstract": "According to the invention, a method for inhibiting the formation of stretch marks is disclosed. The method may include applying an oil to a portion of a person&#39;s body. The method may also include placing a non-absorbent film over the oil on the portion of the person&#39;s body. The method may further include securing the non-absorbent film to the person&#39;s body.",
+      "description": "BACKGROUND OF THE INVENTION \n       [0001]    Since the beginning of time, women have worried and struggled with the possibility of getting stretch marks during pregnancy. Doctors often just advise women to lather up with lotion or oil and hope for the best. Unfortunately, up to 90% of women develop stretch marks during pregnancy. Many women long for an effective solution. \n         [0002]    During a woman&#39;s pregnancy, the skin on the woman&#39;s abdomen is stretched to accommodate the growing baby. This causes the skin to tear, leaving a permanent, scar-like appearance known as stretch m",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_13551",
+      "title": "Patent Publication 13551",
+      "abstract": "A method for suturing a perforation comprises the steps of: observing an area around the perforation from an inside of a hollow organ by an observation device inserted from a natural opening of a living body; observing the area around the perforation from a body cavity side of the hollow organ by an observation device inserted from the natural opening of the living body; thrusting a needle of a suture unit inserted from the natural opening of the living body into a tissue around the perforation of the hollow organ to make a suture thread puncture the tissue via the needle; and closing the perforation by tightening up the suture thread puncturing the tissue.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to a method for suturing by inserting a suture instrument via the mouth or the anus. For example, the present invention relates to a method of suturing a perforation formed in a wall of a hollow organ. \n     2. Description of Related Art \n     In the case of performing treatment in a body of a patient, the treatment can be performed by incising the body of the patient by surgical operation, or by oral endoscopic treatment or transanal endoscopic treatment. A method for suturing a perforation formed ",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_03920",
+      "title": "Patent Publication 03920",
+      "abstract": "A fingernail color display device has two or more platforms attached to a shaft which is rotatably mounted on a base. Apertures around the perimeter of each platform receive and hold for display colored artificial fingernails, so that the platforms may be rotated for viewing a variety of colors and a customer&#39;s finger may be placed under a nail for comparison with skin color, etc.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n     None. \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates to devices for displaying choices of fingernail colors and styles for artificial fingernails, and particularly to such devices which hold artificial fingernails on rotating platforms for viewing. \n     2. Description of the Related Art \n     Several stands or devices to display fingernail colors have been patented. These include several patents by Aylott, listed below, which include: a display (&#39;344 patent) on which artificial nails are held by ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_14698",
+      "title": "Patent Publication 14698",
+      "abstract": "A cooking appliance includes a heating source to provide heat to a cooking medium for cooking food, temperature sensing circuitry for detecting the cooking medium temperature and control circuitry connected to the temperature sensing circuitry for cooking the food according to data stored in the control circuitry by controlling the heating source and removing the food from the cooking medium in accordance with the data. A temperature sensing apparatus is also disclosed that includes a temperature probe for measuring temperature and a reference circuit indicating a referenced temperature. Circuitry is alternately connected to the temperature probe and the reference circuit for alternately providing a first and second output signal indicative of the measured temperature and the referenced temperature respectively. Data processing circuitry is also provided that receives the output signals and computes the measured temperature from the first and second output signals.",
+      "description": "RELATED CASE \n     This is a continuation of application Ser. No. 512,204, filed July 8, 1983, now U.S. Pat. No. 4,663,710 which is a continuation-in-part of U.S. Patent Application Ser. No. 264,173, now U.S. Pat. No. 4,437,159. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates to cooking devices and more specifically to programmable cooking devices. \n     2. Description of the Prior Art \n     There has been for a long time a need for a device to control precisely cooking of foods in deep fat fryers precisely and easily. A number of approa",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_02164",
+      "title": "Patent Publication 02164",
+      "abstract": "A custom fittable collar for an animal, useful to prevent the animal from contacting injured areas on the body, thus promoting healing of wounds. The collar comprises opposing sheets of flexible material with a resilient material held between them. The resulting collar is rigid enough to resist deformation thus preventing licking or biting of a wound by the animal, but soft enough that the collar is both comfortable to wear, and less likely to catch on other objects, thus improving the safety and wearability of the collar. The collar further comprises a closure assembly adapted for easy placement or removal of the collar. The collar further comprises stitching that creates fold lines to allow the collar to be conveniently folded.",
+      "description": "FIELD \n       [0001]    The present invention relates to protective collars, also known as veterinary restraints, for small animals and commonly called \u201cElizabethan collars\u201d or \u201ce-collars\u201d. The collar is useful for preventing the animal from licking or biting wounds, or disrupting surgical stitches. The collar further prevents disruption of medications applied topically at the site of an injury, or surgical wound. \n       BACKGROUND \n       [0002]    When wounded or when a diseased site is present, many animals, for example cats and dogs will instinctively lick or bite at the site of the injur",
+      "cpc": "C"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_12658",
+      "patent_02895",
+      "patent_01199",
+      "patent_14698",
+      "patent_02908",
+      "patent_04252",
+      "patent_10943",
+      "patent_14477",
+      "patent_10142",
+      "patent_02066",
+      "patent_11814",
+      "patent_01554",
+      "patent_09878",
+      "patent_00918",
+      "patent_01970",
+      "patent_03920",
+      "patent_07902",
+      "patent_13551",
+      "patent_14867",
+      "patent_02164"
+    ],
+    "relevance_scores": {
+      "patent_00918": 0.37943427155368387,
+      "patent_14477": 0.8881450721345386,
+      "patent_11814": 0.6883225577234978,
+      "patent_10943": 0.8984617123913445,
+      "patent_04252": 0.905189964338949,
+      "patent_02895": 0.9838270892103522,
+      "patent_02908": 0.9372433436332254,
+      "patent_09878": 0.4222437459918851,
+      "patent_10142": 0.8596881007476644,
+      "patent_12658": 0.9899999839825557,
+      "patent_01199": 0.9778190735582998,
+      "patent_01554": 0.5715485200227087,
+      "patent_02066": 0.8478838250246218,
+      "patent_07902": 0.07250440229269729,
+      "patent_01970": 0.16662277672825557,
+      "patent_14867": 0.049015476519772866,
+      "patent_13551": 0.07169634423649174,
+      "patent_03920": 0.10941120184271194,
+      "patent_14698": 0.95268794411096,
+      "patent_02164": 0.01
+    },
+    "novelty_score": 0.293195787304657
+  }
+}

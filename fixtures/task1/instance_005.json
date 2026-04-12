@@ -1,0 +1,200 @@
+{
+  "task_description": "Screen candidate patents for relevance to the query patent. Mark the strongest prior-art candidates as RELEVANT and the rest as NOT_RELEVANT.",
+  "budget": 20,
+  "query_patent": {
+    "id": "patent_05438",
+    "title": "Patent Publication 05438",
+    "abstract": "The invention features a drug delivery device which contains a cup-shaped body for enclosing a single external nare of a mammal but does not extend into the nostril of the mammal. The device is used in methods to treat pulmonary diseases. e.g., exercise intolerance, cough, and asthma-like attacks in horses and other animals.",
+    "description": "BACKGROUND OF THE INVENTION \n     Small airway diseases (e.g., small airway inflammatory disease, heaves, and chronic obstructive pulmonary disease) are prevalent causes of exercise intolerance, cough, and asthma-like attacks in horses. These clinical symptoms may be precipitated by progressive allergic reactions to dust found in hay and in the environment, but the cause is not always identified. Traditional management includes minimizing the horse&#39;s exposure to dust and conventional hay, bronchodilator treatment for immediate relief, steroid treatment to reduce inflammation and bring abou",
+    "cpc": "E"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_04764",
+      "title": "Patent Publication 04764",
+      "abstract": "The present invention relates to a nasal delivery device for and a method of delivering a substance, in particular one of a liquid, as a suspension or solution, or a powder containing a medicament, especially systemic or topical pharmaceuticals, or a vaccine to the nasal airway of a subject.",
+      "description": "RELATED APPLICATION DATA \n     This application is a national phase of International Application No. PCT/IB02/03034 filed Jun. 12, 2002 and published in the English language. \n     FIELD OF THE INVENTION \n     The present invention relates to a nasal delivery device for and a method of delivering a substance, in particular one of a liquid, as a suspension or solution, or a powder containing a medicament, especially systemic or topical pharmaceuticals, or a vaccine to the nasal airway of a subject. \n     BACKGROUND AND SUMMARY OF THE INVENTION \n     Referring to  FIG. 1 , the nasal airway  1  c",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_14119",
+      "title": "Patent Publication 14119",
+      "abstract": "An inhalation device may include a control and an air pump that is connected to the control. The air pump is controlled by the control such that the air pump supplies an inhalation flow, or inhalation volume or both according to a predetermined time course to a nebulizer connected to the air pump. The inhalation flow, inhalation volume or both is controlled by controlling the air pump, rather than by using valves.",
+      "description": "This application claims priority to EP application 05005033.5 filed Mar. 8, 2005. \n     FIELD OF THE INVENTION \n     The invention relates to a device for the application of a pharmaceutical via the lung. \n     BACKGROUND \n     Inhalation is a way which is getting more and more important for the administration of pharmaceuticals. To this end, apart from the use of new locally acting pharmaceuticals for the therapy of lung diseases, new therapeutic strategies are developed making use of the lung as a site for systematically acting substances. \n     Regarding the application of drugs via inhalat",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_12614",
+      "title": "Patent Publication 12614",
+      "abstract": "The invention described herein is directed to method of treating chronic obstructive pulmonary disease, comprising administering an effective amount of an osmolyte by at least one nasal cannula to a subject in need thereof. Also provided is a nasal cannula system for delivering an osmolyte, comprising a nebulizer and tubing having two ends, where the first end of the tubing is connected to the nebulizer and the second end of the tubing is tapered to fit in the nostril of a subject.",
+      "description": "CONTINUING APPLICATION DATA \n     This application is a continuation of U.S. application Ser. No. 12/249,175, filed on Oct. 10, 2008, which claims priority to and the benefit of U.S. provisional application Ser. No. 60/978,887, filed on Oct. 10, 2007, both of which are incorporated herein by reference in their entirety. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to the aerosolized delivery of hypertonic saline (HS) and other osmolytes to provide overnight nasal hydration to patients with all forms of chronic obstructive pulmo",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_14399",
+      "title": "Patent Publication 14399",
+      "abstract": "An assembly of cannula and endoscope and dissection tip facilitate surgical procedures at remote surgical site in tissue of a patient. Relative rotation of the cannula about the endoscope from clamped rotational fixation of the cannula and endoscope is made possible by flexing a resilient clamping segment, and such relative rotation promotes convenient positioning of an eccentric tissue-dissecting tip about a vessel being harvested from within tissue of a patient. Color tinting of the tip or color-tinted illumination of tissue at a remote surgical site enhances contrasting visualization through the tip via the endoscope among the tissue types encountered at the surgical site within a patient. A tool bridge or lateral support mounts to a more rigid component such as an endoscope that extends from the proximal end of a cannula to support a more flexible surgical instrument also extending from the proximal end of the cannula.",
+      "description": "RELATED APPLICATION \n     This is a continuation of application Ser. No. 09/560,636, filed on Apr. 28, 2000, now U.S. Pat. No. 6,471,638, which is incorporated by reference herein in its entirety, and the subject matter of this application relates to the subject matter disclosed in U.S. patent application Ser. No. 09/227,393, filed on Jan. 8, 1999 by Albert K. Chin, now abandoned. \n    \n    \n     FIELD OF THE INVENTION \n     This invention relates to endoscopic surgical instruments and more particularly to components thereof to facilitate assembly of surgical instruments in sturdy and releasab",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_06680",
+      "title": "Patent Publication 06680",
+      "abstract": "Methods for suppressing, killing, and inhibiting pathogenic cells, such as microorganisms associated with a respiratory infection within the respiratory tract of an animal are described. Methods include the step of exposing the pathogenic cells to an effective amount of nitric oxide, such as through inhalation of nitric oxide gas.",
+      "description": "[0001]     The application is a continuation application of and claims priority to U.S. application Ser. No. 09/762,152, filed on Feb. 1, 2001, which claims priority to International Patent Application No. PCT/CA99/01123, filed on Nov. 22, 1999, which claims priority to Canadian Application No. 2,254,645, filed on Nov. 23, 1998. Each of said applications are herein incorporated by reference in their entirety. \n     \n    \n     FIELD OF THE INVENTION  \n       [0002]     The present invention relates to a method for suppressing pathogenic cells, as well as a method for the treatment of an animal,",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_00565",
+      "title": "Patent Publication 00565",
+      "abstract": "A trocar is formed from a cannula and an interfitting obturator for penetrating body cavity walls in laparoscopic and endoscopic surgery. The cannula has an improved inexpensive flexible flapper valve and can be manufactured with a reusable cannula tube but disposable flapper valve assembly to minimize cost.",
+      "description": "This is a continuation of U.S. application Ser. No. 08/238,959 filed May 6, 1994 which issued as U.S. Pat. No. 5,545,150 on Aug. 13, 1996. \n    \n    \n     BACKGROUND OF THE INVENTION \n     The present invention relates to a surgical instrument commonly referred to as a trocar, or an obturator and cannula, often used in laparoscopic or arthroscopic surgery. More particularly, the invention relates to a new and improved design for a flapper valve, seal, and to the use of disposable seal assemblies on an otherwise reusable instrument. \n     Many surgical procedures are now being performed with th",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_11918",
+      "title": "Patent Publication 11918",
+      "abstract": "An improved method and apparatus for delivering medication to the lungs is described. Acoustic ink printing technology is modified to operate as an inhaler that generates tiny droplets near a patient&#39;s nose or mouth. The tiny droplets are easily carried by air currents into the patient&#39;s lungs. The inhaler itself is preferably a battery operated portable device that can be easily carried and easily cleaned to avoid contaminating the medication.",
+      "description": "This application is related to issued U.S. Pat. No. 6,622,720 entitled \u201cUsing Capillary Wave Driven Droplets to Deliver a Pharmaceutical Product\u201d, and patent application Ser. No. 09/739,989 entitled \u201cA Method of Using Focused Acoustic Waves to Deliver a Pharmaceutical Product\u201d. All Applications were filed on Dec. 18, 2000 and all Applications are assigned to the same Assignee. \n     BACKGROUND OF THE INVENTION \n     Many pharmaceutical products or drugs that provide relief from nasal or lung ailments are delivered through the respiratory system. In order to deliver these drugs, typically, the ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06280",
+      "title": "Patent Publication 06280",
+      "abstract": "The present invention relates to the inhalation delivery of aerosols containing small particles. Specifically, it relates to a device that forms drug containing aerosols for use in inhalation therapy. In a device aspect of the present invention, a device for delivering drug containing aerosols for inhalation therapy is provided. The device includes a housing and an airway that has a gas/vapor mixing airway. The airway further includes a subassembly, which has a metallic substrate coated on its surface with a composition comprising a drug.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a continuation of U.S. application Ser. No. 10/146,080, entitled \u201cAerosol Forming Device for Use in Inhalation Therapy,\u201d filed May 13, 2002, which is a continuation-in-part of U.S. patent application Ser. No. 10/057,198 entitled \u201cMethod and Device for Delivering a Physiologically Active Compound,\u201d filed Oct. 26, 2001, Lloyd et al. and of U.S. patent application Ser. No. 10/057,197 entitled \u201cAerosol Generating Device and Method,\u201d filed Oct. 26, 2001, Wensley et al., now U.S. Pat. No. 7,766,013, each of said applicatio",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_04700",
+      "title": "Patent Publication 04700",
+      "abstract": "A suture passing mechanism is disclosed having an elongated delivery member and a suture capture fitting at a distal end of the delivery member. The suture capture fitting includes a recess for receiving a length of suture. The recess is bounded by a proximal wall and a lateral opening leads therein. An expeller at the recess is adapted to expel suture out of the recess through the lateral opening.",
+      "description": "BACKGROUND \n     The present invention relates to suture passers and graspers and more particularly to such instruments and methods for their use wherein provision is made to eject the suture therefrom. \n     Within the field of medical surgery, there are times when a suture needs to be passed through soft tissue, but direct access to the tissue is not possible (e.g. during arthroscopy). Generally, this passage of suture is performed either anterograde or retrograde. In anterograde passing an instrument called a suture passer grasps a strand of suture and is forcibly driven through the soft ti",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_07715",
+      "title": "Patent Publication 07715",
+      "abstract": "According to the present invention, a vaccine or pharmaceutical-containing composition is applied to the muzzle area of the animal, which will then naturally use its tongue to clean itself. This behavior will cause the animal to deposit applied composition to the mucosa of the nasal and oral cavities, thus meeting the need for a simple, effective, and efficient vaccination or treatment method.",
+      "description": "RELATED APPLICATION \n       [0001]    This application is a continuation of application Ser. No. 10/084,592 filed Feb. 25, 2002, the entire disclosure of which is incorporated herein by reference. \n     \n    \n     BACKGROUND OF THE INVENTION \n       [0002]    One of the most common diseases in newly received stocker and feedlot cattle is the Bovine Respiratory Disease (BRD) complex. BRD accounts for approximately 75% of morbidity and over 50% of mortality in feedlots (Edwards, A. 1996. Bovine Pract. 30:5). Studies have indicated that BRD manifests its economic losses cumulatively\u2014through the c",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_00950",
+      "title": "Patent Publication 00950",
+      "abstract": "A method of delivery of a combination therapy to the pulmonary system that includes providing a nebulizer and a fluid comprising a long-acting corticosteroid, a long-acting beta-agonist, and a long-acting anticholinergic in a pharmaceutically acceptable vehicle, and administering the solution to the patient using the nebulizer. The corticosteroid is budesonide, the beta-agonist is formoterol and the anticholinergic is tiotropium in a an aqueous solution, suspension or emulsion suitable for administration with the nebulizer.",
+      "description": "FIELD OF THE INVENTION  \n       [0001]     The present invention is directed to the delivery of a combination drug therapy for asthma and chronic obstructive pulmonary disease.  \n       BACKGROUND OF THE INVENTION  \n       [0002]     A combination of a long-acting corticosteroid and a long-acting beta-agonist has been available for years for the treatment of asthma and chronic obstructive pulmonary disease, commonly abbreviated as COPD, such as emphysema and chronic bronchitis. Particularly, the combination of budesonide, a long-acting corticosteroid, and formoterol, a long-acting beta-agonist",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_05733",
+      "title": "Patent Publication 05733",
+      "abstract": "A depth control system particularly useful for single point depth control on an agricultural implement includes a valve and actuator mounted directly to the pivotal connection areas of a hydraulic cylinder that controls height. Cylinder motion directly controls valve actuation independently of complicated linkages to reduce the size and cost of the system and substantially overcome hysteresis problems.",
+      "description": "FIELD OF THE INVENTION \n     The present invention relates directly to lift systems on agricultural implements and, more specifically, to a depth control actuation system for such implements. \n     BACKGROUND OF THE INVENTION \n     Agricultural implements with hydraulically actuated depth or lift systems often include depth control systems such as shown in commonly assigned U.S. Pat. Nos. 5,427,184 and 5,988,293. A typical system may include a valve which is activated to stop vertical movement of the frame as the implement is lowered to a selected working position. \n     Many hydraulically con",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_02802",
+      "title": "Patent Publication 02802",
+      "abstract": "The present invention relates to the delivery of stimulants through an inhalation route. Specifically, it relates to aerosols containing stimulants that are used in inhalation therapy. In a method aspect of the present invention, a stimulant is delivered to a patient through an inhalation route. The method comprises: a) heating a thin coating of a stimulant, on a solid support, to form a vapor; and, b) passing air through the heated vapor to produce aerosol particles having less than 5% stimulant degradation products. In a kit aspect of the present invention, a kit for delivering a stimulant through an inhalation route is provided which comprises: a) a thin coating of a stimulant drug and b) a device for dispensing said thin coating a stimulant as a condensation aerosol.",
+      "description": "This application is a continuation of U.S. patent application Ser. No. 10/150,268, entitled \u201cDelivery of Stimulants Through an Inhalation Route,\u201d filed May 15, 2002 now U.S. Pat. No. 6,780,399, Rabinowitz and Zaffaroni, which claims priority to U.S. provisional application Ser. No. 60/294,203 entitled \u201cThermal Vapor Delivery of Drugs,\u201d filed May 24, 2001, Rabinowitz and Zaffaroni, the entire disclosure of which is hereby incorporated by reference. This application further claims priority to U.S. provisional application Ser. No. 60/317,479 entitled \u201cAerosol Drug Delivery,\u201d filed Sep. 5, 2001, R",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_11576",
+      "title": "Patent Publication 11576",
+      "abstract": "A balloon endoscope device having a shaft with a distal end that allows for blunt dissection is provided. The shaft utilizes a plurality of separately inflatable balloons that alone or together with exterior functional channels (e.g., instrument channels, air channels, water channels, suction channels) circumferentially surround the distal end of the shaft to better position and maneuver the distal end as it advances through tissue planes and once it reaches a target working space or operative site.",
+      "description": "RELATED APPLICATION  \n       [0001]     This application claims the benefit of U.S. Provisional Patent Application Ser. No. 60/800,374, filed May 15, 2006, which is fully incorporated herein by reference. \n     \n    \n     TECHNICAL FIELD  \n       [0002]     The present invention generally relates to an endoscope device having a shaft with a distal end that allows for blunt dissection, and more particularly relates to an endoscope device that utilizes a plurality of inflatable balloons circumferentially surrounding the distal end of the device&#39;s shaft to better position and maneuver the dis",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_00513",
+      "title": "Patent Publication 00513",
+      "abstract": "A repeating multi-clip applier for surgery with scissor-type or pistol grip operating handles, and a clip feeding and applying mechanism actuated by linear reciprocating movement generated by the handles. A unitary linear actuating rod and clip supply channel together with clip feed mechanisms reciprocate rearward-to-forward as the handles move for applying a clip in surgery and for advancing clips into the applying jaws.",
+      "description": "BACKGROUND OF THE INVENTION \n     The present invention relates to an appliance for affixing surgical or ligating clips and more particularly to an appliance for rapidly employing several clips at a surgical site. There are many different designs for surgical clip applicators for a variety of surgical procedures including laproscopy in which a clipping appliance fits through a trocar tube into a body cavity where the clips are applied. \n     This invention provides a repeating multi-clip applier having a simplified mechanism for applying clips which mechanism is suitable for the full spectrum ",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_07827",
+      "title": "Patent Publication 07827",
+      "abstract": "A medical implant is disclosed, said implant having a flexible hollow body ( 1 ) which can be implanted inside the stomach ( 8 ) of a patient and which has a first tube-like end section ( 2 ) and a second tube-like end section ( 3 ), wherein the first tube-like end section ( 2 ) is dimensioned such that it can be fitted into the esophagus ( 7 ) of the patient, and the second tube-like end section ( 3 ) is dimensioned such that it can be connected to the small intestine loop ( 9 ) of the patent in a sealing manner.",
+      "description": "The present application is a continuation-in-part of PCT application no. PCT/EP02/05810, filed May 27, 2002, which application claims priority from German application no. 101 25 568.3, filed May 27, 2001, and from German application no. 101 58 785.6, filed Nov. 30, 2001. All of these applications are incorporated herein by reference. \n   FIELD OF THE INVENTION \n   The present invention relates to a device for treating pathological obesity and especially to a medical implant which is adapted to bypass a natural food passage in the digestive tract. \n   BACKGROUND OF THE INVENTION \n   The so-call",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_07230",
+      "title": "Patent Publication 07230",
+      "abstract": "An inhaler device that is able to house multiple removable canisters of medication. The inhaler device may also have extendable and retractable outlet nozzles, spacer devices, a cover and assorted cap designs to ensure proper use of the device and application of the medication.",
+      "description": "The present invention relates to an inhaler device for dispensing medication. \n     Ailments such as asthma and other obstructive lung diseases are frequently treated effectively by topical inhalation of medication. Inhalational application offers a rapid delivery of medication directly to the site of the problem--the interior of the bronchial tree. In contrast, oral or parental medication dosages require systemic absorption and systemic distribution of medication in order for a fraction of that medication to get to the desired site and produce a therapeutic benefit. \n     Because inhalational",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_13019",
+      "title": "Patent Publication 13019",
+      "abstract": "According to exemplary embodiments of the present disclosure, apparatus, device and method can be provided which can provide imaging of biological tissues, e.g., luminal organs in vivo, using optical techniques in an automatic or semiautomatic manner. The exemplary apparatus, device and method can utilize a tethered capsule catheter with a mechanism for manual, semi-automatic or automatic traversing in the luminal organ with a controlled velocity and/or image quality. The exemplary apparatus can include feedback information about tension applied to the catheter during its movement that can be used to adjust velocity and assure patient comfort and safety for example during passing through natural sphincters and/or narrowing of the luminal organs and preventing from breaking of the catheter. The exemplary apparatus can also adjust velocity in order to provide good quality of acquired images, for example to engaged peristalsis and provide contact with the tissue. In one exemplary embodime",
+      "description": "CROSS REFERENCE TO RELATED APPLICATION(S) \n       [0001]    The present application relates to and claims priority from U.S. Provisional Patent Application Ser. No. 61/934,298 filed Jan. 31, 2014, the disclosure of which is incorporated herein by reference in its entirety. \n     \n    \n     FIELD OF THE DISCLOSURE \n       [0002]    The present disclosure relates to catheters, and more specifically to exemplary embodiments of apparatus, systems and methods which facilitate manual and/or automatic volumetric imaging with real-time tension or force feedback using a tethered imaging device. \n      ",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_00199",
+      "title": "Patent Publication 00199",
+      "abstract": "A method and a facility for playing a game with a golf club and golf balls, the facility comprising: \n     a site having a range area visibly divided into a plurality of contiguous target regions, each said target region being associated with a target identifier, and a tee area having a plurality of contiguous tees from which golf balls may be hit toward said range area; \n     scoring means located at said site for scoring a game, said scoring means setting out a sequence of said target identifiers so as to establish a corresponding sequence of designated target regions to which golf balls are to be hit from the tee with a golf club in order, and said scoring means providing means for recording a point score for each time a player hits a golf ball; and \n     a scoring system associated with said scoring means for awarding a point score according to the observed resting position of the golf ball relative to the designated target region.",
+      "description": "FIELD OF THE INVENTION \n     The present invention relates to the game of golf and in particular to a method and facility for playing a game at a golf range. \n     BACKGROUND OF THE INVENTION \n     Golf is becoming an increasingly popular sport around the world. It can often be difficult, however, for various reasons for players to find a golf course where they can play. Also, a conventional round of golf takes at least several hours to play which can be prohibitive for many players. For these reasons, many people attend golf practice ranges to practice their golf shots without playing an actu",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_10857",
+      "title": "Patent Publication 10857",
+      "abstract": "An inhalation therapy enclosure includes a base with end walls joined by a rear wall. A cover having two panels joined perpendicularly is hinged to the top of the rear wall. When lowered, the cover forms an enclosure with the end wall, rear wall and base. Latches secure the cover to the base. A port in one end wall allows introduction of nebulized medication or anesthesia while a port of equal size in the opposing end wall allows exhaust from the enclosure.",
+      "description": "BACKGROUND OF THE INVENTION \n   This invention pertains to inhalation therapy enclosures for small animals. \n   In the practice of veterinary medicine, the treatment of diseased or injured animals encompasses administration of medications by injection or by mouth, as well as by inhalation of nebulized medications. Current methods for respiratory therapy through administration of nebulized medications consist of use of a mask held over the nose and mouth of the animal, or by forcing the animal into a closed chamber into which nebulized medication is introduced. Typically, the chamber is an open",
+      "cpc": "G"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_10857",
+      "patent_07715",
+      "patent_07230",
+      "patent_06280",
+      "patent_14119",
+      "patent_12614",
+      "patent_06680",
+      "patent_11918",
+      "patent_04764",
+      "patent_00950",
+      "patent_02802",
+      "patent_07827",
+      "patent_13019",
+      "patent_00565",
+      "patent_11576",
+      "patent_14399",
+      "patent_04700",
+      "patent_05733",
+      "patent_00513",
+      "patent_00199"
+    ],
+    "relevance_scores": {
+      "patent_04764": 0.8922531891215607,
+      "patent_14119": 0.9225004615324962,
+      "patent_12614": 0.9046269729479746,
+      "patent_14399": 0.2667686102321843,
+      "patent_06680": 0.9033954379935227,
+      "patent_00565": 0.4032245400970645,
+      "patent_11918": 0.8983508713644061,
+      "patent_06280": 0.9300071890927981,
+      "patent_04700": 0.26657486812420855,
+      "patent_07715": 0.9836363550616678,
+      "patent_00950": 0.8800492542745251,
+      "patent_05733": 0.10131716766505436,
+      "patent_02802": 0.6646537387993277,
+      "patent_11576": 0.3918734211308135,
+      "patent_00513": 0.0504408731798032,
+      "patent_07827": 0.5163469470040245,
+      "patent_07230": 0.9819474744609087,
+      "patent_13019": 0.4166917591917154,
+      "patent_00199": 0.01,
+      "patent_10857": 0.9899999782141207
+    },
+    "novelty_score": 0.6753803262101128
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "task_description": "Screen candidate patents for relevance to the query patent. Mark the strongest prior-art candidates as RELEVANT and the rest as NOT_RELEVANT.",
+  "budget": 20,
+  "query_patent": {
+    "id": "patent_10582",
+    "title": "Patent Publication 10582",
+    "abstract": "A flexible keel is provided for use as a bone anchoring element for use with a range of orthopedic implants having portions configured for anchoring into boney tissue. The flexible keel includes two wings terminating proximally in a pair of outward flares, the wings further spaced from a bone contacting implant surface by a void. The flexibility of the keel wings increases the ease of revision or explantation procedures.",
+    "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This claims priority to U.S. Patent Application Ser. No. 61/139,964 filed on Dec. 22, 2008, the disclosure of which is hereby incorporate by reference as if set forth in its entirety herein. \n     \n    \n     BACKGROUND \n       [0002]    Historically, complete removal of a disc from between adjacent vertebrae resulted in fusing the adjacent vertebrae together. This \u201cspinal fusion\u201d procedure, which is still in use today, is a widely accepted surgical treatment for symptomatic lumbar and cervical degenerative disc disease. More recently, d",
+    "cpc": "F"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_14960",
+      "title": "Patent Publication 14960",
+      "abstract": "A dental instrument adapted to be fixed to a hand piece suitable for communicating ultrasound waves to the dental instrument, includes at least one arm ending in an active extremity that has two longitudinal concavities in opposing surfaces.",
+      "description": "BACKGROUND OF THE INVENTION \n     The present invention relates to a dental ultrasound instrument and more particularly an instrument for treating the periodontal pockets which are characteristic of an infection of the periodontium. \n     In effect, it is known that, although tartar is not a pathogenic product per se, it nonetheless constitutes, by reason of its alveolar porous constitution, a support capable of receiving and promoting the development of microbial fauna. \n     When tartar is deposited on the supergingival part of the tooth, viz. on the enamel thereof, it may easily be removed ",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_07589",
+      "title": "Patent Publication 07589",
+      "abstract": "Methods for spinal stabilization operative to prevent lateral bending, extension, and rotation across two or more adjacent vertebrae are described. Broadly, the method includes placing two or more anchors at each vertebral level, passing one or more sutures through each anchor at each level, applying tension to the sutures and joining the sutures in a cross-braced arrangement over the disc space between two or more vertebrae to prevent lateral bending, extension, and rotation of the spinal segment. The sutures can be welded in any combination of diagonal and vertical patterns across the adjacent vertebrae. In some embodiments, two or more sutures can be threaded through some of the suture anchors such that multiple vertebral levels can be joined in a cross-braced arrangement. Two or more sutures can also be used in multiple anchors in two adjacent vertebrae to provide additional reinforcement or stabilization across different portions of the two vertebrae. The sutures reinforcing diffe",
+      "description": "RELATED APPLICATIONS \n       [0001]    This application claims the benefit of provisional application 60/861,499, filed Nov. 28, 2006, entitled \u201cAnnulus and Spinal Ligament Reconstruction.\u201d This application is related to co-pending application 60/808,795, filed May 26, 2006, entitled \u201cFastening Assemblies for Disc Herniation Repair and Methods of Use.\u201d The application is also related to U.S. Pat. Nos. 6,248,106 and 6,423,065. All of the above-referenced patent and applications are hereby expressly incorporated by reference in their entirety. \n     \n    \n     FIELD OF THE INVENTION \n       [000",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_03995",
+      "title": "Patent Publication 03995",
+      "abstract": "The invention relates generally to systems and methods for securing adjacent vertebrae in a fixed spacial relationship. In one embodiment, the system includes at least one interbody repair implant, at least one implantable vertebral frame and at least one retention member. In this embodiment, the interbody repair implant is sized to fit in an intervertebral space. The at least one implantable vertebral frame is configured to span between the adjacent vertebrae. The frame is also configured to attach to each of the adjacent vertebra to postoperatively maintain a desired spatial relationship between the vertebrae. The frame has at least one internal aperture there-through for providing visual access to at least a portion of the interbody repair implant, both intra-operatively and post-operatively. Methods of fusing two or more adjacent vertebral bodies in a portion of a spinal column are also disclosed. One such method includes the steps of inserting an interbody repair implant into a in",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is related to U.S. patent application Ser. No. 12/616,762 entitled \u201cImplantable Vertebral Frame Systems and Related Methods for Spinal Repair\u201d, filed Nov. 11, 2009, which is a continuation-in-part of U.S. patent application Ser. No. 11/855,124 entitled \u201cImplantable Bone Plate System and Related Method for Spinal Repair\u201d, filed Sep. 13, 2007, which claims priority to U.S. Provisional Patent Application Ser. No. 60/954,511 entitled \u201cImplantable Bone Plate System and Related Method for Spinal Repair\u201d, filed Aug. 7, 2007. E",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_05091",
+      "title": "Patent Publication 05091",
+      "abstract": "A unit dosage form, such as a capsule or the like, for delivering a skeletal muscle relaxant, such as cyclobenzaprine hydrochloride, into the body in an extended or sustained release fashion comprising one or more populations of drug-containing particles (beads, pellets, granules, etc.) is disclosed. At least one bead population exhibits a pre-designed sustained release profile. Such a drug delivery system is designed for once-daily oral administration to maintain an adequate plasma concentration - time profile, thereby providing relief of muscle spasm associated with painful musculoskeletal conditions over a 24 hour period.",
+      "description": "TECHNICAL FIELD \n       [0001]    A major objective of developing and commercializing controlled release dosage forms for indications such as cardiovascular diseases, chronic pain, relief of muscle spasm and associated symptoms especially in the elderly is to deliver the drug so as to maintain the drug at therapeutically effective concentrations over an extended period of time, thereby enhancing patient compliance and therapeutic efficacy, thereby reducing both cost of treatment and side effects. \n       BACKGROUND OF THE INVENTION \n       [0002]    Many therapeutic agents are most effective w",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_14183",
+      "title": "Patent Publication 14183",
+      "abstract": "Multi-size, reusable punches as sets for use in coronary artery bypass grafting that include punch/die assemblies that may easily and quickly interchanged at the operating table under sterile conditions and without tools are disclosed.",
+      "description": "FIELD OF THE INVENTION \n     This invention relates to surgery generally and, more specifically to cardiovascular surgery and to instruments for attaching vessels to the aorta, and in analogous surgical procedures wherein on cannula-like vessel is attached to another cannula or to a tissue by a surgical procedure. \n     BACKGROUND OF THE INVENTION \n     This invention is an improvement over the aortic punches described and disclosed in the following U.S. Pat. No. 3,776,237, December 1973, Hill et al; U.S. Pat. No. 4,018,228, April 1977, Goosen; and U.S. Pat No. 5,827,316, October 1998, Young e",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_14109",
+      "title": "Patent Publication 14109",
+      "abstract": "A vertebral implant comprising a first base configured for securing to a first cut portion of a vertebra, and second base configured for securing to a second cut portion of the vertebra. A connecting member is configured to associate the first and second bases at a preselected spacing from each other, and the implant is preferable adjustable to select the spacing.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     The present application is a continuation of U.S. patent application Ser. No. 10/859,962 filed on Jun. 4, 2004 and entitled \u201cVariable Laminoplasty Implant,\u201d which is hereby incorporated by reference in its entirety. \n    \n    \n     FIELD \n     The present application relates to an implant for bone surgery, and more specifically to a vertebral implant with an adjustable configuration. \n     BACKGROUND \n     In certain pathologies, the spinal canal extending through a patient&#39;s vertebrae is or becomes too narrow and constricts the spinal cord ext",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_14954",
+      "title": "Patent Publication 14954",
+      "abstract": "A spinal implant for immobilizing the C1 vertebra with respect to the C2 vertebra of the spine provides controlled coupling between the C1 and C2 vertebrae, and includes a C1 component attachable to the C1 vertebra, two C2 components attachable to the C2 vertebra, and a transverse element. The C1 component has two wings each of which retains a rod holder that rotates and translate for capturing a C2 component rod. Each C2 component has a hook for connection with a side of the C2 vertebra lamina and a rod for attachment to one of the rod holders of the C1 component. Each C2 component receives and secures the transverse connector which holds position of the C2 components relative to one another. Each C2 component may include a plate configured for compression against the C2 vertebra spinous process, with each plate including spikes to aid in preventing construct migration.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This U.S. non-provisional patent application claims the benefit of and/or priority under 35 U.S.C. \u00a7119(e) to U.S. provisional patent application Ser. No. 61/927,095 filed Jan. 14, 2014 titled \u201cImplant For Immobilizing Cervical Vertebrae,\u201d the entire contents of which is specifically incorporated herein by reference. \n    \n    \n     FIELD OF THE INVENTION \n     The present disclosure relates to devices for immobilizing vertebrae of the spine and, more particularly, to devices for immobilizing the C1 vertebra with respect to the C2 vertebra of the s",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_02618",
+      "title": "Patent Publication 02618",
+      "abstract": "Methods of treating humans or animals having various conditions are disclosed which include administering a cyclosporine component. Among the conditions treated are dry mouth syndrome, verruciform xanthoma, achlorhydria, mucous cysts, oral submucous fibrosis, oral nevi, cancer of the oral mucosa, maloplakia of the genito-urinary tract, vulvovaginitis, helicobacter plylori infection, duodenal ulcers, peptic ulcers, conditions affecting the uterus and appendicitis.",
+      "description": "RELATED APPLICATIONS  \n       [0001]     This patent application is a division of U.S. patent application Ser. No. 10/990,054, filed on Nov. 15, 2004, which is hereby incorporated by reference. \n     \n    \n       [0002]     The present invention relates to methods of providing desired therapeutic effects to humans or animals using compositions including cyclosporine components. More particularly, the invention relates to methods including administering to a human or animal afflicted with at least one of certain conditions a therapeutically effective amount of a cyclosporine component to provid",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_14346",
+      "title": "Patent Publication 14346",
+      "abstract": "A spinal implant device immobilizes an attached vertebrae through a minimally invasive surgical approach while providing a compartment within the implant for the placement of bone graft or bone graft substitute. The bone graft material fuses the spinous processes and/or lamina portion of bone of the vertebral bone to which the device is attached.",
+      "description": "REFERENCE TO PRIORITY DOCUMENT \n       [0001]    This application claims priority of co-pending U.S. Provisional Patent Application Ser. No. 61/210,581 filed Mar. 19, 2009. Priority of the aforementioned filing date is hereby claimed and the disclosure of the Provisional patent application is hereby incorporated by reference in its entirety. \n     \n    \n     BACKGROUND \n       [0002]    The present disclosure relates to devices and methods that permit fixation and stabilization of the bony elements of the skeleton of a patient. The devices permit adjustment and maintenance of the spatial relat",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_09308",
+      "title": "Patent Publication 09308",
+      "abstract": "The invention relates to an intervertebral fusion implant for fusing two adjacent vertebrae, comprising an adjustable support body, the base surface and cover surface of which are configured to bear on end plates of the adjacent vertebrae, wherein provision is made for a side bracket, which can be pivoted laterally about a hinge and the base and cover of which have a planar design, and provision is made for an actuator for pivoting out the side bracket into a position (working position) spread from the support body. As a result, the implant has particularly small dimensions and can, after assembly at the envisaged implantation site, be actuated in such a way that it becomes larger and thereby affords a larger support surface for support in the intervertebral space. Thus, even comparatively large-area defects can be treated by minimally invasive surgery.",
+      "description": "REFERENCE TO RELATED APPLICATIONS \n     This application is a nonprovisional of U.S. Provisional Application No. 61/738,278, filed Dec. 17, 2012, which claims priority to German Application No. 20 2012 011 960.5, filed Dec. 14, 2012, the entire contents of which are incorporated herein by reference. \n    \n    \n     FIELD OF THE INVENTION \n     The invention relates to an intervertebral fusion implant for fusing two adjacent vertebrae, comprising an adjustable support body, the base surface and cover surface of which are configured to bear on the vertebrae. \n     BACKGROUND OF THE INVENTION \n  ",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_12864",
+      "title": "Patent Publication 12864",
+      "abstract": "A contrast medium injector for injecting a patient with contrast medium for a CT scan is programmed to provide an injection protocol that is a representation of an ideally defined exponential curve with an initial injection rate decaying at an exponential rate. This has been found to produce a uniform vascular enhancement for the scanning of a patient&#39;s blood vessels. The particular exponential decay coefficient which has been found to be optimal is directly proportional to the cardiac output divided by the patient&#39;s weight and is approximated at 0.01 for a typical human.",
+      "description": "This patent application is related to patent application Ser. No. 09/289,430, which was filed on Apr. 9, 1999 and issued as U.S. Pat. No. 6,055,985 on May 2, 2000. \n    \n    \n     BACKGROUND OF THE INVENTION \n     One of the inventors herein is also the inventor of several prior patents related to the improved enhancement of a patient&#39;s organ undergoing a computed tomographic scan by controlling the injection of a contrast medium in accordance with a predicted enhancement. These patents include U.S. Pat. No. 5,583,902 and 5,687,208, the disclosures of which are incorporated herein by refer",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_14532",
+      "title": "Patent Publication 14532",
+      "abstract": "The invention is directed to a spinal fusion device, comprising a load bearing component and an anterior component, wherein the load bearing component and the anterior component are configured to mate together by complimentary coupling members, and further comprising an external outer plate configured to span two vertebrae, wherein the outer plate includes bores configured to receive bone screws for coupling to vertebrae.",
+      "description": "CROSS-REFERENCES TO RELATED APPLICATIONS \n       [0001]    This Application claims the benefit under 35 U.S.C. \u00a7119(e) of U.S. Provisional Patent Application No. 61/714,376 filed Oct. 16, 2012, which is incorporated herein by reference in its entirety as if fully set forth herein. This Application is a continuation-in-part of application Ser. No. 13/135,675 filed Jul. 12, 2011, and is a continuation-in-part of application Ser. No. 13/200,911 filed Oct. 4, 2011, and is a continuation-in-part of application Ser. No. 14/020,374 filed Sep. 6, 2013, each of which is incorporated herein by reference",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_03725",
+      "title": "Patent Publication 03725",
+      "abstract": "A spinal fusion implant for implantation between adjacent vertebrae is formed in the approximate shape of a hollow cube. The device has an upper section and a lower section separated by a distractor all of which are relatively movable. The sidewalls of the upper section and the lower section terminate in inclined planes so that the sections move away from each other as the wedge shaped distractor increases the height of the device.",
+      "description": "RELATED APPLICATIONS  \n       [0001]     This application is a continuation in part of U.S. patent application Ser. No. 10/776,663 filed Feb. 10, 2004. \n     \n    \n     BACKGROUND OF THE INVENTION  \n       [0002]     1. Field of the Invention  \n         [0003]     This invention relates to the field of orthopedic surgery and, more particularly, to implants to be placed between vertebrae in the spine.  \n         [0004]     2. Background of the Invention  \n         [0005]     Spinal stabilization is one approach to alleviating chronic back pain caused by displaced disk material or excessive move",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_07331",
+      "title": "Patent Publication 07331",
+      "abstract": "The invention involves sporting goods, and namely an improved golf putter having a roller which allows a golfer to make contact with the ball by pushing the putter while in direct visual alignment of the hole.",
+      "description": "CROSS REFERENCE TO RELATED  \n       [0001]     This application claims priority under 35 U.S.C. 120 to U.S. Ser. No. 11/161,637 entitled PUSH PUTTER filed Aug. 10, 2005.  \n       FIELD OF THE INVENTION  \n       [0002]     The field of the invention involves sporting goods, and namely an improved golf putter.  \n       BACKGROUND OF THE INVENTION  \n       [0003]     Historically, golf putters have been designed along the lines of a pendulum, wherein a golfer is required to stand over his or her golf ball and swing his arms at the shoulders. Using traditional equipment, golfers who wished to be g",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_11685",
+      "title": "Patent Publication 11685",
+      "abstract": "Methods for the synthesis and use of several variations of styrene maleic acid-based polymers and the hydrogel tissue bridges that can be formed from such polymers. Specifically, a method is disclosed for synthesizing a styrene maleic acid-based polymer that can be dissolved in DMSO and injected into the vasa deferentia of male subjects, creating a hydrogel tissue bridge. This hydrogel tissue bridge can occlude the vas deferens, thus forming an effective male contraceptive. Additionally, this male contraceptive can be reversed by injecting the lumen of the vas deferens with a basic buffer solution to dissolve and remove the hydrogel tissue bridge.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application claims benefit to provisional application No. 61/892,404, filed Oct. 17, 2013, which is incorporated by reference herein in its entirety. \n    \n    \n     FIELD OF THE INVENTION \n     The present compositions and methods relate to the field of hydrogel tissue bridges for use in creating occlusions and related structures in the body. \n     BACKGROUND \n     While long-term reversible contraceptives, such as IUDs and implantable time-released birth-control medications, have become popular methods for pregnancy prevention in females, co",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_01076",
+      "title": "Patent Publication 01076",
+      "abstract": "A blood reservoir ( 1 ) including a venous blood filter ( 40 ) and a cardiotomy filter ( 5 ). The cardiotomy blood filter includes a first cardiotomy blood filter member ( 51 ) and a second cardiotomy blood filter member ( 52 ). The filter member ( 52 ) is equipped with a first filter portion ( 52   a ) and a second filter portion ( 52   b ). The first filter portion ( 52   a ) forms the wall portion and the second filter portion ( 52   b ) forms the bottom portion. Specifications of the first filter portion ( 52   a ) and the second filter portion ( 52   b ) are different. A guide member ( 60 ) of the blood storage tank ( 1 ) is made of a foam material. The blood from which bubbles have been removed is guided while permeating the guide member ( 60 ). Consequently, the guide member ( 60 ) can lead the blood from which bubbles are removed to a predetermined position at a suitable liquid impact speed.",
+      "description": "TECHNICAL FIELD \n     The present invention relates a blood reservoir that has a filter member. \n     BACKGROUND ART \n     An artificial heart lung apparatus is used during conventional cardiac surgery. The artificial heart lung apparatus is mainly configured from a blood reservoir, a blood pump, a heat exchanger, a blood circuit, an oxygenator, and the like. In this type of artificial heart lung apparatus, firstly blood (venous blood) that was removed from veins of the patient and blood (cardiotomy blood) that is withdrawn from the field of operation are sent to a blood reservoir, and tempora",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_00340",
+      "title": "Patent Publication 00340",
+      "abstract": "A implant is provided for placement in a space between boney structures. The implant may comprise a flexible section. The flexible section may be either the anterior side or the posterior side of the implant or both, among other sides. The flexible section or sections may comprise one or more orifices, cavities, or low modulus of elasticity materials among others. The flexible section or sections may facilitate a wider range of motion than otherwise possible for a spinal column comprising a Lumbar Interbody Fusion (LIF) device. Additionally, the anterior side comprising a flexible section may have a different modulus of elasticity than the posterior side comprising a flexible section. The difference may facilitate a wider range of responses from the implant to movement generated forces in at least two directions.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application relates to, and claims the benefit of the filing date of, co-pending U.S. Provisional Patent Application Ser. No. 60/785,195 entitled \u201cFLEXIBLE CAGE SPINAL IMPLANT,\u201d filed Mar. 23, 2006, the entire contents of which are incorporated herein by reference for all purposes. This application also relates to co-pending U.S. Provisional Application 60/825,089, entitled \u201cOFFSET RADIUS LORDOSIS,\u201d filed Sep. 8, 2006, and to U.S. patent application Ser. No. ______, entitled \u201cINSTRUMENTS FOR DELIVERING SPINAL IMPLANTS\u201d filed concur",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_12942",
+      "title": "Patent Publication 12942",
+      "abstract": "A safety binding adapted to releasably hold a boot on a ski, including a device for securing the binding to the ski, a movable body with spaced lateral arms pivotably connected to the securing device, a jaw pivotably connected to the body which includes a device for engaging and holding a portion of the boot, and a device, which include a rocking lever, for biasing the jaw and the body towards the ski and for increasing the bias on the jaw in response to upward movement of the body. A platform, adapted to connect a safety binding to a ski, includes opposed side recesses adapted to be attached to the binding, and an inclined projection extending upwardly from the platform which includes a device for slidably engaging a device for biasing the binding toward the ski. A safety binding for a ski boot adapted to retain one end of the boot and to free that end when it exerts a force on the binding exceeding a predetermined threshold. The binding includes a movable body adapted to be connected",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates to a safety binding for a ski boot. More particularly, the invention relates to a binding, particularly a rear binding, which is adapted to retain one end of the boot, particularly its heel, on the ski, and to free this end when the boot exerts a force exceeding a predetermined threshold on the binding. \n     2. Description of Background and Relevant Information \n     Bindings of this type are known which comprise a body attached to the ski, directly or by means of longitudinal adjustment means, and",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_11666",
+      "title": "Patent Publication 11666",
+      "abstract": "A catheter for facilitating the restoration of patency to a blood vessel occluded with an atheroma or other similar lesion or thrombus comprising an outer flexible plastic tubular member having a plurality of ports proximate its distal end and concentrically surrounding an inner flexible plastic tubular member having a cutting loop at its distal end. The distal end portion of the inner tubular member is journaled for rotation in the distal end portion of the outer tubular member. A motor is provided at the proximal end of the catheter assembly for rotatably driving the inner tubular member and the cutting loop thereof while flushing the treatment site and aspirating the flushing liquid, blood and any debris loosened during the procedure.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n     This application is a Continuation-in-Part of Application Ser. No. 07/044,357, filed Apr. 30, 1987, and entitled ATHERECTOMY CATHETER (now abandoned). \n    \n    \n     BACKGROUND OF THE INVENTION \n     I. Field of the Invention \n     This invention relates generally to intravascular catheters, and more particularly to the design of an atherectomy catheter useful in restoring patency to a blood vessel that is blocked or partially blocked by atheromas or other form of stenotic or thrombotic lesion. \n     II. Discussion of the Prior Art \n     The build",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06843",
+      "title": "Patent Publication 06843",
+      "abstract": "A method of repairing a bone joint by using a simple and flexible artificial ligament which easily conforms to a patient&#39;s anatomy and can be used independently or in combination with an intervertebral graft, implant or prosthesis to return stability to the spine subsequent to a surgical spine procedure, is disclosed. The method includes anchoring the artificial ligament to at least two vertebrae to aid in restoring stability to the compromised joint. The artificial ligament is also disclosed.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application is a divisional of U.S. patent application Ser. No. 09/543,288 filed Apr. 5, 2000 now U.S. Pat. No. 6,585,769 which claims the benefit of U.S. Provisional Patent Application No. 60/127,735, filed Apr. 5, 1999, the entire disclosure of which is hereby incorporated by reference. \n    \n    \n     BACKGROUND OF THE INVENTION \n     The present disclosure relates generally to prosthetic members for joining or repairing bone segments, including artificial ligaments and, more specifically, to an artificial ligament intended for partial or f",
+      "cpc": "A"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_00340",
+      "patent_14346",
+      "patent_14532",
+      "patent_03995",
+      "patent_07589",
+      "patent_06843",
+      "patent_09308",
+      "patent_14109",
+      "patent_03725",
+      "patent_14954",
+      "patent_14183",
+      "patent_12942",
+      "patent_11666",
+      "patent_11685",
+      "patent_07331",
+      "patent_12864",
+      "patent_02618",
+      "patent_14960",
+      "patent_05091",
+      "patent_01076"
+    ],
+    "relevance_scores": {
+      "patent_14960": 0.2979039610956457,
+      "patent_07589": 0.9392442167226516,
+      "patent_03995": 0.941193896250909,
+      "patent_05091": 0.20347611802694635,
+      "patent_14183": 0.46673949810390924,
+      "patent_14109": 0.9183968467744489,
+      "patent_14954": 0.9113565017303269,
+      "patent_02618": 0.31510765991653156,
+      "patent_14346": 0.9598765170651617,
+      "patent_09308": 0.9196297371927138,
+      "patent_12864": 0.3485862806577552,
+      "patent_14532": 0.9570473285876795,
+      "patent_03725": 0.9136710681708022,
+      "patent_07331": 0.3704278441691468,
+      "patent_11685": 0.4137582471767858,
+      "patent_01076": 0.01,
+      "patent_00340": 0.9899999862121923,
+      "patent_12942": 0.463606607017395,
+      "patent_11666": 0.45139041508702216,
+      "patent_06843": 0.9270394069628513
+    },
+    "novelty_score": 0.18675177952419794
+  }
+}

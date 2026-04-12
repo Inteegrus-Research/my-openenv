@@ -1,0 +1,200 @@
+{
+  "task_description": "Decide whether each candidate should be INCLUDED, EXCLUDED, or DEFERRED. DEFER counts as EXCLUDE at grading time.",
+  "budget": 28,
+  "query_patent": {
+    "id": "patent_03355",
+    "title": "Patent Publication 03355",
+    "abstract": "The present invention provides for an automated supervisor switch device for maintaining an acceptable ground speed during cutting operations for a turf mower. The present invention does not interfere with the ground speed of the vehicle during cutting or non-cutting operations. In a preferred embodiment, an onboard controller and its attendant memory are provided with a predetermined maximum mowing speed. Second, the controller monitors the ground speed of the mower. Third, when the controller determines that the cutting reels are operative and the ground speed is approaching the maximum mowing speed of the mower, then operator perceptible warning is actuated to alert the operator. Fourth, if the speed exceeds the predetermined maximum mowing speed, then the controller disables the reels from mowing. In the preferred embodiment, the controller disables the reels by shutting off the hydraulic fluid flow from the hydraulic motors which rotate the cutting reels. Fifth, the operator is fo",
+    "description": "FIELD OF THE INVENTION \n     The present invention relates generally to turf mowers, more particularly to a turf mower switch system for disabling the cutting units of the turf mower if the ground speed of the turf mower exceeds a predetermined speed and/or is less than a predetermined speed, and most particularly to a supervisor switch system for disabling the cutting reels of a reel type turf mower when the ground speed of the turf mower exceeds a predetermined speed. \n     BACKGROUND OF THE INVENTION \n     Rotary mowers and reel mowers are the two general types of turf mowers. Rotary mowers",
+    "cpc": "G"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_14479",
+      "title": "Patent Publication 14479",
+      "abstract": "A two-wheeled lawn trimmer, controlled with a handle attached to a frame which receives a conventional gasoline or electric powered rotary lawn trimmer, and provides balanced maneuverability with low operator forces while providing complete trimming access and cutting height control. Additionally the trimmer provides the operator access to vary the rotary cutting head speed as well as the ability to stop the motor device with controls mounted on the handle grip assembly.",
+      "description": "This application is a CIP of Ser. No. 08/381,349 filed Jan. 31, 1995 now abandoned. \n    \n    \n     BACKGROUND AND DESCRIPTION OF PRIOR ART \n     This invention relates to weed and grass trimmers which are mobile and utilize low operator leverage forces to control and manipulate the trimmer. Lawn trimmers have previously been designed for use by persons with average physical abilities and are fairly easy to operate for short periods by these physically able persons. A need for a trimmer that can perform very well and be operated by persons of limited physical abilities, i.e.. elderly and handi",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_00671",
+      "title": "Patent Publication 00671",
+      "abstract": "A head covering that protects a dog or other animal against the intrusion of harmful things or elements such as insects, foreign matter, and weed seeds, which can enter the animal&#39;s ears, eyes, or nose and cause discomfort or damage.",
+      "description": "BACKGROUND \n       [0001]    1. Field of the Invention \n         [0002]    This invention relates generally to accessories for domestic animals, and more particularly to a head covering that protects against the intrusion of such things as insects, foreign matter, and weed seeds (also known as \u201cfoxtails\u201d), from entering the animal&#39;s ears, eyes, or nose. \n         [0003]    2. Background \n         [0004]    Weed seeds, and particularly the grass seeds that are often referred to as \u201cfoxtails\u201d, have barbs that cause the seeds to attach themselves on passing animals. Foxtails imbed painfully i",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_04921",
+      "title": "Patent Publication 04921",
+      "abstract": "A method of controlling the combination of a tractor and an attached implement includes the calibration of a tractor/implement combination to allow for variations in prevailing slip-pull data at progressively increasing implement draft levels. The recorded data is then interpolated at a reference slip value and compared with a series of reference slip-pull curves. The slip-pull curve approximately most closely to the recorded pull value at the reference slip value is then selected for subsequent use in a control algorithm.",
+      "description": "BACKGROUND OF THE INVENTION  \n         [0001]    The present invention relates to a control system for controlling an implement attached to an agricultural tractor, and, particularly, to a control system that will allow for variations in prevailing slip-pull data at progressively increasing implement draft levels.  \n           [0002]    The term, \u201ctractor\u201d, is meant to include any vehicle capable of propelling a ground or soil engaging implement for the purpose of processing the ground or soil, or objects (e.g. crops, forage, shellfish) lying on or in the ground or soil. Typically a tractor is",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_07831",
+      "title": "Patent Publication 07831",
+      "abstract": "A turf care device having an implement for performing a turf care function. The turf care device has a module for determining its position relative to the turf. The turf care implement is controlled based upon the position of the turf care device.",
+      "description": "FIELD \n       [0001]    The present disclosure relates to a turf maintenance vehicle. \n       BACKGROUND \n       [0002]    This section provides background information related to the present disclosure which is not necessarily prior art. \n         [0003]    Turf maintenance vehicles (i.e., grounds keeping vehicles) are used for grounds keeping purposes on golf courses, parks, and other locations. Ride-on or riding mowers, for instance, typically include a power delivery system (e.g. an internal combustion engine, batteries, etc.), a ground traction system that receives power from the power del",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_06879",
+      "title": "Patent Publication 06879",
+      "abstract": "A fishing attracting pellet adapted to be interconnectable to either a continuous length of fishing line or at the end thereof. The pellet is manufactured of either a solidified or plastic, deformable, fish attractant material which is soluble and slowly desolvable in water or of a non-soluble, porous material which will absorb and become impregnated with fish attractant pastes and liquids for later dispersion in water. In one embodiment, a longitudinal aperture is disposed through the pellet to receive the fishing line passed therethrough. The pellet may also include a fish hook whose shank is embedded therein, or a lenght of wire similarly embedded for interconnection to the fishing line and other fishing lures. The invention may further include laterally extending structure for enhanced disbursement of the disolved fish attractant material.",
+      "description": "BACKGROUND OF THE INVENTION \n     This invention relates generally to fish attractants, and more particularly to a fish attractant pellet which is interconnectable either onto a fishing line or between the end of the line and a fishing lure. \n     Prior art discloses many fishing lures which are structured and adapted to receive a portion of fish attractant or foodstuff material held for disbursing a fish attracting odor into the water as the lure used during fishing. Such references known to applicant are as follows. \n     \n         ______________________________________Inventor       U.S. Pa",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_03701",
+      "title": "Patent Publication 03701",
+      "abstract": "The present invention provides a multi-compartment package, a machine for the automated or semi-automated packaging of a diverse array of animal supplements into such packaging, and a process allowing efficient procurement and fulfillment of custom supplement orders.",
+      "description": "[0001]    The present application claims the benefit of U.S. provisional application no. 60,158,207, filed Oct. 7, 1999, incorporated herein by reference in its entirety. \n     \n    \n     BACKGROUND OF THE INVENTION \n       [0002]    1. Field of the Invention \n         [0003]    The present invention relates to a system for administration of equine and other animal supplements and feed additives comprising a unique package, an apparatus for packaging supplements into such a package, and a process to transact shipments of these supplements. \n         [0004]    2. Background \n         [0005]    ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_08371",
+      "title": "Patent Publication 08371",
+      "abstract": "A corner mounted tray, atop the upper surfaces of shower bath walls, is triangular in shape, comprises a perforated bottom surface, upstanding sidewalls and angled front wall and is releasably attached to a vertical wall by screws. The tray is supported on top of the walls in the corner.",
+      "description": "1. BACKGROUND  \n       [0001]     This invention relates to a corner-mounted tray atop the upper surfaces of the shower bath walls.  \n         [0002]     In prior art bath accessories like soap and shampoo bottles are stored below the level of showerhead, exposing them to water and moisture resulting in the mildew build up. Due to prolong exposure to water the soap is dissolved faster, becomes gooey and does not last long. The storage spaces in the shower bath are often not adequate resulting in falling accessories particularly when slippery after being exposed to water and moisture. This can ",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_00360",
+      "title": "Patent Publication 00360",
+      "abstract": "An interlock system for use with a cutting assembly of a lawn tractor. The interlock system automatically disengages the cutting assembly when the lawn tractor is shifted into a reverse mode and prevents re-engagement of the cutter assembly when the law tractor is subsequently shifted into a non-reverse mode.",
+      "description": "This application claims the benefit of U.S. Provisional Application Ser. No. 60/190,862 filed Mar. 20, 2000, the entire contents of which are incorporated herein by reference in their entirety. \n    \n    \n     BACKGROUND OF THE INVENTION \n     This invention relates to lawn mowers in general and, more particularly, to systems for controlling the cutting assemblies of lawn tractors. \n     It is known to provide a lawn mower with an electrical or mechanical interlock system to prevent a mower from being shifted to reverse with the cutting assembly operating. Some conventional interlock systems s",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_10944",
+      "title": "Patent Publication 10944",
+      "abstract": "A compact dispensing package for sheet-like products having an improved stack support member with outwardly projecting protuberences. The stack support member is formed from a cardboard blank having essentially the same unfolded length as the sheet-like product contained in the dispensing package, but having a folded length greater than the sheet-like product. The increased length provides better stability for the bundle of sheet-like product during shipping and storage of the compact dispensing package.",
+      "description": "This is a continuation of application Ser. No. 798,960, filed May 20, 1977, now abandoned. \n    \n    \n     BACKGROUND OF THE INVENTION \n     This invention generally relates to compact dispensing packages for sheet-like products. In particular, this invention relates to compact dispensing packages having a discrete support member. Still more particularly, this invention relates to compact dispensing packages having an inverted Y-shaped support member. \n     In compact dispensing packages, the sheet-like products are folded into a bundle which may be supported, as taught in U.S. Pat. No. 3,881,",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_12088",
+      "title": "Patent Publication 12088",
+      "abstract": "A cutting head for a cord-type mower driven by an engine is disclosed. The cutting head includes a rotor capable of rotating about an axis and a bobbin with a cord wound on it. The bobbin can rotate relatively to the rotor about the axis in the rotor. The cutting head includes two types of cord feeding systems. The first cord feeding system automatically feeds a cord in response to cord wear. The second cord feeding system feeds a cord in response to a manual tapping operation executed during driving of the cutting head. The second cord feeding system disconnects one of the bobbin and rotor from the engine in response to the tapping operation.",
+      "description": "This application claims the priority of Japanese Patent Application No. 2-312500 filed on Nov. 16, 1990 which is incorporated herein by reference. \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates generally to a cutting head for a cord type mower. More particularly, the present invention relates to a cord feeding system for extending a cord wound on a bobbin in a rotary casing to a length necessary for mowing. \n     2. Description of the Related Art \n     Many conventional cord type mowers have systems in their cutting heads for feeding new c",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_08291",
+      "title": "Patent Publication 08291",
+      "abstract": "A lawnmower of a type utilized in conjunction with a self-propelled vehicle, such as tractor, includes a plurality of decks, each housing a plurality of rotating cutting blades wherein the plurality of decks are pivotally secured and adjustable relative to one another to accommodate various ground contours.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The field of invention relates to lawnmowers, and more particularly pertains to a new and improved pivoted deck lawnmower wherein the same includes a plurality of housings pivoted together to accommodate various ground contours while cutting a large swathe of lawn. \n     2. Description of the Prior Art \n     The use of lawnmowers of the &#34;estate type&#34; are well known in the prior art. Typically, these lawnmowers are utilized to cut large tracts of grass and accordingly are of a size commensurate for the task. Lawnmowers of",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_06907",
+      "title": "Patent Publication 06907",
+      "abstract": "A luggage inflatable structure includes a sleeve fixedly mounted in the housing of a luggage, an air bag received in a bottom lining and the periphery of the housing of the luggage, and a pull rod having a piston located on the bottom end thereof and movable up and down in the sleeve for pumping air into the air bag so that storage items are held firmly in position when the air bag is inflated, avoiding storage item damage or noises during carrying or delivery of the luggage.",
+      "description": "BACKGROUND OF THE INVENTION \n       [0001]    1. Field of the Invention \n         [0002]    The present invention relates to luggage and more particularly, to a luggage inflatable structure which has a piston mounted on the bottom side of the pull rod of the luggage and movable up and down with the pull rod in a sleeve inside the luggage to pump air into a air bag so that storage items are held firmly in position when the air bag is inflated, avoiding storage item damage or noises during carrying or delivery of the luggage. \n         [0003]    2. Description of the Related Art \n         [0004]",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_12216",
+      "title": "Patent Publication 12216",
+      "abstract": "Provided is a rotary cutter for a mower that achieves easy and rapid cord insertion and improved work efficiency. A rotary cutter for a mower includes: a cord cutting grass or the like; a reel housing the cord, a case and a cover housing the reel therein; a pressing body rotating the reel; and a resilient element elastically supporting the case and the cover, and the rotary cutter is configured such that the reel axially moved by rotation of the pressing body so as to come into contact with the pressing body, and the cord is wound around the reel while being clamped in a clearance created between the reel due to the axial movement of the reel.",
+      "description": "BACKGROUND OF THE INVENTION \n       [0001]    1. Field of the Invention \n         [0002]    The present invention relates to a rotary cutter for a mower used for mowing grass and the like with a cord (principally made of nylon) extending in a radial direction of a case which is rotationally-driven by power of a motor or the like by way of an axis of rotation, and in particular to a rotary cutter of a type in which winding a cord around a reel is performed without removing a case and a cover, wherein even if the cord wound around the reel is consumed and shortened due to wear of the cord, the c",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_10039",
+      "title": "Patent Publication 10039",
+      "abstract": "A cutting device for plants, particularly lawnmower, is provided with at least one rotating blade ( 4   a ), which cooperates with a stationary counter-blade ( 13   a ). Here, at least the blade ( 4   a ) and/or the counter-blade ( 13   a ) is replaceably arranged in a respective blade support ( 3   a   , 14   a ).",
+      "description": "BACKGROUND OF THE INVENTION  \n         [0001]    The invention relates to a cutting device for plants, particularly a lawnmower, with at least one rotating blade, which cooperates with a stationary counter-blade, wherein the blade is curved and arranged obliquely around the rotation axis.  \n           [0002]    Such cutting systems are known as spiral-bladed mowers. Their main advantage consists in that the counter-blade ensures a clean cut. Thereby a lower rotation speed for the rotating blade is sufficient, and the danger of accident by objects hurled out by centrifugal force is markedly red",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_02308",
+      "title": "Patent Publication 02308",
+      "abstract": "An orthopedic chair for a physically impaired person is provided and consists of a seat, backrest, armrests, footrests and a tray that are readily adjustable in various attitudes to conform to the unique requirements of the physically impaired person. The chair also has casters and an adjustable rear handle so that the chair can be portable.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of Invention \n     The instant invention relates generally to chairs and more specifically it relates to an orthopedic chair that is both adjustable and portable. \n     2. Description of the Prior Art \n     Numerous chairs have been provided in prior art that are adapted to adjustably conform to people sitting in the chairs. For example U.S. Pat. Nos. 3,288,525; 3,554,599; 3,877,750; 3,990,742; 4,017,118; 4,108,492; 4,367,897 and 4,437,702 all are illustrative of such prior art. While these units may be suitable for the particular purpose to which the",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_05499",
+      "title": "Patent Publication 05499",
+      "abstract": "A system and method for deploying an occluding device that can be used to remodel an aneurysm within the vessel by, for example, neck reconstruction or balloon remodeling. The system comprises an introducer sheath and an assembly for carrying the occluding device. The assembly includes an elongated flexible member having an occluding device retaining member for receiving a first end of the occluding device, a proximally positioned retaining member for engaging a second end of the occluding device and a support surrounding a portion of the elongated flexible member over which the occluding device can be positioned.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a Divisional Application of U.S. application Ser. No. 11/136,398, filed May 25, 2005, the entire contents therein is incorporated by reference. \n     \n    \n     FIELD OF THE INVENTION \n       [0002]    The invention generally relates to a system and method for delivering and deploying a medical device within a vessel, more particularly, it relates to a system and method for delivering and deploying an endoluminal therapeutic device within the vasculature of a patient to embolize and occlude aneurysms, particularly ce",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_03855",
+      "title": "Patent Publication 03855",
+      "abstract": "Described are dry powder inhalers composing an intake section, a mixing section and a mouthpiece. The mixing section can accommodate a capsule having a top keying portion and containing a dry powder medicament. The top keying portion of the capsules may fit within complementary keying structures in inhaler mixing sections.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n     The present application is a divisional of U.S. patent application Ser. No. 09/621,092 filed on Jul. 21, 2000 which claims the benefit under 35 U.S.C. \u00a7119(e) of U.S. Provisional Patent Applications Nos. 60/145,464 filed Jul. 23, 1999 and 60/206,123 filed May 22, 2000, all of which are incorporated by reference herein in their entirety. \n    \n    \n     FIELD OF THE INVENTION \n     The present invention is in the field of inhalers. \n     BACKGROUND OF THE INVENTION \n     In the early 1970&#39;s it was found that certain medicines could be administer",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_14996",
+      "title": "Patent Publication 14996",
+      "abstract": "Embodiments disclosed herein may include a toy method and system configured to be displaced for generally long distances by a small force. The disc-like or ring-like device may utilize wind-related vortex forces to remain generally upright and moving for long distances. Furthermore, the system may comprise an aperture, and may have a aerodynamic configuration to achieve the movement and/or provide for use as a flying disc. The ring-like device may be configured as an annular wing having a symmetrical airfoil configuration and as such may be used both as a wind-driven rolling toy and as a hand-tossed flying ring.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n   This application claims the benefit of U.S. Provisional Patent Application No. 60/498,615, entitled VORTEX TOY, filed on Aug. 27, 2003, which is hereby incorporated by reference in its entirety for all purposes, and attached hereto as an Appendix. \n\n\n   BACKGROUND \n   Wind driven toys are quite popular. For instance, familiar wind driven toys may include kites, toy sailboats, and pinwheels, among others. Toys for use in the outdoors are very popular and may be increasing in popularity with the recent increase of people enjoying outdoor activities. Qu",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_09681",
+      "title": "Patent Publication 09681",
+      "abstract": "An input circuit for a tractor includes one or more switches having open and closed positions, based on operating characteristics of the tractor, and a power transistor drawing a threshold current through the switches during short intervals during which the switch states are sensed by a microcontroller.",
+      "description": "FIELD OF THE INVENTION \n   This invention relates generally to electrical circuits on tractors, grass mowing machines, and utility vehicles, and more specifically to safety circuits that are used to stop or interrupt power for specified vehicle functions under certain conditions, and controller board inputs that read switches used in those circuits. \n   BACKGROUND OF THE INVENTION \n   Tractors, grass mowing machines, and utility vehicles may have electrical circuits that stop or interrupt power if an input switch is opened and certain conditions are met. These circuits may be used for safety p",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_07951",
+      "title": "Patent Publication 07951",
+      "abstract": "A cutter assembly positioning mechanism provides an improved positioning mechanism and control for a riding lawn mower. Specifically, the mechanism optimizes the speed and accuracy of positioning the cutter assembly in the desired position and allows the operator to raise and lower the cutter assembly without sacrificing control of the mower. The lawn mower has a frame including an actuator adapted to be coupled to the frame, a cutter assembly adapted to be movable relative to the frame for adjusting a cutting height and a first flexible member interconnecting the actuator and the cutter assembly. The actuator is operable to extend and retract thereby raising and lowering the cutter assembly.",
+      "description": "RELATED APPLICATIONS \n     This application claims the benefit of U. S. Provisional Application No. 60/139,563 filed Jun. 16, 1999. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Technical Field \n     The present invention generally relates to a lawn cutting apparatus. More particularly, the present invention pertains to a mechanism for positioning a cutter assembly for a riding lawn mower. \n     2. Discussion \n     Operators of lawn cutting equipment often have a need to adjust the position of the cutter assembly relative to the ground over which the lawn mower is driven. The cutter ass",
+      "cpc": "A"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_00360",
+      "patent_07951",
+      "patent_09681",
+      "patent_04921",
+      "patent_14479",
+      "patent_10039",
+      "patent_12216",
+      "patent_08291",
+      "patent_12088",
+      "patent_07831",
+      "patent_00671",
+      "patent_14996",
+      "patent_10944",
+      "patent_05499",
+      "patent_03701",
+      "patent_02308",
+      "patent_06907",
+      "patent_06879",
+      "patent_03855",
+      "patent_08371"
+    ],
+    "relevance_scores": {
+      "patent_14479": 0.8889888616449487,
+      "patent_00671": 0.4122564344790206,
+      "patent_04921": 0.8978695643034704,
+      "patent_07831": 0.8531428405861109,
+      "patent_06879": 0.15979117263774592,
+      "patent_03701": 0.27848732200807286,
+      "patent_08371": 0.01,
+      "patent_00360": 0.9899999842915088,
+      "patent_10944": 0.3026149287192957,
+      "patent_12088": 0.8558472467009749,
+      "patent_08291": 0.8566777439395445,
+      "patent_06907": 0.17828855580639877,
+      "patent_12216": 0.8640238524898187,
+      "patent_10039": 0.8708746588538434,
+      "patent_02308": 0.2564127849923105,
+      "patent_05499": 0.3008101655262801,
+      "patent_03855": 0.019745927813257368,
+      "patent_14996": 0.32668890890364244,
+      "patent_09681": 0.921887413361039,
+      "patent_07951": 0.978479667410918
+    },
+    "novelty_score": 0.3676707850613178
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "task_description": "Screen candidate patents for relevance to the query patent. Mark the strongest prior-art candidates as RELEVANT and the rest as NOT_RELEVANT.",
+  "budget": 20,
+  "query_patent": {
+    "id": "patent_09323",
+    "title": "Patent Publication 09323",
+    "abstract": "A ride-on activity device is disclosed, wherein the device includes a seat, a base and a connector for movably connecting the seat relative to the base. The connection between the seat and the base allows multiple degrees of freedom such that the seat is capable of bouncing and rotating relative to the base. The connection between the seat and the connector includes a rotation safety mechanism that allows rotation at the connection when the seat is occupied by a user and prevents rotation at the connection when the seat is unoccupied. Furthermore, the connector includes a resilient member that allows the seat to bounce vertically relative to the base.",
+    "description": "BACKGROUND OF THE INVENTION \n   The present invention relates to a ride-on toy stylized as a friendly character. Such toys are also often styled in a saddle-type configuration including a saddle-type seat. The toy is typically connected to the supporting surface by a connector. The connector can include a motorized member that moves the seat automatically or a biasing member that manually reacts to the movement of the child. Whether the toy and connector are motorized or self-powered, children get excited about and spend endless hours enjoying such ride-on toys. Generally, the connector suppor",
+    "cpc": "C"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_05996",
+      "title": "Patent Publication 05996",
+      "abstract": "A rotatable pedestal for allowing single riders such as a child to use their body weight to cause a rotatable disc seat to rotate over a sloped surface on a support stand. Springs within the stand cause the seat to rotate in an erratic and jumpy manner while the seat goes from a horizontal position to tilted positions of up to approximately 20 degrees and back to a horizontal positions. The pedestal is small enough and light enough to be portable and strong enough for most children up to the age of approximately 12 years old.",
+      "description": "This invention relates to toys, and in particular to a rotatable pedestal toy having a disc seat with handles for supporting a child that rotates over an uneven surface of a base allowing the child to tilt up and down while spinning in a circle. \n     BACKGROUND AND PRIOR ART \n     Children enjoy spinning about in circles for fun and have tried to enjoy this pleasure by either spinning about in circles or using some type of device to get the effect. For example, children have been known to spin around using chairs with swivel bases. However, most chairs are intended for office type use and are",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_04445",
+      "title": "Patent Publication 04445",
+      "abstract": "Devices and methods for substantially reducing the caloric efficiency of the digestive tract by capturing food being digested in the stomach  10  and/or anywhere else in the gastrointestinal (GI) tract, absorbing or encapsulating the captured food into multiple capturing members and moving such multiple capturing members containing the ingestible encapsulated food down the GI tract, practically out of reach of the GI absorption organs, thus excluding the entrapped ingredients from being involved in the digestion and\\or absorption process. The device is designed for oral delivery. The system can be comprised of liquid, food bars or a capsule system. The capsule system is comprised of an external capsule that dissolves in accordance with a temporal or ph dependent preset, which allows the food intake to be at least partially fluidic. The capsule system is further comprised of a mechanism designed to capture and isolate a portion of the food being digested.",
+      "description": "RELATED APPLICATIONS \n       [0001]    The present application claims the benefit under 35 USC 119(e) of U.S. provisional application 60/542,843 filed on Feb. 10 th , 2004, and PCT application PCT/IL05/00154 also known as WO2005/074378, the disclosure of which are incorporated herein by reference. \n     \n     FIELD OF THE INVENTION \n       [0002]    The present invention relates in general to a device and method for substantially reducing the caloric efficiency of the digestive tract by capturing food being digested in the stomach and/or anywhere else in the GI tract, into entrapping members; ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_05836",
+      "title": "Patent Publication 05836",
+      "abstract": "An amusement toy includes a first member which is cylindrical in shape and is located within a housing. This first member is capable of rotating on the housing. A second elongated member is located within the center of the cylindrical shaped first member and moves up and down within the first member. A first gear located on the first member engages a connecting gear which in turn engages a gear located on the second member so as to transfer linear motion of the second member into rotational motion of the first member. Rotation of the first member transferred to at least one output member whereby the output member is rotated ultimately in response to linear motion of the second member.",
+      "description": "BACKGROUND OF THE INVENTION \n     This invention is directed to an amusement toy capable of producing an output wherein the output is of an entertaining nature for a small child. Most specifically, the invention is directed to a toy which includes a first member capable of producing a rotational output and a second member associated with the first member wherein in response to linear movement of the second member, the first member is rotated. \n     A variety of amusement toys are known. Included are tops and other spinning type devices. These date back to antiquity. The simplest of these are n",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_02328",
+      "title": "Patent Publication 02328",
+      "abstract": "The present invention relates generally to a support structure for fixating a patient to a treatment unit, and especially to a support structure for fixating the patient to a cardiopulmonary resuscitation unit. An embodiment of the support structure ( 10 ) comprises a back plate ( 100 ) for positioning behind said patient&#39;s back posterior to said patient&#39;s heart and a front part ( 200 ) for positioning around said patient&#39;s chest anterior to said patient&#39;s heart. Further, the front part ( 200 ) can comprise two legs ( 210, 220 ), each leg ( 210, 220 ) having a first end ( 212, 222 ) pivotably connected to at least one hinge ( 230, 240 ) and a second end ( 214, 224 ) removably attachable to said back plate ( 100 ). Said front part ( 200 ) can further be devised for comprising a compression/decompression unit ( 300 ) arranged to automatically compress or decompress said patient&#39;s chest when said front part ( 200 ) is attached to said back plate ( 100 ).",
+      "description": "FIELD OF INVENTION \n   The present invention relates generally to a support structure for fixating a patient to a treatment unit, and especially to a support structure for fixating the patient to a cardiopulmonary resuscitation unit. \n   BACKGROUND OF INVENTION \n   When a person suffers from a cardiac arrest, the blood is not circulating to nourish the body, which can lead to death of or cause severe bodily damages to the person. To improve the person&#39;s chances to survive or to minimize the damages at cardiac arrest it is essential to take necessary measures as quickly as possible to maint",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_11755",
+      "title": "Patent Publication 11755",
+      "abstract": "A ride-on activity device is disclosed, wherein the device includes a seat, a base and a connector for movably connecting the seat relative to the base. The connection between the seat and the base allows multiple degrees of freedom such that the seat is capable of bouncing and rotating relative to the base. The connection between the seat and the connector includes a rotation safety mechanism that allows rotation at the connection when the seat is occupied by a user and prevents rotation at the connection when the seat is unoccupied. Furthermore, the connector includes a resilient member that allows the seat to bounce vertically relative to the base.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n       [0001]    The present application is a continuation of U.S. patent application Ser. No. 12/837,713, filed Jul. 16, 2010 and entitled \u201cPortable Ride-On Bouncing and Spinning Toy,\u201d which is a continuation of U.S. Nonprovisional application Ser. No. 11/549,153, filed 13 Oct. 2006, now U.S. Pat. No. 7,780,500, and entitled \u201cPortable Ride-On Bouncing and Spinning Toy,\u201d the disclosures of which are hereby incorporated by reference in their entirety. \n     \n    \n     BACKGROUND OF THE INVENTION \n       [0002]    The present invention relates to a ride-o",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_05760",
+      "title": "Patent Publication 05760",
+      "abstract": "A vehicle such as a wheelchair having wheels by which the vehicle is propelled and steered and castors which support a proportion of the vehicle&#39;s weight, has its castors provided with biasing means which resists swivelling movement of the castors from the straight-ahead position thereby resisting an oversteer condition of the vehicle.",
+      "description": "BACKGROUND TO THE INVENTION \n     1. Field of the Invention \n     This invention relates to castors and to vehicles which have castors. More particularly, the invention relates to a vehicle which has wheels by which the vehicle is propelled and steered, and castors which support a proportion of the vehicle&#39;s weight and which swivel to appropriate orientations in accordance with the direction of travel of the vehicle. Preferably the wheels are at the front of the vehicle and the castors at the rear. \n     It is to be appreciated that when we refer to a castor, we mean an assembly in which a",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_01533",
+      "title": "Patent Publication 01533",
+      "abstract": "An amusement ride is provided in which passengers can be simultaneous subjected to three different types of movement. A circular motion is provided by the circular rotation of the head which mounts the passenger seats. A tilting motion is provided by mounting the head for tilting movement as it rotates in the circular path. The third type of motion is provided by mounting the passenger seats so that they rotate about an axis tangential to the circular path in which they travel.",
+      "description": "BACKGROUND OF THE INVENTION \n     The present invention relates in general to amusement rides, and, more particularly, to amusement rides in which the riders are subjected to a movement in multiple directions. \n     Amusement rides are popular forms of entertainment for individuals of all ages. The excitement experienced by riders is often directly related to the ability of the ride to subject the riders to various disorienting motions. For example, the standard ferris wheel is designed so that the riders travel in a circular path about the horizontal rotational axis of the ferris wheel. The r",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_01597",
+      "title": "Patent Publication 01597",
+      "abstract": "An ultrasound system used for both imaging and delivery high intensity ultrasound energy therapy to treatment sites and a method for treating tumors and other undesired tissue within a patient&#39;s body with an ultrasound device. The ultrasound device has an ultrasound transducer array disposed on a distal end of an elongate, relatively thin shaft. In one form of the invention, the transducer array is disposed within a liquid-filled elastomeric material that more effectively couples ultrasound energy into the tumor, that is directly contacted with the device. Using the device in a continuous wave mode, a necrotic zone of tissue having a desired size and shape (e.g., a necrotic volume selected to interrupt a blood supply to a tumor) can be created by controlling at least one of the f-number, duration, intensity, and direction of the ultrasound energy administered. This method speeds the therapy and avoids continuously pausing to enable intervening normal tissue to cool.",
+      "description": "FIELD OF THE INVENTION \n     This invention relates generally to methods and apparatus for efficiently heating biological tissues with high intensity ultrasound for therapeutic purposes, and in particular, to endoscopic devices for applying ultrasound energy to uterine fibroids and other pathologic tissues that are inside body or organ cavities, to destroy the tumor or the diseased tissue. \n     BACKGROUND OF THE INVENTION \n     Fibroids are benign tumors in women&#39;s uteri. There are different types of fibroids, including submucosal, which are inside the uterine cavity; intramural, which ar",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_00721",
+      "title": "Patent Publication 00721",
+      "abstract": "A toy vehicle is disclosed. It has a main vehicle body portion and a display device rotatably mounted to the main body portion, the display device being configured to create a plurality of images via a persistence of vision effect. A mechanism is also present for rotating said display device. An actuator is included and is attached to a sensor for determining when the actuator is depressed. A microcontroller is in operable communication with the sensor and the display device; the microcontroller changing the appearance of at least one of the plurality of images when the sensor determines the actuator has been depressed.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application claims the benefit of U.S. Provisional Application Ser. No. 61/106,548, filed Oct. 17, 2008, the contents of which are incorporated by reference herein. \n     \n    \n     BACKGROUND \n       [0002]    Various embodiments of the present invention are directed to a toy, in particular, a toy that stimulates the senses of a user. Games and toys that involve launching objects into the air or at a target are perennially popular games with all users, be they a child or an adult. Both children and adults also enjoy toys that stim",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_09329",
+      "title": "Patent Publication 09329",
+      "abstract": "Disclosed is a brush holder having a hollow, box-like upper structure with interior contours conformable to the shape of the ferrule and heel of a paintbrush. The lower structure of the brush holder comprises a hollow, primarily longitudinal staff, said staff affixed at its top end to the brush holder. The lower, open end of the staff comprises a circular opening with interior female threads. By use of an extension pole having compatible male threads at one end, a workman, after insertion of a paintbrush into said brush holder, may engage the threads of the brush holder with the threads of the extension pole until a firm and secure attachment is achieved. In this manner, there is provided a greater range of brush contact for applying paint to an otherwise hard-to-reach surface.",
+      "description": "CROSS-REFERENCES TO RELATED APPLICATIONS \n     This application claims the benefit of priority of U.S. Provisional Application, Ser. No. 61/517,260, filed on Apr. 18, 2011, and said provisional application is incorporated herein by reference. \n    \n    \n     STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH OR DEVELOPMENT \n     Not applicable. \n     NAMES OF THE PARTIES TO A JOINT RESEARCH AGREEMENT \n     Not applicable. \n     REFERENCE TO A \u201cSEQUENCE LISTING,\u201d A TABLE, OR A COMPUTER PROGRAM LISTING APPENDIX \n     Not applicable. \n     BACKGROUND OF THE INVENTION \n     (1) Field of the Inventio",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_01425",
+      "title": "Patent Publication 01425",
+      "abstract": "A knee joint prosthesis includes tibial and femoral components and a bearing insert designed for unicompartmental prosthetic total knee replacement and can be implanted using arthroscopic surgical techniques. The tibial and femoral prosthesis components have channels or portals therethrough allowing supply of cement to the prosthesis-bone interface after the prosthesis has been positioned for implant. Recesses communicate with the channels and cooperate with the bone surfaces to form cement receiving chambers, and rims at least partially surround the recesses to penetrate the bone surfaces to stabilize the positions of the prostheses and form seals preventing cement from escaping from the prosthesis-bone interfaces.",
+      "description": "This is a divisional application of application Ser. No. 07/462,528 filed Jan. 8, 1990 now U.S. Pat, No. 5,171,276. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The present invention relates broadly to prosthetic implants, and more particularly, to prostheses for human joints, such as the knee, implantable by means of arthroscopic as well as open surgical techniques. \n     2. Discussion of the Prior Art \n     Previous proposals for artificial knee prostheses including components for surgical implantation into a patient&#39;s knee are known in the art. The c",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_12001",
+      "title": "Patent Publication 12001",
+      "abstract": "A child&#39;s toy having a rider supporting body which is in turn supported on spaced, opposed rockers. The body rotatably supports forward and rearward wheels. The foreward wheel is so positioned that it contacts a supporting surface upon forward rocking motion to allow forward lineal motion of the toy. The rearward wheel aids in preventing rearward tipping of the toy. The body configurationally simulates a motor cycle.",
+      "description": "BACKGROUND OF INVENTION \n     1. Related Applications \n     There are no applications related hereto heretofore filed in this or any foreign country. \n     2. Field of Invention \n     My invention relates generally to rider supporting rocker toys and more particularly to such a toy that has foreward and rearward wheels. \n     DESCRIPTION OF PRIOR ART \n     Various rocking toys, epitomized by the rocking horse, have heretofore become known. In general these toys have provided paired, spaced rockers supporting a medial body adapted to carry the user, generally in a seated position. By appropriat",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_05644",
+      "title": "Patent Publication 05644",
+      "abstract": "Methods for determining structural integrity of a bone within the spine of a patient, the bone having a first aspect and a second aspect, wherein the second aspect separated from the first aspect by a width and located adjacent to a spinal nerve. The methods involve (a) applying an electrical stimulus to the first aspect of the bone; (b) electrically monitoring a muscle myotome associated with the spinal nerve to detect if an onset neuro-muscular response occurs in response to the application of the electrical stimulus to the first aspect of the bone; (c) automatically increasing the magnitude of the electrical stimulus to until the onset neuro-muscular response is detected; and (d) communicating to a user via at least one of visual and audible means information representing the magnitude of the electrical stimulus which caused the onset neuro-muscular response.",
+      "description": "CROSS-REFERENCES TO RELATED APPLICATIONS \n     The present application is a continuation of commonly owned U.S. patent application Ser. No. 10/830,189 filed Apr. 21, 2004, now U.S. Pat. No. 7,963,927 which is itself a division of U.S. patent application Ser. No. 09/722,070 filed Nov. 24, 2000, now U.S. Pat. No. 7,470,236, which claims benefit under 35 U.S.C. \u00a7119(e) from U.S. Provisional Application Ser. No. 60/167,416 filed Nov. 24, 1999, the entire contents of which are all hereby expressly incorporated by reference into this disclosure as if set forth fully herein. \n    \n    \n     TECHNICAL",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_08919",
+      "title": "Patent Publication 08919",
+      "abstract": "A magnetic device comprises a magnet adapted to suspend free-floating from a hole in a bottom of a shoe, the magnet capable of attaching the shoe to magnetized metal on a sports board. The magnet can be raised and lowered in the shoe and is \u201con\u201d when in a down position and \u201coff\u201d when in an up position. Switching between \u201con\u201d and \u201coff\u201d by moving the magnet up or down in the shoe is accomplished manually. When the magnet is up or off the space in the shoe can be occupied with a plug. The design of the attachment system allows a rider optimal freedom of foot movement for doing tricks while attached to the board. The small surface area of the magnet relative to its significant strength, the round contour of the magnet&#39;s face, the magnet&#39;s suspended free-floating configuration from the support, the position of the magnets on the shoe, and the position of the magnetized metal on the sports board are all factors that contribute to increased maneuverability for the board rider using th",
+      "description": "BACKGROUND OF THE INVENTION \n       [0001]    Board sports have been extremely popular in the last two decades. Skate boarding, snow boarding, wake boarding and surfing all provide dynamic and exciting means for individuals inclined to a sport that requires balance, strength, coordination, and a sense of adventure. \n         [0002]    The board used in any of these board sports is often made air-born for tricks and maneuvers, and while board sports such as snowboarding and wakeboarding have required the use of bindings, others such as skateboarding have been limited in the degree to which one ",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_05572",
+      "title": "Patent Publication 05572",
+      "abstract": "A toy or model vehicle having ground wheels, of which at least one is formed with a cam or lobe that cooperates with a pivotable or reciprocable member mounted in the vehicle, or with an intermediate member transmitting such motion, whereby such items as simulated engine pistons, toy figures of animals and men, and gun turrets, for example, may be given movement during travel of the vehicle over a surface.",
+      "description": "BACKGROUND OF THE INVENTION \n     This is a continuation-in-part of the parent application Ser. No. 340,839 filed Mar. 13, 1973 now U.S. Pat. No. 3,939,605. \n    \n    \n     This invention relates to toy or model vehicles, particularly unpowered toy or model vehicles. \n     It is an object of the invention to increase the novelty and interest of such vehicles by providing them with parts that reciprocate or rotate relative to the chassis of the vehicle. \n     According to the invention there is provided a toy or model vehicle in which at least one of the wheels is formed with an intergral, ecce",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_09450",
+      "title": "Patent Publication 09450",
+      "abstract": "A motorized toy capable of linear movement along a horizontal support surface. The toy includes a body, power supply, first and second wheels/gears coupled to the motor each of which is provided with a shaft. Each shaft has an extension angled away from its ends such that when activated, the wheels, being in contact with the horizontal support surface act to move the toy linearly while selective extensions contact the horizontal support surface causing the toy to wobble from side to side thus emulating the action of a lizard running.",
+      "description": "TECHNICAL FIELD \n       [0001]    The present invention is directed to a motorized toy which, because of its unique structural features, emulates the side-to-side wobble action imitating a running lizard. The toy is captivating not only for children but pets which find the action of the present toy intriguing. \n       BACKGROUND OF THE INVENTION \n       [0002]    There are almost a limitless number of motorized toys designed to captivate both children and animals. Like the present invention, such toys are often times configured to replicate the look of a familiar bug or animal and move either ",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_04421",
+      "title": "Patent Publication 04421",
+      "abstract": "An outsole is provided having excellent gripping and traction properties on wet surfaces. These properties are achieved by equipping the bottom surface of the outsole with a combination of gripping regions having different gripping characteristics. The gripping regions include (a) regions of siping, oriented in different directions to provide multidirectional traction, and (b) regions of stippling (spaced protuberances).",
+      "description": "The invention relates to shoes and outsoles for shoes especially suited for walking on wet surfaces. \n     BACKGROUND OF THE INVENTION \n     Good traction on a flat, dry surface can be provided by a flat outsole made of a rubber or other elastomeric material. However, an outsole of this configuration typically provides poor traction on wet surfaces. To improve traction on wet surfaces, it has been known for many years to provide a pattern of wave-like, e.g., sinusoidal or zigzag, incisions (referred to as &#34;siping&#34;) in the bottom surface of the outsole. Siping provides sharp edges when ",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_09132",
+      "title": "Patent Publication 09132",
+      "abstract": "A portable bubble bath assembly disclosed is designed to be installed in the bathtub and includes an underwater electric pump, a nozzle and a retaining member for retaining the nozzle over the bath water upon the installment of the assembly. The pump has an inlet and an outlet. The nozzle is connected to the outlet of the pump. The retaining member includes: a setting member for stably setting the pump on the bottom wall of the bathtub; and a support member, interposed between the pump and the nozzle, for supporting the nozzle over the pump. The only step due upon the installment of this bubble bath assembly is the placing of the pump on the bottom wall of the bathtub with the nozzle positioned above the pump.",
+      "description": "BACKGROUND OF THE INVENTION \n     This invention relates to a bubble bath assembly which generates a multiplicity of minute bubbles in the water in a bathtub, in particular, to the bubble bath assembly of a portable type. \n     In the related art, U.S. patent application Ser. No. 855,628 filed Apr. 2, 1986 discloses a health bath structure having a nozzle which is retained above the water in a bathtub. This health bath structure has a pump-encasing housing which is fixedly mounted on the wall of a bathroom, and therefore installment work is necessary upon the installation of this structure. Mo",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_07186",
+      "title": "Patent Publication 07186",
+      "abstract": "An amusement ride includes an output member having an anthropomorphic robot arm adapted for six degrees of movement The ride further includes a passenger station in moveable engagement with said output member, a platform, and optionally a ticket reader.",
+      "description": "FIELD OF THE INVENTION  \n         [0001]    This invention relates to ride apparatus and particularly (but not exclusively) to ride apparatus used in amusement parks and the like.  \n         BACKGROUND OF THE INVENTION  \n         [0002]    A variety of amusement rides is known for use in amusement parks. Such rides typically comprise dodgem, log flume, roller coaster and vertical drop rides. However, these rides are commonplace and there is an increasing demand for new, novel rides to maintain interest in said parks.  \n         SUMMARY OF THE INVENTION  \n         [0003]    Accordingly, the pre",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_12299",
+      "title": "Patent Publication 12299",
+      "abstract": "A toy vehicle assembly that can be self-propelled by a spring motor and is designed to permit the front wheels to be lifted off of the traveling surface by the addition of a weighted member. The weighted member is positioned on a pivotable bracket which is adjustable relative to the main frame of the vehicle to thereby permit a modification in the mode of travel of the vehicle.",
+      "description": "BACKGROUND OF THE INVENTION \n     A toy vehicle is provided with a specially constructed support member on the upper body shell of the toy vehicle to receive and removably support a weighted member such as a coin of monetary value of a predetermined weight. The toy vehicle, when propelled forward, provides an impression of high speed acceleration with its front wheel assembly lifting off the support surface as a result of the location and weight of the weighted member. \n     In general, children find it very amusing to play with a toy vehicle which is propelled by a springwound motor as the po",
+      "cpc": "E"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_11755",
+      "patent_07186",
+      "patent_05572",
+      "patent_12001",
+      "patent_01533",
+      "patent_12299",
+      "patent_09450",
+      "patent_05836",
+      "patent_00721",
+      "patent_05996",
+      "patent_05760",
+      "patent_08919",
+      "patent_01425",
+      "patent_09329",
+      "patent_09132",
+      "patent_05644",
+      "patent_04421",
+      "patent_04445",
+      "patent_01597",
+      "patent_02328"
+    ],
+    "relevance_scores": {
+      "patent_05996": 0.7397915297474772,
+      "patent_04445": 0.1158993234877351,
+      "patent_05836": 0.7465636786916565,
+      "patent_02328": 0.01,
+      "patent_11755": 0.9899999863477877,
+      "patent_05760": 0.5255434175827779,
+      "patent_01533": 0.7654870107611559,
+      "patent_01597": 0.10007192858380588,
+      "patent_00721": 0.7412556022250817,
+      "patent_09329": 0.2886441707545632,
+      "patent_01425": 0.2920356158793609,
+      "patent_12001": 0.7804317470298819,
+      "patent_05644": 0.25436199254314257,
+      "patent_08919": 0.46790980414413225,
+      "patent_05572": 0.7904883755990916,
+      "patent_09450": 0.7532183242644673,
+      "patent_04421": 0.18839815091694218,
+      "patent_09132": 0.26065503451033123,
+      "patent_07186": 0.8662666578381061,
+      "patent_12299": 0.7615008472224758
+    },
+    "novelty_score": 0.6901928887375568
+  }
+}

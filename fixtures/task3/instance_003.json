@@ -1,0 +1,200 @@
+{
+  "task_description": "Decide whether each candidate should be INCLUDED, EXCLUDED, or DEFERRED. DEFER counts as EXCLUDE at grading time.",
+  "budget": 28,
+  "query_patent": {
+    "id": "patent_03536",
+    "title": "Patent Publication 03536",
+    "abstract": "There is provided a method for the control of phytopathogenic fungi and disease caused thereby which comprises contacting said fungi with a fungicidally effective amount of a benzophenone compound of formula I ##STR1## There are further provided benzophenone compounds of formula Ia which are useful as fungicidal agents and compositions useful for the protection of plants from the damaging effects of phytopathogenic fungi and fungal disease.",
+    "description": "This is a divisional of application(s) Ser. No. 08/641,592 filed on May 1, 1996 now U.S. Pat. No. 5,773,663, the entire disclosure of which is hereby incorporated by reference. \n    \n    \n     BACKGROUND OF THE INVENTION \n     Food production relies upon a variety of agricultural technologies to ensure the growing population&#39;s dietary needs remain affordable, nutritious and readily available on grocery store shelves. Fungicides are one of these agricultural technologies which are available to the world community. Fungicides are agrochemical compounds which shield crops and foods from fungu",
+    "cpc": "A"
+  },
+  "candidate_patents": [
+    {
+      "id": "patent_08937",
+      "title": "Patent Publication 08937",
+      "abstract": "An apparatus for lifting a deck of a vehicle, such as a lawn mower, by a foot actuated deck lift mechanism. The device includes a lift lever pivotally coupled to a frame and having a pin movably attached thereto. A lift linkage has a first end pivotally coupled to the lift lever and a second end fixedly secured on a front shaft. A connecting linkage pivotally couples the front shaft to a rear shaft. Both the front and rear shafts are rotatably coupled to the frame. The lift lever has a first end fixedly secured to the front shaft and a second free end for operation with the operator&#39;s foot. The deck is attached to the deck lift mechanism. A foot actuated deck lift mechanism, depressed by the operator&#39;s foot, and simultaneously causes the deck to rise and the lift lever to radially pivot. A pin attached to the lift lever rides atop adjustment plates. When the lift lever has pivoted a preset amount, an opening provided in the adjustment plates receives the pin. The pin then locks",
+      "description": "[0001]    This application claims the benefit of U.S. provisional patent application Ser. No. 60/219,520 filed Jul. 20, 2000. \n     \n    \n     \n       BACKGROUND OF THE INVENTION  \n         [0002]    This invention relates generally to a device for lifting a mower deck suspended from a riding mower, and more specifically, to a foot actuated deck lift mechanism for lifting a mower deck automatically from a cutting position to a transport position.  \n         DESCRIPTION OF THE RELATED ART  \n         [0003]    There are a number of known devices for lifting a mower deck on a riding mower to a tr",
+      "cpc": "A"
+    },
+    {
+      "id": "patent_04928",
+      "title": "Patent Publication 04928",
+      "abstract": "Microbiological agents are provided for control of certain diseases of wheat and other cereals caused by Fusarium species, including Fusarium head blight of wheat and other cereals. These agents can also improve yield of wheat plants and cereals. The agents are novel isolates of  Pantoea agglomerans  and of  Bacillus megaterium  that exhibit the property of inhibiting fungal pathogens, particularly those produced by Fusarium species.  \n     Biocontrol compositions, and methods of using them to control plant pathogen development on wheat and cereal plants and for increasing plant yield, are also provided. The biocontrol compositions comprise a mixture of at least one microorganism selected from the group consisting of  Pantoea agglomerans  and  Bacillus megaterium.",
+      "description": "FIELD OF THE INVENTION  \n         [0001]    The present invention is related to the biological control of plant diseases caused by Fusarium species. Specially, it relates to biocontrol compositions comprising a mixture of at least one microorganism which is an antagonist against plant pathogens and an appropriate carrier, as well as to a process for control of the plant pathogen and to increase yield. The invention includes as a plant pathogen the pathogenic fungus  Gibberella zeae  (anamorph  Fusarium graminearum ), and as antagonist microorganisms the novel isolates of  Pantoea agglomerans  ",
+      "cpc": "H"
+    },
+    {
+      "id": "patent_06892",
+      "title": "Patent Publication 06892",
+      "abstract": "The present invention relates to novel compositions comprising: a fungicide that inhibits mitochondrial respiration at the QoI site (QoI inhibitor), a contact fungicide, a demethylation inhibitor, and pigments, which are highly suitable for controlling unwanted phytopathogenic fungi. Moreover, the fungicidal compositions are able to control mold and fungus infection in grasses and in particular turf grasses.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n       [0001]    The present application is a continuation of U.S. application Ser. No. 12/761,144, filed on Apr. 15, 2010, which claims priority to U.S. Provisional Application No. 61/178,711, filed on May 15, 2009, the entire contents of each are herein incorporated by reference in their entireties. \n     \n    \n     FIELD \n       [0002]    This application describes fungicidal compositions that control mold and fungus infection in grasses, in particular turf grasses. More specifically, the compositions comprise a fungicide that inhibits mitochondrial ",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_05347",
+      "title": "Patent Publication 05347",
+      "abstract": "A personal vapor inhaling unit is disclosed. An electronic flameless vapor inhaler unit that may simulate a cigarette has a cavity that receives a cartridge in the distal end of the inhaler unit. The cartridge brings a substance to be vaporized in contact with a wick. When the unit is activated, and the user provides suction, the substance to be vaporized is drawn out of the cartridge, through the wick, and is atomized by the wick into a cavity containing a heating element. The heating element vaporizes the atomized substance. The vapors then continue to be pulled by the user through a mouthpiece and mouthpiece cover where they may be inhaled.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n     This application is related to the following U.S. applications filed on or about the same day as the present application: Ser. No. 12/780,871, entitled \u201cPERSONAL VAPORIZING INHALER WITH MOUTHPIECE COVER\u201d, Ser. No. 12/780,872, entitled \u201cACTIVATION TRIGGER FOR A PERSONAL VAPORIZING INHALER\u201d, Ser. No. 12/780,873, entitled \u201cPERSONAL VAPORIZING INHALER CARTRIDGE\u201d, Ser. No. 12/780,874, entitled \u201cATOMIZER-VAPORIZER FOR A PERSONAL VAPORIZING INHALER\u201d, Ser. No. 12/780,875, entitled \u201cPERSONAL VAPORIZING INHALER WITH INTERNAL LIGHT SOURCE\u201d, and, Ser. No. 12/7",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_14446",
+      "title": "Patent Publication 14446",
+      "abstract": "Synergistic combinations are provided which are compatible with cultivated plants and which comprise herbicides selected from the group consisting of benzoylcyclohexanediones for use in rice crops \n     Herbicidal combinations are provided comprising bensulfuron-methyl, benzobicyclon, bromobutide, cyhalofop-butyl, ethoxysulfuron, fenoxaprop-P-ethyl, fentrazamide, pyrazolynate, pyrimisulfan, sulcotrione, tefuryltrione, tembotrione and, if appropriate, isoxadifen-ethyl are described. These combinations exhibit an effect which is superior to that of the herbicides used individually.",
+      "description": "CROSS REFERENCE TO RELATED APPLICATIONS \n     This application claims priority from German Application No. 10 2007 028 019.1 filed Jun. 19, 2007, the content of which is incorporated herein by reference. \n     BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     The invention relates to the technical field of plant protection compositions which can be used against undesirable plant growth and which comprise, as active substances, a combination of at least two herbicides. \n     2. Description of Related Art \n     More especially, it relates to herbicidal combinations for use in ric",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_06081",
+      "title": "Patent Publication 06081",
+      "abstract": "An objective of the present invention is to provide agricultural and horticultural disease control agents that have potent control effect against plant diseases and, at the same time, have high photostability. The agricultural and horticultural disease control agents comprise a novel substance analogous to MK8383 as an active ingredient.",
+      "description": "FIELD OF INVENTION \n       [0001]    The present invention relates to novel substances analogous to MK8383 and agricultural and horticultural disease control agents comprising the analogous substances as an active ingredient. \n       BACKGROUND ART \n       [0002]    In the field of agriculture and horticulture, various fungicides are used for the control of plant diseases. The appearance of resistant strains and the like, however, has posed problems important to the control, for example, a problem of usage restrictions of existing agents. \n         [0003]    MK8383 produced by microorganisms h",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_04374",
+      "title": "Patent Publication 04374",
+      "abstract": "A gas treatment system for treating a gas stream containing contaminants includes first and second gas treatment members in fluid communication with each other. Each of the first and second gas treatment members is selectively controllable between an on and an off condition. A third gas treatment member is in fluid communication with the first and second gas treatment members, and the third gas treatment member selectively retains or releases the contaminants based upon the on or off condition of at least one of the first or second gas treatment members.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    The present application is a Divisional Application which claims priority to application Ser. No. 11/011,730 filed Dec. 14, 2004. \n     \n    \n     BACKGROUND OF THE INVENTION \n       [0002]    This invention relates to air treatment modules and, more particularly, to protecting a photocatalyst in the air treatment module using a corona discharge device to remove contaminants from the air handling air stream. \n         [0003]    Air treatment modules are commonly used in automotive, commercial and residential heating, ventilating, and ai",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_03302",
+      "title": "Patent Publication 03302",
+      "abstract": "The present invention relates to a dual performance cleaning article, wherein said article is comprised of a first abrasive meltblown surface that facilitates the process of loosening particulates, such as dust and dirt, and an opposing second soft, air permeable surface, which is capable of absorbing and/or picking up particulates and liquids. The meltblown layer comprises coarse discontinuous filamentary elements, formed from adjusting the variable commonly utilized in the traditional meltblown method.",
+      "description": "TECHNICAL FIELD  \n         [0001]    The present invention relates generally to a cleaning article, and specifically to a dual performance cleaning article comprising two functionally diverse surfaces, wherein said article has an abrasive side that facilitates the process of loosening particulates, such as dust and dirt, and an opposing air permeable, soft, absorbent side, such material being imminently suitable for application in cleaning and cleansing applications.  \n         BACKGROUND OF THE INVENTION  \n         [0002]    The general use of nonwoven fabrics as cleaning and cleansing articl",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_13013",
+      "title": "Patent Publication 13013",
+      "abstract": "A method and apparatus are provided for enabling battery packs of different sizes to be used with an ultrasound device. The apparatus of the present invention comprises an ultrasound device having a battery pack installment apparatus configured to be capable of being coupled with battery packs of different sizes. The method comprises the step of providing the ultrasound device with a battery pack installment apparatus that is configured to couple with battery packs of different sizes.",
+      "description": "TECHNICAL FIELD OF THE INVENTION \n     The present invention relates to ultrasound devices and, more particularly, to a method and apparatus that enables battery packs of different sizes to be used with an ultrasound device. \n     BACKGROUND OF THE INVENTION \n     An ongoing effort is being made by manufacturers of medical ultrasound imaging systems to make them small and portable so that clinicians can easily carry them to the patient location. This is viewed in the ultrasound industry as a superior alternative in many situations to the conventional approach of having a large, expensive and i",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_00961",
+      "title": "Patent Publication 00961",
+      "abstract": "A seed treated with a fungal/bacterial antagonist combination and a seed assembly comprising a seed and a fungal/bacterial antagonist combination. The fungal/bacterial antagonist combination comprises a  Trichoderma virens  fungal antagonist and a  Bacillus amyloliquefaciens  bacterial antagonist for controlling plant pathogens as a biocontrol agent, bio-pesticide or bio-fungicide. In preferred embodiments, the invention produces an increase in plant yield. Control of early and late season stalk and root rot caused by fungi such as  Fusarium, Phythium, Phytophthora  and  Penicillium  in tomatoes, peppers, turf grass, soybeans, sunflower, wheat and corn is achieved.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a divisional of U.S. patent application Ser. No. 10/940,036, filed Sep. 13, 2004, which is a continuation-in-part of U.S. patent application Ser. No. 10/067,185, filed Feb. 1, 2002, now U.S. Pat. No. 6,808,917, which claims the benefit of U.S. Provisional Application No. 60/265,998, filed Feb. 2, 2001; the disclosures of which applications and patent are incorporated by reference as if fully set forth herein. The application also incorporates by reference the disclosure of U.S. Patent Application Publication No. US 2",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_09972",
+      "title": "Patent Publication 09972",
+      "abstract": "A breather bag for use in a sealed silo maintains pressure equilibrium between the inside and the outside of the silo by its volumetric change while preventing the ingestion of oxygen laden air. The breather bag is of generally arcuate or semi-circular shape and has a generally circular cross section. The breather bag includes at least one flexible conduit which extends between the breather bag and the silo roof and provides communication between the inside of the breather bag and the atmosphere. The breather bag is comprised of at least three plastic panels which are sealed together along overlapping edges. Two of the panels are a generally semi-circular shape and the third is a generally hour-glass shape. A continuous hanger strap is sealed along the upper arcuate center line of the breather bag to facilitate hanging the bag within a silo. An alternate embodiment utilizes individual hanger pads disposed along the upper arcuate surface of the breather bag which performs the function o",
+      "description": "BACKGROUND OF THE INVENTION \n     The invention relates generally to sealed silos and more particularly to air breather bags which maintain pressure equilibrium between the inside and the outside of the sealed silo. The silo is recognized as a fundamental development in the art of storing silage and fodder materials which are utilized as feed for various farm animals. It has been determined that the storage life of various silage and fodder feed is extended markedly by preserving such feed in an atmosphere devoid of oxygen. Recently, therefore, silos have been designed to be substantially airt",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_12911",
+      "title": "Patent Publication 12911",
+      "abstract": "A seed treated with a fungal/bacterial antagonist combination and a seed assembly comprising a seed and a fungal/bacterial antagonist combination. The fungal/bacterial antagonist combination comprises a  Trichoderma virens  fungal antagonist and a  Bacillus amyloliquefaciens  bacterial antagonist for controlling plant pathogens as a biocontrol agent, bio-pesticide or bio-fungicide. In preferred embodiments, the invention produces an increase in plant yield. Control of early and late season stalk and root rot caused by fungi such as  Fusarium, Phythium, Phytophthora  and  Penicillium  in tomatoes, peppers, turf grass, soybeans, sunflower, wheat and corn is achieved.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n       [0001]    This application is a divisional of U.S. patent application Ser. No. 10/940,036, filed Sep. 13, 2004, which is a continuation-in-part of U.S. patent application Ser. No. 10/067,185, filed Feb. 1, 2002, now U.S. Pat. No. 6,808,917, which claims the benefit of U.S. Provisional Application No. 60/265,998, filed Feb. 2, 2001; the disclosures of which applications and patent are incorporated by reference as if fully set forth herein. The application also incorporates by reference the disclosure of U.S. Patent Application Publication No. US 2",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_14006",
+      "title": "Patent Publication 14006",
+      "abstract": "A resuscitation system that includes at least two defibrillation electrodes configured to be applied to the exterior of the chest of a patient for delivering a defibrillation shock, a source of one or more ECG signals from the patient, a defibrillation circuit for delivering a defibrillation shock to the defibrillation electrodes, a control box that receives and processes the ECG signals to determine whether a defibrillation shock should be delivered or whether CPR should be performed, and that issues instructions to the user either to deliver a defibrillation shock or to perform CPR, wherein the determination of whether CPR should be performed and the instructions to perform CPR can occur at substantially any point during a rescue.",
+      "description": "CROSS-REFERENCE TO RELATED APPLICATIONS \n   This application is a continuation of and claims priority to U.S. application Ser. No. 09/794,320, filed on Feb. 27, 2001, (now abandoned) which is a continuation-in-part of and claims priority to U.S. application Ser. No. 09/498,306, filed on Feb. 4, 2000, (now abandoned), and PCT application Ser. No. PCT/US01/03781, filed on Feb. 5, 2001. \n\n\n   BACKGROUND OF THE INVENTION \n   This invention relates to integrated resuscitation systems incorporating defibrillation and cardio-pulmonary resuscitation (CPR) prompts. \n   Resuscitation can generally inclu",
+      "cpc": "D"
+    },
+    {
+      "id": "patent_14084",
+      "title": "Patent Publication 14084",
+      "abstract": "A piece of fabric is provided with a band; and a plurality of temporary fastening members disposed on the band. A skirt is formed by helically securing the temporary fastening members to the band so that the skirt can be put on the waist, the buttocks, and the legs of a person. The formed skirt can accommodate the changed shape of a woman, thereby minimizing the chance of discarding unfitted clothes.",
+      "description": "BACKGROUND OF THE INVENTION \n       [0001]    1. Field of the Invention \n         [0002]    The invention relates to garments and more particularly to an adjustable skirt for accommodating the changed shape of a woman, thereby minimizing the chance of discarding unfitted clothes. \n         [0003]    2. Description of Related Art \n         [0004]    A skirt is a tube-shaped or cone-shaped garment that hangs from the waist and covers all or part of the legs. Modern skirts are usually made of light to mid-weight fabrics such as denim, jersey, worsted, or poplin. Typically, skirts have fixed size.",
+      "cpc": "G"
+    },
+    {
+      "id": "patent_09074",
+      "title": "Patent Publication 09074",
+      "abstract": "This invention relates to substituted and unsubstituted alpha-aryl-alpha-phenylethyl-1H-1,2,4-triazole-1-propanenitriles, their enantiomorphs, acid addition salts and metal salt complexes. These compounds, enantiomorphs, salts and complexes are highly active broad-spectrum systemic fungicides effective in controlling phytopathogenic fungi such as corn helminthosporium, barley helminthosporium, cucumber downy mildew, cucumber powdery mildew, cucumber anthracnose, botrytis, tomato early blight, tomato late blight, grape downy mildew, bean powdery mildew, peanut cercospora, rice blast, rice sheath blight, wheat leaf rust, wheat septoria nodorum, wheat powdery mildew and wheat stem rust. The invention also concerns a method of preparing alpha-aryl-alpha-triazolylmethylacetonitrile compounds by reacting an aryl-acetonitrile compound with a halomethyltriazole.",
+      "description": "This application is a continuation of application Ser. No. 880,990, filed July 2, 1986, now abandoned. \n    \n    \n     BACKGROUND OF THE INVENTION \n     This invention relates to alpha-aryl-alpha-phenyl-ethyl-1H-1,2,4-triazole-1-propanenitriles and their use in controlling phytopathogenic fungi. The phenethyl and aryl moieties may be substituted or unsubstituted. \n     Miller et al., U.S. Pat. No. 4,366,165 discloses 1- and 4-arylcyanoalkyl-1,2,4-triazoles and their use against phytopathogenic fungi. However, neither the phenethyl triazoles of the present invention nor the benzyl triazoles wer",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_12051",
+      "title": "Patent Publication 12051",
+      "abstract": "A blanket for covering a child in a car seat fitted with a harness for restraining the child in the seat. The blanket comprises a plurality of apertures through which restraining members of the harness can be passed, thus enabling the harness to be fastened tightly around the child, and the blanket then to be wrapped around the child and the harness.",
+      "description": "BACKGROUND OF THE INVENTION \n     1. Field of the Invention \n     This invention relates to a novel blanket for use in a child&#39;s car seat (or the like) which is fitted with a restraint system. \n     2. Introduction to the Invention \n     In many situations, the use of a car seat with a restraint system is now required by law when transporting a child in a vehicle. Children meeting certain age and weight limits must be restrained in a specialized seat fastened to appropriate anchor points in the vehicle. \n     Modern child car seat restraint systems are designed to restrain the child&#39;s ",
+      "cpc": "E"
+    },
+    {
+      "id": "patent_03567",
+      "title": "Patent Publication 03567",
+      "abstract": "The present invention provides an agricultural fungicidal composition containing active compounds selected from perylenequinonoid derivatives or salts thereof. The invention also relates the application of the composition against fungal plant infections.",
+      "description": "FIELD OF THE INVENTION  \n         [0001]    The present invention relates to an agricultural fungicidal composition, more particularly to a fungicidal composition containing an active compound selected from PQDs or a salt thereof, and the application of the composition against fungal plant infections.  \n         BACKGROUND OF THE INVENTION  \n         [0002]    Traditional pesticides have disadvantage of tolerance problems when used a long time and somewhat harm to human. To overcome the drawbacks in the art, people have been developing new pesticides that are safer and more effective than thos",
+      "cpc": "C"
+    },
+    {
+      "id": "patent_06609",
+      "title": "Patent Publication 06609",
+      "abstract": "The invention relates to a method for the control of fungi at a locus which comprises applying to the locus a fungicidally effective amount of an isoxazole derivative of formula (I), wherein R is hydrogen or --CO 2  R 3 , wherein R 3  is as defined below, R 1  is cyclopropyl; R 2  is selected from halogen, --S(O) p  R 4  and C 1-4  alkyl or haloalkyl; n is two or three; p is zero, one or two; R 3  is C 1-4  alkyl and R 4  is C 1-4  alkyl; and to compositions containing the same. ##STR1##",
+      "description": "This application is the U.S. national stage of International Application No. PCT/EP96/02542, filed Jun. 12, 1996 and designating the United States, which claims the priority of U.S. Provisional Patent Application No. 60/000,330, filed Jun. 19, 1995, now abandoned. \n    \n    \n     BACKGROUND OF THE INVENTION \n     I Field of the Invention \n     This invention relates to a new method of controlling fungi and weeds, and in particular it relates to a new method of protecting turf against both fungicidal diseases and weeds infestation. \n     II Discussion of the Prior Art \n     Protection of turf h",
+      "cpc": "F"
+    },
+    {
+      "id": "patent_06020",
+      "title": "Patent Publication 06020",
+      "abstract": "The invention provides peptides which are immunogenic epitopes recognized by CD8 +  class I MHC restricted cytotoxic T-lymphocytes of patients harboring latent cytomegalovirus (HCMV) infection. The peptides are capable of activating CTL in the absence of active viral replication, and thus are useful for eliciting a cellular immune response against HCMV by normal and immunodeficient subjects. Vaccines against HCMV, with and without adjuvants, and immunological and diagnostic reagents are disclosed.",
+      "description": "This application claims priority from prior copending provisional application Serial No. 60/241,944, filed Oct. 20, 2000. \n    \n    \n     STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH \n     This invention was made with government support in the form of grant nos. CA30206, CA77544 and CA33572 from the United States Department of Health and Human Services, National Cancer Institute. The government may have certain rights in the invention. \n    \n    \n     BACKGROUND OF THE INVENTION \n     1. Technical Field \n     This invention relates to human cytomegalovirus (HCMV), and in particular to pept",
+      "cpc": "B"
+    },
+    {
+      "id": "patent_08197",
+      "title": "Patent Publication 08197",
+      "abstract": "A method of controlling Take-all disease of plants by applying, preferably to the seed prior to planting, a fungicide of the formula ##STR1## wherein Z 1  and Z 2  are C and are part of an aromatic ring that is furan; \n     A is selected from --C(X)-amine, --C(O)--SR 3 , --NH--C(X)R 4 , and --C(\u2550NR 3 )--XR 7  ; \n     B is --W m  --Q(R 2 ) 3  or selected from o-tolyl, 1-naphthyl, 2-naphthyl, and 9-phenanthryl, each optionally substituted with halogen or R 4  ; \n     Q is C, Si, Ge, or Sn; \n     W is --C(R 3 ) p  H.sub.(2-p) --; or when Q is C, W is selected from --C(R 3 ) p  H.sub.(2-p) --, --N(R 3 ) m  H.sub.(1-m) --, --S(O) p  --, and --O--; \n     X is O or S; \n     n is 2; \n     m is 0 or 1; \n     p is 0, 1, or 2; \n     R, R 2 , R 3 , R 4  and R 7  are herein defined; \n     or an agronomic salt thereof.",
+      "description": "This application is a divisional of U.S. Ser. No. 08/365,391 filed Dec. 28, 1994, now U.S. Pat. No. 5,693,667, which is a divisional of U.S. Ser. No. 08/238,182 filed May 4, 1994, abandoned, which is a continuation of U.S. Ser. No. 07/951,997 filed Oct. 2, 1992, abandoned, which is a continuation-in-part of Ser. No. 07/780,683 filed Oct. 18, 1991, abandoned. \n    \n    \n     FIELD OF THE INVENTION \n     This invention relates to a method for the control of Take-All disease in plants, particularly cereals, by the use of certain substituted aryl compounds, some of which are novel, and fungicidal ",
+      "cpc": "G"
+    }
+  ],
+  "ground_truth": {
+    "ranking": [
+      "patent_06081",
+      "patent_09074",
+      "patent_04928",
+      "patent_08197",
+      "patent_03567",
+      "patent_06892",
+      "patent_14446",
+      "patent_06609",
+      "patent_00961",
+      "patent_12911",
+      "patent_04374",
+      "patent_06020",
+      "patent_08937",
+      "patent_12051",
+      "patent_05347",
+      "patent_03302",
+      "patent_14006",
+      "patent_09972",
+      "patent_13013",
+      "patent_14084"
+    ],
+    "relevance_scores": {
+      "patent_08937": 0.24560629093880432,
+      "patent_04928": 0.9476504224067293,
+      "patent_06892": 0.9264752926696341,
+      "patent_05347": 0.11034941119648589,
+      "patent_14446": 0.9184627604278106,
+      "patent_06081": 0.9899999832557347,
+      "patent_04374": 0.36931916298400064,
+      "patent_03302": 0.10671598636603903,
+      "patent_13013": 0.02376687085357472,
+      "patent_00961": 0.8737575352600357,
+      "patent_09972": 0.0413385667413605,
+      "patent_12911": 0.8737575352600357,
+      "patent_14006": 0.09698877841228841,
+      "patent_14084": 0.01,
+      "patent_09074": 0.9647205303628937,
+      "patent_12051": 0.16066374826576973,
+      "patent_03567": 0.9390285892003637,
+      "patent_06609": 0.914846077650894,
+      "patent_06020": 0.315760709968371,
+      "patent_08197": 0.942560937937143
+    },
+    "novelty_score": 0.6046988766120849
+  }
+}
