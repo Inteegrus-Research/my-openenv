@@ -1,12 +1,12 @@
 ---
-title: OpenEnv PriorArtBench
+title: Openenv Priorartbench
 emoji: 🔎
-colorFrom: blue
-colorTo: purple
+colorFrom: pink
+colorTo: yellow
 sdk: docker
 pinned: false
 license: apache-2.0
-app_port: 7860
+short_description: A patent prior‑art reasoning environment.
 ---
 
 # PriorArtBench
